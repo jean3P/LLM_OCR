@@ -8,6 +8,12 @@ resources_path = os.path.join('./../resources')
 washington_path = os.path.join(resources_path, 'washingtondb-v1.0')
 outputs_path = os.path.join(resources_path, 'outputs')
 transcription_path = os.path.join(washington_path, 'ground_truth', 'transcription.txt')
+results_test_trocr = os.path.join(outputs_path, 'results_test')
+results_LLM_mistral = os.path.join(outputs_path, 'results_LLM')
+
+# Specify the directory to save the model
+model_save_path = os.path.join(outputs_path, 'model', 'trained_trocr_model')
+processor_save_path = os.path.join(outputs_path, 'model', 'trocr_processor')
 
 
 REPLACEMENTS = {

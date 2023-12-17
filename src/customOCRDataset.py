@@ -16,7 +16,7 @@ train_transforms = transforms.Compose([
 
 @dataclass(frozen=True)
 class DatasetConfig:
-    DATA_ROOT: str = './../resources/outputs'
+    DATA_ROOT: str = './../resources/washingtondb-v1.0/data/line_images_normalized/'
 
 
 @dataclass(frozen=True)
