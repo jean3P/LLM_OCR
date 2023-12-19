@@ -15,18 +15,19 @@ cer_metric = evaluate.load('cer')
 def correct_sentences(sentences, pipe):
     start = time.time()
     corrected_sentences = []
-    system_prompt =("You are an expert on Washington's 18th century data, for example when you see a sentence like "
-                    "this: During here, no provision is to be de-, you correct it like this: During his stay here, "
-                    "no provision is to be de-.")
-
+    system_prompt = (
+        "You are an expert on Washington's 18th century data, for example when you see a sentence like this: During "
+        "here, no provision is to be de-, you correct it like this: During his stay here, no provision is to be de-.")
     for sentence in sentences:
-        user_prompt = (f"Now, for this sentence: {sentence},"
-                       f"please only refine the sentence, don't add more information")
+        user_prompt = (f"[INST] Correct the sentence, only change the wrong words that do not make sense and don't "
+                       f"change the right words to the sentence (if it is not necessary to correct the sentence, "
+                       f"you return it unchanged), without complete, without adding extra characters or information "
+                       f"and without adding new content: {sentence} [/INST]")
         prompt = f"{system_prompt}\n {user_prompt}, then the correct sentence is:"
 
         try:
             # nummer_length = 110
-            nummer_length = 110
+            nummer_length = 155
             corrected_text = pipe(prompt, max_length=nummer_length, do_sample=True, top_k=10, num_return_sequences=1,
                                   pad_token_id=pipe.tokenizer.eos_token_id)
 
@@ -67,7 +68,7 @@ def evaluate_test_data(loaded_data, pipe):
             }
         })
 
-    save_mistral_output = os.path.join(results_LLM_mistral, 'evaluation_results_with_mistral_4.json')
+    save_mistral_output = os.path.join(results_LLM_mistral, 'evaluation_results_with_mistral_12.json')
     save_to_json(results, save_mistral_output)
 
 

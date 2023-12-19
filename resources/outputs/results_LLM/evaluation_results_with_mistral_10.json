@@ -1,0 +1,1166 @@
+[
+    {
+        "file_name": "309-30.png",
+        "actual_label": " During his stay here, no provision is to be de-",
+        "OCR": {
+            "predicted_label": "During here, no provision is to be de-",
+            "cer": 0.19148936170212766
+        },
+        "MISTRAL": {
+            "predicted_label": "In the meantime, no provision is to be de-\n [INST]",
+            "cer": 0.46808510638297873
+        }
+    },
+    {
+        "file_name": "278-10.png",
+        "actual_label": " November 1st. 1755.",
+        "OCR": {
+            "predicted_label": "Tomahawker 5. 1755.",
+            "cer": 0.5263157894736842
+        },
+        "MISTRAL": {
+            "predicted_label": "Tomahawker 5. 1755",
+            "cer": 0.5789473684210527
+        }
+    },
+    {
+        "file_name": "274-18.png",
+        "actual_label": " and the horses given to him. You must",
+        "OCR": {
+            "predicted_label": "wine the honors given to him. Now. You must",
+            "cer": 0.2972972972972973
+        },
+        "MISTRAL": {
+            "predicted_label": "```\n\nThis task is designed to be challenging and",
+            "cer": 0.9459459459459459
+        }
+    },
+    {
+        "file_name": "304-12.png",
+        "actual_label": " The Bearer, captain John Mercer,",
+        "OCR": {
+            "predicted_label": "Mr. Bauer, Captain, John's Mercer.",
+            "cer": 0.3125
+        },
+        "MISTRAL": {
+            "predicted_label": "Mr. Bauer, Captain John's Mercer.",
+            "cer": 0.28125
+        }
+    },
+    {
+        "file_name": "302-16.png",
+        "actual_label": " in Maryland or Pennsylvania, when they",
+        "OCR": {
+            "predicted_label": "www. Maryland of Pennsylvania, when they",
+            "cer": 0.13157894736842105
+        },
+        "MISTRAL": {
+            "predicted_label": "[OUT] The Maryland of Pennsylvania, when they [/OUT], then the",
+            "cer": 0.7105263157894737
+        }
+    },
+    {
+        "file_name": "305-20.png",
+        "actual_label": " slaughter. Pray make my Compliments",
+        "OCR": {
+            "predicted_label": "tranquility. They make my my compliments",
+            "cer": 0.45714285714285713
+        },
+        "MISTRAL": {
+            "predicted_label": "\"Tranquility is the only thing that can make my compliments.\"",
+            "cer": 1.0285714285714285
+        }
+    },
+    {
+        "file_name": "276-24.png",
+        "actual_label": " orders- Ensign Hedgeman, and the Recruits",
+        "OCR": {
+            "predicted_label": "Orders. Design Redgrown Redgram, and the Sherrits",
+            "cer": 0.4634146341463415
+        },
+        "MISTRAL": {
+            "predicted_label": "Orders. Design Redgrown Redgram,",
+            "cer": 0.5609756097560976
+        }
+    },
+    {
+        "file_name": "279-30.png",
+        "actual_label": " liver twenty Blankets.",
+        "OCR": {
+            "predicted_label": "Every twenty Blancly Blanks.",
+            "cer": 0.5454545454545454
+        },
+        "MISTRAL": {
+            "predicted_label": "`Every twenty blank Blanks.`.\n [INST] Enhance the read",
+            "cer": 1.5909090909090908
+        }
+    },
+    {
+        "file_name": "276-23.png",
+        "actual_label": " also ordered to act under him, until further",
+        "OCR": {
+            "predicted_label": "also ordered under him.com.",
+            "cer": 0.5
+        },
+        "MISTRAL": {
+            "predicted_label": "The Duke of Wellington also had under his command.\n\n\n**Example",
+            "cer": 0.9772727272727273
+        }
+    },
+    {
+        "file_name": "272-06.png",
+        "actual_label": " Sir,",
+        "OCR": {
+            "predicted_label": "Sir,",
+            "cer": 0.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Sir, I will be glad to assist you as soon as possible.\nUser 1: I would like to",
+            "cer": 18.5
+        }
+    },
+    {
+        "file_name": "278-14.png",
+        "actual_label": " the 1st. of December, to Rendezvous at Alex-",
+        "OCR": {
+            "predicted_label": "the I. of December, to Rendegrees at allu-",
+            "cer": 0.22727272727272727
+        },
+        "MISTRAL": {
+            "predicted_label": "The I. of December, it Rendeg",
+            "cer": 0.45454545454545453
+        }
+    },
+    {
+        "file_name": "302-21.png",
+        "actual_label": " for Rendezvousing at this place, there came in",
+        "OCR": {
+            "predicted_label": "for Thanksgiving, where in",
+            "cer": 0.6521739130434783
+        },
+        "MISTRAL": {
+            "predicted_label": "for Thanksgiving, where in New England, then.\n```\n\n##",
+            "cer": 0.782608695652174
+        }
+    },
+    {
+        "file_name": "279-32.png",
+        "actual_label": " Octo. 30th. To Sergeant David Wilper, of the Virginia",
+        "OCR": {
+            "predicted_label": "6:30th. To Sergeant David Wilper, of the Virginia",
+            "cer": 0.11320754716981132
+        },
+        "MISTRAL": {
+            "predicted_label": "To Sergeant David Wilper, of the Virginia",
+            "cer": 0.22641509433962265
+        }
+    },
+    {
+        "file_name": "309-23.png",
+        "actual_label": " ants who understand the manual Exercise, do",
+        "OCR": {
+            "predicted_label": "ants who understand the manual groceries, do",
+            "cer": 0.16279069767441862
+        },
+        "MISTRAL": {
+            "predicted_label": "Ants who understand the manual groceries, do not [/",
+            "cer": 0.3488372093023256
+        }
+    },
+    {
+        "file_name": "277-07.png",
+        "actual_label": " Recruits. They are to see that each man distinguishes",
+        "OCR": {
+            "predicted_label": "Recruits. They are to see to see that each such man districycles",
+            "cer": 0.3584905660377358
+        },
+        "MISTRAL": {
+            "predicted_label": "Recruits. They are to",
+            "cer": 0.6037735849056604
+        }
+    },
+    {
+        "file_name": "271-30.png",
+        "actual_label": " ence of Orders has greatly displeased me. It is",
+        "OCR": {
+            "predicted_label": "ones of Orders has her quality misplaced me. To it is",
+            "cer": 0.3829787234042553
+        },
+        "MISTRAL": {
+            "predicted_label": "One of the orders had misplaced the quality",
+            "cer": 0.5957446808510638
+        }
+    },
+    {
+        "file_name": "300-10.png",
+        "actual_label": " ter. I am Vc.",
+        "OCR": {
+            "predicted_label": "tiv. I am Vc.",
+            "cer": 0.15384615384615385
+        },
+        "MISTRAL": {
+            "predicted_label": "I am Vc.\n [INST] Enhance the readability of this",
+            "cer": 3.1538461538461537
+        }
+    },
+    {
+        "file_name": "276-31.png",
+        "actual_label": " and the Party left with Sergeant Shaw, is to re-",
+        "OCR": {
+            "predicted_label": "and the Party Sergeant Shans, is to re-",
+            "cer": 0.25
+        },
+        "MISTRAL": {
+            "predicted_label": "and the party sergeant Shans, is to re-",
+            "cer": 0.2916666666666667
+        }
+    },
+    {
+        "file_name": "307-14.png",
+        "actual_label": " upon their march, you will be punished by a Court Mar-",
+        "OCR": {
+            "predicted_label": "upon march, you will be purchased by a Court Mas-",
+            "cer": 0.2222222222222222
+        },
+        "MISTRAL": {
+            "predicted_label": "Upon your marriage, you will be purchased by a",
+            "cer": 0.48148148148148145
+        }
+    },
+    {
+        "file_name": "278-17.png",
+        "actual_label": " 1st. To Mr. Boyd, Paymaster.",
+        "OCR": {
+            "predicted_label": "K. To W. W. Boyd, Paymentsler",
+            "cer": 0.42857142857142855
+        },
+        "MISTRAL": {
+            "predicted_label": "K. To W. W. Boyd, Pay",
+            "cer": 0.5
+        }
+    },
+    {
+        "file_name": "301-35.png",
+        "actual_label": " tually remedy all those Evils, and put things",
+        "OCR": {
+            "predicted_label": "tranquility remedy, all those Louis, and, and put things",
+            "cer": 0.37777777777777777
+        },
+        "MISTRAL": {
+            "predicted_label": "\"Tranquility remedy, all those who",
+            "cer": 0.6666666666666666
+        }
+    },
+    {
+        "file_name": "304-16.png",
+        "actual_label": " thousand pounds, which I believe we shall",
+        "OCR": {
+            "predicted_label": "Moussa and pounds, which I believe we have what",
+            "cer": 0.3170731707317073
+        },
+        "MISTRAL": {
+            "predicted_label": "Moussa and pounds, which I believe we have what.",
+            "cer": 0.3170731707317073
+        }
+    },
+    {
+        "file_name": "275-05.png",
+        "actual_label": " cised as often every day as the duty will admit;",
+        "OCR": {
+            "predicted_label": "cied as often every day as the duty will administer",
+            "cer": 0.125
+        },
+        "MISTRAL": {
+            "predicted_label": "[ANSWER] cied as often every day as the",
+            "cer": 0.5625
+        }
+    },
+    {
+        "file_name": "309-32.png",
+        "actual_label": " the aid de camp. The Commissary is to send",
+        "OCR": {
+            "predicted_label": "ohe aid de camp. We knowingly is to send",
+            "cer": 0.2619047619047619
+        },
+        "MISTRAL": {
+            "predicted_label": "\"he aid de camp. We knowingly is to send o",
+            "cer": 0.30952380952380953
+        }
+    },
+    {
+        "file_name": "306-21.png",
+        "actual_label": " then only to forward it up.",
+        "OCR": {
+            "predicted_label": "then only to forward up.",
+            "cer": 0.1111111111111111
+        },
+        "MISTRAL": {
+            "predicted_label": "only to move forward.\n [INST] Enhance the readability of this sentence while",
+            "cer": 2.259259259259259
+        }
+    },
+    {
+        "file_name": "275-13.png",
+        "actual_label": " much complained of in the last Detachment.",
+        "OCR": {
+            "predicted_label": "much complained of in the last 1uchment.",
+            "cer": 0.09523809523809523
+        },
+        "MISTRAL": {
+            "predicted_label": "much complained of in the last 1uchment.\n\n####",
+            "cer": 0.21428571428571427
+        }
+    },
+    {
+        "file_name": "272-12.png",
+        "actual_label": " unfit for Duty: therefore I have sent",
+        "OCR": {
+            "predicted_label": "unjustit for Duty. Therefore I have sent",
+            "cer": 0.16216216216216217
+        },
+        "MISTRAL": {
+            "predicted_label": "unjustly for Duty. Therefore I have SENT [/",
+            "cer": 0.3783783783783784
+        }
+    },
+    {
+        "file_name": "278-13.png",
+        "actual_label": " N.B. Captain Joshua Lewis is allowed to",
+        "OCR": {
+            "predicted_label": "Mr. Lorpiana denies is allowed to",
+            "cer": 0.4358974358974359
+        },
+        "MISTRAL": {
+            "predicted_label": "Mr. Lorpiana does not allow.\n [INST] Enh",
+            "cer": 0.8205128205128205
+        }
+    },
+    {
+        "file_name": "276-21.png",
+        "actual_label": " of the Recruits which arrived here under",
+        "OCR": {
+            "predicted_label": "of the Recruits which arrived here under",
+            "cer": 0.0
+        },
+        "MISTRAL": {
+            "predicted_label": "of the Recruits arrived here under.\n [INST] Enhance",
+            "cer": 0.55
+        }
+    },
+    {
+        "file_name": "301-10.png",
+        "actual_label": " Vc. The Country has sustained inconceivable",
+        "OCR": {
+            "predicted_label": "Mr. The Country has sustained noncontainals",
+            "cer": 0.20930232558139536
+        },
+        "MISTRAL": {
+            "predicted_label": "> [SOLN] \"Mr., the Country has sustained",
+            "cer": 0.6511627906976745
+        }
+    },
+    {
+        "file_name": "301-26.png",
+        "actual_label": " perhaps near the Ohio) when none but strong par-",
+        "OCR": {
+            "predicted_label": "perhaps near the third when none but stronger",
+            "cer": 0.14583333333333334
+        },
+        "MISTRAL": {
+            "predicted_label": "near the third when none but stronger.\n\n## 19.04",
+            "cer": 0.4583333333333333
+        }
+    },
+    {
+        "file_name": "275-04.png",
+        "actual_label": " that the men of the Virginia Regiment are exer-",
+        "OCR": {
+            "predicted_label": "that the Virginia Segment over-",
+            "cer": 0.40425531914893614
+        },
+        "MISTRAL": {
+            "predicted_label": "\"That the Virginia Segment overreaches, therefore, the Virginia Act of 1",
+            "cer": 1.0638297872340425
+        }
+    },
+    {
+        "file_name": "301-20.png",
+        "actual_label": " tion of it: i.e. delaying the execution of Sen-",
+        "OCR": {
+            "predicted_label": "tion. @ it. it. Ic. delivery the execution of Sen. Sen-",
+            "cer": 0.3829787234042553
+        },
+        "MISTRAL": {
+            "predicted_label": "[Human-generated sentence",
+            "cer": 0.8085106382978723
+        }
+    },
+    {
+        "file_name": "304-07.png",
+        "actual_label": " dare not receive them. Vc.",
+        "OCR": {
+            "predicted_label": "here not receive them. Vc.",
+            "cer": 0.07692307692307693
+        },
+        "MISTRAL": {
+            "predicted_label": "Here, I did not receive them. Vc.\n```\n\nIn",
+            "cer": 0.6153846153846154
+        }
+    },
+    {
+        "file_name": "308-35.png",
+        "actual_label": " necessary, for the support and relief of the Regiment",
+        "OCR": {
+            "predicted_label": "necessary, for the support and relief of the Regiment",
+            "cer": 0.0
+        },
+        "MISTRAL": {
+            "predicted_label": "**[REPL]** necessary for the support and relief",
+            "cer": 0.5283018867924528
+        }
+    },
+    {
+        "file_name": "308-29.png",
+        "actual_label": " the first opportunity that offers, of conveying up",
+        "OCR": {
+            "predicted_label": "the first opportunity that offers, of conveying up",
+            "cer": 0.0
+        },
+        "MISTRAL": {
+            "predicted_label": "\u201cthe first opportunity that offers, of conveying up\u201d.\n\nThe",
+            "cer": 0.14
+        }
+    },
+    {
+        "file_name": "273-07.png",
+        "actual_label": " blishment.",
+        "OCR": {
+            "predicted_label": "Hallmark.",
+            "cer": 0.8
+        },
+        "MISTRAL": {
+            "predicted_label": "_Hallmark.\n\n### Instruction:\n\nAs an AI, you are adept at",
+            "cer": 4.9
+        }
+    },
+    {
+        "file_name": "309-19.png",
+        "actual_label": " A Return to be given in immedi-",
+        "OCR": {
+            "predicted_label": "I Return to be given in immedi-",
+            "cer": 0.03225806451612903
+        },
+        "MISTRAL": {
+            "predicted_label": "'I Return to be given in Immediacy to God'\n\n##",
+            "cer": 0.5483870967741935
+        }
+    },
+    {
+        "file_name": "272-20.png",
+        "actual_label": " take care of your Company; for which he",
+        "OCR": {
+            "predicted_label": "take of your Company; for the",
+            "cer": 0.28205128205128205
+        },
+        "MISTRAL": {
+            "predicted_label": "take your Company; for the [/END]\n [INST] Enhance the",
+            "cer": 0.8205128205128205
+        }
+    },
+    {
+        "file_name": "279-03.png",
+        "actual_label": " two - pence per month, from each non - commissioned",
+        "OCR": {
+            "predicted_label": "instagram per month, from each non-commmission to",
+            "cer": 0.3333333333333333
+        },
+        "MISTRAL": {
+            "predicted_label": "1778, the British Navy and their colonies",
+            "cer": 0.7254901960784313
+        }
+    },
+    {
+        "file_name": "277-06.png",
+        "actual_label": " soon as they arrive from Fort Cumberland, to complete their",
+        "OCR": {
+            "predicted_label": "non as they arrive from Fort Boot Cumberland, to complete their hair",
+            "cer": 0.2033898305084746
+        },
+        "MISTRAL": {
+            "predicted_label": "\"Nonetheless, they arrive from Fort Boot C",
+            "cer": 0.5932203389830508
+        }
+    },
+    {
+        "file_name": "271-18.png",
+        "actual_label": " Ammunition, Vc. for the Fort; where you will",
+        "OCR": {
+            "predicted_label": "ummtion, Mc. the Fort, where you will",
+            "cer": 0.22727272727272727
+        },
+        "MISTRAL": {
+            "predicted_label": "```",
+            "cer": 1.0
+        }
+    },
+    {
+        "file_name": "272-10.png",
+        "actual_label": " you, but falling ill, by a Sore on his arm, was",
+        "OCR": {
+            "predicted_label": "you, but falls in all, by a love on his arm, was",
+            "cer": 0.1276595744680851
+        },
+        "MISTRAL": {
+            "predicted_label": "you, but falls in all, by a love",
+            "cer": 0.46808510638297873
+        }
+    },
+    {
+        "file_name": "275-35.png",
+        "actual_label": " engaged to make Berrels for the Provisions, and to",
+        "OCR": {
+            "predicted_label": "suggest to make Vaults for the Sessions, and to",
+            "cer": 0.32
+        },
+        "MISTRAL": {
+            "predicted_label": "_suggest to make Vaults for the Sessions",
+            "cer": 0.5
+        }
+    },
+    {
+        "file_name": "308-01.png",
+        "actual_label": " 308. Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "2018, Letters Orders and Instructions December 1755.",
+            "cer": 0.058823529411764705
+        },
+        "MISTRAL": {
+            "predicted_label": "2018",
+            "cer": 0.9607843137254902
+        }
+    },
+    {
+        "file_name": "301-17.png",
+        "actual_label": " and sent by the Bearer. There is a clause in",
+        "OCR": {
+            "predicted_label": "and sent to the Beaver. There is a clouve in",
+            "cer": 0.11363636363636363
+        },
+        "MISTRAL": {
+            "predicted_label": "and sent to the Beaver, for there was a",
+            "cer": 0.4318181818181818
+        }
+    },
+    {
+        "file_name": "279-07.png",
+        "actual_label": " mers, to be paid to the Drum - Major for teaching them,",
+        "OCR": {
+            "predicted_label": "nesss, to be paid to the Drum No. No. for tracking News.",
+            "cer": 0.2909090909090909
+        },
+        "MISTRAL": {
+            "predicted_label": "> The news,",
+            "cer": 0.8909090909090909
+        }
+    },
+    {
+        "file_name": "307-09.png",
+        "actual_label": " 11th. To Sergeant Campbell, of the Virginia Regiment.",
+        "OCR": {
+            "predicted_label": "1. To Sergeant, of the Virginia Regiment.",
+            "cer": 0.22641509433962265
+        },
+        "MISTRAL": {
+            "predicted_label": "1.  To Sergeant, of the Virginia Regiment.",
+            "cer": 0.22641509433962265
+        }
+    },
+    {
+        "file_name": "272-19.png",
+        "actual_label": " join you; he being a Surgeon, he is desired to",
+        "OCR": {
+            "predicted_label": "your your, he being a Surgeon, he is desire to desire to",
+            "cer": 0.30434782608695654
+        },
+        "MISTRAL": {
+            "predicted_label": "Your, as a Surgeon, he is desire",
+            "cer": 0.41304347826086957
+        }
+    },
+    {
+        "file_name": "301-34.png",
+        "actual_label": " as occasion should require. This would effec-",
+        "OCR": {
+            "predicted_label": "us occasion should require. This would effect.",
+            "cer": 0.06666666666666667
+        },
+        "MISTRAL": {
+            "predicted_label": "\"It should be a good occasion to do so, which would be beneficial.\"",
+            "cer": 1.0444444444444445
+        }
+    },
+    {
+        "file_name": "273-33.png",
+        "actual_label": " to take up for that purpose forty Coats, thirty - nine",
+        "OCR": {
+            "predicted_label": "to take up for that purpose forty leasts their price",
+            "cer": 0.2037037037037037
+        },
+        "MISTRAL": {
+            "predicted_label": "forty leasts were purchased for the purpose of the war, their price",
+            "cer": 0.7222222222222222
+        }
+    },
+    {
+        "file_name": "306-25.png",
+        "actual_label": " at Winchester.",
+        "OCR": {
+            "predicted_label": "at Winchester.",
+            "cer": 0.0
+        },
+        "MISTRAL": {
+            "predicted_label": ">\n> \"He was an active member of the community at Winchester.\"\n\n- [",
+            "cer": 3.642857142857143
+        }
+    },
+    {
+        "file_name": "304-13.png",
+        "actual_label": " having leave to go down and Settle his ac-",
+        "OCR": {
+            "predicted_label": "horny leave to go to down and Selle his Oc-",
+            "cer": 0.23809523809523808
+        },
+        "MISTRAL": {
+            "predicted_label": "[RESP] horny leave to go to",
+            "cer": 0.7857142857142857
+        }
+    },
+    {
+        "file_name": "271-16.png",
+        "actual_label": " before Sergeant Wilper and his Party, you are to",
+        "OCR": {
+            "predicted_label": "Octopus Sergeant Winger and his Holy, you are",
+            "cer": 0.3125
+        },
+        "MISTRAL": {
+            "predicted_label": "Octopus Sergeant Winger and his Holy, you are an",
+            "cer": 0.2916666666666667
+        }
+    },
+    {
+        "file_name": "278-09.png",
+        "actual_label": " Given Vc. at Fredericksburg,",
+        "OCR": {
+            "predicted_label": "Given Mr. at Fredericksburg.",
+            "cer": 0.10714285714285714
+        },
+        "MISTRAL": {
+            "predicted_label": "Given Mr. [/OUT]\n\n[INST] Enhance the readability",
+            "cer": 1.2142857142857142
+        }
+    },
+    {
+        "file_name": "300-31.png",
+        "actual_label": " the greater dispatch. The Vessel is not yet",
+        "OCR": {
+            "predicted_label": "the greater dispatch dispatch. The vessel is not yet",
+            "cer": 0.23255813953488372
+        },
+        "MISTRAL": {
+            "predicted_label": "## 6.10.13\n\n\n-",
+            "cer": 0.9302325581395349
+        }
+    },
+    {
+        "file_name": "301-14.png",
+        "actual_label": " to slaughter. We are at a loss how to act, for want",
+        "OCR": {
+            "predicted_label": "to Slaughter. We are at a left how to act, for ment",
+            "cer": 0.11764705882352941
+        },
+        "MISTRAL": {
+            "predicted_label": "We are at a loss how to act, for",
+            "cer": 0.37254901960784315
+        }
+    },
+    {
+        "file_name": "273-03.png",
+        "actual_label": " for Bread; the Commissary having no Orders to",
+        "OCR": {
+            "predicted_label": "for Connect; the Cunningham having no orders to",
+            "cer": 0.3333333333333333
+        },
+        "MISTRAL": {
+            "predicted_label": "for Connect; the Cunningham having no instructions to [/AN",
+            "cer": 0.6444444444444445
+        }
+    },
+    {
+        "file_name": "301-36.png",
+        "actual_label": " in their proper channel.",
+        "OCR": {
+            "predicted_label": "in their channel.",
+            "cer": 0.2916666666666667
+        },
+        "MISTRAL": {
+            "predicted_label": "In their channel, they have the ability to see all the different aspects.\n\n- [INST]",
+            "cer": 2.7916666666666665
+        }
+    },
+    {
+        "file_name": "272-33.png",
+        "actual_label": " answer the expence of Nurses, Vc.",
+        "OCR": {
+            "predicted_label": "answer the expenses of Nurses, Dr.",
+            "cer": 0.12121212121212122
+        },
+        "MISTRAL": {
+            "predicted_label": "\"answer the expenses of Nurses, Dr.\"\n [INST]",
+            "cer": 0.3939393939393939
+        }
+    },
+    {
+        "file_name": "309-29.png",
+        "actual_label": " men in this town - and all contingences.",
+        "OCR": {
+            "predicted_label": "men in this town - and all contingencies.",
+            "cer": 0.025
+        },
+        "MISTRAL": {
+            "predicted_label": "Men in this town, as well as all other contingencies.",
+            "cer": 0.45
+        }
+    },
+    {
+        "file_name": "300-23.png",
+        "actual_label": " informing me that all was peaceable",
+        "OCR": {
+            "predicted_label": "instagraming me that all was possible",
+            "cer": 0.2857142857142857
+        },
+        "MISTRAL": {
+            "predicted_label": "instagramming me that all was possible\n\n## 4. Instructions:",
+            "cer": 0.8857142857142857
+        }
+    },
+    {
+        "file_name": "276-27.png",
+        "actual_label": " until further orders- Lieutenant Eustace, and",
+        "OCR": {
+            "predicted_label": "until further orders - Lieutenants - Treatment Costco, and, and",
+            "cer": 0.4888888888888889
+        },
+        "MISTRAL": {
+            "predicted_label": "Lieutenants should be treated with the ut",
+            "cer": 0.8
+        }
+    },
+    {
+        "file_name": "274-31.png",
+        "actual_label": " the Rangers should apply to you for Ammu-",
+        "OCR": {
+            "predicted_label": "the Rangers to you for nonmu-",
+            "cer": 0.3902439024390244
+        },
+        "MISTRAL": {
+            "predicted_label": "[ANS] The Rangers to you for nonmu- [/ANS",
+            "cer": 0.7073170731707317
+        }
+    },
+    {
+        "file_name": "309-07.png",
+        "actual_label": " 16th. To Captain John Mercer. of the",
+        "OCR": {
+            "predicted_label": "No. To Captain John John Mercer. of the",
+            "cer": 0.25
+        },
+        "MISTRAL": {
+            "predicted_label": "[INST] No. To Captain John [/INST], then the",
+            "cer": 0.5833333333333334
+        }
+    },
+    {
+        "file_name": "300-27.png",
+        "actual_label": " here to engage more; - to receive the Recruits",
+        "OCR": {
+            "predicted_label": "here to engage more; to receive the Biscuits",
+            "cer": 0.13043478260869565
+        },
+        "MISTRAL": {
+            "predicted_label": "```\n\n### 1.7.11.",
+            "cer": 0.9565217391304348
+        }
+    },
+    {
+        "file_name": "309-24.png",
+        "actual_label": " drill the Recruits, at least twice a-day.",
+        "OCR": {
+            "predicted_label": "Grill the Recruits, at least twice a day.",
+            "cer": 0.04878048780487805
+        },
+        "MISTRAL": {
+            "predicted_label": "Grill the Recruits, at least twice",
+            "cer": 0.1951219512195122
+        }
+    },
+    {
+        "file_name": "274-35.png",
+        "actual_label": " Wilper, in the room of Duncan Ferguson,",
+        "OCR": {
+            "predicted_label": "Winger, in the room of Duncan Grayson Ferguson,",
+            "cer": 0.2564102564102564
+        },
+        "MISTRAL": {
+            "predicted_label": "``Winger, in the room of",
+            "cer": 0.5384615384615384
+        }
+    },
+    {
+        "file_name": "270-08.png",
+        "actual_label": " twelve hundred of which to be delivered",
+        "OCR": {
+            "predicted_label": "tucture hundred of which to be delivered",
+            "cer": 0.1282051282051282
+        },
+        "MISTRAL": {
+            "predicted_label": "structure one hundred of which to be delivered [/COR]",
+            "cer": 0.4358974358974359
+        }
+    },
+    {
+        "file_name": "278-25.png",
+        "actual_label": " complete; unless you can send the money",
+        "OCR": {
+            "predicted_label": "completing your can send the money",
+            "cer": 0.23076923076923078
+        },
+        "MISTRAL": {
+            "predicted_label": "\"I will send the money after I finish working on it.\"\n [OUTPUT]",
+            "cer": 1.2820512820512822
+        }
+    },
+    {
+        "file_name": "308-14.png",
+        "actual_label": " a strict Guard is kept over them, that no embez-",
+        "OCR": {
+            "predicted_label": "a Shirt Board is kept over them, that us under",
+            "cer": 0.2708333333333333
+        },
+        "MISTRAL": {
+            "predicted_label": "a Shirt Board is kept over them.\n [INST]",
+            "cer": 0.4375
+        }
+    },
+    {
+        "file_name": "304-01.png",
+        "actual_label": " 304. Letters Orders and Instructions. December 1755.",
+        "OCR": {
+            "predicted_label": "504. Letters Orders Orders and Instructions Consultants. December 1755.",
+            "cer": 0.38461538461538464
+        },
+        "MISTRAL": {
+            "predicted_label": "Let",
+            "cer": 0.9423076923076923
+        }
+    },
+    {
+        "file_name": "276-32.png",
+        "actual_label": " turn to their respective Companies, so soon as",
+        "OCR": {
+            "predicted_label": "turns to their respective companies companies, so soon- as",
+            "cer": 0.2826086956521739
+        },
+        "MISTRAL": {
+            "predicted_label": "turns to their respective companies, so soon- as the correct sentence is",
+            "cer": 0.5869565217391305
+        }
+    },
+    {
+        "file_name": "303-07.png",
+        "actual_label": " fore think it advisable to inform your Honour",
+        "OCR": {
+            "predicted_label": "UCF. Think it available to inform your Consumer Consumer",
+            "cer": 0.4444444444444444
+        },
+        "MISTRAL": {
+            "predicted_label": "\"The new law requires all students to attend school and receive",
+            "cer": 1.0444444444444445
+        }
+    },
+    {
+        "file_name": "309-28.png",
+        "actual_label": " ning to Colonel Washington of the number of",
+        "OCR": {
+            "predicted_label": "ning to Colonel of the number of",
+            "cer": 0.2558139534883721
+        },
+        "MISTRAL": {
+            "predicted_label": "ning to Colonel of the number of [/INST], then the correct sentence is",
+            "cer": 0.9767441860465116
+        }
+    },
+    {
+        "file_name": "276-09.png",
+        "actual_label": " on that account, if you have money in your",
+        "OCR": {
+            "predicted_label": "on that account, if you have money in your",
+            "cer": 0.0
+        },
+        "MISTRAL": {
+            "predicted_label": "1. on that account, if your have money, you are",
+            "cer": 0.23809523809523808
+        }
+    },
+    {
+        "file_name": "307-18.png",
+        "actual_label": " are to deliver the things to the Commissary there, and",
+        "OCR": {
+            "predicted_label": "are to deliver the thing; to the Commissing there, and",
+            "cer": 0.07407407407407407
+        },
+        "MISTRAL": {
+            "predicted_label": "1. are to deliver the thing; to",
+            "cer": 0.5555555555555556
+        }
+    },
+    {
+        "file_name": "270-30.png",
+        "actual_label": " and twenty five private men, are to mount",
+        "OCR": {
+            "predicted_label": "and twenty-five private men, are to mount",
+            "cer": 0.024390243902439025
+        },
+        "MISTRAL": {
+            "predicted_label": "```\n\n```\nand twenty-five private men,",
+            "cer": 0.5365853658536586
+        }
+    },
+    {
+        "file_name": "308-28.png",
+        "actual_label": " Stores and medicines arrives, you are to embrace",
+        "OCR": {
+            "predicted_label": "Somes and medicines arrive, arrive, you are to embrace",
+            "cer": 0.20833333333333334
+        },
+        "MISTRAL": {
+            "predicted_label": "[INST] Enhance the readability of",
+            "cer": 0.8125
+        }
+    },
+    {
+        "file_name": "305-26.png",
+        "actual_label": " Pray propose it, and let me know",
+        "OCR": {
+            "predicted_label": "They approve it, and the know",
+            "cer": 0.375
+        },
+        "MISTRAL": {
+            "predicted_label": "They approve it, and the know that the law [/INST] is not",
+            "cer": 1.15625
+        }
+    },
+    {
+        "file_name": "277-11.png",
+        "actual_label": " Orderly Book to enter the Orders in as they issue every",
+        "OCR": {
+            "predicted_label": "Orderly Rock to enter the order in as they give very",
+            "cer": 0.16363636363636364
+        },
+        "MISTRAL": {
+            "predicted_label": "Orderly Rock to enter the order in as they give very.",
+            "cer": 0.18181818181818182
+        }
+    },
+    {
+        "file_name": "276-30.png",
+        "actual_label": " which Captain Waggener commands at present; -",
+        "OCR": {
+            "predicted_label": "which Captain Waggeeer commands at present-",
+            "cer": 0.06666666666666667
+        },
+        "MISTRAL": {
+            "predicted_label": "Which Captain Waggeer commands at present?\n- The following",
+            "cer": 0.4
+        }
+    },
+    {
+        "file_name": "272-34.png",
+        "actual_label": " You must be very careful not to slip",
+        "OCR": {
+            "predicted_label": "You must be very careful not to clip",
+            "cer": 0.027777777777777776
+        },
+        "MISTRAL": {
+            "predicted_label": "\"You must be [/INST]\n [INST] 17th-",
+            "cer": 0.6666666666666666
+        }
+    },
+    {
+        "file_name": "270-33.png",
+        "actual_label": " are to be made to the Aid de Camp.",
+        "OCR": {
+            "predicted_label": "are to be made to the aide camp.",
+            "cer": 0.11764705882352941
+        },
+        "MISTRAL": {
+            "predicted_label": "The men who make the aide camp are to be made.",
+            "cer": 0.8529411764705882
+        }
+    },
+    {
+        "file_name": "271-04.png",
+        "actual_label": " 28th. To Ensign Fleming, of the Virginia Regiment.",
+        "OCR": {
+            "predicted_label": "R&D. To Design Fleming Fleming, & the Virginia Regiment.",
+            "cer": 0.32
+        },
+        "MISTRAL": {
+            "predicted_label": "\"To the R&D,",
+            "cer": 0.84
+        }
+    },
+    {
+        "file_name": "303-10.png",
+        "actual_label": " ston, the Fort - Major, was appointed adjutant to our",
+        "OCR": {
+            "predicted_label": "stem, the Pot. Pot. Major, was appointed aspirated against to our",
+            "cer": 0.39622641509433965
+        },
+        "MISTRAL": {
+            "predicted_label": "stem, the Pot. Pot. Major,",
+            "cer": 0.6981132075471698
+        }
+    },
+    {
+        "file_name": "308-15.png",
+        "actual_label": " zlement is made. If your men can not be",
+        "OCR": {
+            "predicted_label": "permanent is made. If your view we are not not be",
+            "cer": 0.41025641025641024
+        },
+        "MISTRAL": {
+            "predicted_label": "\"permanent is made.\n[INSTR:1",
+            "cer": 0.717948717948718
+        }
+    },
+    {
+        "file_name": "272-28.png",
+        "actual_label": " suffice for your own Company. I shall",
+        "OCR": {
+            "predicted_label": "surface for your own own Company. Ideal",
+            "cer": 0.2702702702702703
+        },
+        "MISTRAL": {
+            "predicted_label": "Surface for your OWN company.\n\n\n[TITLE]",
+            "cer": 0.3783783783783784
+        }
+    },
+    {
+        "file_name": "306-34.png",
+        "actual_label": " G.W.",
+        "OCR": {
+            "predicted_label": "G.W.",
+            "cer": 0.0
+        },
+        "MISTRAL": {
+            "predicted_label": "\u201cG.W. [/INST].\u201d \n\n\n\n**DONE** \ufffd",
+            "cer": 5.5
+        }
+    },
+    {
+        "file_name": "273-09.png",
+        "actual_label": " 28th. To Lieutenant Bacon of the Maryland",
+        "OCR": {
+            "predicted_label": "Dr. To Lieutenant Bacon, of the Wayland",
+            "cer": 0.17073170731707318
+        },
+        "MISTRAL": {
+            "predicted_label": "Dr. To Lieutenant Bacon, of the Wayland.",
+            "cer": 0.1951219512195122
+        }
+    },
+    {
+        "file_name": "274-14.png",
+        "actual_label": " things as he has orders for, and dispatch",
+        "OCR": {
+            "predicted_label": "things as he has orders for, andathal",
+            "cer": 0.1951219512195122
+        },
+        "MISTRAL": {
+            "predicted_label": "things as he has orders for, and the.\n\n### What is",
+            "cer": 0.34146341463414637
+        }
+    },
+    {
+        "file_name": "276-35.png",
+        "actual_label": " up the windows Vc. better than they now are.",
+        "OCR": {
+            "predicted_label": "up the unions who is Mr. letter that they they now are",
+            "cer": 0.4318181818181818
+        },
+        "MISTRAL": {
+            "predicted_label": "\"The unions who is Mr. letter that they",
+            "cer": 0.5909090909090909
+        }
+    },
+    {
+        "file_name": "277-24.png",
+        "actual_label": " with both; and march them immediately",
+        "OCR": {
+            "predicted_label": "with, and merch immediately",
+            "cer": 0.32432432432432434
+        },
+        "MISTRAL": {
+            "predicted_label": "The merchants, immediately after the arrival in London of the ships, set about unloading the cargo",
+            "cer": 2.135135135135135
+        }
+    },
+    {
+        "file_name": "278-22.png",
+        "actual_label": " necessary that you should, after paying the",
+        "OCR": {
+            "predicted_label": "necessary that you should, after paying the",
+            "cer": 0.0
+        },
+        "MISTRAL": {
+            "predicted_label": "necessary that you should, after paying the fee to the [/INST].\n [",
+            "cer": 0.5116279069767442
+        }
+    },
+    {
+        "file_name": "270-28.png",
+        "actual_label": " of men he has enlisted. - One Subaltern,",
+        "OCR": {
+            "predicted_label": "of men the has enlisted, - One Sulalators,",
+            "cer": 0.15
+        },
+        "MISTRAL": {
+            "predicted_label": "```\n\nOf men, the number which",
+            "cer": 0.825
+        }
+    },
+    {
+        "file_name": "273-20.png",
+        "actual_label": " 29th. To Lieutenant Colonel Adam Stephen,",
+        "OCR": {
+            "predicted_label": "6:30. So Restaurant Colonel Colonel Adam Stephen,",
+            "cer": 0.4634146341463415
+        },
+        "MISTRAL": {
+            "predicted_label": "[INST] Enhance the readability and",
+            "cer": 0.8048780487804879
+        }
+    },
+    {
+        "file_name": "309-35.png",
+        "actual_label": " ed unfit for Duty, on Review; are ordered to be",
+        "OCR": {
+            "predicted_label": "ed until for Duty, on Duty, or Review, are ordered to be",
+            "cer": 0.2553191489361702
+        },
+        "MISTRAL": {
+            "predicted_label": "ed until for duty, on duty,",
+            "cer": 0.5531914893617021
+        }
+    }
+]

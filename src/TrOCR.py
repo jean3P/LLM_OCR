@@ -23,7 +23,7 @@ handler = DataFrameHandler()
 train_df = handler.dict_to_dataframe(training)
 valid_df = handler.dict_to_dataframe(valid)
 
-sampled_train_df = handler.sample_dataframe(train_df, 10)
+# sampled_train_df = handler.sample_dataframe(train_df, 10)
 
 
 @dataclass(frozen=True)
