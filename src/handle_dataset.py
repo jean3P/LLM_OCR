@@ -52,6 +52,11 @@ class LabelParser:
         image_name, rest_of_label = label[:6], label[6:]
         rest_of_label = self.pattern.sub(lambda x: REPLACEMENTS[x.group()], rest_of_label)
         rest_of_label = rest_of_label.rstrip('\n')
+
+        # Remove the first space character if it exists
+        if rest_of_label.startswith(' '):
+            rest_of_label = rest_of_label[1:]
+
         return image_name, rest_of_label
 
     def get_subsets(self, training_pct, validation_pct):

@@ -6,6 +6,7 @@ from PIL import Image
 
 from transformers import VisionEncoderDecoderModel, TrOCRProcessor
 
+from confidence_calculator import calculate_confidence
 from customOCRDataset import DatasetConfig
 from data_frame_handler import DataFrameHandler
 from handle_dataset import save_to_json, load_from_json
@@ -65,10 +66,14 @@ def evaluate_test_data(df, processor, model):
         # Calculate CER
         cer = cer_metric.compute(predictions=[predicted_text], references=[row['text']])
 
+        # Calculate confidence scores
+        confidence_score = calculate_confidence(row['text'], predicted_text)
+
         results.append({
             'file_name': row['file_name'],
-            'actual_label': row['text'],
+            'ground_truth_label': row['text'],
             'predicted_label': predicted_text,
+            'confidence': confidence_score,
             'cer': cer
         })
 
