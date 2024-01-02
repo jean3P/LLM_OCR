@@ -1,86 +1,86 @@
 [
     {
-        "file_name": "308-01.png",
-        "ground_truth_label": "308. Letters Orders and Instructions December 1755.",
-        "predicted_label": "2018, Letters Orders Orders and Instructions December December December 16,",
-        "confidence": 0.5866666666666667,
-        "cer": 0.6078431372549019
+        "file_name": "278-17.png",
+        "ground_truth_label": "1st. To Mr. Boyd, Paymaster.",
+        "predicted_label": "t. To Mr. Boyd, Paymaster",
+        "confidence": 0.8928571428571429,
+        "cer": 0.10714285714285714
     },
     {
-        "file_name": "301-17.png",
-        "ground_truth_label": "and sent by the Bearer. There is a clause in",
-        "predicted_label": "must not bet by the December. There is no",
-        "confidence": 0.43181818181818177,
-        "cer": 0.5681818181818182
+        "file_name": "301-35.png",
+        "ground_truth_label": "tually remedy all those Evils, and put things",
+        "predicted_label": "tantly remedy, all those all those 8 wills, and put things",
+        "confidence": 0.6896551724137931,
+        "cer": 0.4
     },
     {
-        "file_name": "279-07.png",
-        "ground_truth_label": "mers, to be paid to the Drum - Major for teaching them,",
-        "predicted_label": "some to be to join to the Brown Major Major To keep for tracking them.",
-        "confidence": 0.5571428571428572,
-        "cer": 0.5636363636363636
+        "file_name": "304-16.png",
+        "ground_truth_label": "thousand pounds, which I believe we shall",
+        "predicted_label": "thousand pounds, which I believe we shall",
+        "confidence": 1.0,
+        "cer": 0.0
     },
     {
-        "file_name": "307-09.png",
-        "ground_truth_label": "11th. To Sergeant Campbell, of the Virginia Regiment.",
-        "predicted_label": "it to forget Campbell, of the Virginia Regist.",
-        "confidence": 0.7735849056603774,
-        "cer": 0.22641509433962265
+        "file_name": "275-05.png",
+        "ground_truth_label": "cised as often every day as the duty will admit;",
+        "predicted_label": "ried as often very day as the duty will submits",
+        "confidence": 0.8541666666666666,
+        "cer": 0.14583333333333334
     },
     {
-        "file_name": "272-19.png",
-        "ground_truth_label": "join you; he being a Surgeon, he is desired to",
-        "predicted_label": "for your people, be being a Dungoon, he is being to",
-        "confidence": 0.5882352941176471,
-        "cer": 0.45652173913043476
+        "file_name": "309-32.png",
+        "ground_truth_label": "the aid de camp. The Commissary is to send",
+        "predicted_label": "the aid de de camp. The New Commissary is to send",
+        "confidence": 0.8571428571428572,
+        "cer": 0.16666666666666666
     },
     {
-        "file_name": "301-34.png",
-        "ground_truth_label": "as occasion should require. This would effec-",
-        "predicted_label": "occasion should require, this would offer",
-        "confidence": 0.8222222222222222,
-        "cer": 0.17777777777777778
+        "file_name": "306-21.png",
+        "ground_truth_label": "then only to forward it up.",
+        "predicted_label": "then only to forward it up.",
+        "confidence": 1.0,
+        "cer": 0.0
     },
     {
-        "file_name": "273-33.png",
-        "ground_truth_label": "to take up for that purpose forty Coats, thirty - nine",
-        "predicted_label": "to take up for that purposes for the Court, that you are",
-        "confidence": 0.7321428571428572,
-        "cer": 0.2777777777777778
+        "file_name": "275-13.png",
+        "ground_truth_label": "much complained of in the last Detachment.",
+        "predicted_label": "much complained of in the last 1st. I attachment.",
+        "confidence": 0.8163265306122449,
+        "cer": 0.21428571428571427
     },
     {
-        "file_name": "306-25.png",
-        "ground_truth_label": "at Winchester.",
-        "predicted_label": "cal Winchester.",
-        "confidence": 0.8666666666666667,
-        "cer": 0.14285714285714285
+        "file_name": "272-12.png",
+        "ground_truth_label": "unfit for Duty: therefore I have sent",
+        "predicted_label": "infit for I aty. therefore I have sent",
+        "confidence": 0.868421052631579,
+        "cer": 0.13513513513513514
     },
     {
-        "file_name": "304-13.png",
-        "ground_truth_label": "having leave to go down and Settle his ac-",
-        "predicted_label": "hornyening here to go to go from and Jacks his his-",
-        "confidence": 0.47058823529411764,
-        "cer": 0.6428571428571429
+        "file_name": "278-13.png",
+        "ground_truth_label": "N.B. Captain Joshua Lewis is allowed to",
+        "predicted_label": "Mrc. Captain Toffee Toshead Lewis is allowed to do",
+        "confidence": 0.6799999999999999,
+        "cer": 0.41025641025641024
     },
     {
-        "file_name": "271-16.png",
-        "ground_truth_label": "before Sergeant Wilper and his Party, you are to",
-        "predicted_label": "Octopus Sergeant Michael Michael Michael and are his daily, and you are to",
-        "confidence": 0.5,
-        "cer": 0.7708333333333334
+        "file_name": "276-21.png",
+        "ground_truth_label": "of the Recruits which arrived here under",
+        "predicted_label": "of the Recruits which arrived arrived here under",
+        "confidence": 0.8333333333333334,
+        "cer": 0.2
+    },
+        {
+        "file_name": "309-35.png",
+        "ground_truth_label": "ed unfit for Duty, on Review; are ordered to be",
+        "predicted_label": "ed until for Duty, on on Review; are ordered to be be",
+        "confidence": 0.8490566037735849,
+        "cer": 0.1702127659574468
     },
     {
-        "file_name": "278-09.png",
-        "ground_truth_label": "Given Vc. at Fredericksburg,",
-        "predicted_label": "Given Dr. at the memories belonging",
-        "confidence": 0.48571428571428577,
-        "cer": 0.6428571428571429
-    },
-    {
-        "file_name": "300-31.png",
-        "ground_truth_label": "the greater dispatch. The Vessel is not yet",
-        "predicted_label": "the greater Quarterly Quarterly. The Federal is not yet yet",
-        "confidence": 0.5593220338983051,
-        "cer": 0.6046511627906976
+        "file_name": "270-28.png",
+        "ground_truth_label": "of men he has enlisted. - One Subaltern,",
+        "predicted_label": "of men he has enlisted, - One Subalation,",
+        "confidence": 0.9024390243902439,
+        "cer": 0.1
     }
 ]

@@ -12,7 +12,7 @@ from data_frame_handler import DataFrameHandler
 from handle_dataset import save_to_json, load_from_json
 from utils.constants import outputs_path, model_save_path, processor_save_path, results_test_trocr
 
-device = torch.device('mps')
+device = torch.device('cuda:0' if torch.cuda.is_available else 'cpu')
 
 # Load the saved model
 model = VisionEncoderDecoderModel.from_pretrained(model_save_path)

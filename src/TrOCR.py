@@ -13,7 +13,7 @@ from data_frame_handler import DataFrameHandler
 from handle_dataset import load_from_json
 from utils.constants import outputs_path, model_save_path, processor_save_path
 
-device = torch.device('mps')
+device = torch.device('cuda:0' if torch.cuda.is_available else 'cpu')
 
 training = load_from_json(os.path.join(outputs_path, 'train', 'training_data.json'))
 valid = load_from_json(os.path.join(outputs_path, 'valid', 'validation_data.json'))
@@ -28,8 +28,8 @@ valid_df = handler.dict_to_dataframe(valid)
 
 @dataclass(frozen=True)
 class TrainingConfig:
-    BATCH_SIZE: int = 48
-    EPOCHS: int = 9  # 35
+    BATCH_SIZE: int = 10
+    EPOCHS: int = 35  # 35
     LEARNING_RATE: float = 0.00005
 
 
@@ -59,6 +59,7 @@ The model is configured for the specific use case.
 
 model = VisionEncoderDecoderModel.from_pretrained(ModelConfig.MODEL_NAME)
 model.to(device)
+torch.cuda.empty_cache()
 print(model)
 
 # Total parameters and trainable parameters.
