@@ -95,10 +95,13 @@ def check_spelling(sentence, pipe):
 
 def check_sentence(sentence, context, pipe):
     system_prompt = (
-        f"<s>Your task is to adjust the language of transcriptions of historical documents, that were scanning "
-        f"using OCR technics, to reflect the original 18th-century style. Specifically, you are working "
-        f"with the George Washington dataset (here there is a sample of the dataset: {WASHINGTON_SAMPLE_TEXT}). "
-        f"Hint: The corrected preserves the same number of words of the sentence from the OCR."
+        f"<s>Your task is to adjust the language of transcriptions from historical documents, "
+        f"scanned using OCR technology, to accurately reflect the original 18th-century style. "
+        f"This involves working with the George Washington dataset. The goal is to correct any inaccuracies introduced "
+        f"during the OCR process while maintaining the original "
+        f"word count and ensuring that punctuation, such as dashes, is respected. "
+        f"Provide corrections that are faithful to the historical context and language use of the period. "
+        f"Hint: Do not add or remove information; corrections should only address OCR errors."
         f"## Examples:"
         f"  Sentence from OCR:'and the houses given to him to him. You meet' - the corrected sentence: "
         f"'and the horses given to him. You must' "
@@ -121,16 +124,17 @@ def check_sentence(sentence, context, pipe):
 
     if context:  # when there are previously corrected sentences
         adaptation_request = (
-            f"<s>[INST] Given the context of the sentence: {context}, please correct any "
-            f"errors in the following sentence from OCR: '{sentence}' to match the 18th-century language "
-            f"style, without adding any extra information.[/INST]</s>")
+            f"<s>[INST] Given the context of previous corrections: {context}, "
+            f"correct any errors in the following OCR sentence to match 18th-century language "
+            f"style and historical accuracy, without adding extra information: '{sentence}'[/INST]</s>")
     else:  # when there are no previously corrected sentences
         adaptation_request = (
-            f"<s>[INST] Without any prior context, correct the sentence from OCR: '{sentence}' to reflect "
-            f"the language style of the 18th century, without adding extra information.[/INST]</s>")
+            f"<s>[INST] Without prior context, correct the OCR sentence to accurately reflect "
+            f"18th-century language style and historical context, avoiding additions: '{sentence}'[/INST]</s>"
+        )
 
     prompt = f"{system_prompt}\n{adaptation_request}\nThe corrected sentence is:"
-    nummer_length = (len(sentence) * 2) + 1000
+    nummer_length = (len(sentence) * 2) + 1300
 
     try:
         corrected_text = calculate_pipe(pipe, prompt, nummer_length, 1)
@@ -146,101 +150,101 @@ def check_sentence(sentence, context, pipe):
     return response
 
 
-def standardize_terms(sentence, context, pipe):
-    # Assuming check_standardize_terms is similar to check_spelling, returning 'Yes' if standardization is needed
-    standardization_result = check_standardize_terms(sentence, pipe)
-    print(f"The sentence has terms that require standardization: {standardization_result}")
+# def standardize_terms(sentence, context, pipe):
+#     # Assuming check_standardize_terms is similar to check_spelling, returning 'Yes' if standardization is needed
+#     standardization_result = check_standardize_terms(sentence, pipe)
+#     print(f"The sentence has terms that require standardization: {standardization_result}")
+#
+#     if standardization_result == 'Yes':
+#         system_prompt = (
+#             "<s>Identify and standardize only the terms and abbreviations in the provided sentence, "
+#             "originating from an OCR process, to ensure they reflect accurate historical terminology and usage. "
+#             "Preserve the original sentence structure and punctuation, including dashes. "
+#             "## Examples: "
+#             "OCR sentence: 'Refer to the doc. as per the inst. given.' "
+#             "- Standardized sentence: 'Refer to the document as per the instructions given.'"
+#             "OCR sentence: 'Arrival of the Vc. with the supplies.' - "
+#             "Standardized sentence: 'Arrival of the viz. with the supplies.'</s>"
+#         )
+#
+#         if context:  # When there are previously corrected sentences to provide context
+#             adaptation_request = (
+#                 f"<s>[INST] Given the previous sentences of the document that help understand the context: {context}, "
+#                 f"please standardize the terms and abbreviations of the OCR sentence: '{sentence}' [/INST]</s>")
+#         else:  # When there is no prior context available
+#             adaptation_request = (
+#                 f"<s>[INST] Without any prior context, standardize the terms and abbreviations of the OCR sentence: '{sentence}' "
+#                 f"[/INST]</s>")
+#
+#         prompt = f"{system_prompt}\n{adaptation_request}\nStandardized sentence:"
+#         nummer_length = (len(sentence) * 2) + 500
+#
+#         try:
+#             corrected_text = calculate_pipe(pipe, prompt, nummer_length, 1)
+#             response = corrected_text[0]['generated_text'].split('Standardized sentence:')[-1].strip()
+#             # Post-processing to remove any additional unwanted text
+#             response = response[1:-1]
+#             response = response.replace("'", "")
+#             response = response.split('\n')[0].strip()
+#
+#         except Exception as e:
+#             print(f"Error in processing sentence '{sentence}': {e}")
+#             response = 'Error'
+#         return response
+#
+#     elif standardization_result == 'No':
+#         print("No terms require standardization:", sentence)
+#         return sentence
+#
+#     else:
+#         print("Error or ambiguity detected in term standardization check.")
+#         return sentence
 
-    if standardization_result == 'Yes':
-        system_prompt = (
-            "<s>Identify and standardize only the terms and abbreviations in the provided sentence, "
-            "originating from an OCR process, to ensure they reflect accurate historical terminology and usage. "
-            "Preserve the original sentence structure and punctuation, including dashes. "
-            "## Examples: "
-            "OCR sentence: 'Refer to the doc. as per the inst. given.' "
-            "- Standardized sentence: 'Refer to the document as per the instructions given.'"
-            "OCR sentence: 'Arrival of the Vc. with the supplies.' - "
-            "Standardized sentence: 'Arrival of the viz. with the supplies.'</s>"
-        )
 
-        if context:  # When there are previously corrected sentences to provide context
-            adaptation_request = (
-                f"<s>[INST] Given the previous sentences of the document that help understand the context: {context}, "
-                f"please standardize the terms and abbreviations of the OCR sentence: '{sentence}' [/INST]</s>")
-        else:  # When there is no prior context available
-            adaptation_request = (
-                f"<s>[INST] Without any prior context, standardize the terms and abbreviations of the OCR sentence: '{sentence}' "
-                f"[/INST]</s>")
-
-        prompt = f"{system_prompt}\n{adaptation_request}\nStandardized sentence:"
-        nummer_length = (len(sentence) * 2) + 500
-
-        try:
-            corrected_text = calculate_pipe(pipe, prompt, nummer_length, 1)
-            response = corrected_text[0]['generated_text'].split('Standardized sentence:')[-1].strip()
-            # Post-processing to remove any additional unwanted text
-            response = response[1:-1]
-            response = response.replace("'", "")
-            response = response.split('\n')[0].strip()
-
-        except Exception as e:
-            print(f"Error in processing sentence '{sentence}': {e}")
-            response = 'Error'
-        return response
-
-    elif standardization_result == 'No':
-        print("No terms require standardization:", sentence)
-        return sentence
-
-    else:
-        print("Error or ambiguity detected in term standardization check.")
-        return sentence
-
-
-def check_spelling_mistakes(sentence, context, pipe):
-    spelling_result = check_spelling(sentence, pipe)
-    print(f"Te sentence has spelling mistakes: {spelling_result}")
-    if spelling_result == 'Yes':
-        system_prompt = (
-            f"<s>Identify and correct only the spelling mistakes in the provided sentence, "
-            f"originating from an OCR process, to accurately reflect the original text in 18th-century style. "
-            f"Ensure the corrected sentence retains the same number of words as the OCR version. "
-            f"## Examples:"
-            f"OCR sentence: '30th. Letters Orders and Instructions December 1755.' - Corrected sentence: 'the Stores'"
-            f"OCR sentence: 'thes, Vc. and to me directions' "
-            f"- Corrected sentence: 'the Stores, viz. and to be under the same directions'"
-            f"</s>")
-
-        if context:  # when there are previously corrected sentences
-            adaptation_request = (
-                f"<s>[INST] Given the previous sentences of the document that help understand the context: {context}, "
-                f"please correct the spelling mistakes of the OCR sentence: '{sentence}' [/INST]</s>")
-        else:  # when there are no previously corrected sentences
-            adaptation_request = (
-                f"<s>[INST] Without any prior context, correct the spelling mistakes of OCR sentence: '{sentence}' "
-                f"[/INST]</s>")
-
-        prompt = f"{system_prompt}\n{adaptation_request}\nCorrected sentence:"
-        nummer_length = (len(sentence) * 2) + 500
-
-        try:
-            corrected_text = calculate_pipe(pipe, prompt, nummer_length, 1)
-            response = corrected_text[0]['generated_text'].split('Corrected sentence:')[-1].strip()
-            # Post-processing to remove any additional unwanted text
-            response = response[1:-1]
-            response = response.replace("'", "")
-            response = response.split('\n')[0].strip()
-
-        except Exception as e:
-            print(f"Error in processing sentence '{sentence}': {e}")
-            response = 'Error'
-        return response
-    elif spelling_result == 'No':
-        print("No spelling mistakes found:", sentence)
-        return sentence
-    else:
-        print("Error or ambiguity detected in spelling check.")
-        return sentence
+# def check_spelling_mistakes(sentence, context, pipe):
+#     spelling_result = check_spelling(sentence, pipe)
+#     print(f"Te sentence has spelling mistakes: {spelling_result}")
+#     if spelling_result == 'Yes':
+#         system_prompt = (
+#             f"<s>Identify and correct only the spelling mistakes in the provided sentence, "
+#             f"originating from an OCR process, to accurately reflect the original text in 18th-century style. "
+#             f"Ensure the corrected sentence retains the same number of words as the OCR version. "
+#             f"## Examples:"
+#             f"OCR sentence: '30th. Letters Orders and Instructions December 1755.' - Corrected sentence: 'the Stores'"
+#             f"OCR sentence: 'thes, Vc. and to me directions' "
+#             f"- Corrected sentence: 'the Stores, viz. and to be under the same directions'"
+#             f"</s>")
+#
+#         if context:  # when there are previously corrected sentences
+#             adaptation_request = (
+#                 f"<s>[INST] Given the previous sentences of the document that help understand the context: {context}, "
+#                 f"please correct the spelling mistakes of the OCR sentence: '{sentence}' [/INST]</s>")
+#         else:  # when there are no previously corrected sentences
+#             adaptation_request = (
+#                 f"<s>[INST] Without any prior context, correct the spelling mistakes of OCR sentence: '{sentence}' "
+#                 f"[/INST]</s>")
+#
+#         prompt = f"{system_prompt}\n{adaptation_request}\nCorrected sentence:"
+#         nummer_length = (len(sentence) * 2) + 500
+#
+#         try:
+#             corrected_text = calculate_pipe(pipe, prompt, nummer_length, 1)
+#             response = corrected_text[0]['generated_text'].split('Corrected sentence:')[-1].strip()
+#             # Post-processing to remove any additional unwanted text
+#             response = response[1:-1]
+#             response = response.replace("'", "")
+#             response = response.split('\n')[0].strip()
+#
+#         except Exception as e:
+#             print(f"Error in processing sentence '{sentence}': {e}")
+#             response = 'Error'
+#         return response
+#     elif spelling_result == 'No':
+#         print("No spelling mistakes found:", sentence)
+#         return sentence
+#     else:
+#         print("Error or ambiguity detected in spelling check.")
+#         return sentence
 
 
 def get_document_id(file_name):
@@ -275,9 +279,7 @@ def correct_sentences(sentence_data, pipe, batch_size=10):
             elif check_grammar_result == BAD_GRAMMAR:
                 is_correct = BAD_GRAMMAR
                 print(BAD_GRAMMAR)
-                # context = context + "\n ---Here the sentence from the OCR---"
-                corrected_sentence = check_spelling_mistakes(sentence, context, pipe)
-                corrected_sentence = standardize_terms(corrected_sentence, context, pipe)
+                corrected_sentence = check_sentence(sentence, context, pipe)
                 sentence_to_append = corrected_sentence if corrected_sentence != 'Error' else sentence
             else:
                 sentence_to_append = sentence
@@ -328,7 +330,7 @@ def evaluate_test_data(loaded_data, pipe):
             }
         })
 
-    save_mistral_output = os.path.join(results_LLM_mistral_2, 'evaluation_results_with_mistral_1.json')
+    save_mistral_output = os.path.join(results_LLM_mistral_2, 'evaluation_results_with_mistral_2.json')
     save_to_json(results, save_mistral_output)
 
 
@@ -339,7 +341,7 @@ mistral_model = transformers.AutoModelForCausalLM.from_pretrained(mistral_model_
 mistral_tokenizer = AutoTokenizer.from_pretrained(mistral_model_name)
 mistral_pipe = pipeline("text-generation", model=mistral_model, tokenizer=mistral_tokenizer, batch_size=10)
 
-results_path_from_ocr = os.path.join(results_test_trocr, 'test_evaluation_results_seq_mini_2.json')
+results_path_from_ocr = os.path.join(results_test_trocr, 'test_evaluation_results_seq.json')
 loaded_data = load_from_json(results_path_from_ocr)
 # Example usage
 evaluate_test_data(loaded_data, mistral_pipe)

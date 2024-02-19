@@ -22,9 +22,9 @@
             "confidence": 0.9166666666666666
         },
         "MISTRAL": {
-            "predicted_label": "remain here until the arrival of the usual with",
-            "cer": 0.08333333333333333,
-            "confidence": 0.9166666666666666
+            "predicted_label": "remain here until the arrival of the usual wagons",
+            "cer": 0.1875,
+            "confidence": 0.8163265306122449
         }
     },
     {
@@ -92,9 +92,9 @@
             "confidence": 0.7857142857142857
         },
         "MISTRAL": {
-            "predicted_label": "whether they are to be sent, under the",
-            "cer": 0.2127659574468085,
-            "confidence": 0.7872340425531915
+            "predicted_label": "charter; whether they are to be sent, under the",
+            "cer": 0.06382978723404255,
+            "confidence": 0.9361702127659575
         }
     },
     {
@@ -106,9 +106,9 @@
             "confidence": 0.7543859649122807
         },
         "MISTRAL": {
-            "predicted_label": "except the Chest of the Soldiers now here: except the Chest of the Lieutenants",
+            "predicted_label": "except the Chest of the Soldiers now here: except the Chest of the Lieutenant",
             "cer": 0.6938775510204082,
-            "confidence": 0.5641025641025641
+            "confidence": 0.5584415584415585
         }
     },
     {
@@ -120,9 +120,9 @@
             "confidence": 0.9074074074074074
         },
         "MISTRAL": {
-            "predicted_label": "of Clothes; Shoes, Stockings, Shirts, Vc.: pro-",
-            "cer": 0.18867924528301888,
-            "confidence": 0.8113207547169812
+            "predicted_label": "of Clothes; Shoes, Stockings, Shirts, Vc.: proportionably",
+            "cer": 0.09433962264150944,
+            "confidence": 0.9122807017543859
         }
     },
     {
@@ -134,9 +134,9 @@
             "confidence": 0.7358490566037736
         },
         "MISTRAL": {
-            "predicted_label": "tionally, which are to be left with the Lob-",
-            "cer": 0.45652173913043476,
-            "confidence": 0.5434782608695652
+            "predicted_label": "till the arrival of the vessel with the Stores, Vc. and to be under the same directions as before ordered. So soon as the Stores arrive, you are, with all possible dispatch, to procure a sufficient number of waggons to carry them to Winchester; whither they are to be sent, under the escort of the Soldiers now here: except the Suits of Clothes; Shoes, Stocking, Shirts, Vc. proportionally.",
+            "cer": 7.695652173913044,
+            "confidence": 0.09230769230769231
         }
     },
     {
@@ -190,9 +190,9 @@
             "confidence": 0.7234042553191489
         },
         "MISTRAL": {
-            "predicted_label": "Immert is made. If your men can not be",
-            "cer": 0.10256410256410256,
-            "confidence": 0.8974358974358975
+            "predicted_label": "Immert is made. If your men cannot be",
+            "cer": 0.1282051282051282,
+            "confidence": 0.8717948717948718
         }
     },
     {
@@ -204,9 +204,9 @@
             "confidence": 0.7666666666666666
         },
         "MISTRAL": {
-            "predicted_label": "conveniently Quartered Lieutenant on their march up; there",
-            "cer": 0.23404255319148937,
-            "confidence": 0.8103448275862069
+            "predicted_label": "conveniently quartered Lieutenant on their march up; there",
+            "cer": 0.2553191489361702,
+            "confidence": 0.7931034482758621
         }
     },
     {
@@ -260,7 +260,7 @@
             "confidence": 0.9130434782608696
         },
         "MISTRAL": {
-            "predicted_label": "to send a Sergeant, and one or two men,",
+            "predicted_label": "to send a Sergeant, and one or two men.",
             "cer": 0.17777777777777778,
             "confidence": 0.8222222222222222
         }
@@ -274,7 +274,7 @@
             "confidence": 0.5263157894736843
         },
         "MISTRAL": {
-            "predicted_label": "in pursuant to",
+            "predicted_label": "in pursuance.",
             "cer": 0.47368421052631576,
             "confidence": 0.5263157894736843
         }
@@ -288,9 +288,9 @@
             "confidence": 0.7333333333333334
         },
         "MISTRAL": {
-            "predicted_label": "Given or or all Alexandria Vc.",
-            "cer": 0.34782608695652173,
-            "confidence": 0.7333333333333334
+            "predicted_label": "Given at Alexandria, Vc.",
+            "cer": 0.043478260869565216,
+            "confidence": 0.9583333333333334
         }
     },
     {
@@ -358,9 +358,9 @@
             "confidence": 0.7857142857142857
         },
         "MISTRAL": {
-            "predicted_label": "Stores and medicines, arrives, you are to enhance",
+            "predicted_label": "Stores and medicines arrive, you are to enhance",
             "cer": 0.10416666666666667,
-            "confidence": 0.8979591836734694
+            "confidence": 0.8958333333333334
         }
     },
     {
@@ -386,9 +386,9 @@
             "confidence": 0.5714285714285714
         },
         "MISTRAL": {
-            "predicted_label": "The Bea",
-            "cer": 0.9183673469387755,
-            "confidence": 0.08163265306122447
+            "predicted_label": "your Chest, and proceeding, yourself, to Winches-",
+            "cer": 0.0,
+            "confidence": 1.0
         }
     },
     {
@@ -400,9 +400,9 @@
             "confidence": 0.9767441860465116
         },
         "MISTRAL": {
-            "predicted_label": "ter. You are to provide yourself here with",
-            "cer": 0.023255813953488372,
-            "confidence": 0.9767441860465116
+            "predicted_label": "Winchester. You are to provide yourself here with",
+            "cer": 0.18604651162790697,
+            "confidence": 0.8367346938775511
         }
     },
     {
@@ -414,9 +414,9 @@
             "confidence": 0.9534883720930233
         },
         "MISTRAL": {
-            "predicted_label": "what you think will be wanting for the Non-",
-            "cer": 0.046511627906976744,
-            "confidence": 0.9534883720930233
+            "predicted_label": "what you think will be wanting for the Non-Commissioned Officers.",
+            "cer": 0.5581395348837209,
+            "confidence": 0.6307692307692307
         }
     },
     {
@@ -428,9 +428,9 @@
             "confidence": 0.9512195121951219
         },
         "MISTRAL": {
-            "predicted_label": "and keep them up with you; taking",
-            "cer": 0.2926829268292683,
-            "confidence": 0.7073170731707317
+            "predicted_label": "hospital, and keep them up with you; taking",
+            "cer": 0.1951219512195122,
+            "confidence": 0.813953488372093
         }
     },
     {
@@ -484,9 +484,9 @@
             "confidence": 0.9130434782608696
         },
         "MISTRAL": {
-            "predicted_label": "Letters, Orders and Instructions. December 1755. Mr.",
-            "cer": 0.13043478260869565,
-            "confidence": 0.8846153846153846
+            "predicted_label": "Letters Orders and Instructions December Mr.",
+            "cer": 0.08695652173913043,
+            "confidence": 0.9130434782608696
         }
     },
     {
@@ -652,9 +652,9 @@
             "confidence": 0.4193548387096774
         },
         "MISTRAL": {
-            "predicted_label": "sent, to him.",
-            "cer": 0.5806451612903226,
-            "confidence": 0.4193548387096774
+            "predicted_label": "sent to him.",
+            "cer": 0.6129032258064516,
+            "confidence": 0.3870967741935484
         }
     },
     {
@@ -736,9 +736,9 @@
             "confidence": 0.7906976744186046
         },
         "MISTRAL": {
-            "predicted_label": "During his stay here, no provision is to be de-",
-            "cer": 0.9069767441860465,
-            "confidence": 0.17021276595744683
+            "predicted_label": "arts who understand the manual exercise, do",
+            "cer": 0.046511627906976744,
+            "confidence": 0.9534883720930233
         }
     },
     {
@@ -778,9 +778,9 @@
             "confidence": 0.9393939393939394
         },
         "MISTRAL": {
-            "predicted_label": "I Return is to be made every morning.",
-            "cer": 0.18181818181818182,
-            "confidence": 0.8378378378378378
+            "predicted_label": "I Return is t",
+            "cer": 0.6363636363636364,
+            "confidence": 0.36363636363636365
         }
     },
     {
@@ -792,9 +792,9 @@
             "confidence": 0.7441860465116279
         },
         "MISTRAL": {
-            "predicted_label": "morning to Colonel Washington of the number of",
-            "cer": 0.06976744186046512,
-            "confidence": 0.9347826086956522
+            "predicted_label": "morning to Colonel of the number of",
+            "cer": 0.32558139534883723,
+            "confidence": 0.6744186046511628
         }
     },
     {
@@ -806,9 +806,9 @@
             "confidence": 0.8048780487804879
         },
         "MISTRAL": {
-            "predicted_label": "men in this town - and all others continue.",
-            "cer": 0.3,
-            "confidence": 0.7209302325581395
+            "predicted_label": "men in this town, and all continues.",
+            "cer": 0.15,
+            "confidence": 0.85
         }
     },
     {
@@ -890,9 +890,9 @@
             "confidence": 0.9574468085106383
         },
         "MISTRAL": {
-            "predicted_label": "The Bearer, captain John Mercer,",
-            "cer": 0.8297872340425532,
-            "confidence": 0.17021276595744683
+            "predicted_label": "",
+            "cer": 1.0,
+            "confidence": 0.0
         }
     },
     {
