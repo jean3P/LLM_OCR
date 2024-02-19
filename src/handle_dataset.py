@@ -84,6 +84,28 @@ class LabelParser:
         return self._lines_to_dict(training_lines), self._lines_to_dict(validation_lines), self._lines_to_dict(
             testing_lines)
 
+    def get_sequential_subsets(self, training_pct, validation_pct):
+        """Sequentially splits the dataset into training, validation, and testing subsets.
+        Args:
+            training_pct (int): The percentage of the dataset to allocate to the training set.
+            validation_pct (int): The percentage of the dataset to allocate to the validation set.
+        Returns:
+            tuple: A tuple of dictionaries for the training, validation, and testing sets.
+        """
+        with open(self.path, 'r') as file:
+            lines = file.readlines()
+
+        total = len(lines)
+        training_size = math.ceil(total * training_pct / 100)
+        validation_size = math.ceil(total * validation_pct / 100)
+
+        training_lines = lines[:training_size]
+        validation_lines = lines[training_size:training_size + validation_size]
+        testing_lines = lines[training_size + validation_size:]
+
+        return self._lines_to_dict(training_lines), self._lines_to_dict(validation_lines), self._lines_to_dict(
+            testing_lines)
+
     def _lines_to_dict(self, lines):
         dict_images_labels = {}
         for line in lines:
@@ -97,8 +119,8 @@ class LabelParser:
 label_parser = LabelParser(transcription_path)
 
 # Split dataset and save to JSON files
-training_data, validation_data, testing_data = label_parser.get_subsets(70, 15)
-
-save_to_json(training_data, os.path.join(outputs_path, 'train', 'training_data.json'))
-save_to_json(validation_data, os.path.join(outputs_path, 'valid', 'validation_data.json'))
-save_to_json(testing_data, os.path.join(outputs_path, 'test', 'testing_data.json'))
+# training_data, validation_data, testing_data = label_parser.get_subsets(70, 15)
+training_data, validation_data, testing_data = label_parser.get_sequential_subsets(80, 10)
+save_to_json(training_data, os.path.join(outputs_path, 'train', 'training_seq_data.json'))
+save_to_json(validation_data, os.path.join(outputs_path, 'valid', 'validation_seq_data.json'))
+save_to_json(testing_data, os.path.join(outputs_path, 'test', 'testing_seq_data.json'))

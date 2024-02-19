@@ -1,0 +1,184 @@
+[
+    {
+        "file_name": "308-30.png",
+        "ground_truth_label": "your Chest, and proceeding, yourself, to Winches-",
+        "OCR": {
+            "predicted_label": "your, and perceiving to Winches-",
+            "cer": 0.42857142857142855,
+            "confidence": 0.5714285714285714
+        },
+        "MISTRAL": {
+            "predicted_label": "your, and perceiving to winches-",
+            "cer": 0.4489795918367347,
+            "confidence": 0.5510204081632653
+        }
+    },
+    {
+        "file_name": "308-31.png",
+        "ground_truth_label": "ter. You are to provide yourself here, with",
+        "OCR": {
+            "predicted_label": "ter. You are to provide yourself here with",
+            "cer": 0.023255813953488372,
+            "confidence": 0.9767441860465116
+        },
+        "MISTRAL": {
+            "predicted_label": "ter. You are to provide yourself here with",
+            "cer": 0.023255813953488372,
+            "confidence": 0.9767441860465116
+        }
+    },
+    {
+        "file_name": "308-32.png",
+        "ground_truth_label": "what you think will be wanting for the Hos-",
+        "OCR": {
+            "predicted_label": "what you think will be wanting for the Non-",
+            "cer": 0.046511627906976744,
+            "confidence": 0.9534883720930233
+        },
+        "MISTRAL": {
+            "predicted_label": "what you think will be wanting for the non-commissioned officers",
+            "cer": 0.5348837209302325,
+            "confidence": 0.640625
+        }
+    },
+    {
+        "file_name": "308-33.png",
+        "ground_truth_label": "pital, and bring them up with you; taking",
+        "OCR": {
+            "predicted_label": "pital, and king them up with you; taking",
+            "cer": 0.04878048780487805,
+            "confidence": 0.9512195121951219
+        },
+        "MISTRAL": {
+            "predicted_label": "the stores, viz. and to be under the same directions",
+            "cer": 0.9512195121951219,
+            "confidence": 0.25
+        }
+    },
+    {
+        "file_name": "308-34.png",
+        "ground_truth_label": "care to purchase no more than is absolutely",
+        "OCR": {
+            "predicted_label": "care to purchase no more more than is absolutely",
+            "cer": 0.11627906976744186,
+            "confidence": 0.8958333333333334
+        },
+        "MISTRAL": {
+            "predicted_label": "care to purchase no more than is absolutely [/INST]",
+            "cer": 0.18604651162790697,
+            "confidence": 0.8431372549019608
+        }
+    },
+    {
+        "file_name": "308-35.png",
+        "ground_truth_label": "necessary, for the support and relief of the Regiment",
+        "OCR": {
+            "predicted_label": "necessary, for the support and relief and relief of the Regiment",
+            "cer": 0.20754716981132076,
+            "confidence": 0.828125
+        },
+        "MISTRAL": {
+            "predicted_label": "necessary, for the support and relief and relief of the Regiment",
+            "cer": 0.20754716981132076,
+            "confidence": 0.828125
+        }
+    },
+    {
+        "file_name": "309-01.png",
+        "ground_truth_label": "p.309.",
+        "OCR": {
+            "predicted_label": "G.S.gg.",
+            "cer": 0.8333333333333334,
+            "confidence": 0.2857142857142857
+        },
+        "MISTRAL": {
+            "predicted_label": "G.S.gg.",
+            "cer": 0.8333333333333334,
+            "confidence": 0.2857142857142857
+        }
+    },
+    {
+        "file_name": "309-02.png",
+        "ground_truth_label": "Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "Letters Orders and Instructions December Mr.",
+            "cer": 0.08695652173913043,
+            "confidence": 0.9130434782608696
+        },
+        "MISTRAL": {
+            "predicted_label": "Letters, Orders and Instructions December 1755.",
+            "cer": 0.021739130434782608,
+            "confidence": 0.9787234042553191
+        }
+    },
+    {
+        "file_name": "309-04.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "Given at Alexandria Vc.",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Given at Alexandria Vc.",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "309-05.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "December 1755.",
+            "cer": 0.3,
+            "confidence": 0.7
+        },
+        "MISTRAL": {
+            "predicted_label": "December 1755.",
+            "cer": 0.3,
+            "confidence": 0.7
+        }
+    },
+    {
+        "file_name": "309-07.png",
+        "ground_truth_label": "16th. To Captain John Mercer. of the",
+        "OCR": {
+            "predicted_label": "No. To To Captain John John Mercer. of the",
+            "cer": 0.3055555555555556,
+            "confidence": 0.7380952380952381
+        },
+        "MISTRAL": {
+            "predicted_label": "No. To Captain John Mercer. of the",
+            "cer": 0.1111111111111111,
+            "confidence": 0.8888888888888888
+        }
+    },
+    {
+        "file_name": "309-08.png",
+        "ground_truth_label": "Virginia Regiment.",
+        "OCR": {
+            "predicted_label": "Virginia.",
+            "cer": 0.5,
+            "confidence": 0.5
+        },
+        "MISTRAL": {
+            "predicted_label": "Virginia.",
+            "cer": 0.5,
+            "confidence": 0.5
+        }
+    },
+    {
+        "file_name": "309-09.png",
+        "ground_truth_label": "You are immediately, upon receipt",
+        "OCR": {
+            "predicted_label": "You are are immediately, upon receipt",
+            "cer": 0.12121212121212122,
+            "confidence": 0.8918918918918919
+        },
+        "MISTRAL": {
+            "predicted_label": "You are immediately, upon receipt",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    }
+]

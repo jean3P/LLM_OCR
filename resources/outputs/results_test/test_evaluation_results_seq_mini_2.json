@@ -1,0 +1,93 @@
+[
+    {
+        "file_name": "308-30.png",
+        "ground_truth_label": "your Chest, and proceeding, yourself, to Winches-",
+        "predicted_label": "your, and perceiving to Winches-",
+        "confidence": 0.5714285714285714,
+        "cer": 0.42857142857142855
+    },
+    {
+        "file_name": "308-31.png",
+        "ground_truth_label": "ter. You are to provide yourself here, with",
+        "predicted_label": "ter. You are to provide yourself here with",
+        "confidence": 0.9767441860465116,
+        "cer": 0.023255813953488372
+    },
+    {
+        "file_name": "308-32.png",
+        "ground_truth_label": "what you think will be wanting for the Hos-",
+        "predicted_label": "what you think will be wanting for the Non-",
+        "confidence": 0.9534883720930233,
+        "cer": 0.046511627906976744
+    },
+    {
+        "file_name": "308-33.png",
+        "ground_truth_label": "pital, and bring them up with you; taking",
+        "predicted_label": "pital, and king them up with you; taking",
+        "confidence": 0.9512195121951219,
+        "cer": 0.04878048780487805
+    },
+    {
+        "file_name": "308-34.png",
+        "ground_truth_label": "care to purchase no more than is absolutely",
+        "predicted_label": "care to purchase no more more than is absolutely",
+        "confidence": 0.8958333333333334,
+        "cer": 0.11627906976744186
+    },
+    {
+        "file_name": "308-35.png",
+        "ground_truth_label": "necessary, for the support and relief of the Regiment",
+        "predicted_label": "necessary, for the support and relief and relief of the Regiment",
+        "confidence": 0.828125,
+        "cer": 0.20754716981132076
+    },
+    {
+        "file_name": "309-01.png",
+        "ground_truth_label": "p.309.",
+        "predicted_label": "G.S.gg.",
+        "confidence": 0.2857142857142857,
+        "cer": 0.8333333333333334
+    },
+    {
+        "file_name": "309-02.png",
+        "ground_truth_label": "Letters Orders and Instructions December 1755.",
+        "predicted_label": "Letters Orders and Instructions December Mr.",
+        "confidence": 0.9130434782608696,
+        "cer": 0.08695652173913043
+    },
+    {
+        "file_name": "309-04.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "predicted_label": "Given at Alexandria Vc.",
+        "confidence": 1.0,
+        "cer": 0.0
+    },
+    {
+        "file_name": "309-05.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "predicted_label": "December 1755.",
+        "confidence": 0.7,
+        "cer": 0.3
+    },
+    {
+        "file_name": "309-07.png",
+        "ground_truth_label": "16th. To Captain John Mercer. of the",
+        "predicted_label": "No. To To Captain John John Mercer. of the",
+        "confidence": 0.7380952380952381,
+        "cer": 0.3055555555555556
+    },
+    {
+        "file_name": "309-08.png",
+        "ground_truth_label": "Virginia Regiment.",
+        "predicted_label": "Virginia.",
+        "confidence": 0.5,
+        "cer": 0.5
+    },
+    {
+        "file_name": "309-09.png",
+        "ground_truth_label": "You are immediately, upon receipt",
+        "predicted_label": "You are are immediately, upon receipt",
+        "confidence": 0.8918918918918919,
+        "cer": 0.12121212121212122
+    }
+]
