@@ -95,42 +95,62 @@ def check_spelling(sentence, pipe):
 
 def check_sentence(sentence, context, pipe):
     system_prompt = (
-        f"<s>Your task is to adjust the language of transcriptions from historical documents, "
-        f"scanned using OCR technology, to accurately reflect the original 18th-century style. "
-        f"This involves working with the George Washington dataset. The goal is to correct any inaccuracies introduced "
-        f"during the OCR process while maintaining the original "
-        f"word count and ensuring that punctuation, such as dashes, is respected. "
-        f"Provide corrections that are faithful to the historical context and language use of the period. "
-        f"Hint: Do not add or remove information; corrections should only address OCR errors."
-        f"## Examples:"
-        f"  Sentence from OCR:'and the houses given to him to him. You meet' - the corrected sentence: "
-        f"'and the horses given to him. You must' "
-        f"  Sentence from OCR:'The Bauer, Captain, John Mercer.' "
+        f"<s>Your task is to meticulously correct transcription errors in historical documents scanned using OCR "
+        f"technology. These documents, related to George Washington and dated back to the 18th century, must be "
+        f"adjusted to mirror the original text's historical accuracy and style closely. "
+        f"It's imperative to address common OCR-induced errors such as misspellings, incorrect abbreviations, "
+        f"misinterpretation of terms, and improper punctuation while strictly maintaining the original sentence "
+        f"structure and word count. Avoid adding or omitting information, ensuring the essence and factual content "
+        f"of the document remain unaltered."
+        f"\n## Guiding Principles:"
+        f"- Focus solely on correcting clear OCR errors without modifying the document's original intent or "
+        f"introducing new content."
+        f"- Maintain original punctuation, capitalization, and formatting, respecting 18th-century stylistic nuances."
+        f"- Ensure accuracy in dates, names, and terms, reflecting their true historical versions."
+        f"\n## Examples:"
+        f"  Sentence from OCR:'30th. Letters Orders and Instructions December 1755.' - the corrected sentence: "
+        f"'308. Letters Orders and Instructions December 1755.' "
+        f"  Sentence from OCR:'remain here until the arrival of the usual with' "
+        f"- the corrected sentence: 'remain here until the arrival of the vessel with'"
+        f"  Sentence from OCR:'thes, Vc. and to me directions' "
+        f"- the corrected sentence: 'the Stores, Vc. and to be under the same directions'"
+        f"  Sentence from OCR:'of Clothes; Shoes, Stockings, Shirts, Vc.: propatioma-' "
+        f"- the corrected sentence: 'of Clothes; Shoes, Stocking, Shirts, Vc. proportion-'"
+        f"  Sentence from OCR:'things delivered into into the Nuggets, and are that' "
+        f"- the corrected sentence:'Things delivered into the waggons, and see that'"
+        f"  Sentence from OCR:'No. To Doctor James Frank of the Virginia' "
+        f"- the corrected sentence: 'To Doctor James Craik, of the Virginia' "
+        f"  Sentence from OCR: 'as before ordered. To soon as the Stores arrive, you' "
+        f"- the corrected sentence: 'as before ordered. So soon as the Stores arrive, you' "
+        f"  Sentence from OCR: 'You are are immediately, upon receipt' "
+        f"- the corrected sentence: 'You are immediately, upon receipt'"
+        f"  Sentence from OCR: 'hereof, to repair to Winchester, where you will never' "
+        f"- the corrected sentence: 'hereof, to repair to Winchester, where you will meet' "
+        f" Sentence from OCR: 'Mr. Bauer, Captain, John's Mercer.' "
         f"- the corrected sentence: 'The Bearer, captain John Mercer,'"
-        f"  Sentence from OCR:'itaughetti. Pay make my make my Components' "
-        f"- the corrected sentence: 'slaughter. Pray make my Compliments'"
-        f"  Sentence from OCR:'8rd.30. To Sergeant David Wilper, of the Virginia' "
-        f"- the corrected sentence:'Octo. 30th. To Sergeant David Wilper, of the Virginia'"
-        f"  Sentence from OCR:'t. To Mr. Boyd, Paymaster' - the corrected sentence: '1st. To Mr. Boyd, Paymaster.' "
-        f"  Sentence from OCR: 'During here, no provision is to be de-' "
-        f"- the corrected sentence: 'During his stay here, no provision is to be de-' "
-        f"  Sentence from OCR: 'Every twenty Blancly Blanks.' - the corrected sentence: 'liver twenty Blankets.'"
-        f"  Sentence from OCR: '6:30th. To Sergeant David Wilper, of the Virginia' "
-        f"- the corrected sentence: 'Octo. 30th. To Sergeant David Wilper, of the Virginia' "
-        f"  Sentence from OCR: 'perhaps near the third when none but stronger' "
-        f"- the corrected sentence: 'perhaps near the Ohio) when none but strong par-' "
-        f"  Sentence from OCR: 'your, and perceiving to Winches-' "
-        f"- the corrected sentence: 'your Chest, and proceeding, yourself, to Winches-'</s>")
+        f" Sentence from OCR: 'in Maryland or Pennsylvania, when they' "
+        f"- the corrected sentence: 'in Maryland or Pennsylvania, when they'"
+        f" Sentence from OCR: 'Orders Redman, and the Recruits' "
+        f"- the corrected sentence:'orders- Ensign Hedgeman, and the Recruits'"
+        f" Sentence from OCR: 'alsoed to act under him whether' "
+        f"- the corrected sentence:'also ordered to act under him, until further'"
+        f" Sentence from OCR: '1st. To Mr. Boyd, Paymaster.' - the corrected sentence:'t. To Mr. Boyd, Paymaster'"
+        f" Sentence from OCR: 'the aid de de camp. The New Commissary is to send' "
+        f"- the corrected sentence:'the aid de camp. The Commissary is to send'"
+        f"\n Remember, the aim is to restore the text to its authentic form as if the OCR errors never occurred, "
+        f"ensuring the correction aligns with the original 18th-century documents' style and factual accuracy.")
 
     if context:  # when there are previously corrected sentences
         adaptation_request = (
             f"<s>[INST] Given the context of previous corrections: {context}, "
             f"correct any errors in the following OCR sentence to match 18th-century language "
-            f"style and historical accuracy, without adding extra information: '{sentence}'[/INST]</s>")
+            f"style and historical accuracy, without adding extra information: '{sentence}'[/INST]. "
+            f"If you don't know how to correct return the sentence: '{sentence}'</s>")
     else:  # when there are no previously corrected sentences
         adaptation_request = (
             f"<s>[INST] Without prior context, correct the OCR sentence to accurately reflect "
             f"18th-century language style and historical context, avoiding additions: '{sentence}'[/INST]</s>"
+            f"If you don't know how to correct return the sentence: '{sentence}'</s>"
         )
 
     prompt = f"{system_prompt}\n{adaptation_request}\nThe corrected sentence is:"
@@ -330,7 +350,7 @@ def evaluate_test_data(loaded_data, pipe):
             }
         })
 
-    save_mistral_output = os.path.join(results_LLM_mistral_2, 'evaluation_results_with_mistral_2.json')
+    save_mistral_output = os.path.join(results_LLM_mistral_2, 'evaluation_results_with_mistral_6.json')
     save_to_json(results, save_mistral_output)
 
 
