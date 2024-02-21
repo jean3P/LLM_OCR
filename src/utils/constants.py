@@ -12,13 +12,15 @@ results_test_trocr = os.path.join(outputs_path, 'results_test')
 results_LLM_mistral = os.path.join(outputs_path, 'results_LLM')
 results_LLM_mistral_1 = os.path.join(outputs_path, 'results_LLM_Mistral7B_1')
 results_LLM_mistral_2 = os.path.join(outputs_path, 'results_LLM_Mistral7B_1_v2')
-
+results_LLM_mistral_3 = os.path.join(outputs_path, 'results_LLM_Mistral7B_1_v3')
 # Specify the directory to save the model
 model_save_path = os.path.join(outputs_path, 'model', 'trained_trocr_model')
 processor_save_path = os.path.join(outputs_path, 'model', 'trocr_processor')
 
 model_save_path_seq = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq')
+model_save_path_seq_v2 = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq_v2')
 processor_save_path_seq = os.path.join(outputs_path, 'model', 'trocr_processor_seq')
+processor_save_path_seq_v2 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_v2')
 
 REPLACEMENTS = {
     's_pt': '.', 's_cm': ',', 's_mi': '-', 's_sq': ";", 's_dash': '-',

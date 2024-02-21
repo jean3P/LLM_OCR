@@ -1,12 +1,12 @@
 import json
 import os
 
-from src.utils.constants import results_LLM_mistral_2
+from src.utils.constants import results_LLM_mistral_2, results_LLM_mistral_3
 
 # Specify the directory and file name
 
-file_name = 'evaluation_results_with_mistral_3.json'
-save_mistral_output = os.path.join(results_LLM_mistral_2, file_name)
+file_name = 'evaluation_results_with_mistral_1.json'
+save_mistral_output = os.path.join(results_LLM_mistral_3, file_name)
 
 # Load the JSON data from file
 with open(save_mistral_output, 'r') as file:

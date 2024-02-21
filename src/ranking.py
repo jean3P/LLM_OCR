@@ -3,7 +3,8 @@ import os
 import pandas as pd
 
 from handle_dataset import load_from_json
-from utils.constants import results_LLM_mistral, results_LLM_mistral_1, results_test_trocr, results_LLM_mistral_2
+from utils.constants import results_LLM_mistral, results_LLM_mistral_1, results_test_trocr, results_LLM_mistral_2, \
+    results_LLM_mistral_3
 
 
 def calculate_mean(data, key, field):
@@ -12,7 +13,7 @@ def calculate_mean(data, key, field):
 
 
 # Directory containing the JSON files
-directory = results_LLM_mistral_2
+directory = results_LLM_mistral_3
 
 # Store the mean CER for each file
 mean_cer_data = []
@@ -39,7 +40,7 @@ df_sorted = df.sort_values(by='Mean CER').head(length)
 print("Top 3 files with lowest Mean CER for Mistral:")
 print(df_sorted)
 
-path_ = os.path.join(results_test_trocr, 'test_evaluation_results_seq.json')
+path_ = os.path.join(results_test_trocr, 'test_evaluation_results_seq_v2_20.json')
 with open(path_, 'r') as file:
     data = json.load(file)
 

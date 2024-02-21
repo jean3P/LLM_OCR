@@ -10,15 +10,16 @@ from confidence_calculator import calculate_confidence
 from customOCRDataset import DatasetConfig
 from data_frame_handler import DataFrameHandler
 from handle_dataset import save_to_json, load_from_json
-from utils.constants import outputs_path, results_test_trocr, processor_save_path_seq, model_save_path_seq
+from utils.constants import outputs_path, results_test_trocr, processor_save_path_seq, model_save_path_seq, \
+    model_save_path_seq_v2, processor_save_path_seq_v2
 
 device = torch.device('cuda:0' if torch.cuda.is_available else 'cpu')
 
 # Load the saved model
-model = VisionEncoderDecoderModel.from_pretrained(model_save_path_seq)
+model = VisionEncoderDecoderModel.from_pretrained(model_save_path_seq_v2)
 
 # Load the saved processor
-processor = TrOCRProcessor.from_pretrained(processor_save_path_seq)
+processor = TrOCRProcessor.from_pretrained(processor_save_path_seq_v2)
 
 # Move the model to the appropriate device
 model.to(device)
@@ -77,7 +78,7 @@ def evaluate_test_data(df, processor, model):
             'cer': cer
         })
 
-    path_file = os.path.join(results_test_trocr, 'test_evaluation_results_seq.json')
+    path_file = os.path.join(results_test_trocr, 'test_evaluation_results_seq_v2_20.json')
     save_to_json(results, path_file)
 
 

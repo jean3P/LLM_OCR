@@ -8,7 +8,7 @@ from transformers import AutoTokenizer, pipeline
 
 from confidence_calculator import calculate_confidence
 from handle_dataset import save_to_json, load_from_json
-from utils.constants import results_test_trocr, WASHINGTON_SAMPLE_TEXT, results_LLM_mistral_2
+from utils.constants import results_test_trocr, WASHINGTON_SAMPLE_TEXT, results_LLM_mistral_2, results_LLM_mistral_3
 
 BAD_GRAMMAR = 'No'
 
@@ -95,19 +95,11 @@ def check_spelling(sentence, pipe):
 
 def check_sentence(sentence, context, pipe):
     system_prompt = (
-        f"<s>Your task is to meticulously correct transcription errors in historical documents scanned using OCR "
-        f"technology. These documents, related to George Washington and dated back to the 18th century, must be "
-        f"adjusted to mirror the original text's historical accuracy and style closely. "
-        f"It's imperative to address common OCR-induced errors such as misspellings, incorrect abbreviations, "
-        f"misinterpretation of terms, and improper punctuation while strictly maintaining the original sentence "
-        f"structure and word count. Avoid adding or omitting information, ensuring the essence and factual content "
-        f"of the document remain unaltered."
-        f"\n## Guiding Principles:"
-        f"- Focus solely on correcting clear OCR errors without modifying the document's original intent or "
-        f"introducing new content."
-        f"- Maintain original punctuation, capitalization, and formatting, respecting 18th-century stylistic nuances."
-        f"- Ensure accuracy in dates, names, and terms, reflecting their true historical versions."
-        f"\n## Examples:"
+        f"<s>Your task is to correct common OCR errors, such as misspellings, incorrect abbreviations, "
+        f"and misinterpretation of terms, ensuring each correction aligns with the original "
+        f"18th-century documents' style and accuracy."
+        f"Hint: Do not add or remove information; corrections should only address OCR errors."
+        f"## Examples:"
         f"  Sentence from OCR:'30th. Letters Orders and Instructions December 1755.' - the corrected sentence: "
         f"'308. Letters Orders and Instructions December 1755.' "
         f"  Sentence from OCR:'remain here until the arrival of the usual with' "
@@ -126,19 +118,7 @@ def check_sentence(sentence, context, pipe):
         f"- the corrected sentence: 'You are immediately, upon receipt'"
         f"  Sentence from OCR: 'hereof, to repair to Winchester, where you will never' "
         f"- the corrected sentence: 'hereof, to repair to Winchester, where you will meet' "
-        f" Sentence from OCR: 'Mr. Bauer, Captain, John's Mercer.' "
-        f"- the corrected sentence: 'The Bearer, captain John Mercer,'"
-        f" Sentence from OCR: 'in Maryland or Pennsylvania, when they' "
-        f"- the corrected sentence: 'in Maryland or Pennsylvania, when they'"
-        f" Sentence from OCR: 'Orders Redman, and the Recruits' "
-        f"- the corrected sentence:'orders- Ensign Hedgeman, and the Recruits'"
-        f" Sentence from OCR: 'alsoed to act under him whether' "
-        f"- the corrected sentence:'also ordered to act under him, until further'"
-        f" Sentence from OCR: '1st. To Mr. Boyd, Paymaster.' - the corrected sentence:'t. To Mr. Boyd, Paymaster'"
-        f" Sentence from OCR: 'the aid de de camp. The New Commissary is to send' "
-        f"- the corrected sentence:'the aid de camp. The Commissary is to send'"
-        f"\n Remember, the aim is to restore the text to its authentic form as if the OCR errors never occurred, "
-        f"ensuring the correction aligns with the original 18th-century documents' style and factual accuracy.")
+    )
 
     if context:  # when there are previously corrected sentences
         adaptation_request = (
@@ -350,7 +330,7 @@ def evaluate_test_data(loaded_data, pipe):
             }
         })
 
-    save_mistral_output = os.path.join(results_LLM_mistral_2, 'evaluation_results_with_mistral_6.json')
+    save_mistral_output = os.path.join(results_LLM_mistral_3, 'evaluation_results_with_mistral_1.json')
     save_to_json(results, save_mistral_output)
 
 
@@ -361,7 +341,7 @@ mistral_model = transformers.AutoModelForCausalLM.from_pretrained(mistral_model_
 mistral_tokenizer = AutoTokenizer.from_pretrained(mistral_model_name)
 mistral_pipe = pipeline("text-generation", model=mistral_model, tokenizer=mistral_tokenizer, batch_size=10)
 
-results_path_from_ocr = os.path.join(results_test_trocr, 'test_evaluation_results_seq.json')
+results_path_from_ocr = os.path.join(results_test_trocr, 'test_evaluation_results_seq_v2_20.json')
 loaded_data = load_from_json(results_path_from_ocr)
 # Example usage
 evaluate_test_data(loaded_data, mistral_pipe)

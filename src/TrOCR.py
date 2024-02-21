@@ -1,7 +1,7 @@
 import glob
 import os
 from dataclasses import dataclass
-
+import pandas as pd
 import evaluate
 import torch
 from torch import optim
@@ -11,8 +11,7 @@ from transformers import TrOCRProcessor, VisionEncoderDecoderModel, Seq2SeqTrain
 from customOCRDataset import ModelConfig, CustomOCRDataset, DatasetConfig
 from data_frame_handler import DataFrameHandler
 from handle_dataset import load_from_json
-from utils.constants import outputs_path, model_save_path_seq, \
-    processor_save_path_seq
+from utils.constants import outputs_path, model_save_path_seq_v2, processor_save_path_seq_v2
 
 device = torch.device('cuda:0' if torch.cuda.is_available else 'cpu')
 
@@ -21,7 +20,14 @@ valid = load_from_json(os.path.join(outputs_path, 'valid', 'validation_seq_data.
 
 handler = DataFrameHandler()
 
+# Convert the training data dictionary to a DataFrame
 train_df = handler.dict_to_dataframe(training)
+
+# Sample 20% of the DataFrame
+sampled_train_df = handler.sample_dataframe(train_df, 20).reset_index(drop=True)
+
+train_df = sampled_train_df
+
 valid_df = handler.dict_to_dataframe(valid)
 
 # sampled_train_df = handler.sample_dataframe(train_df, 10)
@@ -140,14 +146,14 @@ res = trainer.train()
 print(res)
 
 # Create the directories if they don't exist
-os.makedirs(model_save_path_seq, exist_ok=True)
-os.makedirs(processor_save_path_seq, exist_ok=True)
+os.makedirs(model_save_path_seq_v2, exist_ok=True)
+os.makedirs(processor_save_path_seq_v2, exist_ok=True)
 
 # Save the model
-model.save_pretrained(model_save_path_seq)
+model.save_pretrained(model_save_path_seq_v2)
 
 # Save the processor
-processor.save_pretrained(processor_save_path_seq)
+processor.save_pretrained(processor_save_path_seq_v2)
 
-print(f"Model saved to {model_save_path_seq}")
-print(f"Processor saved to {processor_save_path_seq}")
+print(f"Model saved to {model_save_path_seq_v2}")
+print(f"Processor saved to {processor_save_path_seq_v2}")
