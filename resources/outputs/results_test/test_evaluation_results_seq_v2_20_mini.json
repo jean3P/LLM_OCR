@@ -1,0 +1,114 @@
+[
+    {
+        "file_name": "308-12.png",
+        "ground_truth_label": "You are to be very careful of all the",
+        "predicted_label": "You are we to be very careful of all all she",
+        "confidence": 0.8181818181818181,
+        "cer": 0.21621621621621623
+    },
+    {
+        "file_name": "308-13.png",
+        "ground_truth_label": "Things delivered into the waggons, and see that",
+        "predicted_label": "Bring delivered into the Nuggets, and she that",
+        "confidence": 0.8297872340425532,
+        "cer": 0.1702127659574468
+    },
+    {
+        "file_name": "308-14.png",
+        "ground_truth_label": "a strict Guard is kept over them, that no embez-",
+        "predicted_label": "at Shirt is kept than, that ond es-",
+        "confidence": 0.5208333333333333,
+        "cer": 0.4791666666666667
+    },
+    {
+        "file_name": "308-15.png",
+        "ground_truth_label": "zlement is made. If your men can not be",
+        "predicted_label": "ferment is made. If your your ments were torn not be",
+        "confidence": 0.6538461538461539,
+        "cer": 0.46153846153846156
+    },
+    {
+        "file_name": "308-16.png",
+        "ground_truth_label": "conveniently Quartered on their march up; there",
+        "predicted_label": "1.8% remaining Treatment on theirwash on march up; these",
+        "confidence": 0.5,
+        "cer": 0.5957446808510638
+    },
+    {
+        "file_name": "308-20.png",
+        "ground_truth_label": "to send a Sergeant, and one or two trusty men",
+        "predicted_label": "to send a biggest, and one or two twenty men.",
+        "confidence": 0.8,
+        "cer": 0.2
+    },
+    {
+        "file_name": "308-21.png",
+        "ground_truth_label": "in pursuit of them.",
+        "predicted_label": "in munit of them.",
+        "confidence": 0.7894736842105263,
+        "cer": 0.21052631578947367
+    },
+    {
+        "file_name": "308-22.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "predicted_label": "UCF.J.com of Alexandria.",
+        "confidence": 0.41666666666666663,
+        "cer": 0.6086956521739131
+    },
+    {
+        "file_name": "308-25.png",
+        "ground_truth_label": "16th. To Doctor James Craik, of the Virginia",
+        "predicted_label": "to. To Doctor James James Grady of the Virginiaie",
+        "confidence": 0.6938775510204082,
+        "cer": 0.3409090909090909
+    },
+    {
+        "file_name": "308-29.png",
+        "ground_truth_label": "the first opportunity that offers, of conveying up",
+        "predicted_label": "the factunity that offers you",
+        "confidence": 0.52,
+        "cer": 0.48
+    },
+    {
+        "file_name": "308-30.png",
+        "ground_truth_label": "your Chest, and proceeding, yourself, to Winches-",
+        "predicted_label": "you that that, and processing, yourself to Winches-",
+        "confidence": 0.7843137254901961,
+        "cer": 0.22448979591836735
+    },
+    {
+        "file_name": "308-31.png",
+        "ground_truth_label": "ter. You are to provide yourself here, with",
+        "predicted_label": "ter. You are to provide yourself here with",
+        "confidence": 0.9767441860465116,
+        "cer": 0.023255813953488372
+    },
+    {
+        "file_name": "308-32.png",
+        "ground_truth_label": "what you think will be wanting for the Hos-",
+        "predicted_label": "what you think will be wasting for the tion-",
+        "confidence": 0.9090909090909091,
+        "cer": 0.09302325581395349
+    },
+    {
+        "file_name": "308-33.png",
+        "ground_truth_label": "pital, and bring them up with you; taking",
+        "predicted_label": "patch, and, and Bring them them up with your taking taking",
+        "confidence": 0.6379310344827587,
+        "cer": 0.5121951219512195
+    },
+    {
+        "file_name": "309-01.png",
+        "ground_truth_label": "p.309.",
+        "predicted_label": "Q.S.",
+        "confidence": 0.33333333333333337,
+        "cer": 0.6666666666666666
+    },
+    {
+        "file_name": "309-02.png",
+        "ground_truth_label": "Letters Orders and Instructions December 1755.",
+        "predicted_label": "Letters Order Orders and Instructions Decembers December 1755,",
+        "confidence": 0.7258064516129032,
+        "cer": 0.3695652173913043
+    }
+]

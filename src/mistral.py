@@ -95,9 +95,9 @@ def check_spelling(sentence, pipe):
 
 def check_sentence(sentence, context, pipe):
     system_prompt = (
-        f"<s>Your task is to correct common OCR errors, such as misspellings, incorrect abbreviations, "
-        f"and misinterpretation of terms, ensuring each correction aligns with the original "
-        f"18th-century documents' style and accuracy."
+        f"<s>Acts as an expert on Washington's 18th century dataset. Your task are:"
+        f"correct common OCR errors, such as misspellings, incorrect abbreviations, and misinterpretation of terms. "
+        f"Ensuring each correction aligns with the original 18th-century dataset' style and accuracy."
         f"Hint: Do not add or remove information; corrections should only address OCR errors."
         f"## Examples:"
         f"  Sentence from OCR:'30th. Letters Orders and Instructions December 1755.' - the corrected sentence: "
@@ -118,6 +118,7 @@ def check_sentence(sentence, context, pipe):
         f"- the corrected sentence: 'You are immediately, upon receipt'"
         f"  Sentence from OCR: 'hereof, to repair to Winchester, where you will never' "
         f"- the corrected sentence: 'hereof, to repair to Winchester, where you will meet' "
+        f"</s>"
     )
 
     if context:  # when there are previously corrected sentences
@@ -271,18 +272,18 @@ def correct_sentences(sentence_data, pipe, batch_size=10):
             context = "\n".join(document_contexts[document_id])
             # print(f"Context before processing for document {document_id}: {context}")
 
-            check_grammar_result = check_grammar(sentence, pipe)
-            if check_grammar_result == GOOD_GRAMMAR:
-                sentence_to_append = sentence
-                is_correct = GOOD_GRAMMAR
-                print(GOOD_GRAMMAR)
-            elif check_grammar_result == BAD_GRAMMAR:
-                is_correct = BAD_GRAMMAR
-                print(BAD_GRAMMAR)
-                corrected_sentence = check_sentence(sentence, context, pipe)
-                sentence_to_append = corrected_sentence if corrected_sentence != 'Error' else sentence
-            else:
-                sentence_to_append = sentence
+            # check_grammar_result = check_grammar(sentence, pipe)
+            # if check_grammar_result == GOOD_GRAMMAR:
+            #     sentence_to_append = sentence
+            #     is_correct = GOOD_GRAMMAR
+            #     print(GOOD_GRAMMAR)
+            # elif check_grammar_result == BAD_GRAMMAR:
+            #     is_correct = BAD_GRAMMAR
+            print(BAD_GRAMMAR)
+            corrected_sentence = check_sentence(sentence, context, pipe)
+            sentence_to_append = corrected_sentence if corrected_sentence != 'Error' else sentence
+            # else:
+            #     sentence_to_append = sentence
                 # print(f"Grammar check error or inconclusive for sentence: {sentence}")
 
             corrected_sentences.append(sentence_to_append)
@@ -330,7 +331,7 @@ def evaluate_test_data(loaded_data, pipe):
             }
         })
 
-    save_mistral_output = os.path.join(results_LLM_mistral_3, 'evaluation_results_with_mistral_1.json')
+    save_mistral_output = os.path.join(results_LLM_mistral_3, 'evaluation_results_with_mistral_4.json')
     save_to_json(results, save_mistral_output)
 
 
@@ -341,7 +342,7 @@ mistral_model = transformers.AutoModelForCausalLM.from_pretrained(mistral_model_
 mistral_tokenizer = AutoTokenizer.from_pretrained(mistral_model_name)
 mistral_pipe = pipeline("text-generation", model=mistral_model, tokenizer=mistral_tokenizer, batch_size=10)
 
-results_path_from_ocr = os.path.join(results_test_trocr, 'test_evaluation_results_seq_v2_20.json')
+results_path_from_ocr = os.path.join(results_test_trocr, 'test_evaluation_results_seq_v2_20_mini.json')
 loaded_data = load_from_json(results_path_from_ocr)
 # Example usage
 evaluate_test_data(loaded_data, mistral_pipe)

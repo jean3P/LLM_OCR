@@ -1,0 +1,226 @@
+[
+    {
+        "file_name": "308-12.png",
+        "ground_truth_label": "You are to be very careful of all the",
+        "OCR": {
+            "predicted_label": "You are we to be very careful of all all she",
+            "cer": 0.21621621621621623,
+            "confidence": 0.8181818181818181
+        },
+        "MISTRAL": {
+            "predicted_label": "You are we to be very careful of all all she",
+            "cer": 0.21621621621621623,
+            "confidence": 0.8181818181818181
+        }
+    },
+    {
+        "file_name": "308-13.png",
+        "ground_truth_label": "Things delivered into the waggons, and see that",
+        "OCR": {
+            "predicted_label": "Bring delivered into the Nuggets, and she that",
+            "cer": 0.1702127659574468,
+            "confidence": 0.8297872340425532
+        },
+        "MISTRAL": {
+            "predicted_label": "Bring delivered into the Nuggets, and she that",
+            "cer": 0.1702127659574468,
+            "confidence": 0.8297872340425532
+        }
+    },
+    {
+        "file_name": "308-14.png",
+        "ground_truth_label": "a strict Guard is kept over them, that no embez-",
+        "OCR": {
+            "predicted_label": "at Shirt is kept than, that ond es-",
+            "cer": 0.4791666666666667,
+            "confidence": 0.5208333333333333
+        },
+        "MISTRAL": {
+            "predicted_label": "at Shirt is kept than, that ond es-",
+            "cer": 0.4791666666666667,
+            "confidence": 0.5208333333333333
+        }
+    },
+    {
+        "file_name": "308-15.png",
+        "ground_truth_label": "zlement is made. If your men can not be",
+        "OCR": {
+            "predicted_label": "ferment is made. If your your ments were torn not be",
+            "cer": 0.46153846153846156,
+            "confidence": 0.6538461538461539
+        },
+        "MISTRAL": {
+            "predicted_label": "ferment is made. If your your ments were torn not be",
+            "cer": 0.46153846153846156,
+            "confidence": 0.6538461538461539
+        }
+    },
+    {
+        "file_name": "308-16.png",
+        "ground_truth_label": "conveniently Quartered on their march up; there",
+        "OCR": {
+            "predicted_label": "1.8% remaining Treatment on theirwash on march up; these",
+            "cer": 0.5957446808510638,
+            "confidence": 0.5
+        },
+        "MISTRAL": {
+            "predicted_label": "1.8% remaining Treatment on theirwash on march up; these",
+            "cer": 0.5957446808510638,
+            "confidence": 0.5
+        }
+    },
+    {
+        "file_name": "308-20.png",
+        "ground_truth_label": "to send a Sergeant, and one or two trusty men",
+        "OCR": {
+            "predicted_label": "to send a biggest, and one or two twenty men.",
+            "cer": 0.2,
+            "confidence": 0.8
+        },
+        "MISTRAL": {
+            "predicted_label": "to send a biggest, and one or two twenty men.",
+            "cer": 0.2,
+            "confidence": 0.8
+        }
+    },
+    {
+        "file_name": "308-21.png",
+        "ground_truth_label": "in pursuit of them.",
+        "OCR": {
+            "predicted_label": "in munit of them.",
+            "cer": 0.21052631578947367,
+            "confidence": 0.7894736842105263
+        },
+        "MISTRAL": {
+            "predicted_label": "in munit of them.",
+            "cer": 0.21052631578947367,
+            "confidence": 0.7894736842105263
+        }
+    },
+    {
+        "file_name": "308-22.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "UCF.J.com of Alexandria.",
+            "cer": 0.6086956521739131,
+            "confidence": 0.41666666666666663
+        },
+        "MISTRAL": {
+            "predicted_label": "UCF.J.com of Alexandria.",
+            "cer": 0.6086956521739131,
+            "confidence": 0.41666666666666663
+        }
+    },
+    {
+        "file_name": "308-25.png",
+        "ground_truth_label": "16th. To Doctor James Craik, of the Virginia",
+        "OCR": {
+            "predicted_label": "to. To Doctor James James Grady of the Virginiaie",
+            "cer": 0.3409090909090909,
+            "confidence": 0.6938775510204082
+        },
+        "MISTRAL": {
+            "predicted_label": "to. To Doctor James James Grady of the Virginiaie",
+            "cer": 0.3409090909090909,
+            "confidence": 0.6938775510204082
+        }
+    },
+    {
+        "file_name": "308-29.png",
+        "ground_truth_label": "the first opportunity that offers, of conveying up",
+        "OCR": {
+            "predicted_label": "the factunity that offers you",
+            "cer": 0.48,
+            "confidence": 0.52
+        },
+        "MISTRAL": {
+            "predicted_label": "the factunity that offers you",
+            "cer": 0.48,
+            "confidence": 0.52
+        }
+    },
+    {
+        "file_name": "308-30.png",
+        "ground_truth_label": "your Chest, and proceeding, yourself, to Winches-",
+        "OCR": {
+            "predicted_label": "you that that, and processing, yourself to Winches-",
+            "cer": 0.22448979591836735,
+            "confidence": 0.7843137254901961
+        },
+        "MISTRAL": {
+            "predicted_label": "you that that, and processing, yourself to Winches-",
+            "cer": 0.22448979591836735,
+            "confidence": 0.7843137254901961
+        }
+    },
+    {
+        "file_name": "308-31.png",
+        "ground_truth_label": "ter. You are to provide yourself here, with",
+        "OCR": {
+            "predicted_label": "ter. You are to provide yourself here with",
+            "cer": 0.023255813953488372,
+            "confidence": 0.9767441860465116
+        },
+        "MISTRAL": {
+            "predicted_label": "ter. You are to provide yourself here with",
+            "cer": 0.023255813953488372,
+            "confidence": 0.9767441860465116
+        }
+    },
+    {
+        "file_name": "308-32.png",
+        "ground_truth_label": "what you think will be wanting for the Hos-",
+        "OCR": {
+            "predicted_label": "what you think will be wasting for the tion-",
+            "cer": 0.09302325581395349,
+            "confidence": 0.9090909090909091
+        },
+        "MISTRAL": {
+            "predicted_label": "what you think will be wasting for the tion-",
+            "cer": 0.09302325581395349,
+            "confidence": 0.9090909090909091
+        }
+    },
+    {
+        "file_name": "308-33.png",
+        "ground_truth_label": "pital, and bring them up with you; taking",
+        "OCR": {
+            "predicted_label": "patch, and, and Bring them them up with your taking taking",
+            "cer": 0.5121951219512195,
+            "confidence": 0.6379310344827587
+        },
+        "MISTRAL": {
+            "predicted_label": "patch, and, and Bring them them up with your taking taking",
+            "cer": 0.5121951219512195,
+            "confidence": 0.6379310344827587
+        }
+    },
+    {
+        "file_name": "309-01.png",
+        "ground_truth_label": "p.309.",
+        "OCR": {
+            "predicted_label": "Q.S.",
+            "cer": 0.6666666666666666,
+            "confidence": 0.33333333333333337
+        },
+        "MISTRAL": {
+            "predicted_label": "Q.S.",
+            "cer": 0.6666666666666666,
+            "confidence": 0.33333333333333337
+        }
+    },
+    {
+        "file_name": "309-02.png",
+        "ground_truth_label": "Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "Letters Order Orders and Instructions Decembers December 1755,",
+            "cer": 0.3695652173913043,
+            "confidence": 0.7258064516129032
+        },
+        "MISTRAL": {
+            "predicted_label": "Letters Order Orders and Instructions Decembers December 1755,",
+            "cer": 0.3695652173913043,
+            "confidence": 0.7258064516129032
+        }
+    }
+]
