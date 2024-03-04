@@ -82,33 +82,5 @@
         "predicted_label": "ter. You are to provide yourself here with",
         "confidence": 0.9767441860465116,
         "cer": 0.023255813953488372
-    },
-    {
-        "file_name": "308-32.png",
-        "ground_truth_label": "what you think will be wanting for the Hos-",
-        "predicted_label": "what you think will be wasting for the tion-",
-        "confidence": 0.9090909090909091,
-        "cer": 0.09302325581395349
-    },
-    {
-        "file_name": "308-33.png",
-        "ground_truth_label": "pital, and bring them up with you; taking",
-        "predicted_label": "patch, and, and Bring them them up with your taking taking",
-        "confidence": 0.6379310344827587,
-        "cer": 0.5121951219512195
-    },
-    {
-        "file_name": "309-01.png",
-        "ground_truth_label": "p.309.",
-        "predicted_label": "Q.S.",
-        "confidence": 0.33333333333333337,
-        "cer": 0.6666666666666666
-    },
-    {
-        "file_name": "309-02.png",
-        "ground_truth_label": "Letters Orders and Instructions December 1755.",
-        "predicted_label": "Letters Order Orders and Instructions Decembers December 1755,",
-        "confidence": 0.7258064516129032,
-        "cer": 0.3695652173913043
     }
 ]

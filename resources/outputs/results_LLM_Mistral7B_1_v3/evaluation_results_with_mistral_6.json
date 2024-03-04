@@ -8,9 +8,9 @@
             "confidence": 0.9803921568627451
         },
         "MISTRAL": {
-            "predicted_label": "208. Letters Orders and Instructions December 1755.",
-            "cer": 0.0196078431372549,
-            "confidence": 0.9803921568627451
+            "predicted_label": "208. Letters, Orders, and Instructions, December 1755.",
+            "cer": 0.0784313725490196,
+            "confidence": 0.9259259259259259
         }
     },
     {
@@ -22,9 +22,9 @@
             "confidence": 0.4375
         },
         "MISTRAL": {
-            "predicted_label": "remain here until the arrival of the vessel with  [INST] Given the context of previous sentences: 308. Letters Orders and Instructions December 1755., correct any errors in the following OCR sentence to match 18th-century language style and historical accuracy. Hint: The corrected sentence has to fit with the context. without adding extra information: thes, Vc. and to me directions[/INST]. If you dont know how to correct return the sentence: thes, Vc. and to me directions  [INST] Given the context of previous sentences: 308. Letters Orders and Instructions December 1755., correct any errors in the following OCR sentence to match 18th-century language style and historical accuracy. Hint: The corrected sentence has to fit with the context. without adding extra information: of Clothes; Shoes, Stockings, Shirts, Vc.: propatioma-[/INST]. If you dont know how to correct return the sentence: of Clothes; Shoes, Stocking, Shirts, Vc. proportion-  [INST] Given the context of previous sentences: 308. Letters Orders and Instructions December 1755., correct any errors in the following OCR sentence to match 18th-century language style and historical accuracy. Hint: The corrected sentence has to fit with the context. without adding extra information: things delivered into into the Nuggets, and are that[/INST]. If you dont know how to correct return the sentence: things delivered into the waggons, and see that  [INST] Given the context of previous sentences: 308. Letters Orders and Instructions December 1755., correct any errors in the following OCR sentence to match 18th-century language style and historical accuracy. Hint: The corrected sentence has to fit with the context. without adding extra information: No. To Doctor James Frank of the Virginia[/INST]. If you dont know how to correct return the sentence: To Doctor James Craik, of the Virginia  [INST] Given the context of previous sentences: 308. Letters Orders and Instructions December 1755., correct any errors in the following OCR sentence to match 18th-century language style and historical accuracy. Hint: The corrected sentence has to fit with the context. without adding extra information: as before ordered. To soon as the Stores arrive, you[/INST]. If you dont know how to correct return the sentence: as before ordered. So soon as the Stores arrive, you  [INST] Given the context of previous sentences: 308. Letters Orders and Instructions December 1755., correct any errors in the following OCR sentence to match 18th-century language style and historical accuracy. Hint: The corrected sentence has to fit with the context. without adding extra information: hereof, to repair to Winchester, where you will never[/INST]. If you dont know how to correct return the sentence: hereof, to repair to Winchester, where you will meet  [INST] Given the context of previous sentences: 308. Letters Orders and Instructions December 1755., correct any errors in the following OCR sentence to match 18th-century language style and historical accuracy. Hin",
-            "cer": 61.895833333333336,
-            "confidence": 0.01586252478519501
+            "predicted_label": "remain here until the arrival of the vessel with",
+            "cer": 0.0,
+            "confidence": 1.0
         }
     },
     {
@@ -50,9 +50,9 @@
             "confidence": 0.6129032258064516
         },
         "MISTRAL": {
-            "predicted_label": "as before ordered. So soon as the Stores arrive, you",
-            "cer": 0.0,
-            "confidence": 1.0
+            "predicted_label": "as going for ordered. To soon as the Stores arrive, you",
+            "cer": 0.15384615384615385,
+            "confidence": 0.8545454545454545
         }
     },
     {
@@ -148,9 +148,9 @@
             "confidence": 0.8181818181818181
         },
         "MISTRAL": {
-            "predicted_label": "You are we to be very careful of all the she",
-            "cer": 0.1891891891891892,
-            "confidence": 0.8409090909090909
+            "predicted_label": "You are we to be very careful of all all she",
+            "cer": 0.21621621621621623,
+            "confidence": 0.8181818181818181
         }
     },
     {
@@ -162,9 +162,9 @@
             "confidence": 0.8297872340425532
         },
         "MISTRAL": {
-            "predicted_label": "Bring delivered into the waggons, and see that",
-            "cer": 0.06382978723404255,
-            "confidence": 0.9361702127659575
+            "predicted_label": "Bring delivered into the wagons, and see that",
+            "cer": 0.0851063829787234,
+            "confidence": 0.9148936170212766
         }
     },
     {
@@ -190,9 +190,9 @@
             "confidence": 0.6538461538461539
         },
         "MISTRAL": {
-            "predicted_label": "ferment is made. If your ments were torn not be",
-            "cer": 0.3333333333333333,
-            "confidence": 0.7234042553191489
+            "predicted_label": "ferment is made. If your your ments were torn not be",
+            "cer": 0.46153846153846156,
+            "confidence": 0.6538461538461539
         }
     },
     {
@@ -274,9 +274,9 @@
             "confidence": 0.7894736842105263
         },
         "MISTRAL": {
-            "predicted_label": "in the absence of them.",
-            "cer": 0.5263157894736842,
-            "confidence": 0.5652173913043479
+            "predicted_label": "in the midst of them.",
+            "cer": 0.3684210526315789,
+            "confidence": 0.6666666666666667
         }
     },
     {
@@ -316,9 +316,9 @@
             "confidence": 0.6938775510204082
         },
         "MISTRAL": {
-            "predicted_label": "To Doctor James Craik, of the Virginia",
-            "cer": 0.13636363636363635,
-            "confidence": 0.8636363636363636
+            "predicted_label": "to. To Doctor James Craik, of the Virginia",
+            "cer": 0.06818181818181818,
+            "confidence": 0.9318181818181819
         }
     },
     {
@@ -386,9 +386,9 @@
             "confidence": 0.7843137254901961
         },
         "MISTRAL": {
-            "predicted_label": "you that, and processing, yourself to Winchester,",
-            "cer": 0.22448979591836735,
-            "confidence": 0.7755102040816326
+            "predicted_label": "you are to repair to Winchester, where you will meet",
+            "cer": 0.7551020408163265,
+            "confidence": 0.28846153846153844
         }
     },
     {
@@ -456,9 +456,9 @@
             "confidence": 0.746031746031746
         },
         "MISTRAL": {
-            "predicted_label": "necessary, for the support and relief of the sick and wounded",
-            "cer": 0.2830188679245283,
-            "confidence": 0.7540983606557377
+            "predicted_label": "necessary, for the support and relief and Relief of the Beijing",
+            "cer": 0.3018867924528302,
+            "confidence": 0.746031746031746
         }
     },
     {
@@ -484,9 +484,9 @@
             "confidence": 0.7258064516129032
         },
         "MISTRAL": {
-            "predicted_label": "Letters Orders and Instructions December 1755.",
-            "cer": 0.0,
-            "confidence": 1.0
+            "predicted_label": "Letters, Orders, and Instructions, December 1755.",
+            "cer": 0.06521739130434782,
+            "confidence": 0.9387755102040817
         }
     },
     {
@@ -512,9 +512,9 @@
             "confidence": 0.7
         },
         "MISTRAL": {
-            "predicted_label": "308. Letters Orders and Instructions December 1755.",
-            "cer": 1.95,
-            "confidence": 0.23529411764705888
+            "predicted_label": "December 1755.",
+            "cer": 0.3,
+            "confidence": 0.7
         }
     },
     {
@@ -526,9 +526,9 @@
             "confidence": 0.7380952380952381
         },
         "MISTRAL": {
-            "predicted_label": "No. To Captain John Mercer. of the",
-            "cer": 0.1111111111111111,
-            "confidence": 0.8888888888888888
+            "predicted_label": "No. To Captain John Mercer, of the",
+            "cer": 0.1388888888888889,
+            "confidence": 0.8611111111111112
         }
     },
     {
@@ -680,9 +680,9 @@
             "confidence": 0.7692307692307692
         },
         "MISTRAL": {
-            "predicted_label": "instagram Return to be given in immediate",
+            "predicted_label": "instagram Return to be given in immediate-",
             "cer": 0.3870967741935484,
-            "confidence": 0.7073170731707317
+            "confidence": 0.7142857142857143
         }
     },
     {
@@ -694,9 +694,9 @@
             "confidence": 0.8703703703703703
         },
         "MISTRAL": {
-            "predicted_label": "immediately of the Recruits now in this form, by the sumal",
-            "cer": 0.24074074074074073,
-            "confidence": 0.7758620689655172
+            "predicted_label": "ately of the Recruits now in this form, by the sumal",
+            "cer": 0.12962962962962962,
+            "confidence": 0.8703703703703703
         }
     },
     {
@@ -708,9 +708,9 @@
             "confidence": 0.8653846153846154
         },
         "MISTRAL": {
-            "predicted_label": "Officer who enlisted them, mentioned their freight,",
-            "cer": 0.1346153846153846,
-            "confidence": 0.8653846153846154
+            "predicted_label": "Officer who enlisted them, mentioned their freight.",
+            "cer": 0.15384615384615385,
+            "confidence": 0.8461538461538461
         }
     },
     {
@@ -736,9 +736,9 @@
             "confidence": 0.6851851851851851
         },
         "MISTRAL": {
-            "predicted_label": "acts who understand the manual of arms; do",
-            "cer": 0.20930232558139536,
-            "confidence": 0.7906976744186046
+            "predicted_label": "acts who understand the manual of the thermal Species; do",
+            "cer": 0.46511627906976744,
+            "confidence": 0.6491228070175439
         }
     },
     {
@@ -750,9 +750,9 @@
             "confidence": 0.9069767441860466
         },
         "MISTRAL": {
-            "predicted_label": "Grill the Recruits, at least twice a day and any.",
-            "cer": 0.24390243902439024,
-            "confidence": 0.7959183673469388
+            "predicted_label": "Grill the Recruits, at least twice and any.",
+            "cer": 0.0975609756097561,
+            "confidence": 0.9069767441860466
         }
     },
     {
@@ -820,9 +820,9 @@
             "confidence": 0.7021276595744681
         },
         "MISTRAL": {
-            "predicted_label": "During your stay here promotion is to be deferred.",
-            "cer": 0.3829787234042553,
-            "confidence": 0.64
+            "predicted_label": "During your stay here, promotion is to be deferred.",
+            "cer": 0.3617021276595745,
+            "confidence": 0.6666666666666667
         }
     },
     {
@@ -862,9 +862,9 @@
             "confidence": 0.7321428571428572
         },
         "MISTRAL": {
-            "predicted_label": "up the lack of Tools by the first wassons that",
-            "cer": 0.1111111111111111,
-            "confidence": 0.8913043478260869
+            "predicted_label": "up the lack of Tools by the first wassons that that",
+            "cer": 0.2222222222222222,
+            "confidence": 0.803921568627451
         }
     },
     {
