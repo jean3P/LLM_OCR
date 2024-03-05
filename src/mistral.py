@@ -14,7 +14,7 @@ BAD_GRAMMAR = 'No'
 
 GOOD_GRAMMAR = 'Yes'
 
-device = torch.device("cpu")
+device = torch.device("cuda")
 cer_metric = evaluate.load('cer')
 
 # Global variable to store context sentences for each document
@@ -95,51 +95,67 @@ def check_spelling(sentence, pipe):
 
 def check_sentence(sentence, context, pipe):
     system_prompt = (
-        f"<s>Acts as an expert on Washington's 18th century dataset. Your task are:"
-        f"correct common OCR errors, such as misspellings, incorrect abbreviations, and misinterpretation of terms. "
-        f"Ensuring each correction aligns with the original 18th-century dataset' style and accuracy."
-        f"Hint: Do not add or remove information; corrections should only address OCR errors."
-        f"## Examples:"
-        f"  Sentence from OCR:'30th. Letters Orders and Instructions December 1755.' - the corrected sentence: "
-        f"'308. Letters Orders and Instructions December 1755.' "
-        f"  Sentence from OCR:'remain here until the arrival of the usual with' "
-        f"- the corrected sentence: 'remain here until the arrival of the vessel with'"
-        f"  Sentence from OCR:'thes, Vc. and to me directions' "
-        f"- the corrected sentence: 'the Stores, Vc. and to be under the same directions'"
-        f"  Sentence from OCR:'of Clothes; Shoes, Stockings, Shirts, Vc.: propatioma-' "
-        f"- the corrected sentence: 'of Clothes; Shoes, Stocking, Shirts, Vc. proportion-'"
-        f"  Sentence from OCR:'things delivered into into the Nuggets, and are that' "
-        f"- the corrected sentence:'Things delivered into the waggons, and see that'"
-        f"  Sentence from OCR:'No. To Doctor James Frank of the Virginia' "
-        f"- the corrected sentence: 'To Doctor James Craik, of the Virginia' "
-        f"  Sentence from OCR: 'as before ordered. To soon as the Stores arrive, you' "
-        f"- the corrected sentence: 'as before ordered. So soon as the Stores arrive, you' "
-        f"  Sentence from OCR: 'You are are immediately, upon receipt' "
-        f"- the corrected sentence: 'You are immediately, upon receipt'"
-        f"  Sentence from OCR: 'hereof, to repair to Winchester, where you will never' "
-        f"- the corrected sentence: 'hereof, to repair to Winchester, where you will meet' "
-        f"</s>"
+        "<s>"
+        "[INST] As the assistant, you're tasked with addressing OCR errors found in a dataset of 18th-century documents. "
+        "These errors span simple misspellings to more nuanced issues like incorrect abbreviations and "
+        "term misinterpretations. The goal is to correct these errors with utmost care to retain the manuscripts' "
+        "original style and accuracy, ensuring no new information is introduced and no critical details are omitted."
+        "\n\n## Guidelines:"
+        "\n- Address only OCR errors, without adding to or removing content from the original."
+        "\n- Ensure corrections reflect the 18th-century's language, style, and conventions accurately, "
+        "including appropriate historical context and terminology [/INST]."
+        "\n\n## Examples of Corrected Errors:"
+        "1. OCR Error from the User: '30th. Letters Orders and Instructions December 1755.' "
+        "Correction from the assistant: '308th Letters, Orders, and Instructions, December 1755.'"
+        "2. OCR Error from the User: 'remain here until the arrival of the usual with' "
+        "Correction from the assistant: 'remain here until the arrival of the vessel with'"
+        "3. OCR Error from the User: 'thes, Vc. and to me directions' "
+        "Correction from the assistant: 'the Stores, &c., and to be under the same directions'"
+        "4. OCR Error from the User: 'of Clothes; Shoes, Stockings, Shirts, Vc.: propatioma-' "
+        "Correction from the assistant: 'of Clothes; Shoes, Stockings, Shirts, &c.: proportionate-'"
+        "5. OCR Error from the User: 'things delivered into into the Nuggets, and are that' "
+        "Correction from the assistant: 'Things delivered into the wagons, and see that'"
+        "6. OCR Error from the User: 'No. To Doctor James Frank of the Virginia' "
+        "Correction from the assistant: 'To Doctor James Craik, of the Virginia'"
+        "7. OCR Error from the User: 'as before ordered. To soon as the Stores arrive, you' "
+        "Correction from the assistant: 'as before ordered. As soon as the Stores arrive, you'"
+        "8. OCR Error from the User: 'You are are immediately, upon receipt' "
+        "Correction from the assistant: 'You are immediately, upon receipt'"
+        "9. OCR Error from the User: 'hereof, to repair to Winchester, where you will never' "
+        "Correction from the assistant: 'hereof, to repair to Winchester, where you will meet'"
+        "10. OCR ERROR from the User: 'you that that, and processing, yourself to Winches-'"
+        "Correction from the assistant: 'your Chest, and proceeding, yourself, to Winches-'"
+        "</s>"
     )
 
     if context:  # when there are previously corrected sentences
+
         adaptation_request = (
-            f"<s>[INST] Given the context of previous corrections: {context}, "
-            f"correct any errors in the following OCR sentence to match 18th-century language "
-            f"style and historical accuracy, without adding extra information: '{sentence}'[/INST]. "
-            f"If you don't know how to correct return the sentence: '{sentence}'</s>")
-    else:  # when there are no previously corrected sentences
-        adaptation_request = (
-            f"<s>[INST] Without prior context, correct the OCR sentence to accurately reflect "
-            f"18th-century language style and historical context, avoiding additions: '{sentence}'[/INST]</s>"
-            f"If you don't know how to correct return the sentence: '{sentence}'</s>"
+            f"<s>"
+            f"[INST] Given the context of previously corrected sentences: {context}, "
+            f"you are now faced with a new sentence that requires correction. Based on the 18th-century language style "
+            f"and historical accuracy, how should the following OCR error be corrected? OCR Error from the User: '{sentence}'."
+            "\n\nIf correction is not feasible without altering the original meaning or adding new information, "
+            f"the sentence will be returned as-is: {sentence}."
+            f" [/INST]</s>"
         )
 
-    prompt = f"{system_prompt}\n{adaptation_request}\nThe corrected sentence is:"
+    else:  # when there are no previously corrected sentences
+        adaptation_request = (
+            f"<s>"
+            f"[INST] Without the guidance of previously corrected sentences, you must correct the following OCR error "
+            f"to accurately reflect the 18th-century language style and historical context: OCR Error from the User: '{sentence}'."
+            "\n\nIn the absence of prior corrections for context, the focus is solely on the sentence at hand, "
+            f"aiming to restore its authenticity. If an accurate correction cannot be determined, "
+            f"the sentence will be returned unchanged: {sentence} [/INST]</s>"
+        )
+
+    prompt = f"{system_prompt}\n{adaptation_request}\nThe corrected sentence from the assistant:"
     nummer_length = (len(sentence) * 2) + 1300
 
     try:
         corrected_text = calculate_pipe(pipe, prompt, nummer_length, 1)
-        response = corrected_text[0]['generated_text'].split('The corrected sentence is:')[-1].strip()
+        response = corrected_text[0]['generated_text'].split('The corrected sentence from the assistant:')[-1].strip()
         # Post-processing to remove any additional unwanted text
         response = response[1:-1]
         response = response.replace("'", "")
@@ -149,103 +165,6 @@ def check_sentence(sentence, context, pipe):
         print(f"Error in processing sentence '{sentence}': {e}")
         response = 'Error'
     return response
-
-
-# def standardize_terms(sentence, context, pipe):
-#     # Assuming check_standardize_terms is similar to check_spelling, returning 'Yes' if standardization is needed
-#     standardization_result = check_standardize_terms(sentence, pipe)
-#     print(f"The sentence has terms that require standardization: {standardization_result}")
-#
-#     if standardization_result == 'Yes':
-#         system_prompt = (
-#             "<s>Identify and standardize only the terms and abbreviations in the provided sentence, "
-#             "originating from an OCR process, to ensure they reflect accurate historical terminology and usage. "
-#             "Preserve the original sentence structure and punctuation, including dashes. "
-#             "## Examples: "
-#             "OCR sentence: 'Refer to the doc. as per the inst. given.' "
-#             "- Standardized sentence: 'Refer to the document as per the instructions given.'"
-#             "OCR sentence: 'Arrival of the Vc. with the supplies.' - "
-#             "Standardized sentence: 'Arrival of the viz. with the supplies.'</s>"
-#         )
-#
-#         if context:  # When there are previously corrected sentences to provide context
-#             adaptation_request = (
-#                 f"<s>[INST] Given the previous sentences of the document that help understand the context: {context}, "
-#                 f"please standardize the terms and abbreviations of the OCR sentence: '{sentence}' [/INST]</s>")
-#         else:  # When there is no prior context available
-#             adaptation_request = (
-#                 f"<s>[INST] Without any prior context, standardize the terms and abbreviations of the OCR sentence: '{sentence}' "
-#                 f"[/INST]</s>")
-#
-#         prompt = f"{system_prompt}\n{adaptation_request}\nStandardized sentence:"
-#         nummer_length = (len(sentence) * 2) + 500
-#
-#         try:
-#             corrected_text = calculate_pipe(pipe, prompt, nummer_length, 1)
-#             response = corrected_text[0]['generated_text'].split('Standardized sentence:')[-1].strip()
-#             # Post-processing to remove any additional unwanted text
-#             response = response[1:-1]
-#             response = response.replace("'", "")
-#             response = response.split('\n')[0].strip()
-#
-#         except Exception as e:
-#             print(f"Error in processing sentence '{sentence}': {e}")
-#             response = 'Error'
-#         return response
-#
-#     elif standardization_result == 'No':
-#         print("No terms require standardization:", sentence)
-#         return sentence
-#
-#     else:
-#         print("Error or ambiguity detected in term standardization check.")
-#         return sentence
-
-
-# def check_spelling_mistakes(sentence, context, pipe):
-#     spelling_result = check_spelling(sentence, pipe)
-#     print(f"Te sentence has spelling mistakes: {spelling_result}")
-#     if spelling_result == 'Yes':
-#         system_prompt = (
-#             f"<s>Identify and correct only the spelling mistakes in the provided sentence, "
-#             f"originating from an OCR process, to accurately reflect the original text in 18th-century style. "
-#             f"Ensure the corrected sentence retains the same number of words as the OCR version. "
-#             f"## Examples:"
-#             f"OCR sentence: '30th. Letters Orders and Instructions December 1755.' - Corrected sentence: 'the Stores'"
-#             f"OCR sentence: 'thes, Vc. and to me directions' "
-#             f"- Corrected sentence: 'the Stores, viz. and to be under the same directions'"
-#             f"</s>")
-#
-#         if context:  # when there are previously corrected sentences
-#             adaptation_request = (
-#                 f"<s>[INST] Given the previous sentences of the document that help understand the context: {context}, "
-#                 f"please correct the spelling mistakes of the OCR sentence: '{sentence}' [/INST]</s>")
-#         else:  # when there are no previously corrected sentences
-#             adaptation_request = (
-#                 f"<s>[INST] Without any prior context, correct the spelling mistakes of OCR sentence: '{sentence}' "
-#                 f"[/INST]</s>")
-#
-#         prompt = f"{system_prompt}\n{adaptation_request}\nCorrected sentence:"
-#         nummer_length = (len(sentence) * 2) + 500
-#
-#         try:
-#             corrected_text = calculate_pipe(pipe, prompt, nummer_length, 1)
-#             response = corrected_text[0]['generated_text'].split('Corrected sentence:')[-1].strip()
-#             # Post-processing to remove any additional unwanted text
-#             response = response[1:-1]
-#             response = response.replace("'", "")
-#             response = response.split('\n')[0].strip()
-#
-#         except Exception as e:
-#             print(f"Error in processing sentence '{sentence}': {e}")
-#             response = 'Error'
-#         return response
-#     elif spelling_result == 'No':
-#         print("No spelling mistakes found:", sentence)
-#         return sentence
-#     else:
-#         print("Error or ambiguity detected in spelling check.")
-#         return sentence
 
 
 def get_document_id(file_name):
@@ -279,7 +198,7 @@ def correct_sentences(sentence_data, pipe, batch_size=10):
             #     print(GOOD_GRAMMAR)
             # elif check_grammar_result == BAD_GRAMMAR:
             #     is_correct = BAD_GRAMMAR
-            print(BAD_GRAMMAR)
+            # print(BAD_GRAMMAR)
             corrected_sentence = check_sentence(sentence, context, pipe)
             sentence_to_append = corrected_sentence if corrected_sentence != 'Error' else sentence
             # else:
@@ -331,7 +250,7 @@ def evaluate_test_data(loaded_data, pipe):
             }
         })
 
-    save_mistral_output = os.path.join(results_LLM_mistral_3, 'evaluation_results_with_mistral_4.json')
+    save_mistral_output = os.path.join(results_LLM_mistral_3, 'evaluation_results_with_mistral_9.json')
     save_to_json(results, save_mistral_output)
 
 
@@ -342,7 +261,7 @@ mistral_model = transformers.AutoModelForCausalLM.from_pretrained(mistral_model_
 mistral_tokenizer = AutoTokenizer.from_pretrained(mistral_model_name)
 mistral_pipe = pipeline("text-generation", model=mistral_model, tokenizer=mistral_tokenizer, batch_size=10)
 
-results_path_from_ocr = os.path.join(results_test_trocr, 'test_evaluation_results_seq_v2_20_mini.json')
+results_path_from_ocr = os.path.join(results_test_trocr, 'test_evaluation_results_seq_v2_20.json')
 loaded_data = load_from_json(results_path_from_ocr)
 # Example usage
 evaluate_test_data(loaded_data, mistral_pipe)
