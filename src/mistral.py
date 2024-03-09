@@ -96,34 +96,34 @@ def check_spelling(sentence, pipe):
 def check_sentence(sentence, context, pipe):
     system_prompt = (
         "<s>"
-        "[INST] As the assistant, you're tasked with addressing OCR errors found in a dataset of 18th-century documents. "
-        "These errors span simple misspellings to more nuanced issues like incorrect abbreviations and "
-        "term misinterpretations. The goal is to correct these errors with utmost care to retain the manuscripts' "
-        "original style and accuracy, ensuring no new information is introduced and no critical details are omitted."
+        "[INST] Task: Correct OCR errors found in a dataset of 18th-century documents. These errors range from simple "
+        "misspellings to complex issues like incorrect abbreviations and term misinterpretations. Your objective is "
+        "to correct these errors with precision, ensuring the integrity of the original manuscripts is maintained. "
+        "Avoid introducing new information or omitting essential details. Focus on retaining the original style, "
+        "accuracy, and 18th-century linguistic conventions.[/INST]"
         "\n\n## Guidelines:"
-        "\n- Address only OCR errors, without adding to or removing content from the original."
-        "\n- Ensure corrections reflect the 18th-century's language, style, and conventions accurately, "
-        "including appropriate historical context and terminology [/INST]."
+        "\n- Address only OCR errors; do not add or remove content."
+        "\n- Ensure corrections accurately reflect the 18th-century language, style, and conventions."
         "\n\n## Examples of Corrected Errors:"
-        "1. OCR Error from the User: '30th. Letters Orders and Instructions December 1755.' "
+        "\n1. OCR Error from the User: '30th. Letters Orders and Instructions December 1755.' "
         "Correction from the assistant: '308th Letters, Orders, and Instructions, December 1755.'"
-        "2. OCR Error from the User: 'remain here until the arrival of the usual with' "
+        "\n2. OCR Error from the User: 'remain here until the arrival of the usual with' "
         "Correction from the assistant: 'remain here until the arrival of the vessel with'"
-        "3. OCR Error from the User: 'thes, Vc. and to me directions' "
+        "\n3. OCR Error from the User: 'thes, Vc. and to me directions' "
         "Correction from the assistant: 'the Stores, &c., and to be under the same directions'"
-        "4. OCR Error from the User: 'of Clothes; Shoes, Stockings, Shirts, Vc.: propatioma-' "
+        "\n4. OCR Error from the User: 'of Clothes; Shoes, Stockings, Shirts, Vc.: propatioma-' "
         "Correction from the assistant: 'of Clothes; Shoes, Stockings, Shirts, &c.: proportionate-'"
-        "5. OCR Error from the User: 'things delivered into into the Nuggets, and are that' "
+        "\n5. OCR Error from the User: 'things delivered into into the Nuggets, and are that' "
         "Correction from the assistant: 'Things delivered into the wagons, and see that'"
-        "6. OCR Error from the User: 'No. To Doctor James Frank of the Virginia' "
+        "\n6. OCR Error from the User: 'No. To Doctor James Frank of the Virginia' "
         "Correction from the assistant: 'To Doctor James Craik, of the Virginia'"
-        "7. OCR Error from the User: 'as before ordered. To soon as the Stores arrive, you' "
+        "\n7. OCR Error from the User: 'as before ordered. To soon as the Stores arrive, you' "
         "Correction from the assistant: 'as before ordered. As soon as the Stores arrive, you'"
-        "8. OCR Error from the User: 'You are are immediately, upon receipt' "
+        "\n8. OCR Error from the User: 'You are are immediately, upon receipt' "
         "Correction from the assistant: 'You are immediately, upon receipt'"
-        "9. OCR Error from the User: 'hereof, to repair to Winchester, where you will never' "
+        "\n9. OCR Error from the User: 'hereof, to repair to Winchester, where you will never' "
         "Correction from the assistant: 'hereof, to repair to Winchester, where you will meet'"
-        "10. OCR ERROR from the User: 'you that that, and processing, yourself to Winches-'"
+        "\n10. OCR ERROR from the User: 'you that that, and processing, yourself to Winches-'"
         "Correction from the assistant: 'your Chest, and proceeding, yourself, to Winches-'"
         "</s>"
     )
@@ -132,22 +132,18 @@ def check_sentence(sentence, context, pipe):
 
         adaptation_request = (
             f"<s>"
-            f"[INST] Given the context of previously corrected sentences: {context}, "
-            f"you are now faced with a new sentence that requires correction. Based on the 18th-century language style "
-            f"and historical accuracy, how should the following OCR error be corrected? OCR Error from the User: '{sentence}'."
-            "\n\nIf correction is not feasible without altering the original meaning or adding new information, "
-            f"the sentence will be returned as-is: {sentence}."
-            f" [/INST]</s>"
+            f"[INST] Given the context of previously corrected sentences: '{context}', you are now faced with a new OCR "
+            f"error: '{sentence}'. Apply your understanding of 18th-century language style and historical accuracy to "
+            f"determine the appropriate correction. If correction could potentially alter the original meaning or add "
+            f"new information, return the sentence as-is: '{sentence}'.[/INST]</s>"
         )
 
     else:  # when there are no previously corrected sentences
         adaptation_request = (
             f"<s>"
-            f"[INST] Without the guidance of previously corrected sentences, you must correct the following OCR error "
-            f"to accurately reflect the 18th-century language style and historical context: OCR Error from the User: '{sentence}'."
-            "\n\nIn the absence of prior corrections for context, the focus is solely on the sentence at hand, "
-            f"aiming to restore its authenticity. If an accurate correction cannot be determined, "
-            f"the sentence will be returned unchanged: {sentence} [/INST]</s>"
+            f"[INST] Without prior corrections for context, address the following OCR error: '{sentence}'. Aim to "
+            f"restore its authenticity while adhering to 18th-century language style and historical context. If a "
+            f"faithful correction is not feasible, return the sentence unchanged: '{sentence}'.[/INST]</s>"
         )
 
     prompt = f"{system_prompt}\n{adaptation_request}\nThe corrected sentence from the assistant:"
@@ -250,7 +246,7 @@ def evaluate_test_data(loaded_data, pipe):
             }
         })
 
-    save_mistral_output = os.path.join(results_LLM_mistral_3, 'evaluation_results_with_mistral_9.json')
+    save_mistral_output = os.path.join(results_LLM_mistral_3, 'evaluation_results_with_mistral_10.json')
     save_to_json(results, save_mistral_output)
 
 
