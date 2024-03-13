@@ -2,7 +2,7 @@ import os
 import sys
 
 abs_path = sys.path[0]
-
+TOKEN = "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"
 base_name = os.path.dirname(abs_path)
 resources_path = os.path.join('./../resources')
 washington_path = os.path.join(resources_path, 'washingtondb-v1.0')
@@ -13,6 +13,13 @@ results_LLM_mistral = os.path.join(outputs_path, 'results_LLM')
 results_LLM_mistral_1 = os.path.join(outputs_path, 'results_LLM_Mistral7B_1')
 results_LLM_mistral_2 = os.path.join(outputs_path, 'results_LLM_Mistral7B_1_v2')
 results_LLM_mistral_3 = os.path.join(outputs_path, 'results_LLM_Mistral7B_1_v3')
+automated_resuts = os.path.join(outputs_path, 'automated_results')
+
+outputs_path_test = os.path.join(outputs_path, 'test')
+#
+
+results_mixed_LLM_MISTRAL = os.path.join(outputs_path, 'results_mixed_OCR_MISTRAL')
+
 # Specify the directory to save the model
 model_save_path = os.path.join(outputs_path, 'model', 'trained_trocr_model')
 processor_save_path = os.path.join(outputs_path, 'model', 'trocr_processor')
@@ -22,6 +29,48 @@ model_save_path_seq_v2 = os.path.join(outputs_path, 'model', 'trained_trocr_mode
 processor_save_path_seq = os.path.join(outputs_path, 'model', 'trocr_processor_seq')
 processor_save_path_seq_v2 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_v2')
 
+model_save_path_seq_mixed_20_80 = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq_mixed_20_80')
+model_save_path_seq_v2_mixed_20_80 = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq_v2_mixed_20_80')
+processor_save_path_seq_mixed_20_80 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_mixed_20_80')
+processor_save_path_seq_v2_mixed_20_80 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_v2_mixed_20_80')
+
+# ======
+model_save_path_seq_25 = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq_25')
+model_save_path_seq_v2_25 = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq_v2_25')
+processor_save_path_seq_25 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_25')
+processor_save_path_seq_v2_25 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_v2_25')
+
+model_save_path_seq_25_75 = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq_25_75')
+model_save_path_seq_v2_25_75 = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq_v2_25_75')
+processor_save_path_seq_25_75 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_25_75')
+processor_save_path_seq_v2_25_75 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_v2_25_75')
+
+model_save_path_seq_50 = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq_50')
+model_save_path_seq_v2_50 = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq_v2_50')
+processor_save_path_seq_50 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_50')
+processor_save_path_seq_v2_50 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_v2_50')
+
+model_save_path_seq_50_50 = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq_50_50')
+model_save_path_seq_v2_50_50 = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq_v2_50_50')
+processor_save_path_seq_50_50 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_50_50')
+processor_save_path_seq_v2_50_50 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_v2_50_50')
+
+model_save_path_seq_75 = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq_75')
+model_save_path_seq_v2_75 = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq_v2_75')
+processor_save_path_seq_75 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_75')
+processor_save_path_seq_v2_75 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_v2_75')
+
+model_save_path_seq_75_25 = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq_75_25')
+model_save_path_seq_v2_75_25 = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq_v2_75_25')
+processor_save_path_seq_75_25 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_75_25')
+processor_save_path_seq_v2_75_25 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_v2_75_25')
+
+model_save_path_seq_100 = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq_100')
+model_save_path_seq_v2_100 = os.path.join(outputs_path, 'model', 'trained_trocr_model_seq_v2_100')
+processor_save_path_seq_100 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_100')
+processor_save_path_seq_v2_100 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_v2_100')
+
+# =======
 REPLACEMENTS = {
     's_pt': '.', 's_cm': ',', 's_mi': '-', 's_sq': ";", 's_dash': '-',
     's_sl': '/', 's_bsl': '\\', 's_qm': '?', 's_exc': '!', 's_col': ':',

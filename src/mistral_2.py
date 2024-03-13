@@ -213,22 +213,22 @@ def check_sentence(sentence, context, pipe, short_system=False):
         )
 
     if context:  # when there are previously corrected sentences
-        if short_system:
-            adaptation_request = (
-                f"<s>"
-                f"[INST] Given the context of previously corrected sentences: '{context}', correct any errors in the following"
-                f"OCR sentence to match 18th-century language style and historical accuracy, taking into account the "
-                f"guidelines and the examples of cases and without adding extra information:"
-                f" '{sentence}'[/INST]. If you don't know hoe to correct return the sentence: '{sentence}'</s>"
-            )
-        else:
-            adaptation_request = (
-                f"<s>"
-                f"[INST] Correct any errors in the following OCR sentence to match 18th-century language style"
-                f" and historical accuracy, taking into account the guidelines and the examples of cases and "
-                f"without adding extra information: '{sentence}'[/INST]. If you don't know how to correct return"
-                f" the sentence: '{sentence}'</s>"
-            )
+        # if short_system:
+        #     adaptation_request = (
+        #         f"<s>"
+        #         f"[INST] Given the context of previously corrected sentences: '{context}', correct any errors in the following"
+        #         f"OCR sentence to match 18th-century language style and historical accuracy, taking into account the "
+        #         f"guidelines and the examples of cases and without adding extra information:"
+        #         f" '{sentence}'[/INST]. If you don't know hoe to correct return the sentence: '{sentence}'</s>"
+        #     )
+        # else:
+        adaptation_request = (
+            f"<s>"
+            f"[INST] Correct any errors in the following OCR sentence to match 18th-century language style"
+            f" and historical accuracy, taking into account the guidelines and the examples of cases and "
+            f"without adding extra information: '{sentence}'[/INST]. If you don't know how to correct return"
+            f" the sentence: '{sentence}'</s>"
+        )
 
     else:  # when there are no previously corrected sentences
         adaptation_request = (
@@ -349,18 +349,18 @@ def evaluate_test_data_mistral7B(loaded_data, pipe, name_file, short_system=Fals
 
 # Load Mistral model and tokenizer
 # mistral_model_name = "mistralai/Mixtral-8x7B-Instruct-v0.1"  # Hypothetical correct model name
-# mistral_model_name = "mistralai/Mistral-7B-v0.1"
-# mistral_model = transformers.AutoModelForCausalLM.from_pretrained(mistral_model_name,
-#                                                                   torch_dtype=torch.float16,
-#                                                                   device_map="auto",
-#                                                                   token=TOKEN
-#                                                                   )
-# mistral_tokenizer = AutoTokenizer.from_pretrained(mistral_model_name, token=TOKEN, max_length=32)
-# mistral_pipe = pipeline("text-generation", model=mistral_model, tokenizer=mistral_tokenizer, batch_size=10)
-#
-# results_path_from_ocr = os.path.join(results_test_trocr, 'testing.json')
-# loaded_data = load_from_json(results_path_from_ocr)
-# # Example usage
-# evaluate_test_data_mistral7B(loaded_data, mistral_pipe, 'final.json', False)
-# print("The MISTRAL data is saved.")
-#
+mistral_model_name = "mistralai/Mistral-7B-v0.1"
+mistral_model = transformers.AutoModelForCausalLM.from_pretrained(mistral_model_name,
+                                                                  torch_dtype=torch.float16,
+                                                                  device_map="auto",
+                                                                  token=TOKEN
+                                                                  )
+mistral_tokenizer = AutoTokenizer.from_pretrained(mistral_model_name, token=TOKEN, max_length=32)
+mistral_pipe = pipeline("text-generation", model=mistral_model, tokenizer=mistral_tokenizer, batch_size=10)
+
+results_path_from_ocr = os.path.join(results_test_trocr, 'testing.json')
+loaded_data = load_from_json(results_path_from_ocr)
+# Example usage
+evaluate_test_data_mistral7B(loaded_data, mistral_pipe, 'final.json', True)
+print("The MISTRAL data is saved.")
+
