@@ -2,7 +2,7 @@ import os
 import sys
 
 abs_path = sys.path[0]
-TOKEN = "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"
+# TOKEN = "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"
 base_name = os.path.dirname(abs_path)
 resources_path = os.path.join('./../resources')
 washington_path = os.path.join(resources_path, 'washingtondb-v1.0')
