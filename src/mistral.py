@@ -95,18 +95,22 @@ def check_spelling(sentence, pipe):
 
 def check_sentence(sentence, context, pipe, short_system=False):
     if short_system:
+        nummer_length = (len(sentence) * 2) + 1300
         system_prompt = (
             "<s>"
-            "[INST] Task: Correct OCR errors found in a dataset of 18th-century documents. These errors range from simple "
-            "misspellings to complex issues like incorrect abbreviations and term misinterpretations. Your objective is "
-            "to correct these errors with precision, ensuring the integrity of the original manuscripts is maintained. "
-            "Avoid introducing new information or omitting essential details. "
-            "Focus on retaining the original style, "
-            "accuracy, and 18th-century linguistic conventions.[/INST]"
+            "[INST] Your primary task is to meticulously correct OCR (Optical Character Recognition) errors in a "
+            "collection of 18th-century documents. These documents contain a variety of errors, ranging from simple "
+            "misspellings to more complex issues like incorrect abbreviations and misinterpretations of terms. "
+            "Your corrections must strive for precision, preserving the authenticity and integrity of the original "
+            "manuscripts. It's imperative to avoid introducing new information or excluding essential details. "
+            "Your focus should be on maintaining the original style, ensuring historical accuracy, and adhering to the "
+            "linguistic conventions of the 18th century.[/INST]"
             "\n\n## Guidelines:"
             "\n- Address only OCR errors; please do not add more content."
             "\n- Ensure corrections accurately reflect the 18th-century language, style, and conventions."
-            "\n\n## Examples of Corrected Errors:"
+            "\n- If you find cut-out words at the end of the OCR sentence don't complete them."
+            "\n- If the corrected sentence is twice the length of the OCR sentence, return the OCR sentence. "
+            "\n\n## Examples of Corrections:"
             "\n1. OCR Error from the User: '30th. Letters Orders and Instructions December 1755.' "
             "Correction from the assistant: '308th Letters, Orders, and Instructions, December 1755.'"
             "\n2. OCR Error from the User: 'remain here until the arrival of the usual with' "
@@ -130,6 +134,7 @@ def check_sentence(sentence, context, pipe, short_system=False):
             "</s>"
         )
     else:
+        nummer_length = (len(sentence) * 2) + 2100
         system_prompt = (
             "<s>"
             "[INST] Task: Correct OCR errors found in a dataset of 18th-century documents. These errors range from simple "
@@ -212,35 +217,16 @@ def check_sentence(sentence, context, pipe, short_system=False):
             "</s>"
         )
 
-    if context:  # when there are previously corrected sentences
-        if short_system:
-            adaptation_request = (
-                f"<s>"
-                f"[INST] Given the context of previously corrected sentences: '{context}', correct any errors in the following"
-                f"OCR sentence to match 18th-century language style and historical accuracy, taking into account the "
-                f"guidelines and the examples of cases and without adding extra information:"
-                f" '{sentence}'[/INST]. If you don't know hoe to correct return the sentence: '{sentence}'</s>"
-            )
-        else:
-            adaptation_request = (
-                f"<s>"
-                f"[INST] Correct any errors in the following OCR sentence to match 18th-century language style"
-                f" and historical accuracy, taking into account the guidelines and the examples of cases and "
-                f"without adding extra information: '{sentence}'[/INST]. If you don't know how to correct return"
-                f" the sentence: '{sentence}'</s>"
-            )
-
-    else:  # when there are no previously corrected sentences
-        adaptation_request = (
-            f"<s>"
-            f"[INST] Without prior corrections for context, address the following OCR error: '{sentence}'. To reflect "
-            f"18th-century language style and historical context, taking into account the guidelines and the examples "
-            f"of cases and avoiding additions: '{sentence}' [/INST]. If you don't"
-            f" know how to correct return the sentence: '{sentence}' </s>"
-        )
+    adaptation_request = (
+        f"<s>"
+        f"[INST] Based on the guidelines and illustrated examples, accurately correct the OCR errors in the following "
+        f"sentence without adding extraneous information: '{sentence}'. If you don't know how to correct return the "
+        f"original sentence as is: '{sentence}'.[/INST]"
+        f"</s>"
+    )
 
     prompt = f"{system_prompt}\n{adaptation_request}\nThe corrected sentence from the assistant:"
-    nummer_length = (len(sentence) * 2) + 2100
+    # nummer_length = (len(sentence) * 2) + 2100
 
     try:
         corrected_text = calculate_pipe(pipe, prompt, nummer_length, 1)
@@ -250,9 +236,13 @@ def check_sentence(sentence, context, pipe, short_system=False):
         response = response.replace("'", "")
         response = response.split('\n')[0].strip()
 
+        if (len(response)) > (len(sentence)*2):
+            print(f"The response from MISTRAL is very long: {response}")
+            response = sentence
+
     except Exception as e:
         print(f"Error in processing sentence '{sentence}': {e}")
-        response = 'Error'
+        response = sentence
     return response
 
 
@@ -363,4 +353,4 @@ def evaluate_test_data_mistral7B(loaded_data, pipe, name_file, short_system=Fals
 # # Example usage
 # evaluate_test_data_mistral7B(loaded_data, mistral_pipe, 'final.json', False)
 # print("The MISTRAL data is saved.")
-#
+

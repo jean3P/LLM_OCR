@@ -2,7 +2,7 @@ import os
 import sys
 
 abs_path = sys.path[0]
-# TOKEN = "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"
+TOKEN = "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"
 base_name = os.path.dirname(abs_path)
 resources_path = os.path.join('./../resources')
 washington_path = os.path.join(resources_path, 'washingtondb-v1.0')
@@ -14,6 +14,9 @@ results_LLM_mistral_1 = os.path.join(outputs_path, 'results_LLM_Mistral7B_1')
 results_LLM_mistral_2 = os.path.join(outputs_path, 'results_LLM_Mistral7B_1_v2')
 results_LLM_mistral_3 = os.path.join(outputs_path, 'results_LLM_Mistral7B_1_v3')
 automated_resuts = os.path.join(outputs_path, 'automated_results')
+pipeline_v1_path = os.path.join(outputs_path, 'pipeline_v1')
+pipeline_v1_mistral_path = os.path.join(pipeline_v1_path, 'mistral')
+pipeline_v1_mistral_ocr = os.path.join(pipeline_v1_path, 'ocr')
 
 outputs_path_test = os.path.join(outputs_path, 'test')
 #

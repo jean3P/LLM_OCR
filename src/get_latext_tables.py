@@ -5,7 +5,7 @@ from src.utils.constants import automated_resuts, results_test_trocr
 # and you have the calculate_cer_values and calculate_label_change_percentages functions correctly implemented.
 
 # Specific file names and directories from your environment
-percentage_train_set = 75
+# percentage_train_set = 75
 
 # OCR Files
 self_training_file_name_ocr_75 = "test_evaluation_results_75.json"
