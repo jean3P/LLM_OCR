@@ -1,26 +1,3 @@
-#--- lines.txt ---------------------------------------------------------------#
-#
-# iam database line information
-#
-# format: a01-000u-00 ok 154 19 408 746 1663 91 A|MOVE|to|stop|Mr.|Gaitskell|from
-#
-#     a01-000u-00  -> line id for form a01-000u
-#     ok              -> result of word segmentation
-#                            ok: line is correctly segmented
-#                            err: segmentation of line has one or more errors
-#
-#                        notice: if the line could not be properly segmented
-#                                the transcription and extraction of the whole
-#                                line should not be affected negatively
-#
-#     154             -> graylevel to binarize line
-#     19              -> number of components for this line
-#     408 746 1663 91 -> bounding box around this line in x,y,w,h format
-#
-#     A|MOVE|to|stop|Mr.|Gaitskell|from
-#                     -> transcription for this line. word tokens are separated
-#                        by the character |
-#
 a01-000u-00 ok 154 19 408 746 1661 89 A|MOVE|to|stop|Mr.|Gaitskell|from
 a01-000u-01 ok 156 19 395 932 1850 105 nominating|any|more|Labour|life|Peers
 a01-000u-02 ok 157 16 408 1106 1986 105 is|to|be|made|at|a|meeting|of|Labour
