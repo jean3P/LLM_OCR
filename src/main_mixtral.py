@@ -23,8 +23,8 @@ def calculate_response(messages, model, tokenizer):
             temperature=0.5,
             do_sample=True,
             top_p=0.95,
-            top_k=40,
-            max_new_tokens=256,
+            top_k=1,
+            max_new_tokens=35,
         )
     output = tokenizer.decode(output_ids[0][token_ids.size(1):])
     return output
@@ -52,20 +52,16 @@ def generate_correction(ocr_text, short_system, model, tokenizer):
     if short_system:
         messages = [
             {"role": "user",
-             "content": "Your unique task is to meticulously correct OCR (Optical Character Recognition) errors in a "
-                        "collection of 18th-century documents. These documents contain a variety of errors, ranging from simple "
-                        "misspellings to more complex issues like incorrect abbreviations and misinterpretations of terms. "
-                        "Your corrections must strive for precision, preserving the authenticity and integrity of the original "
-                        "manuscripts. It's imperative to avoid introducing new information or excluding essential details. "
-                        "Your focus should be on maintaining the original style, ensuring historical accuracy, and adhering to the "
-                        "linguistic conventions of the 18th century."},
-            {'role': 'assistant',
-             'content': "\n\n## Guidelines:"
+             "content": "As an expert in 18th-century manuscripts, your task is to meticulously correct OCR "
+                        "(Optical Character Recognition) errors in a collection of historical documents from the 1700s. "
+                        "These documents contain various errors, including misspellings, incorrect abbreviations, "
+                        "and misinterpreted terms."
+                        "\n\n## When making corrections, adhere to the following guidelines::"
                         "\n- Address only OCR errors; please do not add more content."
                         "\n- Ensure corrections accurately reflect the 18th-century language, style, and conventions."
-                        "\n- If you find cut-out words at the end of the OCR sentence don't complete them."
-                        "\n- If the corrected sentence is twice the length of the OCR sentence, return the OCR sentence. "
-                        "\n\n## Examples of Corrections:"
+                        "\n- If words are cut off at the end of the OCR text or at the beginning, do not try to complete them."
+                        "\n- If the corrected text would be more than twice the length of the original, return the original OCR text unmodified. "
+                        "\n\n## Here are some examples of how to properly correct OCR errors::"
                         "\n1. OCR Error from the User: '30th. Letters Orders and Instructions December 1755.' "
                         "Correction from the assistant: '308th Letters, Orders, and Instructions, December 1755.'"
                         "\n2. OCR Error from the User: 'remain here until the arrival of the usual with' "
@@ -85,67 +81,59 @@ def generate_correction(ocr_text, short_system, model, tokenizer):
                         "\n9. OCR Error from the User: 'hereof, to repair to Winchester, where you will never' "
                         "Correction from the assistant: 'hereof, to repair to Winchester, where you will meet'"
                         "\n10. OCR ERROR from the User: 'you that that, and processing, yourself to Winches-'"
-                        "Correction from the assistant: 'your Chest, and proceeding, yourself, to Winches-'"},
-            {"role": "user", "content": f"Based on the guidelines and illustrated examples, accurately correct the OCR "
-                                        f"errors in the following sentence without adding extraneous information: "
-                                        f"'{ocr_text}'. If you don't know how to correct return the original sentence "
-                                        f"as is: '{ocr_text}'. The corrected sentence is:"},
-            {
-                "role": "assistant",
-                "content": "When responding to OCR correction requests, please structure your answer as follows:"
-                           "\n- Begin with the phrase: The corrected sentence is:"
-            }
+                        "Correction from the assistant: 'your Chest, and proceeding, yourself, to Winches-' "
+                        "\n11. OCR ERROR from the User: 'fcient numbers to carry them to Win-' "
+                        "Correction from the assistant: 'ficient number of waggons to carry them to Win-' "
+                        f"Based on the guidelines and illustrated examples, accurately correct the OCR "
+                        f"errors in the following sentence without adding extraneous information: "
+                        f"'{ocr_text}'. If you are unsure how to correct any errors, "
+                        f"return the original OCR text unmodified. with this format: "
+                        f"\nThe corrected sentence is:"},
         ]
     else:
         messages = [
             {"role": "user",
-             "content": "Your unique task is to meticulously correct OCR (Optical Character Recognition) errors in a "
-                        "collection of 18th-century documents. These documents contain a variety of errors, ranging from simple "
-                        "misspellings to more complex issues like incorrect abbreviations and misinterpretations of terms. "
-                        "Your corrections must strive for precision, preserving the authenticity and integrity of the original "
-                        "manuscripts."
-                        "\n\n## Guidelines:"
+             "content": "As an expert in 18th-century manuscripts, your task is to meticulously correct OCR "
+                        "(Optical Character Recognition) errors in a collection of historical documents from the 1700s. "
+                        "These documents contain various errors, including misspellings, incorrect abbreviations, "
+                        "and misinterpreted terms."
+                        "\n\n## When making corrections, adhere to the following guidelines::"
                         "\n- Address only OCR errors; please do not add more content."
                         "\n- Ensure corrections accurately reflect the 18th-century language, style, and conventions."
-                        "\n- If you find cut-out words at the end of the OCR sentence don't complete them."
-                        "\n- If the corrected sentence is twice the length of the OCR sentence, return the OCR sentence. "
-                        },
-            {'role': 'assistant',
-             'content': "\n\n## Examples of Corrections:"
-                        "\n1. OCR from the User: 'percent number of Waggons to carry them to Win-' "
-                        "Correction from the assistant: 'ficient number of waggons to carry them to Win-'"
-                        "\n2. OCR from the User: 'an Shirt Guard is kept our them, that no undes-' "
-                        "Correction from the assistant: 'a strict Guard is kept over them, that no embez-'"
-                        "\n3. OCR from the User: 'concerning Limited, Limited on their march upheros, there' "
-                        "Correction from the assistant: 'conveniently Quartered on their march up; there'"
-                        "\n4. OCR from the User: 'must be made of. If any of the Soldiers' "
-                        "Correction from the assistant: 'must be made use of. - If any of the Soldiers'"
-                        "\n5. OCR from the User: 'should direct front from this place, if would be proper' "
-                        "Correction from the assistant: 'should desert from this place, - it would be proper'"
-                        "\n6. PCR from the User: 'eds until for Duty, or Duty, on Review, are ordered to be' "
-                        "Correction from the assistant: 'ed unfit for Duty, on Review; are ordered to be'"
-                        "\n7. OCR from the User: 'up the Cobbs by the first pregnant' "
-                        "Correction from the assistant: 'up the Cask of Tools by the first waggon that'"
-                        "\n8. OCR from the User: 'the aid de camp. We Mr. Mr. We knowingly is to send' "
-                        "Correction from the assistant: 'the aid de camp. The Commissary is to send'"
-                        "\n9. OCR from the User: 'Colonel, Stephen will give you you an ac ac-' "
-                        "Correction from the assistant: 'Colonel Stephen will give you an ac-'"
-                        "\n10. OCR from the User: 'commissioned officered Officer or Solution should happen to' "
-                        "Correction from the assistant: 'commissioned Officer or Soldier should happen to'"
-                        "\n11. OCR from the User: 'You are to be particularly ex-' "
+                        "\n- If words are cut off at the end of the OCR text or at the beginning, do not try to complete them."
+                        "\n- If the corrected text would be more than twice the length of the original, return the original OCR text unmodified. "
+                        "\n\n## Here are some examples of how to properly correct OCR errors:"
+                        "\n1. OCR from the User: 'You are to be particularly ex-' "
                         "Correction from the assistant: 'You are to be particularly ex-'"
-                        "\n12. OCR from the User: 'that meeting with Letters at Fredericks-'"
+                        "\n2. OCR from the User: 'that meeting with Letters at Fredericks-'"
                         "Correction from the assistant: 'that meeting with Letters at Fredericks-'"
-             },
-            {"role": "user", "content": f"Based on the guidelines and illustrated examples, accurately correct the OCR "
-                                        f"errors in the following sentence without adding extraneous information: "
-                                        f"'{ocr_text}'. If you don't know how to correct return the original sentence "
-                                        f"as is: '{ocr_text}'. The corrected sentence is:"},
-            {
-                "role": "assistant",
-                "content": "When responding to OCR correction requests, please structure your answer as follows:"
-                           "\n- Begin with the phrase: The corrected sentence is:"
-            }
+                        "\n3. OCR from the User: 'proper Dispositions, and seeing that all our neces-' "
+                        "Correction from the assistant: 'proper Dispositions, and seeing that all our neces-'"
+                        "\n4 OCR from the User: 'have a very good effect. The Commonalty in gene-' "
+                        "Correction from the assistant: 'have a very good effect. The Commonalty in gene-'"
+                        "\n5. OCR from the User: 'money are greatest. When I left Willi-' "
+                        "Correction from the assistant: 'money are greatest. When I left Willi-'"
+                        "\n6. OCR from the User: 'with sundry arms, Vc. for the Troops. This Ves-' "
+                        "Correction from the assistant: 'with sundry arms, Vc. for the Troops. This Ves-'"
+                        "\n7. OCR from the User: 'me much concern; fearing that that this de-' "
+                        "Correction from the assistant: 'me much concern; fearing that this de-'"
+                        "\n8. OCR from the User: 'the Spring. If your Honor think proper to or-' "
+                        "Correction from the assistant: 'the Spring. If your Honor think proper to or-'"
+                        "\n9. OCR from the User: 'would fix it: so is Captain Stewarts: If Captain Stew-' "
+                        "Correction from the assistant: 'would fix it: so is Captain Stewarts: If Captain Stew-'"
+                        "\n10. OCR from the User: 'proper Dispositions, and seeing that all our neces-' "
+                        "Correction from the assistant: 'proper Dispositions, and seeing that all our neces-'"
+                        "\n11. OCR from the User: 'Letters Orders Orders and Instructions. Decembers. December 1755.' "
+                        "Correction from the assistant: 'Letters Orders and Instructions December. 1755.'"
+                        "\n12. OCR from the User: 'There importantly expecte' "
+                        "Correction from the assistant: 'I have impatiently expected'"
+                        "\n13. OCR from the User: 'the Ist. of December, to Rendezvous at Alexa-' "
+                        "Correction from the assistant: 'the 1st. of December, to Rendezvous at Alex-' "
+                        f"Based on the guidelines and illustrated examples, accurately correct the OCR "
+                        f"errors in the following sentence without adding extraneous information: "
+                        f"'{ocr_text}'. If you are unsure how to correct any errors, "
+                        f"return the original OCR text unmodified. with this format: "
+                        f"\nThe corrected sentence is:"},
         ]
 
     output = calculate_response(messages, model, tokenizer)
@@ -169,7 +157,7 @@ def generate_correction(ocr_text, short_system, model, tokenizer):
     if (len(response)) > (len(ocr_text) * 1.5):
         print(f"the response from MIXTRAL is very long: {response}")
         response = ocr_text
-    if "[" in response or "\n" in response:
+    if "[" in response or "(" in response or "\n" in response:
         print(f"the response from MIXTRAL contains special characters: {response}")
         response = ocr_text
     return response
@@ -258,8 +246,8 @@ def evaluate_test_data_mixtral7B(loaded_data, name_file, short_system):
 
 # #
 # #
-# results_path_from_ocr = os.path.join(results_test_trocr, 'testing_mini.json')
+# results_path_from_ocr = os.path.join(results_test_trocr, 'final_test_evaluation_results_75_25.json')
 # loaded_data = load_from_json(results_path_from_ocr)
 # # Example usage
-# evaluate_test_data_mixtral7B(loaded_data, 'final.json', False)
+# evaluate_test_data_mixtral7B(loaded_data, 'final_2.json', False)
 # print("The MISTRAL data is saved.")
