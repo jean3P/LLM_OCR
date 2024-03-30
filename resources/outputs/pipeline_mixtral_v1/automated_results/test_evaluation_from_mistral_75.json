@@ -1,0 +1,1822 @@
+[
+    {
+        "file_name": "302-06.png",
+        "ground_truth_label": "can be got in these parts: those which Major",
+        "OCR": {
+            "predicted_label": "can be got in these parts: those which Major",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "can be got in these parts: those which Major",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "302-07.png",
+        "ground_truth_label": "Carlyle and Dalton contracted to furnish,",
+        "OCR": {
+            "predicted_label": "Carlyle and Dalton contracted to furnish to furnish,",
+            "cer": 0.2682926829268293,
+            "confidence": 0.7884615384615384
+        },
+        "MISTRAL": {
+            "predicted_label": "Carlyle and Dalton contracted to furnish.",
+            "cer": 0.024390243902439025,
+            "confidence": 0.975609756097561
+        }
+    },
+    {
+        "file_name": "302-08.png",
+        "ground_truth_label": "we are disappointed off. Shoes and Stockings",
+        "OCR": {
+            "predicted_label": "we are disappointed off. Shoes and Stockings",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "We are disappointed with. Shoes and Stockings.",
+            "cer": 0.13636363636363635,
+            "confidence": 0.8695652173913043
+        }
+    },
+    {
+        "file_name": "302-09.png",
+        "ground_truth_label": "we have, and can get more if wanted, but",
+        "OCR": {
+            "predicted_label": "we have got mored, but",
+            "cer": 0.475,
+            "confidence": 0.525
+        },
+        "MISTRAL": {
+            "predicted_label": "we have come to a stop, but",
+            "cer": 0.5,
+            "confidence": 0.5
+        }
+    },
+    {
+        "file_name": "302-10.png",
+        "ground_truth_label": "nothing else. I should be glad your Honor",
+        "OCR": {
+            "predicted_label": "nothing else. I should be glad your Honor",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Nothing else. I should be glad to serve your Honor.",
+            "cer": 0.2682926829268293,
+            "confidence": 0.7843137254901961
+        }
+    },
+    {
+        "file_name": "302-11.png",
+        "ground_truth_label": "would direct what is to be done in these ca-",
+        "OCR": {
+            "predicted_label": "would direct what is to be done in these ca-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "would direct what is to be done in these cases",
+            "cer": 0.06818181818181818,
+            "confidence": 0.9347826086956522
+        }
+    },
+    {
+        "file_name": "302-12.png",
+        "ground_truth_label": "ses; and that you would be kind enough to",
+        "OCR": {
+            "predicted_label": "ses; and that that you would be kind enough enough to",
+            "cer": 0.2926829268292683,
+            "confidence": 0.7735849056603774
+        },
+        "MISTRAL": {
+            "predicted_label": "and that you would be kind enough to",
+            "cer": 0.12195121951219512,
+            "confidence": 0.8780487804878049
+        }
+    },
+    {
+        "file_name": "302-13.png",
+        "ground_truth_label": "desire the Treasurer to send some part of the",
+        "OCR": {
+            "predicted_label": "desire the Treasurer to send some some part of the",
+            "cer": 0.1111111111111111,
+            "confidence": 0.9
+        },
+        "MISTRAL": {
+            "predicted_label": "I desire the Treasurer to send some part of the",
+            "cer": 0.044444444444444446,
+            "confidence": 0.9574468085106383
+        }
+    },
+    {
+        "file_name": "302-14.png",
+        "ground_truth_label": "money in gold and silver: were this done, we",
+        "OCR": {
+            "predicted_label": "money in gold and silver: were this done, we",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "money in gold and silver; were this done, we",
+            "cer": 0.022727272727272728,
+            "confidence": 0.9772727272727273
+        }
+    },
+    {
+        "file_name": "302-15.png",
+        "ground_truth_label": "might often get necessaries for the Regiment",
+        "OCR": {
+            "predicted_label": "might often get necessaries for the Regiment",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "might often get necessities for the Regiment",
+            "cer": 0.045454545454545456,
+            "confidence": 0.9545454545454546
+        }
+    },
+    {
+        "file_name": "302-16.png",
+        "ground_truth_label": "in Maryland or Pennsylvania, when they",
+        "OCR": {
+            "predicted_label": "in Maryland, when they",
+            "cer": 0.42105263157894735,
+            "confidence": 0.5789473684210527
+        },
+        "MISTRAL": {
+            "predicted_label": "in Maryland, where they",
+            "cer": 0.47368421052631576,
+            "confidence": 0.5263157894736843
+        }
+    },
+    {
+        "file_name": "302-17.png",
+        "ground_truth_label": "can not be had here. but with our money",
+        "OCR": {
+            "predicted_label": "can not be had here. but with our money",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "can not be had here. but with our money",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "302-18.png",
+        "ground_truth_label": "it is is impossible; our paper not passing there.",
+        "OCR": {
+            "predicted_label": "it is is is impossible; our paper not not passing there.",
+            "cer": 0.14285714285714285,
+            "confidence": 0.875
+        },
+        "MISTRAL": {
+            "predicted_label": "Corrected sentence not found. (End marker missing)",
+            "cer": 0.9183673469387755,
+            "confidence": 0.09999999999999998
+        }
+    },
+    {
+        "file_name": "302-19.png",
+        "ground_truth_label": "The recruiting Service goes on ex-",
+        "OCR": {
+            "predicted_label": "The recruiting goes on-",
+            "cer": 0.3235294117647059,
+            "confidence": 0.6764705882352942
+        },
+        "MISTRAL": {
+            "predicted_label": "The recruiting goes on-",
+            "cer": 0.3235294117647059,
+            "confidence": 0.6764705882352942
+        }
+    },
+    {
+        "file_name": "302-20.png",
+        "ground_truth_label": "tremely slow. Yesterday being a day appointed",
+        "OCR": {
+            "predicted_label": "tremely slow. Yesterday being a day appointed",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "tremely slow. Yesterday being a day appointed",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "302-21.png",
+        "ground_truth_label": "for Rendezvousing at this place, there came in",
+        "OCR": {
+            "predicted_label": "for Rendezvousing at this place, there came in",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "For rendezvousing at this place, there came in.",
+            "cer": 0.06521739130434782,
+            "confidence": 0.9361702127659575
+        }
+    },
+    {
+        "file_name": "302-22.png",
+        "ground_truth_label": "ten Officers with twenty men only. If I had",
+        "OCR": {
+            "predicted_label": "ten Officers with twenty men only. If I had",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Ten officers with twenty men only. If I had.",
+            "cer": 0.06976744186046512,
+            "confidence": 0.9318181818181819
+        }
+    },
+    {
+        "file_name": "302-23.png",
+        "ground_truth_label": "any other than paper money, and you appro-",
+        "OCR": {
+            "predicted_label": "any other than paper money, and you appro-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "any other than paper money, and you authorise",
+            "cer": 0.16666666666666666,
+            "confidence": 0.8444444444444444
+        }
+    },
+    {
+        "file_name": "302-24.png",
+        "ground_truth_label": "ved of it; I would send to Pennsylvania",
+        "OCR": {
+            "predicted_label": "ved of; I would to Pennsylvania",
+            "cer": 0.20512820512820512,
+            "confidence": 0.7948717948717949
+        },
+        "MISTRAL": {
+            "predicted_label": "I have of; I would to Pennsylvania.",
+            "cer": 0.358974358974359,
+            "confidence": 0.641025641025641
+        }
+    },
+    {
+        "file_name": "302-25.png",
+        "ground_truth_label": "and the Borders of Carolina: I am confident,",
+        "OCR": {
+            "predicted_label": "and the Borders of Carolina: I am confident,",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "and the Borders of Carolina: I am confident,",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "302-26.png",
+        "ground_truth_label": "men might be had there. Your Honor",
+        "OCR": {
+            "predicted_label": "men might there. Your",
+            "cer": 0.38235294117647056,
+            "confidence": 0.6176470588235294
+        },
+        "MISTRAL": {
+            "predicted_label": "men might there. Your",
+            "cer": 0.38235294117647056,
+            "confidence": 0.6176470588235294
+        }
+    },
+    {
+        "file_name": "302-27.png",
+        "ground_truth_label": "never having given any particular Directi-",
+        "OCR": {
+            "predicted_label": "never having given any particular Directi-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "never having given any particular direction.",
+            "cer": 0.09523809523809523,
+            "confidence": 0.9090909090909091
+        }
+    },
+    {
+        "file_name": "302-28.png",
+        "ground_truth_label": "ons about the Provisions; I should be glad to",
+        "OCR": {
+            "predicted_label": "ons about the Provisions; I should be glad be glad to",
+            "cer": 0.17777777777777778,
+            "confidence": 0.8490566037735849
+        },
+        "MISTRAL": {
+            "predicted_label": "I should be glad to know about the Provisions.",
+            "cer": 0.8222222222222222,
+            "confidence": 0.19565217391304346
+        }
+    },
+    {
+        "file_name": "302-29.png",
+        "ground_truth_label": "know, whether you would have more laid in",
+        "OCR": {
+            "predicted_label": "know you would have laid in",
+            "cer": 0.34146341463414637,
+            "confidence": 0.6585365853658536
+        },
+        "MISTRAL": {
+            "predicted_label": "know you would have laid down",
+            "cer": 0.4146341463414634,
+            "confidence": 0.5853658536585367
+        }
+    },
+    {
+        "file_name": "302-30.png",
+        "ground_truth_label": "than what will serve for twelve hundred men;",
+        "OCR": {
+            "predicted_label": "than what will serve for twelve for twelve hundred men;",
+            "cer": 0.25,
+            "confidence": 0.8
+        },
+        "MISTRAL": {
+            "predicted_label": "than what will serve for onecloathing for twelve hundred men;",
+            "cer": 0.38636363636363635,
+            "confidence": 0.7213114754098361
+        }
+    },
+    {
+        "file_name": "302-31.png",
+        "ground_truth_label": "that I may give orders accordingly.",
+        "OCR": {
+            "predicted_label": "that I may give orders accordingly.",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "that I may give orders accordingly.",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "302-32.png",
+        "ground_truth_label": "As I can not now conceive, that",
+        "OCR": {
+            "predicted_label": "As I can conceive, that",
+            "cer": 0.25806451612903225,
+            "confidence": 0.7419354838709677
+        },
+        "MISTRAL": {
+            "predicted_label": "As I can conceive, there.",
+            "cer": 0.3870967741935484,
+            "confidence": 0.6129032258064516
+        }
+    },
+    {
+        "file_name": "302-33.png",
+        "ground_truth_label": "any great danger can be apprehended at",
+        "OCR": {
+            "predicted_label": "any great danger can be apprehended at",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "any great danger can be apprehended on",
+            "cer": 0.05263157894736842,
+            "confidence": 0.9473684210526316
+        }
+    },
+    {
+        "file_name": "302-34.png",
+        "ground_truth_label": "Fort Cumberland this Winter; I am sensible,",
+        "OCR": {
+            "predicted_label": "Fort Cumberland this Winter; I am sensible,",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Fort Cumberland this Winter; I am sensible,",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "302-35.png",
+        "ground_truth_label": "that my constant attendance there, can not",
+        "OCR": {
+            "predicted_label": "that my constant attendance thereance there, can not",
+            "cer": 0.23809523809523808,
+            "confidence": 0.8076923076923077
+        },
+        "MISTRAL": {
+            "predicted_label": "that my constant attendance can not there.",
+            "cer": 0.3333333333333333,
+            "confidence": 0.6666666666666667
+        }
+    },
+    {
+        "file_name": "303-02.png",
+        "ground_truth_label": "Letters Orders and Instructions December. 1755.",
+        "OCR": {
+            "predicted_label": "Letters Orders and Instructions December. 1755.",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Letters Orders and Instructions December. 1755.",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "303-04.png",
+        "ground_truth_label": "be so serviceable as riding from place making the",
+        "OCR": {
+            "predicted_label": "be so serviceable as riding from place making the",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "be so serviceable as to ride from place to place.",
+            "cer": 0.32653061224489793,
+            "confidence": 0.6734693877551021
+        }
+    },
+    {
+        "file_name": "303-05.png",
+        "ground_truth_label": "proper Dispositions, and seeing that all our neces-",
+        "OCR": {
+            "predicted_label": "propers, and seeing all ourcs-",
+            "cer": 0.4117647058823529,
+            "confidence": 0.5882352941176471
+        },
+        "MISTRAL": {
+            "predicted_label": "propers, and seeing all your forces.",
+            "cer": 0.43137254901960786,
+            "confidence": 0.5686274509803921
+        }
+    },
+    {
+        "file_name": "303-06.png",
+        "ground_truth_label": "saries are forwarded up with dispatch. I there-",
+        "OCR": {
+            "predicted_label": "saries are forwarded up with dispatch. I there-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Salaries are forwarded up with dispatch. I there-",
+            "cer": 0.06382978723404255,
+            "confidence": 0.9387755102040817
+        }
+    },
+    {
+        "file_name": "303-07.png",
+        "ground_truth_label": "fore think it advisable to inform your Honour",
+        "OCR": {
+            "predicted_label": "for think it available to inform your Honour",
+            "cer": 0.08888888888888889,
+            "confidence": 0.9111111111111111
+        },
+        "MISTRAL": {
+            "predicted_label": "For thinking it advisable to inform your Honor.",
+            "cer": 0.15555555555555556,
+            "confidence": 0.851063829787234
+        }
+    },
+    {
+        "file_name": "303-08.png",
+        "ground_truth_label": "of it, hoping that it will correspond with your own opinion.",
+        "OCR": {
+            "predicted_label": "of it, it, before that it will respond with with your own opinion.",
+            "cer": 0.3,
+            "confidence": 0.7272727272727273
+        },
+        "MISTRAL": {
+            "predicted_label": "He will respond to it before expressing his own opinion.",
+            "cer": 0.55,
+            "confidence": 0.44999999999999996
+        }
+    },
+    {
+        "file_name": "303-09.png",
+        "ground_truth_label": "I forgot to mention when I was down, that Mr. Living-",
+        "OCR": {
+            "predicted_label": "I forgot to mention when I was down, that Mr. Living-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "I forgot to mention when I was in London, that Mr. Livingston had informed me",
+            "cer": 0.5094339622641509,
+            "confidence": 0.6493506493506493
+        }
+    },
+    {
+        "file_name": "303-10.png",
+        "ground_truth_label": "ston, the Fort - Major, was appointed adjutant to our",
+        "OCR": {
+            "predicted_label": "ston, the Pot- Major, was appointed appointment to our",
+            "cer": 0.18867924528301888,
+            "confidence": 0.8148148148148149
+        },
+        "MISTRAL": {
+            "predicted_label": "Stone, the Post Major, was appointed to our.",
+            "cer": 0.3018867924528302,
+            "confidence": 0.6981132075471699
+        }
+    },
+    {
+        "file_name": "303-11.png",
+        "ground_truth_label": "Regiment: - I knew of none else whose long servitude",
+        "OCR": {
+            "predicted_label": "Regiment: - I knew of none else whose long servitude",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Regiment: I knew of no other whose long servitude.",
+            "cer": 0.17307692307692307,
+            "confidence": 0.8269230769230769
+        }
+    },
+    {
+        "file_name": "303-12.png",
+        "ground_truth_label": "in a military way, had qualified better for the office,",
+        "OCR": {
+            "predicted_label": "in a military way, had qualified better for the office,",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "in a military way, had qualified better for the office,",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "303-13.png",
+        "ground_truth_label": "he was appointed the 17th. of September.",
+        "OCR": {
+            "predicted_label": "he was appointed the 17th. of September.",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "He was appointed the 17th of September.",
+            "cer": 0.05,
+            "confidence": 0.95
+        }
+    },
+    {
+        "file_name": "303-14.png",
+        "ground_truth_label": "Captain Mercer's pay, as aid de camp,",
+        "OCR": {
+            "predicted_label": "Captain Mercer's pay, as aid de camp,",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Captain Mercer's pay, as aid de camp,",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "303-15.png",
+        "ground_truth_label": "seems yet doubtful; I should be glad if your Honour",
+        "OCR": {
+            "predicted_label": "stens yet doubtful; I should be glad if your Honour",
+            "cer": 0.0392156862745098,
+            "confidence": 0.9607843137254902
+        },
+        "MISTRAL": {
+            "predicted_label": "Sirs, yet doubtful; I should be glad if your Honour.",
+            "cer": 0.11764705882352941,
+            "confidence": 0.8846153846153846
+        }
+    },
+    {
+        "file_name": "303-16.png",
+        "ground_truth_label": "would fix it: so is Captain Stewarts: If Captain Stew-",
+        "OCR": {
+            "predicted_label": "would fix it: so is Captain Stewarts: If Captain Stew-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "would fix it: so is Captain Stewart",
+            "cer": 0.35185185185185186,
+            "confidence": 0.6481481481481481
+        }
+    },
+    {
+        "file_name": "303-17.png",
+        "ground_truth_label": "arts is encreased, I suppose all the Officers belonging",
+        "OCR": {
+            "predicted_label": "acts is increased all the difficulty",
+            "cer": 0.4909090909090909,
+            "confidence": 0.509090909090909
+        },
+        "MISTRAL": {
+            "predicted_label": "The acts are increased with all the difficulty.",
+            "cer": 0.6,
+            "confidence": 0.4
+        }
+    },
+    {
+        "file_name": "303-18.png",
+        "ground_truth_label": "to the Light Horse will expect to have theirs augmen-",
+        "OCR": {
+            "predicted_label": "to the Light Horse will expect to have theirs augmen-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "to the Light Horse will expect to have their augmented",
+            "cer": 0.07547169811320754,
+            "confidence": 0.9259259259259259
+        }
+    },
+    {
+        "file_name": "303-19.png",
+        "ground_truth_label": "ted also. Colonel Stephens, in a late letter, dis-",
+        "OCR": {
+            "predicted_label": "ted also. Colonel Stephens, in a late letter, dis-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "The colonel also. Colonel Stephens, in a late letter, dis-",
+            "cer": 0.2,
+            "confidence": 0.8275862068965517
+        }
+    },
+    {
+        "file_name": "303-20.png",
+        "ground_truth_label": "covered an inclination to go to the Creek and Che-",
+        "OCR": {
+            "predicted_label": "covered an inclination to go to the Creek and Che-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "conceived an inclination to go to the Creek and Cross",
+            "cer": 0.16,
+            "confidence": 0.8490566037735849
+        }
+    },
+    {
+        "file_name": "303-21.png",
+        "ground_truth_label": "rokee Indians this Winter. I told him where to ap-",
+        "OCR": {
+            "predicted_label": "rokee Indians this Winter. I told him where to ap-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "rokee Indians this Winter. I told him where to ap-",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "303-22.png",
+        "ground_truth_label": "ply, if he had any such thoughts. I believe, on",
+        "OCR": {
+            "predicted_label": "ply, If he had any such such thoughts. I believe, I believed, on",
+            "cer": 0.3829787234042553,
+            "confidence": 0.71875
+        },
+        "MISTRAL": {
+            "predicted_label": "Apply, If he had any such thought. I believed, I believed, on.",
+            "cer": 0.3829787234042553,
+            "confidence": 0.7096774193548387
+        }
+    },
+    {
+        "file_name": "303-23.png",
+        "ground_truth_label": "so useful a Business, he might be spared until",
+        "OCR": {
+            "predicted_label": "so useful, height be used until",
+            "cer": 0.3695652173913043,
+            "confidence": 0.6304347826086957
+        },
+        "MISTRAL": {
+            "predicted_label": "so useful, they should be used until",
+            "cer": 0.4782608695652174,
+            "confidence": 0.5217391304347826
+        }
+    },
+    {
+        "file_name": "303-24.png",
+        "ground_truth_label": "the Spring. If your Honor think proper to or-",
+        "OCR": {
+            "predicted_label": "the Spring. If your Honor think proper to or-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "The Spring. If your Honor thinks proper to order.",
+            "cer": 0.13333333333333333,
+            "confidence": 0.8775510204081632
+        }
+    },
+    {
+        "file_name": "303-25.png",
+        "ground_truth_label": "der the Act of Assembly for apprehending Deser-",
+        "OCR": {
+            "predicted_label": "der the Act of Assembly for apprehending Deser-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Under the Act of Assembly for apprehending Deserters.",
+            "cer": 0.14893617021276595,
+            "confidence": 0.8679245283018868
+        }
+    },
+    {
+        "file_name": "303-26.png",
+        "ground_truth_label": "ters, and against harbouring them, to be published",
+        "OCR": {
+            "predicted_label": "ters, and against bankruptcy them, to be published",
+            "cer": 0.16,
+            "confidence": 0.84
+        },
+        "MISTRAL": {
+            "predicted_label": "Orders, and against bankruptcy, to be made for them, to be published.",
+            "cer": 0.54,
+            "confidence": 0.6086956521739131
+        }
+    },
+    {
+        "file_name": "303-27.png",
+        "ground_truth_label": "every Sunday in each parish Church, until the",
+        "OCR": {
+            "predicted_label": "away Sunday in each parish Parish Church, until until the",
+            "cer": 0.37777777777777777,
+            "confidence": 0.7017543859649122
+        },
+        "MISTRAL": {
+            "predicted_label": "Away on Sunday in each parish church, until the",
+            "cer": 0.17777777777777778,
+            "confidence": 0.8297872340425532
+        }
+    },
+    {
+        "file_name": "303-28.png",
+        "ground_truth_label": "people were made acquainted with the Law, it would",
+        "OCR": {
+            "predicted_label": "people were made acquainted with the Law, it and",
+            "cer": 0.08,
+            "confidence": 0.92
+        },
+        "MISTRAL": {
+            "predicted_label": "people were made acquainted with the Law, it being.",
+            "cer": 0.12,
+            "confidence": 0.8823529411764706
+        }
+    },
+    {
+        "file_name": "303-29.png",
+        "ground_truth_label": "have a very good effect. The Commonalty in gene-",
+        "OCR": {
+            "predicted_label": "have a very good ifpert. The Community in gene",
+            "cer": 0.14583333333333334,
+            "confidence": 0.8541666666666666
+        },
+        "MISTRAL": {
+            "predicted_label": "have a very good officer. The Community in general.",
+            "cer": 0.22916666666666666,
+            "confidence": 0.7843137254901961
+        }
+    },
+    {
+        "file_name": "303-30.png",
+        "ground_truth_label": "ral, or more through ignorance than design: few",
+        "OCR": {
+            "predicted_label": "ral, or more through ignorance than design: few",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Colonel, or more through ignorance than design: few.",
+            "cer": 0.14893617021276595,
+            "confidence": 0.8653846153846154
+        }
+    },
+    {
+        "file_name": "303-31.png",
+        "ground_truth_label": "of them are acquainted that such a Law exists: and",
+        "OCR": {
+            "predicted_label": "of them are acquainted that such a Law exists: and",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Of them are acquainted that such a law exists.",
+            "cer": 0.14,
+            "confidence": 0.86
+        }
+    },
+    {
+        "file_name": "303-32.png",
+        "ground_truth_label": "there is no other certain way of bringing it to their",
+        "OCR": {
+            "predicted_label": "there is no other certain way of bringing it to their",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "There is no other certain way of bringing it to them.",
+            "cer": 0.05660377358490566,
+            "confidence": 0.9433962264150944
+        }
+    },
+    {
+        "file_name": "303-33.png",
+        "ground_truth_label": "knowledge. There are a great many of the men",
+        "OCR": {
+            "predicted_label": "knowledge. There are a great many of the men",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "knowledge. There are a great many of them.",
+            "cer": 0.06818181818181818,
+            "confidence": 0.9318181818181819
+        }
+    },
+    {
+        "file_name": "303-34.png",
+        "ground_truth_label": "that did once belong to our Companies, deserted",
+        "OCR": {
+            "predicted_label": "that did once belong to our Companies, deserted",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "that did once belong to our Company, deserted",
+            "cer": 0.06382978723404255,
+            "confidence": 0.9361702127659575
+        }
+    },
+    {
+        "file_name": "303-35.png",
+        "ground_truth_label": "from the Regiments into which they were draugh-",
+        "OCR": {
+            "predicted_label": "from the Regiments into which they were drawt",
+            "cer": 0.0851063829787234,
+            "confidence": 0.9148936170212766
+        },
+        "MISTRAL": {
+            "predicted_label": "from the Regiments into which they were drawn",
+            "cer": 0.0851063829787234,
+            "confidence": 0.9148936170212766
+        }
+    },
+    {
+        "file_name": "303-36.png",
+        "ground_truth_label": "ted, that would now gladly return if they could",
+        "OCR": {
+            "predicted_label": "ted, that would now gladly return if they could",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "They, that would now gladly return if they could.",
+            "cer": 0.0851063829787234,
+            "confidence": 0.9183673469387755
+        }
+    },
+    {
+        "file_name": "304-01.png",
+        "ground_truth_label": "304. Letters Orders and Instructions. December 1755.",
+        "OCR": {
+            "predicted_label": "304. Letters Orders Orders and Instructions, Decembers. December 1755.",
+            "cer": 0.34615384615384615,
+            "confidence": 0.7428571428571429
+        },
+        "MISTRAL": {
+            "predicted_label": "304. Letters, Orders, and Instructions, December 1755.",
+            "cer": 0.057692307692307696,
+            "confidence": 0.9444444444444444
+        }
+    },
+    {
+        "file_name": "304-03.png",
+        "ground_truth_label": "be sure of idemnity. If your Honor would",
+        "OCR": {
+            "predicted_label": "be sure of idemnity. If your Honor would",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "be sure of idemnity. If your Honor would",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "304-04.png",
+        "ground_truth_label": "be kind enough to intimate this to General",
+        "OCR": {
+            "predicted_label": "be kind to intimate to General",
+            "cer": 0.2857142857142857,
+            "confidence": 0.7142857142857143
+        },
+        "MISTRAL": {
+            "predicted_label": "Be kind and intimate to the General.",
+            "cer": 0.35714285714285715,
+            "confidence": 0.6428571428571428
+        }
+    },
+    {
+        "file_name": "304-05.png",
+        "ground_truth_label": "Shirley, or the Colonels of those Regiments, - it",
+        "OCR": {
+            "predicted_label": "Shirley, or the Colonels of those Regiments, - it",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Shirley, or the Colonels of those Regiments: -it.",
+            "cer": 0.061224489795918366,
+            "confidence": 0.9387755102040817
+        }
+    },
+    {
+        "file_name": "304-06.png",
+        "ground_truth_label": "would be of service to us: without leave we",
+        "OCR": {
+            "predicted_label": "would be of service to us: without leave we",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "would be of service to us without leave.",
+            "cer": 0.09302325581395349,
+            "confidence": 0.9069767441860466
+        }
+    },
+    {
+        "file_name": "304-07.png",
+        "ground_truth_label": "dare not receive them. Vc.",
+        "OCR": {
+            "predicted_label": "dare me. Vc.",
+            "cer": 0.5769230769230769,
+            "confidence": 0.42307692307692313
+        },
+        "MISTRAL": {
+            "predicted_label": "Dare I.",
+            "cer": 0.8076923076923077,
+            "confidence": 0.1923076923076923
+        }
+    },
+    {
+        "file_name": "304-08.png",
+        "ground_truth_label": "G.W.",
+        "OCR": {
+            "predicted_label": "G.W.",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "G.W.",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "304-09.png",
+        "ground_truth_label": "Alexandria: December",
+        "OCR": {
+            "predicted_label": "Alexandria: December",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Alexandria: December",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "304-10.png",
+        "ground_truth_label": "5th. 1755.",
+        "OCR": {
+            "predicted_label": "5th. 1755.",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "5th. 1755.",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "304-11.png",
+        "ground_truth_label": "5th. To John Robinson Esquire, Speaker.",
+        "OCR": {
+            "predicted_label": "5th. To John Robinson Esquire, Speaker.",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "5th. To John Robinson Esquire, Speaker.",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "304-12.png",
+        "ground_truth_label": "The Bearer, captain John Mercer,",
+        "OCR": {
+            "predicted_label": "The Bearer, captain John Mercer,",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "The Bearer, captain John Mercer,",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "304-13.png",
+        "ground_truth_label": "having leave to go down and Settle his ac-",
+        "OCR": {
+            "predicted_label": "having leave to go down and Settle his ac-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "having leave to go down and settle his account.",
+            "cer": 0.16666666666666666,
+            "confidence": 0.851063829787234
+        }
+    },
+    {
+        "file_name": "304-14.png",
+        "ground_truth_label": "compts with the Committee; is ordered to",
+        "OCR": {
+            "predicted_label": "compts with Committee; is ordered to",
+            "cer": 0.1,
+            "confidence": 0.9
+        },
+        "MISTRAL": {
+            "predicted_label": "compts with Committee; is ordered to comply",
+            "cer": 0.275,
+            "confidence": 0.7441860465116279
+        }
+    },
+    {
+        "file_name": "304-15.png",
+        "ground_truth_label": "call upon you for the balance of the ten",
+        "OCR": {
+            "predicted_label": "call upon you for the balance of the ten",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "call upon you for the balance of the ten",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "304-16.png",
+        "ground_truth_label": "thousand pounds, which I believe we shall",
+        "OCR": {
+            "predicted_label": "thousand pounds, which I believe we shall",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "thousand pounds, which I believe we shall",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "304-17.png",
+        "ground_truth_label": "want before another opportunity may offer;",
+        "OCR": {
+            "predicted_label": "want before another opportunity may offer;",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "will want before another opportunity may offer;",
+            "cer": 0.11904761904761904,
+            "confidence": 0.8936170212765957
+        }
+    },
+    {
+        "file_name": "304-18.png",
+        "ground_truth_label": "this being the time when our Demands for",
+        "OCR": {
+            "predicted_label": "this being the time when our Demands for",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "This being the time when our demands for.",
+            "cer": 0.075,
+            "confidence": 0.926829268292683
+        }
+    },
+    {
+        "file_name": "304-19.png",
+        "ground_truth_label": "money are greatest. When I left Willi-",
+        "OCR": {
+            "predicted_label": "money are greatest. When When I left Will Willi-",
+            "cer": 0.2631578947368421,
+            "confidence": 0.7916666666666666
+        },
+        "MISTRAL": {
+            "predicted_label": "Money is the greatest concern. When I left Will Willingham,",
+            "cer": 0.6578947368421053,
+            "confidence": 0.576271186440678
+        }
+    },
+    {
+        "file_name": "304-20.png",
+        "ground_truth_label": "amsburgh, I intended to proceed to Winches-",
+        "OCR": {
+            "predicted_label": "amsburgh, I intended to proceed to Winches-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Hamburg, I intended to proceed to Winchester.",
+            "cer": 0.16279069767441862,
+            "confidence": 0.8444444444444444
+        }
+    },
+    {
+        "file_name": "304-21.png",
+        "ground_truth_label": "ter; but meeting with Letters at Fredericks-",
+        "OCR": {
+            "predicted_label": "ter; but meeting with Letters at Fredericks-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "ter, but meeting with Letters at Fredericks-",
+            "cer": 0.022727272727272728,
+            "confidence": 0.9772727272727273
+        }
+    },
+    {
+        "file_name": "304-22.png",
+        "ground_truth_label": "burgh, informing me that peace prevailed",
+        "OCR": {
+            "predicted_label": "burgh, informing me that peace prevailed",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "burgh, informing me that peace prevailed",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "304-23.png",
+        "ground_truth_label": "above, and that nothing was immediate-",
+        "OCR": {
+            "predicted_label": "above, and that nothing was immediate-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "above, and that nothing was immediate-",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "304-24.png",
+        "ground_truth_label": "ly wanted but Salt; I came up here to en-",
+        "OCR": {
+            "predicted_label": "by wanted but Salt Salt; I came up here here to en-",
+            "cer": 0.2682926829268293,
+            "confidence": 0.7843137254901961
+        },
+        "MISTRAL": {
+            "predicted_label": "I wanted only Salt; I came up here to the en-",
+            "cer": 0.24390243902439024,
+            "confidence": 0.7777777777777778
+        }
+    },
+    {
+        "file_name": "304-25.png",
+        "ground_truth_label": "gage what I could, and to wait the arrival",
+        "OCR": {
+            "predicted_label": "gage what, and to wait",
+            "cer": 0.47619047619047616,
+            "confidence": 0.5238095238095238
+        },
+        "MISTRAL": {
+            "predicted_label": "gage what, and to wait",
+            "cer": 0.47619047619047616,
+            "confidence": 0.5238095238095238
+        }
+    },
+    {
+        "file_name": "304-26.png",
+        "ground_truth_label": "of some Recruits at this place; and a Vessel",
+        "OCR": {
+            "predicted_label": "of some Recruits at this place; and a Vessel",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "of some recruits at this post and a vessel.",
+            "cer": 0.18181818181818182,
+            "confidence": 0.8181818181818181
+        }
+    },
+    {
+        "file_name": "304-27.png",
+        "ground_truth_label": "with sundry arms, Vc. for the Troops. This Ves-",
+        "OCR": {
+            "predicted_label": "with sundry arms, Vc. for the Troops. This Ves-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "with sundry arms, viz. for the Troops. This Ves-",
+            "cer": 0.06382978723404255,
+            "confidence": 0.9375
+        }
+    },
+    {
+        "file_name": "304-28.png",
+        "ground_truth_label": "sel left Williamsburgh two days after I did,",
+        "OCR": {
+            "predicted_label": "sel left Williamsburgh two days after I did,",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "He left Williamsburgh two days after I did,",
+            "cer": 0.045454545454545456,
+            "confidence": 0.9545454545454546
+        }
+    },
+    {
+        "file_name": "304-29.png",
+        "ground_truth_label": "and is not yet arrived: neither is the Ex-",
+        "OCR": {
+            "predicted_label": "and is not yet arrived: neither is the Ex-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "and is not yet arrived: neither is the Express.",
+            "cer": 0.14285714285714285,
+            "confidence": 0.8723404255319149
+        }
+    },
+    {
+        "file_name": "304-30.png",
+        "ground_truth_label": "press returned, which the Governor sent to",
+        "OCR": {
+            "predicted_label": "press returned, which the the Governor sent sent to",
+            "cer": 0.21428571428571427,
+            "confidence": 0.8235294117647058
+        },
+        "MISTRAL": {
+            "predicted_label": "press returned, which the the Governor sent sent to",
+            "cer": 0.21428571428571427,
+            "confidence": 0.8235294117647058
+        }
+    },
+    {
+        "file_name": "304-31.png",
+        "ground_truth_label": "General Shirley for Commissions for the",
+        "OCR": {
+            "predicted_label": "General Shirley for Commissions for the",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "General Shirley has Commission(s) for the",
+            "cer": 0.1282051282051282,
+            "confidence": 0.8780487804878049
+        }
+    },
+    {
+        "file_name": "304-32.png",
+        "ground_truth_label": "Field Officers of our Regiment: which gives",
+        "OCR": {
+            "predicted_label": "Field Officers of our Regiment: which gives",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Field Officers of our Regiment: who give",
+            "cer": 0.09302325581395349,
+            "confidence": 0.9069767441860466
+        }
+    },
+    {
+        "file_name": "304-33.png",
+        "ground_truth_label": "me much concern; fearing that this de-",
+        "OCR": {
+            "predicted_label": "me much concern; fearing that this de-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "It causes me much concern; I fear that this de-",
+            "cer": 0.39473684210526316,
+            "confidence": 0.6808510638297872
+        }
+    },
+    {
+        "file_name": "304-34.png",
+        "ground_truth_label": "lay is ominous. In that case, I shall not",
+        "OCR": {
+            "predicted_label": "lay is ominous. I shall not",
+            "cer": 0.34146341463414637,
+            "confidence": 0.6585365853658536
+        },
+        "MISTRAL": {
+            "predicted_label": "The day is ominous. I shall not.",
+            "cer": 0.4878048780487805,
+            "confidence": 0.5121951219512195
+        }
+    },
+    {
+        "file_name": "304-35.png",
+        "ground_truth_label": "know how to act; - it will be useless for me",
+        "OCR": {
+            "predicted_label": "know how to act; - it will be useless for me",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "I know not how to act; - it will be useless for me.",
+            "cer": 0.1590909090909091,
+            "confidence": 0.8627450980392157
+        }
+    },
+    {
+        "file_name": "305-01.png",
+        "ground_truth_label": "p.305",
+        "OCR": {
+            "predicted_label": "p.305",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "p.305",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "305-02.png",
+        "ground_truth_label": "Letters Orders and Instructions. December 1755.",
+        "OCR": {
+            "predicted_label": "Letters Orders and Instructions. December 1755.",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Letters, Orders, and Instructions. December 1755.",
+            "cer": 0.0425531914893617,
+            "confidence": 0.9591836734693877
+        }
+    },
+    {
+        "file_name": "305-04.png",
+        "ground_truth_label": "to go to a place where I am to be commanded",
+        "OCR": {
+            "predicted_label": "to go to a place where I am to be commanded",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "to go to a place where I am to be commanded",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "305-05.png",
+        "ground_truth_label": "and directed by another, who can have no",
+        "OCR": {
+            "predicted_label": "and directed, who have no",
+            "cer": 0.375,
+            "confidence": 0.625
+        },
+        "MISTRAL": {
+            "predicted_label": "And direct those who have none.",
+            "cer": 0.475,
+            "confidence": 0.525
+        }
+    },
+    {
+        "file_name": "305-06.png",
+        "ground_truth_label": "other pretence, than that of having a commis-",
+        "OCR": {
+            "predicted_label": "other preference, than that of having a Commiss-",
+            "cer": 0.1111111111111111,
+            "confidence": 0.8958333333333334
+        },
+        "MISTRAL": {
+            "predicted_label": "other preference, than that of having a commission.",
+            "cer": 0.17777777777777778,
+            "confidence": 0.8431372549019608
+        }
+    },
+    {
+        "file_name": "305-07.png",
+        "ground_truth_label": "sion from the King.",
+        "OCR": {
+            "predicted_label": "sion from from the King.",
+            "cer": 0.2631578947368421,
+            "confidence": 0.7916666666666666
+        },
+        "MISTRAL": {
+            "predicted_label": "sion from from the King.",
+            "cer": 0.2631578947368421,
+            "confidence": 0.7916666666666666
+        }
+    },
+    {
+        "file_name": "305-08.png",
+        "ground_truth_label": "We shall suffer very greatly in a little",
+        "OCR": {
+            "predicted_label": "We shall be at a little",
+            "cer": 0.45,
+            "confidence": 0.55
+        },
+        "MISTRAL": {
+            "predicted_label": "We shall be at a loss.",
+            "cer": 0.575,
+            "confidence": 0.42500000000000004
+        }
+    },
+    {
+        "file_name": "305-09.png",
+        "ground_truth_label": "time, for want of Clothing for the Soldiers; and none",
+        "OCR": {
+            "predicted_label": "time, for want of Clothing for the Soldiers; and none",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "time, for want of clothing for the soldiers; and none.",
+            "cer": 0.05660377358490566,
+            "confidence": 0.9444444444444444
+        }
+    },
+    {
+        "file_name": "305-10.png",
+        "ground_truth_label": "can be had here, nor in short, I believe in the",
+        "OCR": {
+            "predicted_label": "can be had here, nor in short, I believe in the",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "can be had here, nor in short, I believe in the",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "305-11.png",
+        "ground_truth_label": "Country. Those which Carlyle and Dalton con-",
+        "OCR": {
+            "predicted_label": "Country Carlyle and Dalton con-",
+            "cer": 0.29545454545454547,
+            "confidence": 0.7045454545454546
+        },
+        "MISTRAL": {
+            "predicted_label": "Country Carlyle and Dalton continue.",
+            "cer": 0.4318181818181818,
+            "confidence": 0.5681818181818181
+        }
+    },
+    {
+        "file_name": "305-12.png",
+        "ground_truth_label": "tracted to furnish, we are disappointed in; and",
+        "OCR": {
+            "predicted_label": "tracted to furnish, we are disappointed in; and",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Expected to furnish, we are disappointed in not receiving; and",
+            "cer": 0.3829787234042553,
+            "confidence": 0.7096774193548387
+        }
+    },
+    {
+        "file_name": "305-13.png",
+        "ground_truth_label": "they say, they have searched all the Stores in",
+        "OCR": {
+            "predicted_label": "they say, they have searched all the Stores in",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "they say they have searched all the stores in",
+            "cer": 0.043478260869565216,
+            "confidence": 0.9565217391304348
+        }
+    },
+    {
+        "file_name": "305-14.png",
+        "ground_truth_label": "Maryland, as well as this part of Virginia, and",
+        "OCR": {
+            "predicted_label": "Maryland, as well as this part of Virginia, and",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Maryland, as well as this part of Virginia.",
+            "cer": 0.10638297872340426,
+            "confidence": 0.8936170212765957
+        }
+    },
+    {
+        "file_name": "305-15.png",
+        "ground_truth_label": "none are able to furnish Clothes. We have",
+        "OCR": {
+            "predicted_label": "none are able to furnish Clothes. We have",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "None are able to furnish cloathing. We have.",
+            "cer": 0.17073170731707318,
+            "confidence": 0.8409090909090909
+        }
+    },
+    {
+        "file_name": "305-16.png",
+        "ground_truth_label": "sustained inconceivable losses by the commis-",
+        "OCR": {
+            "predicted_label": "sustained losses by commis-",
+            "cer": 0.4,
+            "confidence": 0.6
+        },
+        "MISTRAL": {
+            "predicted_label": "sustained losses by commis-",
+            "cer": 0.4,
+            "confidence": 0.6
+        }
+    },
+    {
+        "file_name": "305-17.png",
+        "ground_truth_label": "saries delays: many of the Carolina Beeves",
+        "OCR": {
+            "predicted_label": "saries delays: many of the Carolina Beeves",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Series delays: many of the Carolina cattle.",
+            "cer": 0.19047619047619047,
+            "confidence": 0.813953488372093
+        }
+    },
+    {
+        "file_name": "305-18.png",
+        "ground_truth_label": "are dead, through poverty and bad manage-",
+        "OCR": {
+            "predicted_label": "are dead, through poverty and bad manage-",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "are dead, through poverty and bad management.",
+            "cer": 0.12195121951219512,
+            "confidence": 0.8888888888888888
+        }
+    },
+    {
+        "file_name": "305-19.png",
+        "ground_truth_label": "ment; and the chief of them are too poor to",
+        "OCR": {
+            "predicted_label": "ment; and the chief of them are too poor to",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Maintain; and the chief of them are too poor.",
+            "cer": 0.20930232558139536,
+            "confidence": 0.8
+        }
+    },
+    {
+        "file_name": "305-20.png",
+        "ground_truth_label": "slaughter. Pray make my Compliments",
+        "OCR": {
+            "predicted_label": "slaughter. Pray make my Components",
+            "cer": 0.08571428571428572,
+            "confidence": 0.9142857142857143
+        },
+        "MISTRAL": {
+            "predicted_label": "Slaughter. Pray make my Compositions",
+            "cer": 0.2,
+            "confidence": 0.8055555555555556
+        }
+    },
+    {
+        "file_name": "305-21.png",
+        "ground_truth_label": "to my Friends below; and believe me Vc.",
+        "OCR": {
+            "predicted_label": "to my Friends below; and believe me Vc.",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "to my Friends below; and believe me, Vr.",
+            "cer": 0.05128205128205128,
+            "confidence": 0.95
+        }
+    },
+    {
+        "file_name": "305-22.png",
+        "ground_truth_label": "G.W.",
+        "OCR": {
+            "predicted_label": "G.W.",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "G.W.",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "305-23.png",
+        "ground_truth_label": "P.S. The Committee, I believe,",
+        "OCR": {
+            "predicted_label": "P.S. The Committee, I believe,",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "P.S. The Committee, I believe,",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "305-24.png",
+        "ground_truth_label": "have not yet fixed the pay of",
+        "OCR": {
+            "predicted_label": "have yet fixed of",
+            "cer": 0.41379310344827586,
+            "confidence": 0.5862068965517242
+        },
+        "MISTRAL": {
+            "predicted_label": "We have yet fixed upon.",
+            "cer": 0.5517241379310345,
+            "confidence": 0.4482758620689655
+        }
+    },
+    {
+        "file_name": "305-25.png",
+        "ground_truth_label": "the Lieutenant Colonel and Major.",
+        "OCR": {
+            "predicted_label": "the Lieutenant Colonel and Major.",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "the Lieutenant Colonel and Major.",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "305-26.png",
+        "ground_truth_label": "Pray propose it, and let me know",
+        "OCR": {
+            "predicted_label": "Pray propose it, and let me know",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Pray propose it, and let me know",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "305-27.png",
+        "ground_truth_label": "their Resolves.",
+        "OCR": {
+            "predicted_label": "their Resolves.",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "their Resolves.",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "305-28.png",
+        "ground_truth_label": "Alexandria December 5th. 1755.",
+        "OCR": {
+            "predicted_label": "Alexandria December 5th. 1755.",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Alexandria December 5th. 1755.",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "305-30.png",
+        "ground_truth_label": "5th To Lieutenant George Frazier,",
+        "OCR": {
+            "predicted_label": "5th To Lieutenant George Frazier,",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "5th, To Lieutenant George Frazier,",
+            "cer": 0.030303030303030304,
+            "confidence": 0.9705882352941176
+        }
+    },
+    {
+        "file_name": "305-31.png",
+        "ground_truth_label": "at Fredericksburgh.",
+        "OCR": {
+            "predicted_label": "at Fredericksburgh.",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "at Fredericksburgh.",
+            "cer": 0.0,
+            "confidence": 1.0
+        }
+    },
+    {
+        "file_name": "305-32.png",
+        "ground_truth_label": "As a quantity of Salt is wanted at",
+        "OCR": {
+            "predicted_label": "As a quantity of Salt is wanted at",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "As a quantity of Salt is wanted at this place.",
+            "cer": 0.35294117647058826,
+            "confidence": 0.7391304347826086
+        }
+    },
+    {
+        "file_name": "305-33.png",
+        "ground_truth_label": "Fort Cumberland for curing the provisions, you",
+        "OCR": {
+            "predicted_label": "Fort Cumberland for curing the provisions, you",
+            "cer": 0.0,
+            "confidence": 1.0
+        },
+        "MISTRAL": {
+            "predicted_label": "Fort Cumberland for curing the provisions.",
+            "cer": 0.10869565217391304,
+            "confidence": 0.8913043478260869
+        }
+    },
+    {
+        "file_name": "305-34.png",
+        "ground_truth_label": "must endeavour to purchase it upon the best",
+        "OCR": {
+            "predicted_label": "must end code arrive to purchase it upon the ticket",
+            "cer": 0.3488372093023256,
+            "confidence": 0.7058823529411764
+        },
+        "MISTRAL": {
+            "predicted_label": "must enforce discipline to purchase it upon the ticket",
+            "cer": 0.46511627906976744,
+            "confidence": 0.6296296296296297
+        }
+    }
+]
