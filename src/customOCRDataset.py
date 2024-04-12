@@ -5,6 +5,9 @@ from torch.utils.data import Dataset
 from PIL import Image
 import torch
 
+WASHINGTON_DATASET = './../resources/washingtondb-v1.0/data/line_images_normalized/'
+IAM_DATASET = './../resources/IAM-V1/lines/'
+
 """
 Augmentations are applied to the training images to make the model robust to variations in input.
 """
@@ -16,7 +19,7 @@ train_transforms = transforms.Compose([
 
 @dataclass(frozen=True)
 class DatasetConfig:
-    DATA_ROOT: str = './../resources/washingtondb-v1.0/data/line_images_normalized/'
+    DATA_ROOT: str = IAM_DATASET
 
 
 @dataclass(frozen=True)

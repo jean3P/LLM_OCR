@@ -4,7 +4,7 @@ import re
 import random
 import math
 
-from utils.constants import REPLACEMENTS, transcription_path, outputs_path
+from utils.constants import REPLACEMENTS_WASHINGTON, transcription_washington_path, outputs_path
 
 
 def save_to_json(dict_data, filename):
@@ -40,7 +40,7 @@ class LabelParser:
         """Initializes the LabelParser with a dataset path and a seed for randomization."""
         self.path = path
         self.seed = seed
-        self.pattern = re.compile('|'.join(re.escape(key) for key in REPLACEMENTS.keys()))
+        self.pattern = re.compile('|'.join(re.escape(key) for key in REPLACEMENTS_WASHINGTON.keys()))
 
     def parse_label(self, label):
         """Parses a single label from the dataset.
@@ -50,7 +50,7 @@ class LabelParser:
             tuple: A tuple containing the image name and the processed label.
         """
         image_name, rest_of_label = label[:6], label[6:]
-        rest_of_label = self.pattern.sub(lambda x: REPLACEMENTS[x.group()], rest_of_label)
+        rest_of_label = self.pattern.sub(lambda x: REPLACEMENTS_WASHINGTON[x.group()], rest_of_label)
         rest_of_label = rest_of_label.rstrip('\n')
 
         # Remove the first space character if it exists
@@ -116,7 +116,7 @@ class LabelParser:
 
 
 # Initialize LabelParser
-label_parser = LabelParser(transcription_path)
+label_parser = LabelParser(transcription_washington_path)
 
 # Split dataset and save to JSON files
 # training_data, validation_data, testing_data = label_parser.get_subsets(70, 15)

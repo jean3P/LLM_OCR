@@ -2,7 +2,7 @@ import json
 import os
 import pandas as pd
 
-from handle_dataset import load_from_json
+from handle_dataset_washington import load_from_json
 from utils.constants import results_LLM_mistral, results_LLM_mistral_1, results_test_trocr, results_LLM_mistral_2, \
     results_LLM_mistral_3, results_mixed_LLM_MISTRAL, automated_resuts
 
@@ -40,7 +40,7 @@ df_sorted = df.sort_values(by='Mean CER').head(length)
 print("Top 3 files with lowest Mean CER for Mistral:")
 print(df_sorted)
 
-path_ = os.path.join(results_test_trocr, 'final_test_evaluation_results_50_50.json')
+path_ = os.path.join(results_test_trocr, 'final_test_evaluation_results_100.json')
 with open(path_, 'r') as file:
     data = json.load(file)
 

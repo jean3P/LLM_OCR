@@ -4,7 +4,7 @@ import os
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from confidence_calculator import calculate_confidence
 import torch
-from handle_dataset import save_to_json, load_from_json
+from handle_dataset_washington import save_to_json, load_from_json
 from utils.constants import automated_resuts, results_test_trocr
 
 cer_metric = evaluate.load('cer')

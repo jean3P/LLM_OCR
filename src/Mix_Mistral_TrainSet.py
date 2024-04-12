@@ -1,7 +1,7 @@
 import json
 import os
 
-from src.handle_dataset import save_to_json, load_from_json
+from src.handle_dataset_washington import save_to_json, load_from_json
 from src.utils.constants import results_LLM_mistral_3, outputs_path, results_mixed_LLM_MISTRAL, automated_resuts
 
 

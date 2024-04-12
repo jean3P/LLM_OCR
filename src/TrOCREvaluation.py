@@ -7,7 +7,7 @@ from transformers import TrOCRProcessor, VisionEncoderDecoderModel, Seq2SeqTrain
     default_data_collator
 from customOCRDataset import ModelConfig, CustomOCRDataset, DatasetConfig
 from data_frame_handler import DataFrameHandler
-from handle_dataset import load_from_json, save_to_json
+from handle_dataset_washington import load_from_json, save_to_json
 from utils.constants import outputs_path, model_save_path_seq_v2, processor_save_path_seq_v2
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')

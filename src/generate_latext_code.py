@@ -51,7 +51,13 @@ def generate_latex_table(automated_results_dir, results_test_trocr_dir,
     label_changes_final_75 = calculate_label_change_percentages(automated_results_dir, final_test_file_name_mistral_75)
     label_changes_final_75_25 = calculate_label_change_percentages(automated_results_dir, final_test_file_name_mistral_75_25)
 
-
-    return (cer_values_ocr_self, cer_values_ocr_final_75, cer_values_ocr_final_75_25,
-            label_changes_self, label_changes_final_75,label_changes_final_75_25)
+    dict = {
+        "Self-training": cer_values_ocr_self,
+        "Final test normal": cer_values_ocr_final_75,
+        "Final test with Self-training": cer_values_ocr_final_75_25,
+        "Labeling changes Self-training": label_changes_self,
+        "Labeling changes Final test normal": label_changes_final_75,
+        "Labeling changes Final test Self-training": label_changes_final_75_25
+    }
+    return dict
 

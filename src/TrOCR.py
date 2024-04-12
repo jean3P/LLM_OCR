@@ -8,7 +8,7 @@ from transformers import TrOCRProcessor, VisionEncoderDecoderModel, Seq2SeqTrain
 
 from customOCRDataset import ModelConfig, CustomOCRDataset, DatasetConfig
 from data_frame_handler import DataFrameHandler
-from handle_dataset import load_from_json
+from handle_dataset_washington import load_from_json
 from utils.constants import outputs_path, model_save_path_seq_v2, processor_save_path_seq_v2, \
     model_save_path_seq_v2_mixed_20_80, processor_save_path_seq_v2_mixed_20_80, model_save_path_seq_v2_25, \
     processor_save_path_seq_v2_25, model_save_path_seq_v2_25_75, processor_save_path_seq_v2_25_75, \

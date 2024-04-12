@@ -9,7 +9,7 @@ from transformers import VisionEncoderDecoderModel, TrOCRProcessor
 from confidence_calculator import calculate_confidence
 from customOCRDataset import DatasetConfig
 from data_frame_handler import DataFrameHandler
-from handle_dataset import save_to_json, load_from_json
+from handle_dataset_washington import save_to_json, load_from_json
 from utils.constants import results_test_trocr, outputs_path_test
 
 #
@@ -126,6 +126,9 @@ def evaluate_test_data(processor, model, test_name, name_file_tested):
         predicted_text = ocr(image, processor, model, device)
 
         # Calculate CER
+        print(f"PREDICTED: {predicted_text} -- REAL: {row['text']}")
+        if row['text'] == "":
+            row['text'] = "#"
         cer = cer_metric.compute(predictions=[predicted_text], references=[row['text']])
 
         # Calculate confidence scores
