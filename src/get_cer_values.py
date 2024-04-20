@@ -19,6 +19,7 @@ def calculate_cer_values(directory_path_mistral, filename_mistral, path_director
     mistral_file_path = os.path.join(directory_path_mistral, filename_mistral)
     mistral_data = load_from_json(mistral_file_path)
     mean_cer_mistral = calculate_mean(mistral_data, 'MISTRAL', 'cer')
+    mean_confidence_mistral = calculate_mean(mistral_data, 'MISTRAL', 'confidence')
 
     # Load and calculate mean CER for the OCR file
     ocr_file_path = os.path.join(path_directory_ocr, other_filename_ocr)
@@ -34,6 +35,7 @@ def calculate_cer_values(directory_path_mistral, filename_mistral, path_director
     results = {
         'Mean CER OCR': round(mean_cer_ocr * 100, 2) if mean_cer_ocr is not None else None,
         'Mean CER Mistral': round(mean_cer_mistral*100, 2) if mean_cer_mistral is not None else None,
+        'Mean Confidence Mistral': round(mean_confidence_mistral, 2) if mean_confidence_mistral is not None else None,
     }
 
     return results
@@ -43,6 +45,7 @@ def calculate_cer_values(directory_path_mistral, filename_mistral, path_director
 def load_from_json(file_path):
     with open(file_path, 'r') as file:
         return json.load(file)
+
 
 # Function to calculate mean values given data, a key, and a field
 def calculate_mean(data, key, field):

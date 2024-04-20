@@ -10,11 +10,11 @@ from src.utils.constants import automated_resuts, results_test_trocr
 # OCR Files
 self_training_file_name_ocr_75 = "test_evaluation_results_75.json"
 final_test_file_name_ocr_75_25 = "final_test_evaluation_results_75_25.json"
-final_test_file_name_ocr_75 = "final_test_evaluation_results_75.json"
+final_test_file_name_ocr_75 = "final_test_evaluation_results_100.json"
 
 # Mistral Files
 self_training_file_name_mistral_75 = "test_evaluation_from_mistral_75.json"
-final_test_file_name_mistral_75 = "final_test_evaluation_from_mistral_75.json"
+final_test_file_name_mistral_75 = "final_test_evaluation_from_mistral_100.json"
 final_test_file_name_mistral_75_25 = "final_test_evaluation_from_mistral_75_25.json"
 
 # Directory paths

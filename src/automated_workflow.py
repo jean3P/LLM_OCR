@@ -7,7 +7,7 @@ from src.Mix_Mistral_TrainSet import extract_and_combine
 from src.TrOCR import TrainingConfig
 from src.TrOCREvaluation import train_and_save_model, calculate_sample_size
 from src.handle_dataset_washington import load_from_json
-from src.mistral import evaluate_test_data_mistral7B
+from src.mistral_v2 import evaluate_test_data_mistral7B
 from src.test import evaluate_test_data, create_and_save_subset_from, create_and_save_subset_from_for_train
 from src.utils.constants import outputs_path, automated_resuts, results_test_trocr, TOKEN
 

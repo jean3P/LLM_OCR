@@ -19,7 +19,7 @@ train_transforms = transforms.Compose([
 
 @dataclass(frozen=True)
 class DatasetConfig:
-    DATA_ROOT: str = IAM_DATASET
+    DATA_ROOT: str = WASHINGTON_DATASET
 
 
 @dataclass(frozen=True)

@@ -37,6 +37,12 @@ def clear_cuda_cache():
     gc.collect()
 
 
+def train_model(training_data_path, valid_data_path, model_save_dir, processor_save_dir, training_config, start_percentage):
+    if not os.path.exists(model_save_dir) and not os.path.exists(processor_save_dir):
+        train_and_save_model(training_data_path, valid_data_path, model_save_dir, processor_save_dir, training_config, start_percentage)
+        clear_cuda_cache()
+
+
 def file_exists(file_name, path):
     # Join the path and file name to get the full file path
     file_path = os.path.join(path, file_name)
@@ -85,10 +91,7 @@ def automate_workflow(start_percentage=25, increments=25, max_iterations=3, trai
 
         # Run TrOCR training
         print(f"=== TRAINING - MODEL - {start_percentage} ===")
-        if not directory_exists(model_save_dir) and not directory_exists(processor_save_dir):
-            train_and_save_model(training_data_path, valid_data_path, model_save_dir, processor_save_dir,
-                                 training_config, start_percentage)
-            clear_cuda_cache()
+        train_model(training_data_path, valid_data_path, model_save_dir, processor_save_dir, training_config, start_percentage)
 
         # 2. Evaluate final test dataset with TrOCR
         print(f"=== EVALUATE TrOCR WITH FINAL TEST - {start_percentage} ===")
@@ -133,11 +136,7 @@ def automate_workflow(start_percentage=25, increments=25, max_iterations=3, trai
             processor_name_2 = f"trocr_processor_seq_{start_percentage}_{100 - start_percentage}"
             model_save_dir_2 = os.path.join(outputs_path, 'model', model_name_2)
             processor_save_dir_2 = os.path.join(outputs_path, 'model', processor_name_2)
-            if not directory_exists(model_save_dir_2) and not directory_exists(processor_save_dir_2):
-                train_and_save_model(training_data_path_2, valid_data_path, model_save_dir_2,
-                                     processor_save_dir_2,
-                                     training_config, 100)
-                clear_cuda_cache()
+            train_model(training_data_path_2, valid_data_path, model_save_dir_2, processor_save_dir_2, training_config, start_percentage)
 
             print(f"=== TEST OCR MODEL SELF - {start_percentage}-{100 - start_percentage} ===")
             name_file_tested_final = f"final_test_evaluation_results_{start_percentage}_{100 - start_percentage}.json"
