@@ -9,8 +9,8 @@ from src.utils.constants import automated_resuts, results_test_trocr
 
 # OCR Files
 self_training_file_name_ocr_75 = "test_evaluation_results_75.json"
-final_test_file_name_ocr_75_25 = "final_test_evaluation_results_75_25.json"
 final_test_file_name_ocr_75 = "final_test_evaluation_results_100.json"
+final_test_file_name_ocr_75_25 = "final_test_evaluation_results_75_25.json"
 
 # Mistral Files
 self_training_file_name_mistral_75 = "test_evaluation_from_mistral_75.json"
@@ -33,4 +33,13 @@ latex_code = generate_latex_table(
     final_test_file_name_mistral_75_25=final_test_file_name_mistral_75_25
 )
 
-print(latex_code)
+
+def print_results_table(results):
+    for key, value in results.items():
+        print(f"\n{key}:")
+        for sub_key, sub_value in value.items():
+            print(f"{sub_key}: {sub_value}%")
+
+
+# Call the function to print the table
+print_results_table(latex_code)

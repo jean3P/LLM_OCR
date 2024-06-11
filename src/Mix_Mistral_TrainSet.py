@@ -4,6 +4,8 @@ import os
 from src.handle_dataset_washington import save_to_json, load_from_json
 from src.utils.constants import results_LLM_mistral_3, outputs_path, results_mixed_LLM_MISTRAL, automated_resuts
 
+threshold = 70
+
 
 def extract_and_combine(file_path_1, file_path_2, name_file=''):
     # Ensure the directory path is correctly spelled and passed as an argument to the function
@@ -12,7 +14,10 @@ def extract_and_combine(file_path_1, file_path_2, name_file=''):
     with open(full_path_1, 'r') as file:
         data_1 = json.load(file)
     # Assuming data_1 structure is a list of dicts with 'file_name' and 'MISTRAL' keys
-    mistral_predictions = {item['file_name']: item['MISTRAL']['predicted_label'] for item in data_1}
+    mistral_predictions = {
+        item['file_name']: item['MISTRAL']['predicted_label']
+        for item in data_1 if (item['MISTRAL']['cer'] * 100) <= 50
+    }
 
     # Load the second JSON file
     full_path_2 = file_path_2
@@ -34,7 +39,6 @@ def extract_and_combine(file_path_1, file_path_2, name_file=''):
     # # Write the combined data to a new JSON file
     # with open(output_file_path, 'w') as file:
     #     json.dump(combined_data, file, indent=4)
-
 
 # save_mistral_output = os.path.join(automated_resuts, 'test_evaluation_from_mistral_25.json')
 # training = os.path.join(outputs_path, 'train', 'training_seq_data.json')

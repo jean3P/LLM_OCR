@@ -2,19 +2,22 @@ import os
 import sys
 
 abs_path = sys.path[0]
-TOKEN = "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"
+
 base_name = os.path.dirname(abs_path)
 resources_path = os.path.join('./../resources')
 washington_path = os.path.join(resources_path, 'washingtondb-v1.0')
 outputs_path = os.path.join(resources_path, 'outputs')
-transcription_path = os.path.join(washington_path, 'ground_truth', 'transcription.txt')
+iam_outputs_path = os.path.join(outputs_path, 'IAM_dataset')
+iam_path = os.path.join(resources_path, 'IAM-V1')
+transcription_washington_path = os.path.join(washington_path, 'ground_truth', 'transcription.txt')
+transcription_iam_path = os.path.join(iam_path, 'ground_truth', 'lines.txt')
 results_test_trocr = os.path.join(outputs_path, 'results_test')
 results_LLM_mistral = os.path.join(outputs_path, 'results_LLM')
 results_LLM_mistral_1 = os.path.join(outputs_path, 'results_LLM_Mistral7B_1')
 results_LLM_mistral_2 = os.path.join(outputs_path, 'results_LLM_Mistral7B_1_v2')
 results_LLM_mistral_3 = os.path.join(outputs_path, 'results_LLM_Mistral7B_1_v3')
 automated_resuts = os.path.join(outputs_path, 'automated_results')
-pipeline_v1_path = os.path.join(outputs_path, 'pipeline_v1')
+pipeline_v1_path = os.path.join(outputs_path, 'pipeline_mistral_v1')
 pipeline_v1_mistral_path = os.path.join(pipeline_v1_path, 'mistral')
 pipeline_v1_mistral_ocr = os.path.join(pipeline_v1_path, 'ocr')
 
@@ -74,7 +77,7 @@ processor_save_path_seq_100 = os.path.join(outputs_path, 'model', 'trocr_process
 processor_save_path_seq_v2_100 = os.path.join(outputs_path, 'model', 'trocr_processor_seq_v2_100')
 
 # =======
-REPLACEMENTS = {
+REPLACEMENTS_WASHINGTON = {
     's_pt': '.', 's_cm': ',', 's_mi': '-', 's_sq': ";", 's_dash': '-',
     's_sl': '/', 's_bsl': '\\', 's_qm': '?', 's_exc': '!', 's_col': ':',
     's_sc': ';', 's_lp': '(', 's_rp': ')', 's_lb': '[', 's_rb': ']',

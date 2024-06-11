@@ -6,6 +6,7 @@ import gc
 from src.Mix_Mistral_TrainSet import extract_and_combine
 from src.TrOCR import TrainingConfig
 from src.TrOCREvaluation import train_and_save_model, calculate_sample_size
+from src.fine_tunning_model import load_model_and_tokenizer, evaluate_model
 from src.handle_dataset_washington import load_from_json
 from src.mistral_v2 import evaluate_test_data_mistral7B
 from src.test import evaluate_test_data, create_and_save_subset_from, create_and_save_subset_from_for_train
@@ -37,6 +38,10 @@ def directory_exists(directory_path):
     """
     return os.path.isdir(directory_path)
 
+
+def fine_tuning_model(test_file, output_name_file):
+    model, tokenizer = load_model_and_tokenizer()
+    evaluate_model(test_file, model, tokenizer, output_name_file)
 
 
 def automate_workflow(start_percentage=25, increments=25, max_iterations=3, training_data_path='', valid_data_path='',
@@ -86,19 +91,7 @@ def automate_workflow(start_percentage=25, increments=25, max_iterations=3, trai
         results_path_from_ocr_final = os.path.join(results_test_trocr, name_file_tested_final)
         if not file_exists(name_mistral_1_final, automated_resuts):
             loaded_data = load_from_json(results_path_from_ocr_final)
-            with torch.no_grad():
-                mistral_model = transformers.AutoModelForCausalLM.from_pretrained(mistral_model_name,
-                                                                                  torch_dtype=torch.float16,
-                                                                                  device_map="auto",
-                                                                                  token=TOKEN)
-                mistral_tokenizer = AutoTokenizer.from_pretrained(mistral_model_name,
-                                                                  token=TOKEN)
-                mistral_pipe = pipeline("text-generation", model=mistral_model, tokenizer=mistral_tokenizer,
-                                        batch_size=10)
-                evaluate_test_data_mistral7B(loaded_data, mistral_pipe, name_mistral_1_final, True)
-            del mistral_model
-            del mistral_tokenizer
-            del mistral_pipe
+            fine_tuning_model(loaded_data, name_mistral_1_final)
             clear_cuda_cache()
 
         if start_percentage < 100:
@@ -114,19 +107,7 @@ def automate_workflow(start_percentage=25, increments=25, max_iterations=3, trai
             if not file_exists(name_mistral_1, automated_resuts):
                 loaded_data = load_from_json(results_path_from_ocr)
                 print(f"=== MISTRAL SELF TRAINING - {start_percentage} ===")
-                with torch.no_grad():
-                    mistral_model = transformers.AutoModelForCausalLM.from_pretrained(mistral_model_name,
-                                                                                      torch_dtype=torch.float16,
-                                                                                      device_map="auto",
-                                                                                      token=TOKEN)
-                    mistral_tokenizer = AutoTokenizer.from_pretrained(mistral_model_name,
-                                                                      token=TOKEN)
-                    mistral_pipe = pipeline("text-generation", model=mistral_model, tokenizer=mistral_tokenizer,
-                                            batch_size=10)
-                    evaluate_test_data_mistral7B(loaded_data, mistral_pipe, name_mistral_1, False)
-                del mistral_model
-                del mistral_tokenizer
-                del mistral_pipe
+                fine_tuning_model(loaded_data, name_mistral_1)
                 clear_cuda_cache()
             print(f"=== MERGE - {start_percentage}-{100 - start_percentage} ===")
             # 4. Merge datasets for new training set
@@ -157,20 +138,7 @@ def automate_workflow(start_percentage=25, increments=25, max_iterations=3, trai
             results_path_from_ocr = os.path.join(results_test_trocr, name_file_tested_final)
             if not file_exists(name_mistral_3, automated_resuts):
                 loaded_data = load_from_json(results_path_from_ocr)
-                with torch.no_grad():
-                    mistral_model = transformers.AutoModelForCausalLM.from_pretrained(mistral_model_name,
-                                                                                      torch_dtype=torch.float16,
-                                                                                      device_map="auto",
-                                                                                      token=TOKEN)
-                    mistral_tokenizer = AutoTokenizer.from_pretrained(mistral_model_name,
-                                                                      token=TOKEN)
-                    mistral_pipe = pipeline("text-generation", model=mistral_model, tokenizer=mistral_tokenizer,
-                                            batch_size=10)
-
-                    evaluate_test_data_mistral7B(loaded_data, mistral_pipe, name_mistral_3, True)
-                del mistral_model
-                del mistral_tokenizer
-                del mistral_pipe
+                fine_tuning_model(loaded_data, name_mistral_3)
                 clear_cuda_cache()
 
         start_percentage = start_percentage + increments
@@ -180,4 +148,4 @@ if __name__ == "__main__":
     training = os.path.join(outputs_path, 'train', 'training_seq_data.json')
     valid = os.path.join(outputs_path, 'valid', 'validation_seq_data.json')
     training_config = TrainingConfig(BATCH_SIZE=10, EPOCHS=35, LEARNING_RATE=0.00005)
-    automate_workflow(50, 25, 1, training, valid)
+    automate_workflow(25, 25, 4, training, valid)
