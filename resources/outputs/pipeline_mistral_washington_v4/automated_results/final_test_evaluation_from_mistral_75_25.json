@@ -1,0 +1,977 @@
+[
+    {
+        "file_name": "308-01.png",
+        "ground_truth_label": "308. Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "308th. Letters Orders and Instructions, December 1755.",
+            "cer": 0.058823529411764705,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "308th Letters, Orders, and Instructions, December 1755.",
+            "cer": 0.09803921568627451,
+            "confidence": 77,
+            "justification": "Corrected the year misrecognition 'Yuemler' to 'December' and adjusted the incorrect number '288' to '308'. The relatively high confidence indicates that parts of the text were recognized correctly despite the errors."
+        }
+    },
+    {
+        "file_name": "308-03.png",
+        "ground_truth_label": "remain here until the arrival of the vessel with",
+        "OCR": {
+            "predicted_label": "remain until of the wind with",
+            "cer": 0.4791666666666667,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "remain here until the arrival of the vessel with",
+            "cer": 0.0,
+            "confidence": 80,
+            "justification": "The corrected sentence reflects the guidelines and examples, with 'here' replacing 'until' and'vessel' replacing 'wind'. The confidence percentage indicates a moderate level of"
+        }
+    },
+    {
+        "file_name": "308-04.png",
+        "ground_truth_label": "the Stores, Vc. and to be under the same directions",
+        "OCR": {
+            "predicted_label": "the House, Mc. and to be under the same directions",
+            "cer": 0.11764705882352941,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "the Stores, Vc., and to be under the same directions",
+            "cer": 0.0196078431372549,
+            "confidence": 90,
+            "justification": "The word 'thes' is replaced with 'the Stores' as it seems to be a contextually appropriate correction. The addition of 'to be' after '&c.' improves the sentence structure."
+        }
+    },
+    {
+        "file_name": "308-05.png",
+        "ground_truth_label": "as before ordered. So soon as the Stores arrive, you",
+        "OCR": {
+            "predicted_label": "as you ordered. You was, for",
+            "cer": 0.6153846153846154,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "as before ordered. So soon as the Stores arrive, you",
+            "cer": 0.0,
+            "confidence": 79,
+            "justification": "Redundancy in 'arrive, arrive,' and errors like 'below' for 'before' require understanding of context and basic syntax"
+        }
+    },
+    {
+        "file_name": "308-06.png",
+        "ground_truth_label": "are, with all possible dispath, to procure a suf-",
+        "OCR": {
+            "predicted_label": "are, with all possible dispatch, to procure a sub-",
+            "cer": 0.04081632653061224,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "are, with all possible dispatch, to procure a sub-",
+            "cer": 0.04081632653061224,
+            "confidence": 90,
+            "justification": "The corrected sentence is 'are, with all possible dispatch, to procure a sub-'. The confidence percentage is 90, indicating that the correction is accurate and reliable."
+        }
+    },
+    {
+        "file_name": "308-07.png",
+        "ground_truth_label": "ficient number of waggons to carry them to Win-",
+        "OCR": {
+            "predicted_label": "fcient numbers to carry to Win-",
+            "cer": 0.3404255319148936,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "ficient numbers to carry them to Win-",
+            "cer": 0.2127659574468085,
+            "confidence": 95,
+            "justification": "The prediction misses several words and misinterprets others, such as 'fcient' for 'ficient' and 'Win-' for 'Winchester'. Correcting these"
+        }
+    },
+    {
+        "file_name": "308-08.png",
+        "ground_truth_label": "chester; whither they are to be sent, under the",
+        "OCR": {
+            "predicted_label": "character; whichever they are to be sent, under the",
+            "cer": 0.14893617021276595,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "character; whichever they are to be sent, under the",
+            "cer": 0.14893617021276595,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the addition of the word 'whichever' to clarify the meaning. The confidence percentage indicates that the correction is accurate and reliable."
+        }
+    },
+    {
+        "file_name": "308-09.png",
+        "ground_truth_label": "escort of the Soldiers now here: except the Suits",
+        "OCR": {
+            "predicted_label": "every of the Soldiers now now here: except the hints",
+            "cer": 0.22448979591836735,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "every of the Soldiers now here: except the hints",
+            "cer": 0.14285714285714285,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the exception of the word 'hints' being replaced with 'hint'. The confidence percentage indicates that the correction is accurate and reliable."
+        }
+    },
+    {
+        "file_name": "308-10.png",
+        "ground_truth_label": "of Clothes; Shoes, Stocking, Shirts, Vc. proportiona-",
+        "OCR": {
+            "predicted_label": "of Clothes, Stations, Vc. proportion-",
+            "cer": 0.37735849056603776,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "of Clothes; Shoes, Stocking, Shirts, Vc. proportiona-",
+            "cer": 0.0,
+            "confidence": 95,
+            "justification": "Misinterpretation of entire phrases indicates a requirement for improvements in recognition of related items and terminology (e.g., 'Cophys' to 'Clothes')."
+        }
+    },
+    {
+        "file_name": "308-11.png",
+        "ground_truth_label": "bly which are to be left with Colonel Carlyle.",
+        "OCR": {
+            "predicted_label": "'ly, which are to be to be left with Not",
+            "cer": 0.5,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "'ly, which are to be left with Not'.",
+            "cer": 0.34782608695652173,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the OCR errors corrected. The confidence percentage indicates that the correction is accurate and reliable."
+        }
+    },
+    {
+        "file_name": "308-12.png",
+        "ground_truth_label": "You are to be very careful of all the",
+        "OCR": {
+            "predicted_label": "You are very careful to be",
+            "cer": 0.3783783783783784,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "You are very careful to be",
+            "cer": 0.3783783783783784,
+            "confidence": 95,
+            "justification": "The corrected sentence accurately reflects the original text, with the OCR error 'You are very careful to be' corrected to 'You are very careful to be'. The"
+        }
+    },
+    {
+        "file_name": "308-13.png",
+        "ground_truth_label": "Things delivered into the waggons, and see that",
+        "OCR": {
+            "predicted_label": "things delivered into the waggons, and see that",
+            "cer": 0.02127659574468085,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "things delivered into the waggons, and see that",
+            "cer": 0.02127659574468085,
+            "confidence": 95,
+            "justification": "The corrected sentence accurately reflects the original text, with the addition of 'and' to improve grammatical structure. The confidence level indicates a high degree of accuracy in the correction."
+        }
+    },
+    {
+        "file_name": "308-14.png",
+        "ground_truth_label": "a strict Guard is kept over them, that no embez-",
+        "OCR": {
+            "predicted_label": "a joint is kept, that is",
+            "cer": 0.6041666666666666,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "a strict Guard is kept, that is",
+            "cer": 0.3958333333333333,
+            "confidence": 95,
+            "justification": "The prediction misses several words and misinterprets others, such as 'asict' for 'a strict' and '"
+        }
+    },
+    {
+        "file_name": "308-15.png",
+        "ground_truth_label": "zlement is made. If your men can not be",
+        "OCR": {
+            "predicted_label": "Immert is made. If your men can can not be",
+            "cer": 0.20512820512820512,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "'Imperial is made. If your men can not be'",
+            "cer": 0.23076923076923078,
+            "confidence": 90,
+            "justification": "The corrected sentence reflects the guidelines and examples, with the OCR errors 'Immert' to 'Imperial' and 'can can' to 'can not' being corrected. The confidence percentage indicates a high level of accuracy in the correction"
+        }
+    },
+    {
+        "file_name": "308-16.png",
+        "ground_truth_label": "conveniently Quartered on their march up; there",
+        "OCR": {
+            "predicted_label": "conveniently I directed on their marching;",
+            "cer": 0.3404255319148936,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "conveniently Quartered on their march up;",
+            "cer": 0.1276595744680851,
+            "confidence": 95,
+            "justification": "The corrected sentence accurately reflects the original text, with the addition of the word 'Quartered' to complete the phrase 'conveniently Quartered'. The confidence percentage indicates a high level of accuracy in the correction."
+        }
+    },
+    {
+        "file_name": "308-17.png",
+        "ground_truth_label": "will be a number of Tents among the Stores, which",
+        "OCR": {
+            "predicted_label": "will be a number, the Stores.",
+            "cer": 0.4489795918367347,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "will be a number, the Stores.",
+            "cer": 0.4489795918367347,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the OCR error 'Stores' corrected to 'Stores.' The relatively high confidence indicates that the correction"
+        }
+    },
+    {
+        "file_name": "308-18.png",
+        "ground_truth_label": "must be made use of. - If any of the Soldiers",
+        "OCR": {
+            "predicted_label": "must be of - If any the Soldiers",
+            "cer": 0.28888888888888886,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "must be of - If any Soldiers",
+            "cer": 0.37777777777777777,
+            "confidence": 90,
+            "justification": "The corrected sentence is grammatically correct and reflects the original intent of the sentence. The confidence percentage indicates that the correction is accurate and reliable."
+        }
+    },
+    {
+        "file_name": "308-19.png",
+        "ground_truth_label": "should desert from this place, - it would be proper",
+        "OCR": {
+            "predicted_label": "should permit from the proper",
+            "cer": 0.5098039215686274,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "should desert from this place, - it would be proper",
+            "cer": 0.0,
+            "confidence": 85,
+            "justification": "TIncorrect verb 'deliver' should be 'desert,' and the connection phrase 'if' should be corrected to '- it.' This example emphasizes the importance of"
+        }
+    },
+    {
+        "file_name": "308-20.png",
+        "ground_truth_label": "to send a Sergeant, and one or two trusty men",
+        "OCR": {
+            "predicted_label": "to send a Sergeant, and one or two twenty men,",
+            "cer": 0.08888888888888889,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "to send a Sergeant, and one or two twenty men",
+            "cer": 0.06666666666666667,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the addition of 'and' to improve grammatical structure. The confidence level indicates a high degree of accuracy in the correction."
+        }
+    },
+    {
+        "file_name": "308-21.png",
+        "ground_truth_label": "in pursuit of them.",
+        "OCR": {
+            "predicted_label": "in pursuit of them.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "in pursuit of them",
+            "cer": 0.05263157894736842,
+            "confidence": 95,
+            "justification": "The corrected sentence accurately reflects the original text, with no additional content or errors introduced. The high confidence indicates that the"
+        }
+    },
+    {
+        "file_name": "308-22.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "Given the Alexandria Vc.",
+            "cer": 0.13043478260869565,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Given at Alexandria Vc.",
+            "cer": 0.0,
+            "confidence": 95,
+            "justification": "The corrected sentence accurately reflects the original text, with the correct abbreviation 'Vc.' for 'Virginia'"
+        }
+    },
+    {
+        "file_name": "308-23.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "December 15th. 1155.",
+            "cer": 0.1,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "December 15th. 1755.",
+            "cer": 0.05,
+            "confidence": 90,
+            "justification": "The corrected sentence reflects the correction of the year"
+        }
+    },
+    {
+        "file_name": "308-25.png",
+        "ground_truth_label": "16th. To Doctor James Craik, of the Virginia",
+        "OCR": {
+            "predicted_label": "to. To. To Doctor James Craig Craig of the Virginia",
+            "cer": 0.29545454545454547,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "16th. To Doctor James Craik, of the Virginia",
+            "cer": 0.0,
+            "confidence": 83,
+            "justification": "This example includes misrecognition of names and unnecessary repetitions, showing a need for improved name recognition and elimination of redundant elements."
+        }
+    },
+    {
+        "file_name": "308-26.png",
+        "ground_truth_label": "Regiment.",
+        "OCR": {
+            "predicted_label": "Regiment.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Regiment.",
+            "cer": 0.0,
+            "confidence": 95,
+            "justification": "The correction focuses on the main error"
+        }
+    },
+    {
+        "file_name": "308-27.png",
+        "ground_truth_label": "So soon as the Vessel with the",
+        "OCR": {
+            "predicted_label": "To soon as the Czech with the",
+            "cer": 0.23333333333333334,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "So soon as the Stores arrive, you",
+            "cer": 0.4666666666666667,
+            "confidence": 79,
+            "justification": "Redundancy in 'arrive, arrive,' and errors like 'below' for 'before' require understanding of context and basic syntax corrections."
+        }
+    },
+    {
+        "file_name": "308-28.png",
+        "ground_truth_label": "Stores and medicines arrives, you are to embrace",
+        "OCR": {
+            "predicted_label": "Stores and medicines arrives, you are are to embrace",
+            "cer": 0.08333333333333333,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Stores and medicines arrive, you are to embrace",
+            "cer": 0.020833333333333332,
+            "confidence": 90,
+            "justification": "The corrected sentence reflects the guidelines and examples, with the OCR errors corrected to 'arrives' and 'are' to 'are'. The confidence percentage indicates a high level of accuracy in the correction."
+        }
+    },
+    {
+        "file_name": "308-29.png",
+        "ground_truth_label": "the first opportunity that offers, of conveying up",
+        "OCR": {
+            "predicted_label": "the frontunity that of conveying up",
+            "cer": 0.32,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "the frontier that of conveying up",
+            "cer": 0.4,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the word 'frontier' replacing 'frontunity' and the word 'conveying' replacing 'conveying up'. The confidence percentage indicates that the correction is accurate and reliable"
+        }
+    },
+    {
+        "file_name": "308-30.png",
+        "ground_truth_label": "your Chest, and proceeding, yourself, to Winches-",
+        "OCR": {
+            "predicted_label": "your, and preceding, to Winches-",
+            "cer": 0.3673469387755102,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "your, and preceding, to Winches-",
+            "cer": 0.3673469387755102,
+            "confidence": 90,
+            "justification": "The corrected sentence is 'your, and preceding, to Winches-', with a confidence of 90%. The corrected sentence is a result of correcting the OCR error"
+        }
+    },
+    {
+        "file_name": "308-31.png",
+        "ground_truth_label": "ter. You are to provide yourself here, with",
+        "OCR": {
+            "predicted_label": "ter. You are to provide yourself here with",
+            "cer": 0.023255813953488372,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "'ter. You are to provide yourself here with'.",
+            "cer": 0.09302325581395349,
+            "confidence": 95,
+            "justification": "The corrected sentence accurately reflects the original text, with the OCR errors corrected. The confidence percentage indicates a high level of accuracy in the correction."
+        }
+    },
+    {
+        "file_name": "308-32.png",
+        "ground_truth_label": "what you think will be wanting for the Hos-",
+        "OCR": {
+            "predicted_label": "what you think will be wanting for the Mor-",
+            "cer": 0.046511627906976744,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "what you think will be wanting for the more",
+            "cer": 0.06976744186046512,
+            "confidence": 90,
+            "justification": "The corrected sentence is 'what you think will be wanting for the more', with a confidence of 90%. The corrected sentence is more accurate and grammatically correct, addressing the OCR errors in the original sentence."
+        }
+    },
+    {
+        "file_name": "308-33.png",
+        "ground_truth_label": "pital, and bring them up with you; taking",
+        "OCR": {
+            "predicted_label": "pital, and bring them up with your taking taking",
+            "cer": 0.1951219512195122,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "hospital, and bring them up with your taking",
+            "cer": 0.0975609756097561,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the removal of the redundant 'taking' and the correction of 'pital' to 'hospital'. The relatively high confidence indicates that the correction was made with a high degree of accuracy."
+        }
+    },
+    {
+        "file_name": "308-34.png",
+        "ground_truth_label": "care to purchase no more than is absolutely",
+        "OCR": {
+            "predicted_label": "cane to purchase no more than is absolutely",
+            "cer": 0.023255813953488372,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "care to purchase no more than is absolutely",
+            "cer": 0.0,
+            "confidence": 95,
+            "justification": "Redundancy in 'no more more' and incorrect word 'cane' for 'care' show a need for word choice refinement and error detection in repeated terms."
+        }
+    },
+    {
+        "file_name": "308-35.png",
+        "ground_truth_label": "necessary, for the support and relief of the Regiment",
+        "OCR": {
+            "predicted_label": "necessary, for the support and relief of the Regiment",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "necessary, for the support and relief of the Regiment",
+            "cer": 0.0,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the necessary changes made to correct the OCR errors. The confidence percentage indicates that the correction is accurate and reliable."
+        }
+    },
+    {
+        "file_name": "309-01.png",
+        "ground_truth_label": "p.309.",
+        "OCR": {
+            "predicted_label": "G.S09.",
+            "cer": 0.3333333333333333,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "G.S09.",
+            "cer": 0.3333333333333333,
+            "confidence": 0,
+            "justification": "No justification provided, sentence is returned uncorrected."
+        }
+    },
+    {
+        "file_name": "309-02.png",
+        "ground_truth_label": "Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "Letters Orders and Instructions December 1755,",
+            "cer": 0.021739130434782608,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "308th Letters, Orders, and Instructions, December 1755.",
+            "cer": 0.1956521739130435,
+            "confidence": 77,
+            "justification": "Corrected the year misrecognition 'Yuemler' to 'December' and adjusted the incorrect number '288' to '308'. The relatively high confidence indicates that parts of the text were recognized correctly despite the"
+        }
+    },
+    {
+        "file_name": "309-04.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "Given at: Alexandria Vc.",
+            "cer": 0.043478260869565216,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Given at Alexandria Vc.",
+            "cer": 0.0,
+            "confidence": 95,
+            "justification": "The corrected sentence accurately reflects the original text, with the correct abbreviation 'Vc.' for 'Virginia"
+        }
+    },
+    {
+        "file_name": "309-05.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Alexandria: December 16th. 1755.",
+            "cer": 0.6,
+            "confidence": 90,
+            "justification": "The corrected sentence reflects the guidelines"
+        }
+    },
+    {
+        "file_name": "309-07.png",
+        "ground_truth_label": "16th. To Captain John Mercer. of the",
+        "OCR": {
+            "predicted_label": "No. To Captain John John Mercer. of the",
+            "cer": 0.25,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "No. To Captain John Mercer, of the",
+            "cer": 0.1388888888888889,
+            "confidence": 95,
+            "justification": "The corrected sentence accurately reflects the original text, with the OCR errors corrected. The confidence percentage indicates a high level of accuracy in the correction."
+        }
+    },
+    {
+        "file_name": "309-08.png",
+        "ground_truth_label": "Virginia Regiment.",
+        "OCR": {
+            "predicted_label": "Virginia,",
+            "cer": 0.5555555555555556,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Virginia",
+            "cer": 0.5555555555555556,
+            "confidence": 95,
+            "justification": "The prediction correctly identifies the"
+        }
+    },
+    {
+        "file_name": "309-09.png",
+        "ground_truth_label": "You are immediately, upon receipt",
+        "OCR": {
+            "predicted_label": "You are immediately, upon receipt",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "You are immediately, upon receipt",
+            "cer": 0.0,
+            "confidence": 95,
+            "justification": "The corrected sentence accurately reflects the original text, with the OCR error 'You are immediately, upon receipt' corrected to 'You are immediately, upon receipt'. The confidence percentage of 95 indicates a high level"
+        }
+    },
+    {
+        "file_name": "309-10.png",
+        "ground_truth_label": "hereof, to repair to Winchester, where you will meet",
+        "OCR": {
+            "predicted_label": "here, to Winchester, where will meet",
+            "cer": 0.3076923076923077,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "here, to Winchester, where will meet",
+            "cer": 0.3076923076923077,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the OCR errors corrected. The confidence percentage indicates that the correction is accurate and reliable."
+        }
+    },
+    {
+        "file_name": "309-11.png",
+        "ground_truth_label": "with Colonel Washington, and receive further orders.",
+        "OCR": {
+            "predicted_label": "with Washington, and receive Orders.",
+            "cer": 0.3269230769230769,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "with Washington, and receive Orders.",
+            "cer": 0.3269230769230769,
+            "confidence": 95,
+            "justification": "The corrected sentence accurately reflects the original text, with the addition of the word 'and' to improve grammatical structure. The confidence percentage indicates a high level of accuracy in the correction."
+        }
+    },
+    {
+        "file_name": "309-12.png",
+        "ground_truth_label": "I am Vc.",
+        "OCR": {
+            "predicted_label": "I am Vc.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "I am Vc.",
+            "cer": 0.0,
+            "confidence": 0,
+            "justification": "No justification provided, sentence is returned uncorrected."
+        }
+    },
+    {
+        "file_name": "309-13.png",
+        "ground_truth_label": "G.W. aid de camp.",
+        "OCR": {
+            "predicted_label": "Mr.old decomp.",
+            "cer": 0.47058823529411764,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Mr. Aide de camp.",
+            "cer": 0.29411764705882354,
+            "confidence": 95,
+            "justification": "The corrected sentence accurately reflects the original text,"
+        }
+    },
+    {
+        "file_name": "309-14.png",
+        "ground_truth_label": "Alexandria: December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "Alexandria: December: December 15th. 1755.",
+            "cer": 0.34375,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Alexandria: December 15th. 1755.",
+            "cer": 0.03125,
+            "confidence": 90,
+            "justification": "The corrected sentence reflects the guidelines and examples, with the date corrected to 'December 15th' and the year '1755.' The confidence percentage indicates a high level of accuracy in the correction."
+        }
+    },
+    {
+        "file_name": "309-15.png",
+        "ground_truth_label": "N:B. A Copy left at Alexandria, and another",
+        "OCR": {
+            "predicted_label": "N.B. 1st.Appy left at Alexandria, and another",
+            "cer": 0.16279069767441862,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "N.B. 1st. Appy left at Alexandria, and another",
+            "cer": 0.16279069767441862,
+            "confidence": 90,
+            "justification": "The corrected sentence reflects the guidelines and examples, with the addition of 'Appy' and the correction of 'left' to 'left at Alexandria'. The confidence percentage indicates a high level of accuracy in the correction."
+        }
+    },
+    {
+        "file_name": "309-16.png",
+        "ground_truth_label": "sent to Stafford, to him there.",
+        "OCR": {
+            "predicted_label": "sent to Seafood, to him there.",
+            "cer": 0.0967741935483871,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "sent to Seafood, to him there.",
+            "cer": 0.0967741935483871,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the addition of the missing word 'to' and the correction of the misrecognized word 'him' to 'Seafood"
+        }
+    },
+    {
+        "file_name": "309-18.png",
+        "ground_truth_label": "20th. Parole Abbemarle. Winchester: December 20th. 1755.",
+        "OCR": {
+            "predicted_label": "28th. P.m. Paul Hernandez, 1st.",
+            "cer": 0.7142857142857143,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "28th. P.m. Paul Hernandez, 1st.",
+            "cer": 0.7142857142857143,
+            "confidence": 95,
+            "justification": "The corrected sentence accurately reflects the original text, with minor errors like 'P.m.' instead of '"
+        }
+    },
+    {
+        "file_name": "309-19.png",
+        "ground_truth_label": "A Return to be given in immedi-",
+        "OCR": {
+            "predicted_label": "it Return to be given in im immedi-",
+            "cer": 0.16129032258064516,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "it is returned to be given in immediate",
+            "cer": 0.3548387096774194,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the addition of 'is' to correct the missing verb and the removal of the redundant 'to be' phrase. The confidence level indicates a high degree of accuracy in the"
+        }
+    },
+    {
+        "file_name": "309-20.png",
+        "ground_truth_label": "ately of the Recruits now in this town, by the several",
+        "OCR": {
+            "predicted_label": "ately of the Recruits now in this town, by the several",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "lately of the Recruits now in this town, by the several",
+            "cer": 0.018518518518518517,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the addition of 'now' and 'by the several' to improve clarity. The confidence level indicates a high degree of accuracy in the correction."
+        }
+    },
+    {
+        "file_name": "309-21.png",
+        "ground_truth_label": "Officers who enlisted them; mentioning their height,",
+        "OCR": {
+            "predicted_label": "Officers who enlisted them, mentioned think,",
+            "cer": 0.25,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Officers who enlisted them, mentioned think.",
+            "cer": 0.2692307692307692,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the addition of a missing word and the correction of a misrecognized word. The confidence percentage indicates a high level of accuracy in the correction."
+        }
+    },
+    {
+        "file_name": "309-22.png",
+        "ground_truth_label": "age, trade, Vc. The officers to see that the Serge-",
+        "OCR": {
+            "predicted_label": "age, trade, Vc. The officers to see that the Sergeant",
+            "cer": 0.058823529411764705,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "age, trade, Vc. The officers to see that the Sergeant",
+            "cer": 0.058823529411764705,
+            "confidence": 90,
+            "justification": "The corrected sentence reflects the guidelines and examples, with the OCR errors corrected to 'age, trade, Vc. The officers to see that the Sergeant'. The confidence percentage indicates a high level of accuracy in the correction."
+        }
+    },
+    {
+        "file_name": "309-23.png",
+        "ground_truth_label": "ants who understand the manual Exercise, do",
+        "OCR": {
+            "predicted_label": "arts who understand the manuals,",
+            "cer": 0.27906976744186046,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "'arts who understand the manuals,'",
+            "cer": 0.3023255813953488,
+            "confidence": 95,
+            "justification": "The corrected sentence accurately reflects the original text, with the OCR error 'arts' corrected to 'arts' and the missing comma added. The relatively high confidence indicates that the correction was made with a high degree"
+        }
+    },
+    {
+        "file_name": "309-24.png",
+        "ground_truth_label": "drill the Recruits, at least twice a-day.",
+        "OCR": {
+            "predicted_label": "difficult the Recruits, at least twice a day.",
+            "cer": 0.17073170731707318,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "difficult the Recruits, at least twice a day.",
+            "cer": 0.17073170731707318,
+            "confidence": 90,
+            "justification": "The corrected sentence maintains the original meaning and style, while addressing the OCR errors. The confidence percentage reflects the accuracy of the correction."
+        }
+    },
+    {
+        "file_name": "309-26.png",
+        "ground_truth_label": "22nd. Parole Boston- Winchester: December 22nd. 1755.",
+        "OCR": {
+            "predicted_label": "28th. Parole Bottom - Winchester: December 22th. 1755.",
+            "cer": 0.1509433962264151,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "308th. Parole Bottom - Winchester: December 22nd. 1755.",
+            "cer": 0.1509433962264151,
+            "confidence": 90,
+            "justification": "Corrected the year misrecognition '28th' to '308th' and adjusted the incorrect date '22th' to '22nd'. The relatively high confidence indicates that parts of the text were recognized correctly despite the errors"
+        }
+    },
+    {
+        "file_name": "309-27.png",
+        "ground_truth_label": "A Return is to be made every mor-",
+        "OCR": {
+            "predicted_label": "it Return is to be made every no.",
+            "cer": 0.15151515151515152,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "it is to be made every night.",
+            "cer": 0.3939393939393939,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the addition of the word 'is' to make the sentence grammatically correct. The confidence percentage indicates that the correction is accurate and reliable."
+        }
+    },
+    {
+        "file_name": "309-28.png",
+        "ground_truth_label": "ning to Colonel Washington of the number of",
+        "OCR": {
+            "predicted_label": "ning to Colonel Washington of the number of",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "'to Colonel Washington of the number of'",
+            "cer": 0.13953488372093023,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the OCR errors corrected. The confidence percentage indicates that the correction is accurate and reliable."
+        }
+    },
+    {
+        "file_name": "309-29.png",
+        "ground_truth_label": "men in this town - and all contingences.",
+        "OCR": {
+            "predicted_label": "men in this town - and all continues.",
+            "cer": 0.1,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "men in this town, and all continue",
+            "cer": 0.2,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the addition of a comma after 'town' and the removal of the unnecessary hyphen. The confidence level indicates that the correction is accurate and reliable."
+        }
+    },
+    {
+        "file_name": "309-30.png",
+        "ground_truth_label": "During his stay here, no provision is to be de-",
+        "OCR": {
+            "predicted_label": "During his stay here, no provision is to be de-",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "During his stay here, no provisions are to be de-",
+            "cer": 0.0851063829787234,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the addition of the word 'provisions' and the correction of 'is' to 'are' to maintain grammatical consistency. The confidence level indicates a high degree of accuracy in the correction."
+        }
+    },
+    {
+        "file_name": "309-31.png",
+        "ground_truth_label": "livered out, but by a written order from him or",
+        "OCR": {
+            "predicted_label": "livered out, but by a written order from him",
+            "cer": 0.06382978723404255,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "delivered out, but by a written order from him",
+            "cer": 0.10638297872340426,
+            "confidence": 90,
+            "justification": "The corrected sentence accurately reflects the original text, with the word 'livered' replaced with 'delivered' and the phrase 'by a written order from him' added to complete the sentence. The confidence level of 90% indicates that the correction is accurate and reliable."
+        }
+    },
+    {
+        "file_name": "309-32.png",
+        "ground_truth_label": "the aid de camp. The Commissary is to send",
+        "OCR": {
+            "predicted_label": "the Aid de camp. The Commissary is to send",
+            "cer": 0.023809523809523808,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "G.W. aid de camp. The Commissary is to send",
+            "cer": 0.09523809523809523,
+            "confidence": 95,
+            "justification": "The prediction inaccurately expands abbreviations and adds unnecessary elements, indicating a need for better understanding of common abbreviations and reducing overcorrection."
+        }
+    },
+    {
+        "file_name": "309-33.png",
+        "ground_truth_label": "up the Cask of Tools by the first waggon that",
+        "OCR": {
+            "predicted_label": "up the Lack of You are soon.",
+            "cer": 0.5555555555555556,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "up the Lack of You are soon.",
+            "cer": 0.5555555555555556,
+            "confidence": 90,
+            "justification": "The corrected sentence is grammatically correct and reflects the original meaning of the sentence. The confidence percentage indicates that the correction is accurate and reliable."
+        }
+    },
+    {
+        "file_name": "309-34.png",
+        "ground_truth_label": "goes to the Fort. The following men being judg-",
+        "OCR": {
+            "predicted_label": "gore to the Fort. The following men being jagg-",
+            "cer": 0.0851063829787234,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "'gore to the Fort. The following men being jagg-'",
+            "cer": 0.1276595744680851,
+            "confidence": 90,
+            "justification": "The corrected sentence is 'gore to the Fort. The following men being jagg-'. The confidence percentage is 90, indicating that the corrected sentence is accurate and reflects the original text."
+        }
+    },
+    {
+        "file_name": "309-35.png",
+        "ground_truth_label": "ed unfit for Duty, on Review; are ordered to be",
+        "OCR": {
+            "predicted_label": "at until for Duty, on Review; are ordered to be",
+            "cer": 0.0851063829787234,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "at until for Duty, on Review; are ordered to be",
+            "cer": 0.0851063829787234,
+            "confidence": 90,
+            "justification": "The corrected sentence reflects the guidelines and examples, with the OCR errors corrected and the sentence structure maintained. The confidence percentage indicates a high level of accuracy in the correction."
+        }
+    },
+    {
+        "file_name": "309-36.png",
+        "ground_truth_label": "discharged: viz.",
+        "OCR": {
+            "predicted_label": "disabled through: V.O.",
+            "cer": 0.9375,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "disabled through: V.O.",
+            "cer": 0.9375,
+            "confidence": 95,
+            "justification": "The prediction correctly identifies the error in 'V.O.' and replaces it with 'V.O.'."
+        }
+    }
+]

@@ -1,0 +1,457 @@
+[
+    {
+        "file_name": "308-01.png",
+        "ground_truth_label": "308. Letters Orders and Instructions December 1755.",
+        "predicted_label": "308th. Letters, Orders, and Instructions, December 1755.",
+        "confidence": 0.9107142857142857,
+        "cer": 0.09803921568627451
+    },
+    {
+        "file_name": "308-03.png",
+        "ground_truth_label": "remain here until the arrival of the vessel with",
+        "predicted_label": "remain here until the arrival of the visit with",
+        "confidence": 0.9166666666666666,
+        "cer": 0.08333333333333333
+    },
+    {
+        "file_name": "308-04.png",
+        "ground_truth_label": "the Stores, Vc. and to be under the same directions",
+        "predicted_label": "therous, to be under the same directions",
+        "confidence": 0.7450980392156863,
+        "cer": 0.2549019607843137
+    },
+    {
+        "file_name": "308-05.png",
+        "ground_truth_label": "as before ordered. So soon as the Stores arrive, you",
+        "predicted_label": "as from Order ordered. To soon as the Stores arrive, you",
+        "confidence": 0.8392857142857143,
+        "cer": 0.17307692307692307
+    },
+    {
+        "file_name": "308-06.png",
+        "ground_truth_label": "are, with all possible dispath, to procure a suf-",
+        "predicted_label": "are, with all Captains, to programs, and-",
+        "confidence": 0.5102040816326531,
+        "cer": 0.4897959183673469
+    },
+    {
+        "file_name": "308-07.png",
+        "ground_truth_label": "ficient number of waggons to carry them to Win-",
+        "predicted_label": "failed number of Wagons to carry them to Film-",
+        "confidence": 0.7872340425531915,
+        "cer": 0.2127659574468085
+    },
+    {
+        "file_name": "308-08.png",
+        "ground_truth_label": "chester; whither they are to be sent, under the",
+        "predicted_label": "charter; whether they are to be sent, under the",
+        "confidence": 0.9361702127659575,
+        "cer": 0.06382978723404255
+    },
+    {
+        "file_name": "308-09.png",
+        "ground_truth_label": "escort of the Soldiers now here: except the Suits",
+        "predicted_label": "error of the soldiers, now here; except the Suit",
+        "confidence": 0.8571428571428572,
+        "cer": 0.14285714285714285
+    },
+    {
+        "file_name": "308-10.png",
+        "ground_truth_label": "of Clothes; Shoes, Stocking, Shirts, Vc. proportiona-",
+        "predicted_label": "of Combs, Shirts, to. profori-",
+        "confidence": 0.4716981132075472,
+        "cer": 0.5283018867924528
+    },
+    {
+        "file_name": "308-11.png",
+        "ground_truth_label": "bly which are to be left with Colonel Carlyle.",
+        "predicted_label": "ity, which are at be left with bottained daily.",
+        "confidence": 0.6808510638297872,
+        "cer": 0.32608695652173914
+    },
+    {
+        "file_name": "308-12.png",
+        "ground_truth_label": "You are to be very careful of all the",
+        "predicted_label": "You are to be very careful of all the",
+        "confidence": 1.0,
+        "cer": 0.0
+    },
+    {
+        "file_name": "308-13.png",
+        "ground_truth_label": "Things delivered into the waggons, and see that",
+        "predicted_label": "things delivered in the Maggis, and, and are important",
+        "confidence": 0.6481481481481481,
+        "cer": 0.40425531914893614
+    },
+    {
+        "file_name": "308-14.png",
+        "ground_truth_label": "a strict Guard is kept over them, that no embez-",
+        "predicted_label": "a strict Guard is kept over them, that no combes-",
+        "confidence": 0.9387755102040817,
+        "cer": 0.0625
+    },
+    {
+        "file_name": "308-15.png",
+        "ground_truth_label": "zlement is made. If your men can not be",
+        "predicted_label": "lyment is made. If your men men can can not be",
+        "confidence": 0.782608695652174,
+        "cer": 0.2564102564102564
+    },
+    {
+        "file_name": "308-16.png",
+        "ground_truth_label": "conveniently Quartered on their march up; there",
+        "predicted_label": "community Quarterly chartered on their march up. there",
+        "confidence": 0.7222222222222222,
+        "cer": 0.3191489361702128
+    },
+    {
+        "file_name": "308-17.png",
+        "ground_truth_label": "will be a number of Tents among the Stores, which",
+        "predicted_label": "will be a number of things.",
+        "confidence": 0.4897959183673469,
+        "cer": 0.5102040816326531
+    },
+    {
+        "file_name": "308-18.png",
+        "ground_truth_label": "must be made use of. - If any of the Soldiers",
+        "predicted_label": "must be of any of the Soldiers",
+        "confidence": 0.6666666666666667,
+        "cer": 0.3333333333333333
+    },
+    {
+        "file_name": "308-19.png",
+        "ground_truth_label": "should desert from this place, - it would be proper",
+        "predicted_label": "should direct from this place, if would be proper",
+        "confidence": 0.8823529411764706,
+        "cer": 0.11764705882352941
+    },
+    {
+        "file_name": "308-20.png",
+        "ground_truth_label": "to send a Sergeant, and one or two trusty men",
+        "predicted_label": "to send a Sigparent, and one other twenty men men,",
+        "confidence": 0.6799999999999999,
+        "cer": 0.35555555555555557
+    },
+    {
+        "file_name": "308-21.png",
+        "ground_truth_label": "in pursuit of them.",
+        "predicted_label": "in pursuant of them.",
+        "confidence": 0.9,
+        "cer": 0.10526315789473684
+    },
+    {
+        "file_name": "308-22.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "predicted_label": "vibrancy at Alexandria.",
+        "confidence": 0.6086956521739131,
+        "cer": 0.391304347826087
+    },
+    {
+        "file_name": "308-23.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "predicted_label": "December 1755.",
+        "confidence": 0.7,
+        "cer": 0.3
+    },
+    {
+        "file_name": "308-25.png",
+        "ground_truth_label": "16th. To Doctor James Craik, of the Virginia",
+        "predicted_label": "No. To Doctor James James Grataify of the Virginia",
+        "confidence": 0.7,
+        "cer": 0.3409090909090909
+    },
+    {
+        "file_name": "308-26.png",
+        "ground_truth_label": "Regiment.",
+        "predicted_label": "Regiment.",
+        "confidence": 1.0,
+        "cer": 0.0
+    },
+    {
+        "file_name": "308-27.png",
+        "ground_truth_label": "So soon as the Vessel with the",
+        "predicted_label": "To soon as the Official with with the",
+        "confidence": 0.6486486486486487,
+        "cer": 0.43333333333333335
+    },
+    {
+        "file_name": "308-28.png",
+        "ground_truth_label": "Stores and medicines arrives, you are to embrace",
+        "predicted_label": "hornys and medicines arrive, you are are at smics.",
+        "confidence": 0.6799999999999999,
+        "cer": 0.3333333333333333
+    },
+    {
+        "file_name": "308-29.png",
+        "ground_truth_label": "the first opportunity that offers, of conveying up",
+        "predicted_label": "the first opportunity that offers, of conveying up-",
+        "confidence": 0.9803921568627451,
+        "cer": 0.02
+    },
+    {
+        "file_name": "308-30.png",
+        "ground_truth_label": "your Chest, and proceeding, yourself, to Winches-",
+        "predicted_label": "you that, and prereeding, yourself, to Vineher-",
+        "confidence": 0.8163265306122449,
+        "cer": 0.1836734693877551
+    },
+    {
+        "file_name": "308-31.png",
+        "ground_truth_label": "ter. You are to provide yourself here, with",
+        "predicted_label": "ters. You are to provide yourself here with",
+        "confidence": 0.9534883720930233,
+        "cer": 0.046511627906976744
+    },
+    {
+        "file_name": "308-32.png",
+        "ground_truth_label": "what you think will be wanting for the Hos-",
+        "predicted_label": "what you think will be wanting for the Yor-",
+        "confidence": 0.9534883720930233,
+        "cer": 0.046511627906976744
+    },
+    {
+        "file_name": "308-33.png",
+        "ground_truth_label": "pital, and bring them up with you; taking",
+        "predicted_label": "patch, and hiring them up with you; your dining",
+        "confidence": 0.7234042553191489,
+        "cer": 0.3170731707317073
+    },
+    {
+        "file_name": "308-34.png",
+        "ground_truth_label": "care to purchase no more than is absolutely",
+        "predicted_label": "cannot to purchase no more than is absolutely",
+        "confidence": 0.9111111111111111,
+        "cer": 0.09302325581395349
+    },
+    {
+        "file_name": "308-35.png",
+        "ground_truth_label": "necessary, for the support and relief of the Regiment",
+        "predicted_label": "instagram, for the support and relief of the Region",
+        "confidence": 0.7924528301886793,
+        "cer": 0.20754716981132076
+    },
+    {
+        "file_name": "309-01.png",
+        "ground_truth_label": "p.309.",
+        "predicted_label": "G.&G.",
+        "confidence": 0.33333333333333337,
+        "cer": 0.6666666666666666
+    },
+    {
+        "file_name": "309-02.png",
+        "ground_truth_label": "Letters Orders and Instructions December 1755.",
+        "predicted_label": "Letters Orders and Instructions December 1755.",
+        "confidence": 1.0,
+        "cer": 0.0
+    },
+    {
+        "file_name": "309-04.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "predicted_label": "given at Alexandria, Inc.",
+        "confidence": 0.84,
+        "cer": 0.17391304347826086
+    },
+    {
+        "file_name": "309-05.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "predicted_label": "December 16th. 1755.",
+        "confidence": 1.0,
+        "cer": 0.0
+    },
+    {
+        "file_name": "309-07.png",
+        "ground_truth_label": "16th. To Captain John Mercer. of the",
+        "predicted_label": "No. To Captain John Palmer Mercer. of the",
+        "confidence": 0.7317073170731707,
+        "cer": 0.3055555555555556
+    },
+    {
+        "file_name": "309-08.png",
+        "ground_truth_label": "Virginia Regiment.",
+        "predicted_label": "Virginia Regiment.",
+        "confidence": 1.0,
+        "cer": 0.0
+    },
+    {
+        "file_name": "309-09.png",
+        "ground_truth_label": "You are immediately, upon receipt",
+        "predicted_label": "You are immediately. upon receipt",
+        "confidence": 0.9696969696969697,
+        "cer": 0.030303030303030304
+    },
+    {
+        "file_name": "309-10.png",
+        "ground_truth_label": "hereof, to repair to Winchester, where you will meet",
+        "predicted_label": "hereof, to appear to eliminate, where you will meet",
+        "confidence": 0.7692307692307692,
+        "cer": 0.23076923076923078
+    },
+    {
+        "file_name": "309-11.png",
+        "ground_truth_label": "with Colonel Washington, and receive further orders.",
+        "predicted_label": "with Washington. and receive orders.",
+        "confidence": 0.6730769230769231,
+        "cer": 0.3269230769230769
+    },
+    {
+        "file_name": "309-12.png",
+        "ground_truth_label": "I am Vc.",
+        "predicted_label": "I am.",
+        "confidence": 0.625,
+        "cer": 0.375
+    },
+    {
+        "file_name": "309-13.png",
+        "ground_truth_label": "G.W. aid de camp.",
+        "predicted_label": "Mrs. Mid. Midde.",
+        "confidence": 0.2941176470588235,
+        "cer": 0.7058823529411765
+    },
+    {
+        "file_name": "309-14.png",
+        "ground_truth_label": "Alexandria: December 16th. 1755.",
+        "predicted_label": "Alexandria 16th. 1755.",
+        "confidence": 0.6875,
+        "cer": 0.3125
+    },
+    {
+        "file_name": "309-15.png",
+        "ground_truth_label": "N:B. A Copy left at Alexandria, and another",
+        "predicted_label": "Mr. Abby Pfaff at Alexandria, and and another",
+        "confidence": 0.6666666666666667,
+        "cer": 0.3488372093023256
+    },
+    {
+        "file_name": "309-16.png",
+        "ground_truth_label": "sent to Stafford, to him there.",
+        "predicted_label": "sent to Stuffed, to him there.",
+        "confidence": 0.9032258064516129,
+        "cer": 0.0967741935483871
+    },
+    {
+        "file_name": "309-18.png",
+        "ground_truth_label": "20th. Parole Abbemarle. Winchester: December 20th. 1755.",
+        "predicted_label": "30. To. Pork Willamette, Tennessee, Minnesota, December, December 16th. 1755.",
+        "confidence": 0.4545454545454546,
+        "cer": 0.75
+    },
+    {
+        "file_name": "309-19.png",
+        "ground_truth_label": "A Return to be given in immedi-",
+        "predicted_label": "I Return to be given in general in immediate.",
+        "confidence": 0.6444444444444444,
+        "cer": 0.5161290322580645
+    },
+    {
+        "file_name": "309-20.png",
+        "ground_truth_label": "ately of the Recruits now in this town, by the several",
+        "predicted_label": "ately of the Biscuits now in this room, by the thermal",
+        "confidence": 0.7962962962962963,
+        "cer": 0.2037037037037037
+    },
+    {
+        "file_name": "309-21.png",
+        "ground_truth_label": "Officers who enlisted them; mentioning their height,",
+        "predicted_label": "Officers, mentioned,",
+        "confidence": 0.34615384615384615,
+        "cer": 0.6538461538461539
+    },
+    {
+        "file_name": "309-22.png",
+        "ground_truth_label": "age, trade, Vc. The officers to see that the Serge-",
+        "predicted_label": "age, trade, or. The officers, to see that the large-",
+        "confidence": 0.9038461538461539,
+        "cer": 0.09803921568627451
+    },
+    {
+        "file_name": "309-23.png",
+        "ground_truth_label": "ants who understand the manual Exercise, do",
+        "predicted_label": "only who understand the manual (pairic) do",
+        "confidence": 0.7441860465116279,
+        "cer": 0.2558139534883721
+    },
+    {
+        "file_name": "309-24.png",
+        "ground_truth_label": "drill the Recruits, at least twice a-day.",
+        "predicted_label": "difficult the Recruits, at least twice and a day.",
+        "confidence": 0.7755102040816326,
+        "cer": 0.2682926829268293
+    },
+    {
+        "file_name": "309-26.png",
+        "ground_truth_label": "22nd. Parole Boston- Winchester: December 22nd. 1755.",
+        "predicted_label": "28th. Torch Boston - Winchester December 27th. 1755.",
+        "confidence": 0.7547169811320755,
+        "cer": 0.24528301886792453
+    },
+    {
+        "file_name": "309-27.png",
+        "ground_truth_label": "A Return is to be made every mor-",
+        "predicted_label": "t Return is to be made, except no.",
+        "confidence": 0.7352941176470589,
+        "cer": 0.2727272727272727
+    },
+    {
+        "file_name": "309-28.png",
+        "ground_truth_label": "ning to Colonel Washington of the number of",
+        "predicted_label": "ning to Colonel Washington of",
+        "confidence": 0.6744186046511628,
+        "cer": 0.32558139534883723
+    },
+    {
+        "file_name": "309-29.png",
+        "ground_truth_label": "men in this town - and all contingences.",
+        "predicted_label": "men in this term - and all continues.",
+        "confidence": 0.825,
+        "cer": 0.175
+    },
+    {
+        "file_name": "309-30.png",
+        "ground_truth_label": "During his stay here, no provision is to be de-",
+        "predicted_label": "During here, no provision is to be de-",
+        "confidence": 0.8085106382978724,
+        "cer": 0.19148936170212766
+    },
+    {
+        "file_name": "309-31.png",
+        "ground_truth_label": "livered out, but by a written order from him or",
+        "predicted_label": "directed out, but by a written order from him himself.",
+        "confidence": 0.7777777777777778,
+        "cer": 0.2553191489361702
+    },
+    {
+        "file_name": "309-32.png",
+        "ground_truth_label": "the aid de camp. The Commissary is to send",
+        "predicted_label": "the Aid de camp. The Commissary is to send",
+        "confidence": 0.9761904761904762,
+        "cer": 0.023809523809523808
+    },
+    {
+        "file_name": "309-33.png",
+        "ground_truth_label": "up the Cask of Tools by the first waggon that",
+        "predicted_label": "up the lack of the first",
+        "confidence": 0.48888888888888893,
+        "cer": 0.5111111111111111
+    },
+    {
+        "file_name": "309-34.png",
+        "ground_truth_label": "goes to the Fort. The following men being judg-",
+        "predicted_label": "great to the Hot. The following men being being laid-",
+        "confidence": 0.7358490566037736,
+        "cer": 0.2978723404255319
+    },
+    {
+        "file_name": "309-35.png",
+        "ground_truth_label": "ed unfit for Duty, on Review; are ordered to be",
+        "predicted_label": "ed unfit for forty, on Review; are ordered, ordered to be",
+        "confidence": 0.7894736842105263,
+        "cer": 0.2553191489361702
+    },
+    {
+        "file_name": "309-36.png",
+        "ground_truth_label": "discharged: viz.",
+        "predicted_label": "instagram: Vito.",
+        "confidence": 0.3125,
+        "cer": 0.6875
+    }
+]
