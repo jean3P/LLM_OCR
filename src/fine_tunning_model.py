@@ -10,7 +10,7 @@ from src.handle_dataset_washington import save_to_json, load_from_json
 from src.utils.constants import automated_resuts, results_test_trocr
 
 
-def load_model_and_tokenizer(model_dir="/home/pool/fine_tunning_llm/Fine_tunning/results_v3/checkpoint-1000"):
+def load_model_and_tokenizer(model_dir="/home/pool/fine_tunning_llm/Fine_tunning/results_v6_100000"):
     """
     Load the base model and tokenizer, and apply the fine-tuned LoRA adapters.
 
@@ -77,50 +77,50 @@ def correct_ocr_output(ocr_output_text, model, tokenizer):
         "\n- If the corrected sentence is twice the length of the OCR sentence, return the OCR sentence. "
         "\n\n# Examples of corrected sentences modelling cases"
         "\n1. Input: 2oh. Leters Orders and Instructions December 175. "
-        "     Output: 308th Letters, Orders, and Instructions, December 1755."
+        "     Corrected label: 308th Letters, Orders, and Instructions, December 1755."
         "\n2. Input: remain here until the arival of the vesel with "
-        "     Output: remain here until the arrival of the vessel with"
+        "     Corrected label: remain here until the arrival of the vessel with"
         "\n3. Input: as befou ordered. So son as the Stores arive, you "
-        "     Output: as before ordered. So soon as the Stores arrive, you"
+        "     Corrected label: as before ordered. So soon as the Stores arrive, you"
         "\n4. Input: are, with al posible dispatch, te procure a suf- "
-        "     Output: are, with all possible dispath, to procure a suf-"
+        "     Corrected label: are, with all possible dispath, to procure a suf-"
         "\n5. Input: ficient number of Wagons to cary them to Fn- "
-        "     Output: ficient number of waggons to carry them to Win-"
+        "     Corrected label: ficient number of waggons to carry them to Win-"
         "\n6. Input: thester; whither they are to be sent, ander the "
-        "     Output: chester; whither they are to be sent, under the"
+        "     Corrected label: chester; whither they are to be sent, under the"
         "\n7. Input: escort of the Soldiers now here, except the Suits "
-        "     Output: escort of the Soldiers now here: except the Suits"
+        "     Corrected label: escort of the Soldiers now here: except the Suits"
         "\n8. Input: of Clothes; Shoes, Stockings, Shirts, Vc. proportiona- "
-        "     Output: of Clothes; Shoes, Stocking, Shirts, Vc. proportiona-"
+        "     Corrected label: of Clothes; Shoes, Stocking, Shirts, Vc. proportiona-"
         "\n9. Input: bly, which are to be lft with botonel Carby le. "
-        "      Output: bly which are to be left with Colonel Carlyle."
+        "      Corrected label: bly which are to be left with Colonel Carlyle."
         "\n10. Input: Alexandria: December 1th. 175. "
-        "      Output: Alexandria: December 16th. 1755."
+        "      Corrected label: Alexandria: December 16th. 1755."
         "\n11. Input: sent to Staford, to him there. "
-        "      Output: sent to Stafford, to him there."
+        "      Corrected label: sent to Stafford, to him there."
         "\n12. Input: ately of the Recruits now in this tomn, by the sweral "
-        "      Output: ately of the Recruits now in this town, by the several."
+        "      Corrected label: ately of the Recruits now in this town, by the several."
         "\n13. Input: Oficers who enlisted them; mentioning their height, "
-        "      Output: Officers who enlisted them; mentioning their height,"
+        "      Corrected label: Officers who enlisted them; mentioning their height,"
         "\n14. Input: age, trade, Vc. The Oficers to se that the Serge- "
-        "      Output: age, trade, Vc. The officers to see that the Serge-"
+        "      Corrected label: age, trade, Vc. The officers to see that the Serge-"
         "\n15. Input: Rp.30g. "
-        "      Output: p.309."
+        "      Corrected label: p.309."
         "\n16. Input: I amVc. "
-        "      Output: I am Vc."
+        "      Corrected label: I am Vc."
         "\n17.  Input: G.W. Aid tecamp. "
-        "      Output: G.W. aid de camp."
+        "      Corrected label: G.W. aid de camp."
         "\n18. Input: 28th. Parole Albemarle WinchesterD December 15. 275. "
-        "      Output: 20th. Parole Abbemarle. Winchester: December 20th. 1755."
+        "      Corrected label: 20th. Parole Abbemarle. Winchester: December 20th. 1755."
         "\n19. Input: dis char ged: Vir3. "
-        "      Output: discharged: viz."
+        "      Corrected label: discharged: viz."
         "</s>"
     )
     adaptation_request = (
         f"<s>"
         f"[INST] Based on the guidelines and illustrated examples, accurately correct the OCR errors in the following "
         f"sentence.[/INST]</s>"
-        f"\n\n### Input:\n{ocr_output_text}\n\n### Output:"
+        f"\n\n### Input:\n{ocr_output_text}\n\n### Corrected label:"
     )
     eval_prompt = (
         f"{system_prompt}\n{adaptation_request}"
@@ -137,7 +137,7 @@ def correct_ocr_output(ocr_output_text, model, tokenizer):
         )
         generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
     # print(generated_text)
-    start = generated_text.find("### Output:") + len("### Output:")
+    start = generated_text.find("### Corrected label:") + len("### Corrected label:")
     end = generated_text.find("### Input:", start)
     if end == -1:
         end = None  # In case it's the last section

@@ -1,0 +1,1302 @@
+[
+    {
+        "file_name": "308-01.png",
+        "ground_truth_label": "308. Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "30th. Letters Orders Orders and Instructions Circulars December 1755.",
+            "cer": 0.37254901960784315,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Circulars' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "30th. Letters Orders Orders and Instructions Circulars December 1755.",
+            "cer": 0.37254901960784315,
+            "confidence": 90,
+            "justification": "Corrected 'Circulars' to 'Circular' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-03.png",
+        "ground_truth_label": "remain here until the arrival of the vessel with",
+        "OCR": {
+            "predicted_label": "remain until the quiet,",
+            "cer": 0.5833333333333334,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'quiet' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "remain until the quiet.",
+            "cer": 0.5833333333333334,
+            "confidence": 90,
+            "justification": "Corrected \"quiet\" to \"quiet\" based on the reason."
+        }
+    },
+    {
+        "file_name": "308-04.png",
+        "ground_truth_label": "the Stores, Vc. and to be under the same directions",
+        "OCR": {
+            "predicted_label": "the Tourd to be under donations",
+            "cer": 0.5098039215686274,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Tourd' is likely an OCR error as it does not form a valid word in the context. Additionally, the word 'donations' is misspelled as 'donations'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "the Tourd to be under donations",
+            "cer": 0.5098039215686274,
+            "confidence": 90,
+            "justification": "Corrected 'Tourd' to 'Toured' and 'donations' to 'donations' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-05.png",
+        "ground_truth_label": "as before ordered. So soon as the Stores arrive, you",
+        "OCR": {
+            "predicted_label": "as before ordered: To soon as the Stores arrive, arrive, you",
+            "cer": 0.19230769230769232,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Stores' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "as before ordered: To soon as the Stores arrive, arrive, you",
+            "cer": 0.19230769230769232,
+            "confidence": 90,
+            "justification": "Corrected 'Stores' to'stores' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-06.png",
+        "ground_truth_label": "are, with all possible dispath, to procure a suf-",
+        "OCR": {
+            "predicted_label": "are, with all possible dispatch, to provide a sup-",
+            "cer": 0.10204081632653061,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'are' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "are, with all possible dispatch, to provide a sup-",
+            "cer": 0.10204081632653061,
+            "confidence": 0,
+            "justification": "No justification provided, sentence is returned uncorrected."
+        }
+    },
+    {
+        "file_name": "308-07.png",
+        "ground_truth_label": "ficient number of waggons to carry them to Win-",
+        "OCR": {
+            "predicted_label": "fcient number number of Wageens to carry them them to them to thin-",
+            "cer": 0.5531914893617021,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Wageens' is likely an OCR error as it does not form a valid word in the context. Additionally, the word 'them' is repeated twice, which is an error."
+        },
+        "Prompt correcting": {
+            "predicted_label": "fcient number number of Wageens to carry them them to them to thin-",
+            "cer": 0.5531914893617021,
+            "confidence": 0,
+            "justification": "No justification provided, sentence is returned uncorrected."
+        }
+    },
+    {
+        "file_name": "308-08.png",
+        "ground_truth_label": "chester; whither they are to be sent, under the",
+        "OCR": {
+            "predicted_label": "character; whether they they are to be sent, number the",
+            "cer": 0.2765957446808511,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The sentence contains several OCR errors, including the incorrect use of the word 'character' and the incorrect use of the word 'they'. Additionally, the sentence is missing a comma after the word'sent' and a period at the end of the sentence."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Whether they are to be sent, number them.",
+            "cer": 0.3191489361702128,
+            "confidence": 90,
+            "justification": "Corrected 'character' to 'whether', 'they' to 'they', added a comma after'sent', and added a period at the end of the sentence."
+        }
+    },
+    {
+        "file_name": "308-09.png",
+        "ground_truth_label": "escort of the Soldiers now here: except the Suits",
+        "OCR": {
+            "predicted_label": "result of the Soldiers now now here: except the got the Suits",
+            "cer": 0.32653061224489793,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Soldiers' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "result of the Soldiers now now here: except the got the Suits",
+            "cer": 0.32653061224489793,
+            "confidence": 90,
+            "justification": "Corrected 'Soldiers' to 'Soldier' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-10.png",
+        "ground_truth_label": "of Clothes; Shoes, Stocking, Shirts, Vc. proportiona-",
+        "OCR": {
+            "predicted_label": "of Octobers, Shirts, V. propotiona-",
+            "cer": 0.4528301886792453,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Octobers' is likely an OCR error as it does not form a valid word in the context. The word 'Shirts' is also likely an OCR error as it is not a valid word in the context. The word 'V. propotiona-' is also likely an OCR error as it is not a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "of October, shirts, V. proportionally",
+            "cer": 0.5094339622641509,
+            "confidence": 90,
+            "justification": "Corrected 'Octobers' to 'October', 'Shirts' to'shirts', and 'V. propotiona-' to 'V. proportionally' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-11.png",
+        "ground_truth_label": "bly which are to be left with Colonel Carlyle.",
+        "OCR": {
+            "predicted_label": "ly, which are are to be to be left with lobbied Carlylel Carlyle:",
+            "cer": 0.5434782608695652,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The sentence contains multiple OCR errors, including the use of the word 'ly' instead of 'ly', the use of the word 'which' instead of 'which', and the use of the word 'are' instead of 'are'. Additionally, the word 'to' is used incorrectly in the sentence."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Ly, which are are to be left with lobbed Carlylel Carlyle:",
+            "cer": 0.41304347826086957,
+            "confidence": 80,
+            "justification": "Corrected 'ly' to 'ly', 'which' to 'which', 'are' to 'are', and 'to' to 'to' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-12.png",
+        "ground_truth_label": "You are to be very careful of all the",
+        "OCR": {
+            "predicted_label": "You are very out of all the",
+            "cer": 0.32432432432432434,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'out' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "You are very out of all the",
+            "cer": 0.32432432432432434,
+            "confidence": 0,
+            "justification": "No justification provided, sentence is returned uncorrected."
+        }
+    },
+    {
+        "file_name": "308-13.png",
+        "ground_truth_label": "Things delivered into the waggons, and see that",
+        "OCR": {
+            "predicted_label": "Brings delivered into the Maggis, and arei-",
+            "cer": 0.2553191489361702,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Maggis' is likely an OCR error as it does not form a valid word in the context. Additionally, the word 'arei-' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Brings delivered into the Magistrate, and are-",
+            "cer": 0.3617021276595745,
+            "confidence": 90,
+            "justification": "Corrected 'Maggis' to 'Magistrate' and 'arei-' to 'are-' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-14.png",
+        "ground_truth_label": "a strict Guard is kept over them, that no embez-",
+        "OCR": {
+            "predicted_label": "a Shirt is kept them, that no -",
+            "cer": 0.4166666666666667,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'them' is likely an OCR error as it does not form a valid word in the context. Additionally, the word 'no' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "a Shirt is kept there, that no",
+            "cer": 0.4791666666666667,
+            "confidence": 90,
+            "justification": "Corrected 'them' to 'there' and 'no' to 'no' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-15.png",
+        "ground_truth_label": "zlement is made. If your men can not be",
+        "OCR": {
+            "predicted_label": "formert is made. If you've. If your Went ten ten not he",
+            "cer": 0.6153846153846154,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'formert' is likely an OCR error as it does not form a valid word in the context. The word 'ten' is used incorrectly, as it should be 'then'. The word 'not' is used incorrectly, as it should be 'and'. The word 'he' is used incorrectly, as it should be 'it'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Former is made. If you've. If your went then then not it.",
+            "cer": 0.7435897435897436,
+            "confidence": 90,
+            "justification": "Corrected 'formert' to 'former', 'ten' to 'then', 'not' to 'and', and 'he' to 'it' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-16.png",
+        "ground_truth_label": "conveniently Quartered on their march up; there",
+        "OCR": {
+            "predicted_label": "conveniently Quarterly Burntered on their march up; here, here",
+            "cer": 0.3404255319148936,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Quarterly' is likely an OCR error as it does not form a valid word in the context. Additionally, the word 'Burntered' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "conveniently Quarterly Burntered on their march up; here, here",
+            "cer": 0.3404255319148936,
+            "confidence": 90,
+            "justification": "Corrected 'Quarterly' to 'Quarterly' and 'Burntered' to 'Burntered' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-17.png",
+        "ground_truth_label": "will be a number of Tents among the Stores, which",
+        "OCR": {
+            "predicted_label": "will be a number of Kents. among the I toast.",
+            "cer": 0.2653061224489796,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Kents' is likely an OCR error as it does not form a valid word in the context. Additionally, the word 'toast' is misspelled, and the sentence does not make grammatical sense."
+        },
+        "Prompt correcting": {
+            "predicted_label": "will be a number of Kent's. among the I toast.",
+            "cer": 0.2857142857142857,
+            "confidence": 80,
+            "justification": "Corrected 'Kents' to 'Kent's' and 'toast' to 'toast' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-18.png",
+        "ground_truth_label": "must be made use of. - If any of the Soldiers",
+        "OCR": {
+            "predicted_label": "must be made in any of the Soldiers",
+            "cer": 0.26666666666666666,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Soldiers' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "must be made in any of the soldiers",
+            "cer": 0.28888888888888886,
+            "confidence": 95,
+            "justification": "Corrected 'Soldiers' to'soldiers' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-19.png",
+        "ground_truth_label": "should desert from this place, - it would be proper",
+        "OCR": {
+            "predicted_label": "should skirt this place if would be proper",
+            "cer": 0.2549019607843137,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word'skirt' is likely an OCR error as it does not form a valid word in the context. Additionally, the word 'would' is likely an OCR error as it is not used correctly within the context of the sentence."
+        },
+        "Prompt correcting": {
+            "predicted_label": "should skirt this place if it were proper.",
+            "cer": 0.37254901960784315,
+            "confidence": 90,
+            "justification": "Corrected'skirt' to'skirt' and 'would' to 'were' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-20.png",
+        "ground_truth_label": "to send a Sergeant, and one or two trusty men",
+        "OCR": {
+            "predicted_label": "to send a Sergeant, and one or two twenty men,",
+            "cer": 0.08888888888888889,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'twenty' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "to send a Sergeant, and one or two twenty men,",
+            "cer": 0.08888888888888889,
+            "confidence": 0,
+            "justification": "No justification provided, sentence is returned uncorrected."
+        }
+    },
+    {
+        "file_name": "308-21.png",
+        "ground_truth_label": "in pursuit of them.",
+        "OCR": {
+            "predicted_label": "in pursuit of them.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'them' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "in pursuit of them.",
+            "cer": 0.0,
+            "confidence": 95,
+            "justification": "Corrected 'them' to 'their' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-22.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "Given our of Alexandria Vc.",
+            "cer": 0.2608695652173913,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Given' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Our of Alexandria Vc.",
+            "cer": 0.30434782608695654,
+            "confidence": 90,
+            "justification": "Corrected 'Given' to 'Our' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-23.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "December 6, 1755.",
+            "cer": 0.2,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'December' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "6, 1755.",
+            "cer": 0.65,
+            "confidence": 95,
+            "justification": "Corrected \"December\" to \"6\" based on the reason."
+        }
+    },
+    {
+        "file_name": "308-25.png",
+        "ground_truth_label": "16th. To Doctor James Craik, of the Virginia",
+        "OCR": {
+            "predicted_label": "6.1%. To Doctor James Brazil of the Virginia Virginia",
+            "cer": 0.38636363636363635,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Virginia' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "6.1%. To Doctor James Brazil of the Virginia Virginia",
+            "cer": 0.38636363636363635,
+            "confidence": 95,
+            "justification": "Corrected \"Virginia\" to \"Virginia\" based on the reason."
+        }
+    },
+    {
+        "file_name": "308-26.png",
+        "ground_truth_label": "Regiment.",
+        "OCR": {
+            "predicted_label": "Regiment.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Regiment' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Regiment.",
+            "cer": 0.0,
+            "confidence": 95,
+            "justification": "Corrected \"Regiment\" to \"Regiment\" based on the reason."
+        }
+    },
+    {
+        "file_name": "308-27.png",
+        "ground_truth_label": "So soon as the Vessel with the",
+        "OCR": {
+            "predicted_label": "To soon as the Vessel with with the",
+            "cer": 0.2,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The sentence contains multiple OCR errors, including the use of the word 'with' twice, the use of the word 'as' instead of 'at', and the use of the word 'the' instead of 'a'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "To soon as the Vessel with the",
+            "cer": 0.03333333333333333,
+            "confidence": 90,
+            "justification": "Corrected 'with' to 'with' and 'as' to 'at' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-28.png",
+        "ground_truth_label": "Stores and medicines arrives, you are to embrace",
+        "OCR": {
+            "predicted_label": "Stores and medicines arrives arrives, you are to embrace",
+            "cer": 0.16666666666666666,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'arrives' is used incorrectly, and the sentence does not make sense."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Stores and medicines arrive, you are to embrace",
+            "cer": 0.020833333333333332,
+            "confidence": 90,
+            "justification": "Corrected 'arrives' to 'arrive' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-29.png",
+        "ground_truth_label": "the first opportunity that offers, of conveying up",
+        "OCR": {
+            "predicted_label": "the first opportunity that offers, of conveying up",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'conveying' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "the first opportunity that offers, of conveying up",
+            "cer": 0.0,
+            "confidence": 90,
+            "justification": "Corrected \"conveying\" to \"conveying\" based on the reason."
+        }
+    },
+    {
+        "file_name": "308-30.png",
+        "ground_truth_label": "your Chest, and proceeding, yourself, to Winches-",
+        "OCR": {
+            "predicted_label": "yourchet, and proceeding, yourself if to Winchesters-",
+            "cer": 0.20408163265306123,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'yourchet' is likely an OCR error as it does not form a valid word in the context. Additionally, the word 'Winchesters' is likely an OCR error as it is not a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "your, and proceeding, yourself if to Winchesters-",
+            "cer": 0.2653061224489796,
+            "confidence": 90,
+            "justification": "Corrected 'yourchet' to 'your' and 'Winchesters' to 'Winchesters' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-31.png",
+        "ground_truth_label": "ter. You are to provide yourself here, with",
+        "OCR": {
+            "predicted_label": "ter. You are to provide yourself here with",
+            "cer": 0.023255813953488372,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'ter' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "The",
+            "cer": 0.9534883720930233,
+            "confidence": 99,
+            "justification": "Corrected \"ter\" to \"the\" based on the reason."
+        }
+    },
+    {
+        "file_name": "308-32.png",
+        "ground_truth_label": "what you think will be wanting for the Hos-",
+        "OCR": {
+            "predicted_label": "what you think will be wanting for the Non-",
+            "cer": 0.046511627906976744,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "No",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Yuemler' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "what you think will be wanting for the Non-",
+            "cer": 0.046511627906976744,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "308-33.png",
+        "ground_truth_label": "pital, and bring them up with you; taking",
+        "OCR": {
+            "predicted_label": "pital, and, and bring them up with with you taking",
+            "cer": 0.2682926829268293,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'pital' is likely an OCR error as it does not form a valid word in the context. Additionally, the word 'with' is used incorrectly, as it should be 'with you'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Pit, and, and bring them up with you taking",
+            "cer": 0.14634146341463414,
+            "confidence": 90,
+            "justification": "Corrected 'pital' to 'pit' and 'with' to 'with you' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-34.png",
+        "ground_truth_label": "care to purchase no more than is absolutely",
+        "OCR": {
+            "predicted_label": "cane to purchase no more more than is absolutely",
+            "cer": 0.13953488372093023,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'cane' is likely an OCR error as it does not form a valid word in the context. Additionally, the word'more' is used incorrectly, as it should be 'no more' instead of'more more'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "came to purchase no more than is absolutely necessary.",
+            "cer": 0.27906976744186046,
+            "confidence": 90,
+            "justification": "Corrected 'cane' to 'came' and'more more' to 'no more' based on the reason."
+        }
+    },
+    {
+        "file_name": "308-35.png",
+        "ground_truth_label": "necessary, for the support and relief of the Regiment",
+        "OCR": {
+            "predicted_label": "necessary, for the support and relief relief of the Hygiene",
+            "cer": 0.20754716981132076,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Hygiene' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "necessary, for the support and relief of the hygiene",
+            "cer": 0.07547169811320754,
+            "confidence": 90,
+            "justification": "Corrected \"Hygiene\" to \"hygiene\" based on the reason."
+        }
+    },
+    {
+        "file_name": "309-01.png",
+        "ground_truth_label": "p.309.",
+        "OCR": {
+            "predicted_label": "G.S.",
+            "cer": 0.6666666666666666,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'G.S.' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "G.S.",
+            "cer": 0.6666666666666666,
+            "confidence": 90,
+            "justification": "Corrected \"G.S.\" to \"G.S.\" based on the reason."
+        }
+    },
+    {
+        "file_name": "309-02.png",
+        "ground_truth_label": "Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "Letters Orders and Instructions December 1755,",
+            "cer": 0.021739130434782608,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Yuemler' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Letters, Orders and Instructions December 1755,",
+            "cer": 0.043478260869565216,
+            "confidence": 95,
+            "justification": "Corrected \"Yuemler\" to \"Orders\" based on the reason."
+        }
+    },
+    {
+        "file_name": "309-04.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "Given at. Alexandria Vc.",
+            "cer": 0.043478260869565216,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Given' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "At Alexandria Vc.",
+            "cer": 0.30434782608695654,
+            "confidence": 90,
+            "justification": "Corrected \"Given\" to \"At\" based on the reason."
+        }
+    },
+    {
+        "file_name": "309-05.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "December 6th. 1755.",
+            "cer": 0.05,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The date 'December 6th. 1755' is likely an OCR error as it does not form a valid date."
+        },
+        "Prompt correcting": {
+            "predicted_label": "December 6, 1755.",
+            "cer": 0.2,
+            "confidence": 95,
+            "justification": "Corrected the date to a valid format based on the reason."
+        }
+    },
+    {
+        "file_name": "309-07.png",
+        "ground_truth_label": "16th. To Captain John Mercer. of the",
+        "OCR": {
+            "predicted_label": "No. To Captain John Mercer. of the",
+            "cer": 0.1111111111111111,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The sentence contains OCR errors. The word 'No' is likely an OCR error as it does not form a valid word in the context. The word 'Then' is likely an OCR error as it does not form a valid word in the context. The word 'of' is likely an OCR error as it does not form a valid word in the context. The word 'the'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "To Captain John Mercer. of the",
+            "cer": 0.16666666666666666,
+            "confidence": 90,
+            "justification": "Corrected 'No' to 'To', 'Then' to 'of', and 'the' to 'the' based on the reason."
+        }
+    },
+    {
+        "file_name": "309-08.png",
+        "ground_truth_label": "Virginia Regiment.",
+        "OCR": {
+            "predicted_label": "Virginia.",
+            "cer": 0.5,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Virginia' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Virginia.",
+            "cer": 0.5,
+            "confidence": 95,
+            "justification": "Corrected \"Virginia\" to \"Virginia\" based on the reason."
+        }
+    },
+    {
+        "file_name": "309-09.png",
+        "ground_truth_label": "You are immediately, upon receipt",
+        "OCR": {
+            "predicted_label": "You are immediately, upon receipt",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word'receipt' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "You are immediately, upon receipt",
+            "cer": 0.0,
+            "confidence": 0,
+            "justification": "No justification provided, sentence is returned uncorrected."
+        }
+    },
+    {
+        "file_name": "309-10.png",
+        "ground_truth_label": "hereof, to repair to Winchester, where you will meet",
+        "OCR": {
+            "predicted_label": "here, to Winchester, who will meet",
+            "cer": 0.34615384615384615,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Winchester' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "here, to Winchester, who will meet",
+            "cer": 0.34615384615384615,
+            "confidence": 90,
+            "justification": "Corrected \"Winchester\" to \"Winchester\" based on the reason."
+        }
+    },
+    {
+        "file_name": "309-11.png",
+        "ground_truth_label": "with Colonel Washington, and receive further orders.",
+        "OCR": {
+            "predicted_label": "with Colonel, and receive Orders.",
+            "cer": 0.38461538461538464,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Colonel' is likely an OCR error as it does not form a valid word in the context. Additionally, the word 'Orders' is likely an OCR error as it is not used correctly within the context of the sentence."
+        },
+        "Prompt correcting": {
+            "predicted_label": "with Colonel, and receive Orders.",
+            "cer": 0.38461538461538464,
+            "confidence": 90,
+            "justification": "Corrected 'Colonel' to 'Colonels' and 'Orders' to 'Orders' based on the reason."
+        }
+    },
+    {
+        "file_name": "309-12.png",
+        "ground_truth_label": "I am Vc.",
+        "OCR": {
+            "predicted_label": "I am Vc.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Vc' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "I am a man.",
+            "cer": 0.625,
+            "confidence": 90,
+            "justification": "Corrected 'Vc' to 'a man' based on the reason."
+        }
+    },
+    {
+        "file_name": "309-13.png",
+        "ground_truth_label": "G.W. aid de camp.",
+        "OCR": {
+            "predicted_label": "Mr. Md. did be comp.",
+            "cer": 0.47058823529411764,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Md.' is likely an OCR error as it does not form a valid word in the context. Additionally, the word 'comp.' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Mr. did be.",
+            "cer": 0.5882352941176471,
+            "confidence": 90,
+            "justification": "Corrected 'Md.' to 'Mr.' and 'comp.' to 'be' based on the reason."
+        }
+    },
+    {
+        "file_name": "309-14.png",
+        "ground_truth_label": "Alexandria: December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "Alexandriadrio: December 17th. 1755.",
+            "cer": 0.15625,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Alexandriadrio' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Alexandria, December 17th. 1755.",
+            "cer": 0.0625,
+            "confidence": 95,
+            "justification": "Corrected 'Alexandriadrio' to 'Alexandria' based on the reason."
+        }
+    },
+    {
+        "file_name": "309-15.png",
+        "ground_truth_label": "N:B. A Copy left at Alexandria, and another",
+        "OCR": {
+            "predicted_label": "N.B. A Boy left at Alexandria, and another",
+            "cer": 0.06976744186046512,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Boy' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "N.B. A Boy left at Alexandria, and another",
+            "cer": 0.06976744186046512,
+            "confidence": 95,
+            "justification": "Corrected 'Boy' to 'boy' based on the reason."
+        }
+    },
+    {
+        "file_name": "309-16.png",
+        "ground_truth_label": "sent to Stafford, to him there.",
+        "OCR": {
+            "predicted_label": "sent to Stuffed, to him there.",
+            "cer": 0.0967741935483871,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Stuffed' is likely an OCR error as it does not form a valid word in the context. Additionally, the word 'him' is likely an OCR error as it is not capitalized, which is not consistent with the rest of the sentence."
+        },
+        "Prompt correcting": {
+            "predicted_label": "sent to Stuffed, to him there.",
+            "cer": 0.0967741935483871,
+            "confidence": 90,
+            "justification": "Corrected 'Stuffed' to 'Stuffed' and 'him' to 'him' based on the reason."
+        }
+    },
+    {
+        "file_name": "309-18.png",
+        "ground_truth_label": "20th. Parole Abbemarle. Winchester: December 20th. 1755.",
+        "OCR": {
+            "predicted_label": "28th. Paul Alternate Winchester December 17th. 1755.",
+            "cer": 0.25,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Alternate' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "28th. Paul Alternate Winchester December 17th. 1755.",
+            "cer": 0.25,
+            "confidence": 90,
+            "justification": "Corrected 'Alternate' to 'Alternate' based on the reason."
+        }
+    },
+    {
+        "file_name": "309-19.png",
+        "ground_truth_label": "A Return to be given in immedi-",
+        "OCR": {
+            "predicted_label": "I Return to be given in immedi-",
+            "cer": 0.03225806451612903,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Return' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "I Return to be given in immedi-",
+            "cer": 0.03225806451612903,
+            "confidence": 0,
+            "justification": "No justification provided, sentence is returned uncorrected."
+        }
+    },
+    {
+        "file_name": "309-20.png",
+        "ground_truth_label": "ately of the Recruits now in this town, by the several",
+        "OCR": {
+            "predicted_label": "ately of the Recruits now in this time, by by the the several",
+            "cer": 0.18518518518518517,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The sentence contains several OCR errors, including the word 'ately' which is likely an OCR error, and the word 'the' which is repeated twice."
+        },
+        "Prompt correcting": {
+            "predicted_label": "ately of the Recruits now in this time, by the several",
+            "cer": 0.05555555555555555,
+            "confidence": 80,
+            "justification": "Corrected 'ately' to 'at' and 'the' to 'the' based on the reason."
+        }
+    },
+    {
+        "file_name": "309-21.png",
+        "ground_truth_label": "Officers who enlisted them; mentioning their height,",
+        "OCR": {
+            "predicted_label": "Officers then; mentioning their,",
+            "cer": 0.40384615384615385,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word'mentioning' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Officers then; mentioning their,",
+            "cer": 0.40384615384615385,
+            "confidence": 90,
+            "justification": "Corrected \"mentioning\" to \"mentioning\" based on the reason."
+        }
+    },
+    {
+        "file_name": "309-22.png",
+        "ground_truth_label": "age, trade, Vc. The officers to see that the Serge-",
+        "OCR": {
+            "predicted_label": "age, trade, bc. The officer, to see that the Serge-",
+            "cer": 0.0392156862745098,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'bc' is likely an OCR error as it does not form a valid word in the context. Additionally, the word 'Serge-' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "age, trade, and. The officer, to see that the Sergeant.",
+            "cer": 0.1568627450980392,
+            "confidence": 90,
+            "justification": "Corrected 'bc' to 'and' and 'Serge-' to 'Sergeant' based on the reason."
+        }
+    },
+    {
+        "file_name": "309-23.png",
+        "ground_truth_label": "ants who understand the manual Exercise, do",
+        "OCR": {
+            "predicted_label": "arts who who understand the manuale manual Species, doo-",
+            "cer": 0.46511627906976744,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word'manuale' is likely an OCR error as it does not form a valid word in the context. The word 'doo-' is also likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "arts who who understand the manuale manual Species, doo-",
+            "cer": 0.46511627906976744,
+            "confidence": 0,
+            "justification": "No justification provided, sentence is returned uncorrected."
+        }
+    },
+    {
+        "file_name": "309-24.png",
+        "ground_truth_label": "drill the Recruits, at least twice a-day.",
+        "OCR": {
+            "predicted_label": "difficult the Recruits, at least twice today.",
+            "cer": 0.1951219512195122,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Recruits' is likely an OCR error as it does not form a valid word in the context. Additionally, the word 'twice' is likely an OCR error as it is not used correctly within the context of the sentence."
+        },
+        "Prompt correcting": {
+            "predicted_label": "difficult the recruits, at least twice today.",
+            "cer": 0.21951219512195122,
+            "confidence": 90,
+            "justification": "Corrected 'Recruits' to'recruits' and 'twice' to 'twice' based on the reason."
+        }
+    },
+    {
+        "file_name": "309-26.png",
+        "ground_truth_label": "22nd. Parole Boston- Winchester: December 22nd. 1755.",
+        "OCR": {
+            "predicted_label": "G.B. Each Bottom - Winchester: December: December. December 28th. 1755",
+            "cer": 0.6792452830188679,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Bottom' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "G.B. Each Bottom - Winchester: December: December. December 28th. 1755",
+            "cer": 0.6792452830188679,
+            "confidence": 0,
+            "justification": "No justification provided, sentence is returned uncorrected."
+        }
+    },
+    {
+        "file_name": "309-27.png",
+        "ground_truth_label": "A Return is to be made every mor-",
+        "OCR": {
+            "predicted_label": "t Return is to be made, sexy no.",
+            "cer": 0.24242424242424243,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Return' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "To be made, sexy no.",
+            "cer": 0.6060606060606061,
+            "confidence": 90,
+            "justification": "Corrected \"Return\" to \"To\" based on the reason."
+        }
+    },
+    {
+        "file_name": "309-28.png",
+        "ground_truth_label": "ning to Colonel Washington of the number of",
+        "OCR": {
+            "predicted_label": "nig to Colonel of the number of",
+            "cer": 0.27906976744186046,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'nig' is likely an OCR error as it does not form a valid word in the context. Additionally, the word 'number' is misspelled, and the sentence does not make grammatical sense."
+        },
+        "Prompt correcting": {
+            "predicted_label": "nig to Colonel of the number of",
+            "cer": 0.27906976744186046,
+            "confidence": 0,
+            "justification": "No justification provided, sentence is returned uncorrected."
+        }
+    },
+    {
+        "file_name": "309-29.png",
+        "ground_truth_label": "men in this town - and all contingences.",
+        "OCR": {
+            "predicted_label": "men in this town and all all continues.",
+            "cer": 0.225,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'all' is used incorrectly in the sentence, and there are spelling and punctuation errors."
+        },
+        "Prompt correcting": {
+            "predicted_label": "men in this town and all continue.",
+            "cer": 0.175,
+            "confidence": 90,
+            "justification": "Corrected 'all' to 'all' and 'all' to 'all' based on the reason."
+        }
+    },
+    {
+        "file_name": "309-30.png",
+        "ground_truth_label": "During his stay here, no provision is to be de-",
+        "OCR": {
+            "predicted_label": "During stay, no provision is to be-",
+            "cer": 0.2553191489361702,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'provision' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "During stay, no provision is to be-",
+            "cer": 0.2553191489361702,
+            "confidence": 0,
+            "justification": "No justification provided, sentence is returned uncorrected."
+        }
+    },
+    {
+        "file_name": "309-31.png",
+        "ground_truth_label": "livered out, but by a written order from him or",
+        "OCR": {
+            "predicted_label": "livered out, but by a written order from him",
+            "cer": 0.06382978723404255,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'livered' is likely an OCR error as it does not form a valid word in the context. Additionally, the word 'out' is likely an OCR error as it is not spelled correctly."
+        },
+        "Prompt correcting": {
+            "predicted_label": "delivered, but by a written order from him",
+            "cer": 0.19148936170212766,
+            "confidence": 90,
+            "justification": "Corrected \"livered\" to \"delivered\" and \"out\" to \"but\" based on the reason."
+        }
+    },
+    {
+        "file_name": "309-32.png",
+        "ground_truth_label": "the aid de camp. The Commissary is to send",
+        "OCR": {
+            "predicted_label": "the aid de ald de camp. Welommifying is to to can't",
+            "cer": 0.5476190476190477,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The sentence contains multiple OCR errors, including the misspelling of 'aid' as 'aid de ald', 'de' as 'de camp', and 'Welommifying' as 'Welommifying'. Additionally, the word 'to' is used incorrectly, and the sentence does not make sense."
+        },
+        "Prompt correcting": {
+            "predicted_label": "The aid de ald de camp. Welommifying is to can't",
+            "cer": 0.5,
+            "confidence": 80,
+            "justification": "Corrected 'aid de ald' to 'aid', 'de camp' to 'de camp', and 'Welommifying' to 'Welommifying'. Corrected 'to' to 'to'."
+        }
+    },
+    {
+        "file_name": "309-33.png",
+        "ground_truth_label": "up the Cask of Tools by the first waggon that",
+        "OCR": {
+            "predicted_label": "up the East of Tools by the first waggon that",
+            "cer": 0.044444444444444446,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The sentence contains several OCR errors, including the word 'Tools' which is likely an OCR error as it does not form a valid word in the context. Additionally, the word 'waggon' is likely an OCR error as it is not a valid word in the English language."
+        },
+        "Prompt correcting": {
+            "predicted_label": "up the East of Tools by the first waggon that",
+            "cer": 0.044444444444444446,
+            "confidence": 0,
+            "justification": "No justification provided, sentence is returned uncorrected."
+        }
+    },
+    {
+        "file_name": "309-34.png",
+        "ground_truth_label": "goes to the Fort. The following men being judg-",
+        "OCR": {
+            "predicted_label": "greats to the Fort. The following men Men being being jazz-",
+            "cer": 0.3404255319148936,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'Men' is used incorrectly, and there are spelling errors in the sentence."
+        },
+        "Prompt correcting": {
+            "predicted_label": "greats to the Fort. The following men Men being being jazz-",
+            "cer": 0.3404255319148936,
+            "confidence": 0,
+            "justification": "No justification provided, sentence is returned uncorrected."
+        }
+    },
+    {
+        "file_name": "309-35.png",
+        "ground_truth_label": "ed unfit for Duty, on Review; are ordered to be",
+        "OCR": {
+            "predicted_label": "ed until for for Party on Review, are ordered to be to be",
+            "cer": 0.3617021276595745,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The sentence contains multiple OCR errors, including misspellings, incorrect punctuation, and incorrect word usage."
+        },
+        "Prompt correcting": {
+            "predicted_label": "The sentence contains multiple OCR errors, including misspellings, incorrect punctuation, and incorrect word usage.",
+            "cer": 1.9148936170212767,
+            "confidence": 80,
+            "justification": "Corrected \"ed\" to \"had\", \"until\" to \"until\", \"for\" to \"for\", \"for\" to \"for\", \"Party\" to \"party\", \"on\" to \"on\", \"Review\" to \"review\", \"are\" to \"are\","
+        }
+    },
+    {
+        "file_name": "309-36.png",
+        "ground_truth_label": "discharged: viz.",
+        "OCR": {
+            "predicted_label": "dis charged: Wo.",
+            "cer": 0.25,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "reason": "The sentence contains OCR errors.",
+            "explanation": "The word 'dis' is likely an OCR error as it does not form a valid word in the context."
+        },
+        "Prompt correcting": {
+            "predicted_label": "This charged: Wo.",
+            "cer": 0.375,
+            "confidence": 90,
+            "justification": "Corrected \"dis\" to \"this\" based on the reason."
+        }
+    }
+]

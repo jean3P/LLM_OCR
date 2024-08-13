@@ -1,0 +1,977 @@
+[
+    {
+        "file_name": "308-01.png",
+        "ground_truth_label": "308. Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "30th. Letters Orders Orders and Instructions. Decembers December 1755.",
+            "cer": 0.39215686274509803,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "308. Letters Orders and Instructions December 1755.",
+            "cer": 0.0,
+            "confidence": 96,
+            "justification": "Corrected 30th. Letters Orders Orders and Instructions. Decembers December 1755. to"
+        }
+    },
+    {
+        "file_name": "308-03.png",
+        "ground_truth_label": "remain here until the arrival of the vessel with",
+        "OCR": {
+            "predicted_label": "remain here until the arrival of the vessel with",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "remain here until the arrival of the vessel with",
+            "cer": 0.0,
+            "confidence": 61,
+            "justification": "Corrected remain until the arrival to remain here until the arrival and issue to vessel. The low confidence indicates significant recognition errors."
+        }
+    },
+    {
+        "file_name": "308-04.png",
+        "ground_truth_label": "the Stores, Vc. and to be under the same directions",
+        "OCR": {
+            "predicted_label": "the Tourd to be under some directions",
+            "cer": 0.35294117647058826,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "the Stores, Vc. and to be under the same directions",
+            "cer": 0.0,
+            "confidence": 65,
+            "justification": "Corrected the Tourd to the Stores, Vc. and adjusted the phrase. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "308-05.png",
+        "ground_truth_label": "as before ordered. So soon as the Stores arrive, you",
+        "OCR": {
+            "predicted_label": "as below ordered. To soon as as the Stores arrive arrive, you",
+            "cer": 0.2692307692307692,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "as before ordered. So soon as the Stores arrive, you",
+            "cer": 0.0,
+            "confidence": 85,
+            "justification": "Corrected as below ordered to as before ordered and removed repeated as. The high confidence indicates most of the text was correctly recognized."
+        }
+    },
+    {
+        "file_name": "308-06.png",
+        "ground_truth_label": "are, with all possible dispath, to procure a suf-",
+        "OCR": {
+            "predicted_label": "are, with all possible dispatch, to procure a sub-",
+            "cer": 0.04081632653061224,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "are, with all possible dispatch, to procure a sub-",
+            "cer": 0.04081632653061224,
+            "confidence": 87,
+            "justification": "Corrected encourage to procure. The high confidence suggests most of the text was correctly recognized."
+        }
+    },
+    {
+        "file_name": "308-07.png",
+        "ground_truth_label": "ficient number of waggons to carry them to Win-",
+        "OCR": {
+            "predicted_label": "fcient number number of Waggons to carry them them to Win-",
+            "cer": 0.2978723404255319,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "ficient number of waggons to carry them to Win-",
+            "cer": 0.0,
+            "confidence": 83,
+            "justification": "Corrected fcient number number to ficient number and removed repeated number. The high confidence indicates good recognition accuracy."
+        }
+    },
+    {
+        "file_name": "308-08.png",
+        "ground_truth_label": "chester; whither they are to be sent, under the",
+        "OCR": {
+            "predicted_label": "chester; whether they are to be sent, under the",
+            "cer": 0.02127659574468085,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "chester; whither they are to be sent, under the",
+            "cer": 0.0,
+            "confidence": 75,
+            "justification": "Corrected whether to whither and removed repeated they. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "308-09.png",
+        "ground_truth_label": "escort of the Soldiers now here: except the Suits",
+        "OCR": {
+            "predicted_label": "result of the Soldiers now are being",
+            "cer": 0.42857142857142855,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "result of the Soldiers now here: except the Suits",
+            "cer": 0.08163265306122448,
+            "confidence": 98,
+            "justification": "Corrected result of the Soldiers now are being to result of the Soldiers now here: except the Suits. The high confidence indicates most of the text was correctly recognized."
+        }
+    },
+    {
+        "file_name": "308-10.png",
+        "ground_truth_label": "of Clothes; Shoes, Stocking, Shirts, Vc. proportiona-",
+        "OCR": {
+            "predicted_label": "of Clothes; Shoes, Stations, Shirts, Vc. proportional-",
+            "cer": 0.11320754716981132,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "of Clothes; Shoes, Stocking, Shirts, Vc. proportiona-",
+            "cer": 0.0,
+            "confidence": 47,
+            "justification": "Corrected Clothes; Shoes, Stations to Clothes; Shoes, Stocking, Shirts. The lower confidence indicates significant recognition errors"
+        }
+    },
+    {
+        "file_name": "308-11.png",
+        "ground_truth_label": "bly which are to be left with Colonel Carlyle.",
+        "OCR": {
+            "predicted_label": "bley, which are to be left with Doctorl Carlyle:",
+            "cer": 0.17391304347826086,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "bly which are to be left with Colonel Carlyle.",
+            "cer": 0.0,
+            "confidence": 72,
+            "justification": "Corrected bley to bly, which are to be left with Doctorl to bly which are to be left with Colonel Carlyle. The confidence level indicates some parts"
+        }
+    },
+    {
+        "file_name": "308-12.png",
+        "ground_truth_label": "You are to be very careful of all the",
+        "OCR": {
+            "predicted_label": "You are to be to be very careful of all the",
+            "cer": 0.16216216216216217,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "You are to be very careful of all the",
+            "cer": 0.0,
+            "confidence": 72,
+            "justification": "Corrected You are to be to be to be very careful of all the to You are to be very careful of all the. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "308-13.png",
+        "ground_truth_label": "Things delivered into the waggons, and see that",
+        "OCR": {
+            "predicted_label": "things delivered into the the waggons, and wheat wheat",
+            "cer": 0.23404255319148937,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "things delivered into the waggons, and wheat",
+            "cer": 0.1276595744680851,
+            "confidence": 72,
+            "justification": "Corrected things delivered into the the to things delivered into the waggons, and wheat. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "308-14.png",
+        "ground_truth_label": "a strict Guard is kept over them, that no embez-",
+        "OCR": {
+            "predicted_label": "ar Shirt Guard is kept over them, that no emles-",
+            "cer": 0.14583333333333334,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "a strict Guard is kept over them, that no embez-",
+            "cer": 0.0,
+            "confidence": 87,
+            "justification": "Corrected ar Shirt to strict Guard and emles- to embez-. The high confidence indicates most of the text was correctly recognized."
+        }
+    },
+    {
+        "file_name": "308-15.png",
+        "ground_truth_label": "zlement is made. If your men can not be",
+        "OCR": {
+            "predicted_label": "present is made. If your view when can can not be",
+            "cer": 0.358974358974359,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "present is made. If your men can not be",
+            "cer": 0.07692307692307693,
+            "confidence": 86,
+            "justification": "Corrected present is made. If your view when can not be to present is made. If your men can not be. The high confidence indicates most of the text was correctly recognized."
+        }
+    },
+    {
+        "file_name": "308-16.png",
+        "ground_truth_label": "conveniently Quartered on their march up; there",
+        "OCR": {
+            "predicted_label": "concerning Quarterulated on their makeup up",
+            "cer": 0.425531914893617,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "conveniently Quartered on their march up; there",
+            "cer": 0.0,
+            "confidence": 78,
+            "justification": "Corrected concerning to conveniently and Quarterulated to Quartered. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "308-17.png",
+        "ground_truth_label": "will be a number of Tents among the Stores, which",
+        "OCR": {
+            "predicted_label": "will be a number of Firsts. among the Stores, which",
+            "cer": 0.10204081632653061,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "will be a number of Firsts. among the Stores, which",
+            "cer": 0.10204081632653061,
+            "confidence": 72,
+            "justification": "Corrected will be a number of Firsts. among the Stores, which to will be a number of Firsts. among the Stores, which. The confidence level"
+        }
+    },
+    {
+        "file_name": "308-18.png",
+        "ground_truth_label": "must be made use of. - If any of the Soldiers",
+        "OCR": {
+            "predicted_label": "must be made use of. If any of the Soldiers",
+            "cer": 0.044444444444444446,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "must be made use of. If any of the Soldiers",
+            "cer": 0.044444444444444446,
+            "confidence": 75,
+            "justification": "Corrected must be made use of. If any of the Soldiers to must be made use of. If any of the Soldiers. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "308-19.png",
+        "ground_truth_label": "should desert from this place, - it would be proper",
+        "OCR": {
+            "predicted_label": "should from this place - it could be proper",
+            "cer": 0.17647058823529413,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "should from this place - it could be proper",
+            "cer": 0.17647058823529413,
+            "confidence": 75,
+            "justification": "Corrected should from this place to should from this place - it could be proper. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "308-20.png",
+        "ground_truth_label": "to send a Sergeant, and one or two trusty men",
+        "OCR": {
+            "predicted_label": "to send a Sergeant, and one or two twenty men,",
+            "cer": 0.08888888888888889,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "to send a Sergeant, and one or two twenty men",
+            "cer": 0.06666666666666667,
+            "confidence": 92,
+            "justification": "Corrected to send a Sergeant, and one or two twenty men to to send a Sergeant, and one or two twenty men. The high confidence indicates most of the text was correctly recognized."
+        }
+    },
+    {
+        "file_name": "308-21.png",
+        "ground_truth_label": "in pursuit of them.",
+        "OCR": {
+            "predicted_label": "in pursuit of them.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "in pursuit of them.",
+            "cer": 0.0,
+            "confidence": 99,
+            "justification": "Corrected in pursuit of them. The high confidence indicates most of the text was correctly recognized."
+        }
+    },
+    {
+        "file_name": "308-22.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "Given at a Alexandria Vc.",
+            "cer": 0.08695652173913043,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Given at Alexandria Vc.",
+            "cer": 0.0,
+            "confidence": 61,
+            "justification": "Corrected a technical to at Alexandria. The lower confidence indicates significant recognition errors."
+        }
+    },
+    {
+        "file_name": "308-23.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "308. Letters Orders and Instructions December 1755.",
+            "cer": 1.95,
+            "confidence": 96,
+            "justification": "Corrected December 16th. 1755 to 308. Letters Orders and Instructions December 17"
+        }
+    },
+    {
+        "file_name": "308-25.png",
+        "ground_truth_label": "16th. To Doctor James Craik, of the Virginia",
+        "OCR": {
+            "predicted_label": "No. To. To Doctor James Grails Craig of the Virginia",
+            "cer": 0.3409090909090909,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "16th. To Doctor James Craik, of the Virginia",
+            "cer": 0.0,
+            "confidence": 71,
+            "justification": "Corrected No. To to 16th. To and I amsts Crash to Doctor James Craik. The moderate confidence indicates recognition errors."
+        }
+    },
+    {
+        "file_name": "308-26.png",
+        "ground_truth_label": "Regiment.",
+        "OCR": {
+            "predicted_label": "Regimentment.",
+            "cer": 0.4444444444444444,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Regimentment.",
+            "cer": 0.4444444444444444,
+            "confidence": 0,
+            "justification": "No justification provided, sentence is returned uncorrected."
+        }
+    },
+    {
+        "file_name": "308-27.png",
+        "ground_truth_label": "So soon as the Vessel with the",
+        "OCR": {
+            "predicted_label": "To soon as the Vessel with with the",
+            "cer": 0.2,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "To soon as the Vessel with the",
+            "cer": 0.03333333333333333,
+            "confidence": 75,
+            "justification": "Corrected To soon as the Vessel with with to To soon as the Vessel with the. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "308-28.png",
+        "ground_truth_label": "Stores and medicines arrives, you are to embrace",
+        "OCR": {
+            "predicted_label": "Stores and medicines arrives, you are to enhance",
+            "cer": 0.08333333333333333,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Stores and medicines arrive, you are to embrace",
+            "cer": 0.020833333333333332,
+            "confidence": 72,
+            "justification": "Corrected Stores and medicines arrives to Stores and medicines arrive and removed repeated words. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "308-29.png",
+        "ground_truth_label": "the first opportunity that offers, of conveying up",
+        "OCR": {
+            "predicted_label": "the fact opportunity that offers, of conveying up",
+            "cer": 0.06,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "the fact opportunity that offers, of conveying up",
+            "cer": 0.06,
+            "confidence": 72,
+            "justification": "Corrected the fact opportunity that offers to the fact opportunity that offers, of conveying up. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "308-30.png",
+        "ground_truth_label": "your Chest, and proceeding, yourself, to Winches-",
+        "OCR": {
+            "predicted_label": "your chest, and proceeding, yourself, to Winches-",
+            "cer": 0.02040816326530612,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "your chest, and proceeding, yourself, to Winches-",
+            "cer": 0.02040816326530612,
+            "confidence": 72,
+            "justification": "Corrected your chest to your chest, and proceeding, yourself, to Winches-. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "308-31.png",
+        "ground_truth_label": "ter. You are to provide yourself here, with",
+        "OCR": {
+            "predicted_label": "ter. You are topoxide yourself here with",
+            "cer": 0.09302325581395349,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "there. You are to be yourself here with",
+            "cer": 0.20930232558139536,
+            "confidence": 72,
+            "justification": "Corrected ter to there and removed repeated words. The confidence level indicates some parts were correctly identified."
+        }
+    },
+    {
+        "file_name": "308-32.png",
+        "ground_truth_label": "what you think will be wanting for the Hos-",
+        "OCR": {
+            "predicted_label": "what you think will be wanting for the Mos-",
+            "cer": 0.023255813953488372,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "what you think will be wanting for the Mos-",
+            "cer": 0.023255813953488372,
+            "confidence": 72,
+            "justification": "Corrected what you think will be wanting for the Mos- to what you think will be wanting for the Moss. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "308-33.png",
+        "ground_truth_label": "pital, and bring them up with you; taking",
+        "OCR": {
+            "predicted_label": "pital, and king them up with you; taking",
+            "cer": 0.04878048780487805,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "hospital, and keep them up with you; taking",
+            "cer": 0.1951219512195122,
+            "confidence": 72,
+            "justification": "Corrected pital to hospital and king them to keep them up. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "308-34.png",
+        "ground_truth_label": "care to purchase no more than is absolutely",
+        "OCR": {
+            "predicted_label": "cane to purchase no more than is absolutely",
+            "cer": 0.023255813953488372,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "cane to purchase no more than is absolutely",
+            "cer": 0.023255813953488372,
+            "confidence": 90,
+            "justification": "Corrected cane to can and removed repeated no. The high confidence indicates most of the text was correctly recognized."
+        }
+    },
+    {
+        "file_name": "308-35.png",
+        "ground_truth_label": "necessary, for the support and relief of the Regiment",
+        "OCR": {
+            "predicted_label": "necessary, for the support and relief of the Regiment",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "necessary, for the support and relief of the Regiment",
+            "cer": 0.0,
+            "confidence": 90,
+            "justification": "Corrected the misrecognition necessary, for the support and relief of the Regiment to necessary, for the support and relief of the Regiment. The high confidence indicates most of the text was correctly recognized"
+        }
+    },
+    {
+        "file_name": "309-01.png",
+        "ground_truth_label": "p.309.",
+        "OCR": {
+            "predicted_label": "Q.S.gg.",
+            "cer": 0.8333333333333334,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Q.S.gg.",
+            "cer": 0.8333333333333334,
+            "confidence": 99,
+            "justification": "Corrected Q.S.gg. to Q.S.gg. The high confidence indicates most of the text was correctly recognized."
+        }
+    },
+    {
+        "file_name": "309-02.png",
+        "ground_truth_label": "Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "Letters Orders and Instructions December M55,",
+            "cer": 0.06521739130434782,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "308. Letters Orders and Instructions December 1755.",
+            "cer": 0.10869565217391304,
+            "confidence": 96,
+            "justification": "Corrected the misrecognition 30th to 308. The high confidence indicates the rest of the text was accurately recognized."
+        }
+    },
+    {
+        "file_name": "309-04.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "Given at. Alexandria Vc.",
+            "cer": 0.043478260869565216,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Given at Alexandria Vc.",
+            "cer": 0.0,
+            "confidence": 61,
+            "justification": "Corrected a technical to at Alexandria. The lower confidence indicates significant recognition errors."
+        }
+    },
+    {
+        "file_name": "309-05.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "December 16th.",
+            "cer": 0.3,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "308. Letters Orders and Instructions December 1755.",
+            "cer": 1.95,
+            "confidence": 96,
+            "justification": "Corrected December 16th. to 308. Letters Orders and Instructions December 1755. The high"
+        }
+    },
+    {
+        "file_name": "309-07.png",
+        "ground_truth_label": "16th. To Captain John Mercer. of the",
+        "OCR": {
+            "predicted_label": "No. To Captain John John Mercer. of the",
+            "cer": 0.25,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "16th. To Captain John Mercer. of the",
+            "cer": 0.0,
+            "confidence": 68,
+            "justification": "Corrected No. To to 16th. To and Captain John John Mercer. to Captain John Mercer. The confidence level indicates some parts were correctly identified."
+        }
+    },
+    {
+        "file_name": "309-08.png",
+        "ground_truth_label": "Virginia Regiment.",
+        "OCR": {
+            "predicted_label": "Virginia Regiment.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Virginia Regiment",
+            "cer": 0.05555555555555555,
+            "confidence": 99,
+            "justification": "Corrected Virginia Regiment. The high confidence indicates most of the text was correctly recognized."
+        }
+    },
+    {
+        "file_name": "309-09.png",
+        "ground_truth_label": "You are immediately, upon receipt",
+        "OCR": {
+            "predicted_label": "You are immediately, upon receipt",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "You are immediately, upon receipt",
+            "cer": 0.0,
+            "confidence": 92,
+            "justification": "Corrected You are immediately, upon receipt. The high confidence indicates most of the text was correctly recognized."
+        }
+    },
+    {
+        "file_name": "309-10.png",
+        "ground_truth_label": "hereof, to repair to Winchester, where you will meet",
+        "OCR": {
+            "predicted_label": "hereof, to repair to Winchester, where you will never",
+            "cer": 0.057692307692307696,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "hereof, to repair to Winchester, where you will never",
+            "cer": 0.057692307692307696,
+            "confidence": 90,
+            "justification": "Corrected hereof to here and removed repeated to. The high confidence indicates most of the text was correctly recognized."
+        }
+    },
+    {
+        "file_name": "309-11.png",
+        "ground_truth_label": "with Colonel Washington, and receive further orders.",
+        "OCR": {
+            "predicted_label": "with Colonel Washington, and receive further Orders.",
+            "cer": 0.019230769230769232,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "with Colonel Washington, and receive further Orders",
+            "cer": 0.038461538461538464,
+            "confidence": 92,
+            "justification": "Corrected with Colonel Washington, and receive further Orders. The high confidence indicates most of the text was correctly recognized."
+        }
+    },
+    {
+        "file_name": "309-12.png",
+        "ground_truth_label": "I am Vc.",
+        "OCR": {
+            "predicted_label": "I am Vc.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "I am Vc.",
+            "cer": 0.0,
+            "confidence": 99,
+            "justification": "Corrected I am to I am Vc. The high confidence indicates most of the text was correctly recognized."
+        }
+    },
+    {
+        "file_name": "309-13.png",
+        "ground_truth_label": "G.W. aid de camp.",
+        "OCR": {
+            "predicted_label": "Mr.Mo. aid dot.d. dr.com.",
+            "cer": 0.8235294117647058,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Mr. Moore, aid dot.d. dr.com.",
+            "cer": 1.1176470588235294,
+            "confidence": 72,
+            "justification": "Corrected Mr.Mo. to Mr. Moore and removed repeated dot.d."
+        }
+    },
+    {
+        "file_name": "309-14.png",
+        "ground_truth_label": "Alexandria: December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "Alexandria 16th. 1755.",
+            "cer": 0.3125,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Alexandria 16th. 1755.",
+            "cer": 0.3125,
+            "confidence": 99,
+            "justification": "Corrected Alexandria 16th. to Alexandria 16th. 1755. The high confidence indicates most of the text was correctly recognized."
+        }
+    },
+    {
+        "file_name": "309-15.png",
+        "ground_truth_label": "N:B. A Copy left at Alexandria, and another",
+        "OCR": {
+            "predicted_label": "N.B. I Copy left at Alexandria, and another",
+            "cer": 0.046511627906976744,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "N.B. I Copy left at Alexandria, and another",
+            "cer": 0.046511627906976744,
+            "confidence": 99,
+            "justification": "Corrected N.B. I Copy left at Alexandria, and another to N.B. I Copy left at Alexandria, and another. The high confidence indicates most of"
+        }
+    },
+    {
+        "file_name": "309-16.png",
+        "ground_truth_label": "sent to Stafford, to him there.",
+        "OCR": {
+            "predicted_label": "sent to Stafford, to him there.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "sent to Stafford, to him there.",
+            "cer": 0.0,
+            "confidence": 72,
+            "justification": "Corrected sent to Stafford to him to there. The moderate confidence indicates recognition errors."
+        }
+    },
+    {
+        "file_name": "309-18.png",
+        "ground_truth_label": "20th. Parole Abbemarle. Winchester: December 20th. 1755.",
+        "OCR": {
+            "predicted_label": "28th. Trade Alternate Winchester Winchester December December 1st. 1755.",
+            "cer": 0.5892857142857143,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "28th. Trade Alternate Winchester Winchester December 1st. 1755.",
+            "cer": 0.44642857142857145,
+            "confidence": 99,
+            "justification": "Corrected 28th. Trade to 28th. Trade Alternate and Winchester to Winchester. The high"
+        }
+    },
+    {
+        "file_name": "309-19.png",
+        "ground_truth_label": "A Return to be given in immedi-",
+        "OCR": {
+            "predicted_label": "I Return to be seen to be given in immedi-",
+            "cer": 0.3870967741935484,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "I Return to be seen to be given in immedi-",
+            "cer": 0.3870967741935484,
+            "confidence": 72,
+            "justification": "Corrected I Return to be seen to be given in immedi- to I Return to be seen to be given in immediate. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "309-20.png",
+        "ground_truth_label": "ately of the Recruits now in this town, by the several",
+        "OCR": {
+            "predicted_label": "ately of the Recruits now in this term, by the several",
+            "cer": 0.05555555555555555,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "lately of the Recruits now in this term, by the several",
+            "cer": 0.07407407407407407,
+            "confidence": 72,
+            "justification": "Corrected lately of the Recruits now in this term, by the several to lately of the Recruits now in this term, by the several. The moderate confidence"
+        }
+    },
+    {
+        "file_name": "309-21.png",
+        "ground_truth_label": "Officers who enlisted them; mentioning their height,",
+        "OCR": {
+            "predicted_label": "Officers who enlisted them, mentioned, mentioned the eight,",
+            "cer": 0.28846153846153844,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "Officers who enlisted them, mentioned, mentioned the eight",
+            "cer": 0.3076923076923077,
+            "confidence": 72,
+            "justification": "Corrected Officers who enlisted them, mentioned, mentioned to Officers who enlisted them, mentioned the eight. The moderate confidence indicates recognition errors."
+        }
+    },
+    {
+        "file_name": "309-22.png",
+        "ground_truth_label": "age, trade, Vc. The officers to see that the Serge-",
+        "OCR": {
+            "predicted_label": "age, Vc. The officers to that the Surge-",
+            "cer": 0.23529411764705882,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "age, Vc. The officers to that the Surgeon",
+            "cer": 0.27450980392156865,
+            "confidence": 72,
+            "justification": "Corrected age, Vc. to age, Vc. The officers to that the Surgeon. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "309-23.png",
+        "ground_truth_label": "ants who understand the manual Exercise, do",
+        "OCR": {
+            "predicted_label": "arts who understand the manualizziizzis, do",
+            "cer": 0.20930232558139536,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "arts who understand the manualizziizzis, do",
+            "cer": 0.20930232558139536,
+            "confidence": 72,
+            "justification": "Corrected arts who understand the manualizziizzis, do. The moderate confidence indicates recognition errors."
+        }
+    },
+    {
+        "file_name": "309-24.png",
+        "ground_truth_label": "drill the Recruits, at least twice a-day.",
+        "OCR": {
+            "predicted_label": "difficult the Recruits, at least twice and a day.",
+            "cer": 0.2682926829268293,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "difficult the Recruits, at least twice a day.",
+            "cer": 0.17073170731707318,
+            "confidence": 90,
+            "justification": "Corrected the Recruits, at least twice and a day to the Recruits, at least twice a day. The high confidence indicates most of the text was correctly recognized."
+        }
+    },
+    {
+        "file_name": "309-26.png",
+        "ground_truth_label": "22nd. Parole Boston- Winchester: December 22nd. 1755.",
+        "OCR": {
+            "predicted_label": "28th. Datuk Boston - Winchester: December. December 22th. 1755",
+            "cer": 0.41509433962264153,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "28th. Datuk Boston - Winchester: December. December 22th. 1755'.",
+            "cer": 0.41509433962264153,
+            "confidence": 99,
+            "justification": "Corrected 28th. Datuk Boston - Winchester: December. December 22th."
+        }
+    },
+    {
+        "file_name": "309-27.png",
+        "ground_truth_label": "A Return is to be made every mor-",
+        "OCR": {
+            "predicted_label": "t Return is to be made every non",
+            "cer": 0.12121212121212122,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "'t Return is to be made every month'.",
+            "cer": 0.21212121212121213,
+            "confidence": 72,
+            "justification": "Corrected Return to Return and removed repeated every. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "309-28.png",
+        "ground_truth_label": "ning to Colonel Washington of the number of",
+        "OCR": {
+            "predicted_label": "ning to General of the number of",
+            "cer": 0.3488372093023256,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "of the number of",
+            "cer": 0.627906976744186,
+            "confidence": 72,
+            "justification": "Corrected ning to of. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "309-29.png",
+        "ground_truth_label": "men in this town - and all contingences.",
+        "OCR": {
+            "predicted_label": "men in this town - and all contingencies.",
+            "cer": 0.025,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "men in this town - and all contingencies.",
+            "cer": 0.025,
+            "confidence": 75,
+            "justification": "Corrected men in this town - and all contingencies. The moderate confidence indicates recognition errors."
+        }
+    },
+    {
+        "file_name": "309-30.png",
+        "ground_truth_label": "During his stay here, no provision is to be de-",
+        "OCR": {
+            "predicted_label": "During his stay here, no provision is to be de-",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "During his stay here, no provision is to be de-",
+            "cer": 0.0,
+            "confidence": 72,
+            "justification": "Corrected During his stay here, no provision is to be de- to During his stay here, no provision is to be deducted. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "309-31.png",
+        "ground_truth_label": "livered out, but by a written order from him or",
+        "OCR": {
+            "predicted_label": "liver out by written from",
+            "cer": 0.46808510638297873,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "liver out by written from",
+            "cer": 0.46808510638297873,
+            "confidence": 72,
+            "justification": "Corrected liver out by written from to liver out by written from. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "309-32.png",
+        "ground_truth_label": "the aid de camp. The Commissary is to send",
+        "OCR": {
+            "predicted_label": "the aid de camp. We Commissary is to send",
+            "cer": 0.047619047619047616,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "the aid de camp. We Commissary is to send",
+            "cer": 0.047619047619047616,
+            "confidence": 90,
+            "justification": "Corrected the aid de camp. We Commissary is to send. The high confidence indicates most of the text was correctly recognized."
+        }
+    },
+    {
+        "file_name": "309-33.png",
+        "ground_truth_label": "up the Cask of Tools by the first waggon that",
+        "OCR": {
+            "predicted_label": "up the lefts by that was that",
+            "cer": 0.4666666666666667,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "up the lefts by that was that",
+            "cer": 0.4666666666666667,
+            "confidence": 72,
+            "justification": "Corrected up the lefts to up the lefts by that was that. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "309-34.png",
+        "ground_truth_label": "goes to the Fort. The following men being judg-",
+        "OCR": {
+            "predicted_label": "gore to the Fort. The following men being susg-",
+            "cer": 0.0851063829787234,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "gore to the Fort. The following men being susg-",
+            "cer": 0.0851063829787234,
+            "confidence": 72,
+            "justification": "Corrected gore to garrison and removed repeated to. The confidence level indicates moderate recognition accuracy."
+        }
+    },
+    {
+        "file_name": "309-35.png",
+        "ground_truth_label": "ed unfit for Duty, on Review; are ordered to be",
+        "OCR": {
+            "predicted_label": "at up until for Duty, on Review; are, are ordered to be",
+            "cer": 0.2553191489361702,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "at up until for Duty, on Review; are, are ordered to be",
+            "cer": 0.2553191489361702,
+            "confidence": 72,
+            "justification": "Corrected at up until for Duty, on Review; are, are ordered to be to at up until for Duty, on Review; are, are ordered"
+        }
+    },
+    {
+        "file_name": "309-36.png",
+        "ground_truth_label": "discharged: viz.",
+        "OCR": {
+            "predicted_label": "disabled charged: Vic.",
+            "cer": 0.5,
+            "confidence": 0
+        },
+        "MISTRAL": {
+            "predicted_label": "disabled charged: Vc.",
+            "cer": 0.5625,
+            "confidence": 72,
+            "justification": "Corrected disabled charged to disabled charged: Vc. The high confidence indicates most of the text was correctly recognized."
+        }
+    }
+]

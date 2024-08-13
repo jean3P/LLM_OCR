@@ -19,9 +19,12 @@ def format_or_na(value):
     """Format the value with two decimal places or return 'N/A' if None."""
     return "{:.2f}%".format(value) if value is not None else "N/A"
 
+
 def generate_latex_table(automated_results_dir, results_test_trocr_dir,
-                         self_training_file_name_ocr_75, final_test_file_name_ocr_75_25, final_test_file_name_ocr_75,
-                         self_training_file_name_mistral_75, final_test_file_name_mistral_75, final_test_file_name_mistral_75_25):
+                         self_training_file_name_ocr_75=None, final_test_file_name_ocr_75_25=None,
+                         final_test_file_name_ocr_75=None,
+                         self_training_file_name_mistral_75=None, final_test_file_name_mistral_75=None,
+                         final_test_file_name_mistral_75_25=None):
     """
     Generates a LaTeX table with CER values and label change percentages for OCR and Mistral evaluations.
 
@@ -36,22 +39,41 @@ def generate_latex_table(automated_results_dir, results_test_trocr_dir,
         final_test_mistral_75_25 (str): Mistral JSON file name for 75%+25% final test.
 
     Returns:
-        str: LaTeX code for the table.
+        dict: Dictionary containing CER values and label change percentages.
     """
 
-    # Assuming the 'calculate_cer_values' and 'calculate_label_change_percentages' functions are defined as before
+    # Function to calculate CER values or return 'N/A' if the file name is None
+    def safe_calculate_cer_values(automated_results_dir, mistral_file, results_test_trocr_dir, ocr_file):
+        if mistral_file and ocr_file:
+            return calculate_cer_values(automated_results_dir, mistral_file, results_test_trocr_dir, ocr_file)
+        else:
+            return 'N/A'
+
+    # Function to calculate label change percentages or return 'N/A' if the file name is None
+    def safe_calculate_label_change_percentages(automated_results_dir, mistral_file):
+        if mistral_file:
+            return calculate_label_change_percentages(automated_results_dir, mistral_file)
+        else:
+            return 'N/A'
 
     # Generate CER values for OCR and Mistral
-    cer_values_ocr_self = calculate_cer_values(automated_results_dir, self_training_file_name_mistral_75, results_test_trocr_dir, self_training_file_name_ocr_75)
-    cer_values_ocr_final_75 = calculate_cer_values(automated_results_dir, final_test_file_name_mistral_75, results_test_trocr_dir, final_test_file_name_ocr_75)
-    cer_values_ocr_final_75_25 = calculate_cer_values(automated_results_dir, final_test_file_name_mistral_75_25, results_test_trocr_dir, final_test_file_name_ocr_75_25)
+    cer_values_ocr_self = safe_calculate_cer_values(automated_results_dir, self_training_file_name_mistral_75,
+                                                    results_test_trocr_dir, self_training_file_name_ocr_75)
+    cer_values_ocr_final_75 = safe_calculate_cer_values(automated_results_dir, final_test_file_name_mistral_75,
+                                                        results_test_trocr_dir, final_test_file_name_ocr_75)
+    cer_values_ocr_final_75_25 = safe_calculate_cer_values(automated_results_dir, final_test_file_name_mistral_75_25,
+                                                           results_test_trocr_dir, final_test_file_name_ocr_75_25)
 
     # Generate label change percentages for Mistral
-    label_changes_self = calculate_label_change_percentages(automated_results_dir, self_training_file_name_mistral_75)
-    label_changes_final_75 = calculate_label_change_percentages(automated_results_dir, final_test_file_name_mistral_75)
-    label_changes_final_75_25 = calculate_label_change_percentages(automated_results_dir, final_test_file_name_mistral_75_25)
+    label_changes_self = safe_calculate_label_change_percentages(automated_results_dir,
+                                                                 self_training_file_name_mistral_75)
+    label_changes_final_75 = safe_calculate_label_change_percentages(automated_results_dir,
+                                                                     final_test_file_name_mistral_75)
+    label_changes_final_75_25 = safe_calculate_label_change_percentages(automated_results_dir,
+                                                                        final_test_file_name_mistral_75_25)
 
-    dict = {
+    # Create a dictionary to store the results
+    results_dict = {
         "Self-training": cer_values_ocr_self,
         "Final test normal": cer_values_ocr_final_75,
         "Final test with Self-training": cer_values_ocr_final_75_25,
@@ -59,5 +81,5 @@ def generate_latex_table(automated_results_dir, results_test_trocr_dir,
         "Labeling changes Final test normal": label_changes_final_75,
         "Labeling changes Final test Self-training": label_changes_final_75_25
     }
-    return dict
 
+    return results_dict

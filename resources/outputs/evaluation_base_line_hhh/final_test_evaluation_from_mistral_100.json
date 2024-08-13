@@ -1,0 +1,1237 @@
+[
+    {
+        "file_name": "308-01.png",
+        "ground_truth_label": "308. Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "30th. Letters Orders and Instructions December 1755.",
+            "cer": 3.846,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include '30th.' instead of '30th.', 'Letters' instead of 'Letters,', 'Orders' instead of 'Orders,', 'and' instead of 'and', 'Instructions' instead of 'Instructions,', 'December' instead of 'December,', '1755.' instead of '1755.'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "30th. Letters, Orders, and Instructions, December 1755.",
+            "cer": 9.091,
+            "confidence": 98,
+            "justification": "Corrected '30th.' to '30th.', 'Letters' to 'Letters,', 'Orders' to 'Orders,', 'and' to 'and', 'Instructions' to 'Instructions,', 'December' to 'December,', '1755.' to '1755.'."
+        }
+    },
+    {
+        "file_name": "308-03.png",
+        "ground_truth_label": "remain here until the arrival of the vessel with",
+        "OCR": {
+            "predicted_label": "remain here until the arrival of the vessel with",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include'remain here until the arrival of the vessel with' instead of'remain here until the arrival of the vessel with'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "remain here until the arrival of the vessel with",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected'remain here until the arrival of the vessel with' to'remain here until the arrival of the vessel with' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-04.png",
+        "ground_truth_label": "the Stores, Vc. and to be under the same directions",
+        "OCR": {
+            "predicted_label": "the Stores, Vc. and to be under the same directions",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'the Stores, Vc.' instead of 'the Stores, V.C.', 'and' instead of 'and to be', 'under the same directions' instead of 'under the same direction'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "the Stores, V.C. and to be under the same direction",
+            "cer": 5.882,
+            "confidence": 98,
+            "justification": "Corrected 'the Stores, Vc.' to 'the Stores, V.C.', 'and' to 'and to be', 'under the same directions' to 'under the same direction' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-05.png",
+        "ground_truth_label": "as before ordered. So soon as the Stores arrive, you",
+        "OCR": {
+            "predicted_label": "as before ordered. To soon as the Stores arrive, you",
+            "cer": 1.923,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'as before ordered.' instead of 'as before ordered.', 'To soon' instead of 'To soon as', 'the Stores' instead of 'the stores', 'arrive' instead of 'arrive', 'you' instead of 'you'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "as before ordered. To soon as the stores arrive, you",
+            "cer": 3.846,
+            "confidence": 98,
+            "justification": "Corrected 'as before ordered.' to 'as before ordered.', 'To soon' to 'To soon as', 'the Stores' to 'the stores', 'arrive' to 'arrive', 'you' to 'you'."
+        }
+    },
+    {
+        "file_name": "308-06.png",
+        "ground_truth_label": "are, with all possible dispath, to procure a suf-",
+        "OCR": {
+            "predicted_label": "are, with all possible dispatch dispatch, to procure a sub-",
+            "cer": 18.644,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'are, with all possible dispatch dispatch' instead of 'are, with all possible dispatch', 'to procure a sub-' instead of 'to procure a subscription'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "are, with all possible dispatch dispatch, to procure a sub-",
+            "cer": 18.644,
+            "confidence": 0,
+            "justification": "An error has occurred."
+        }
+    },
+    {
+        "file_name": "308-07.png",
+        "ground_truth_label": "ficient number of waggons to carry them to Win-",
+        "OCR": {
+            "predicted_label": "ficialent number of Waggons to carry to carry them to Non-",
+            "cer": 24.138,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'ficialent' instead of 'official', 'number of Waggons' instead of 'number of waggons', 'to carry them' instead of 'to carry them to', 'Non-' instead of 'Non-'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "official number of waggons to carry them to Non-",
+            "cer": 14.583,
+            "confidence": 98,
+            "justification": "Corrected 'ficialent' to 'official', 'number of Waggons' to 'number of waggons', 'to carry them' to 'to carry them to', 'Non-' to 'Non-'."
+        }
+    },
+    {
+        "file_name": "308-08.png",
+        "ground_truth_label": "chester; whither they are to be sent, under the",
+        "OCR": {
+            "predicted_label": "chester; whether they they are to be sent, under the",
+            "cer": 11.538,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'chester;' instead of 'Chester;', 'whether they' instead of 'whether they are', 'they they' instead of 'they are', 'under the' instead of 'under the care'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Chester; whether they are to be sent, under the care",
+            "cer": 13.462,
+            "confidence": 98,
+            "justification": "Corrected 'chester;' to 'Chester;', 'whether they' to 'whether they are', 'they they' to 'they are', 'under the' to 'under the care' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-09.png",
+        "ground_truth_label": "escort of the Soldiers now here: except the Suits",
+        "OCR": {
+            "predicted_label": "excont of the Soldiers now now here: except the Suits",
+            "cer": 11.321,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'excont' instead of 'except', 'of the Soldiers' instead of 'of the soldiers', 'now now' instead of 'now', 'here:' instead of 'here', 'except the Suits' instead of 'except the suits'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "except of the soldiers now here except the suits",
+            "cer": 12.245,
+            "confidence": 98,
+            "justification": "Corrected 'excont' to 'except', 'of the Soldiers' to 'of the soldiers', 'now now' to 'now', 'here:' to 'here', 'except the Suits' to 'except the suits' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-10.png",
+        "ground_truth_label": "of Clothes; Shoes, Stocking, Shirts, Vc. proportiona-",
+        "OCR": {
+            "predicted_label": "of Clothes, Starting, Vc. propori-",
+            "cer": 41.509,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'of Clothes, Starting,' instead of 'of Clothes, Starting with', 'Vc. propori-' instead of 'Vc. proportionally'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "of Clothes, Starting with, Vc. proportionally",
+            "cer": 33.962,
+            "confidence": 98,
+            "justification": "Corrected 'of Clothes, Starting,' to 'of Clothes, Starting with' and 'Vc. propori-' to 'Vc. proportionally' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-11.png",
+        "ground_truth_label": "bly which are to be left with Colonel Carlyle.",
+        "OCR": {
+            "predicted_label": "bly, which are to be left with Colonial Carlyle.",
+            "cer": 6.25,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'bly' instead of 'by', 'which are' instead of 'which are to be', 'Colonial Carlyle.' instead of 'Colonel Carlyle.'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "by, which are to be left with Colonel Carlyle.",
+            "cer": 4.348,
+            "confidence": 95,
+            "justification": "Corrected 'bly' to 'by', 'which are' to 'which are to be', and 'Colonial Carlyle.' to 'Colonel Carlyle.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-12.png",
+        "ground_truth_label": "You are to be very careful of all the",
+        "OCR": {
+            "predicted_label": "You are to be very careful of all the",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'You are to be very careful of all the' instead of 'You are to be very careful of all the'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "You are to be very careful of all the",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'You are to be very careful of all the' to 'You are to be very careful of all the' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-13.png",
+        "ground_truth_label": "Things delivered into the waggons, and see that",
+        "OCR": {
+            "predicted_label": "Trilogys delivered into the the Waggons, and we are that",
+            "cer": 23.214,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'Trilogys' instead of 'Trilogies', 'delivered into the the' instead of 'delivered into the', 'Waggons' instead of 'Wagons', 'and we are that' instead of 'and we are that'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Trilogies delivered into the Wagons, and we are that",
+            "cer": 21.154,
+            "confidence": 98,
+            "justification": "Corrected 'Trilogys' to 'Trilogies', 'delivered into the the' to 'delivered into the', 'Waggons' to 'Wagons', and 'and we are that' to 'and we are that' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-14.png",
+        "ground_truth_label": "a strict Guard is kept over them, that no embez-",
+        "OCR": {
+            "predicted_label": "a strict Guard is kept over them, that no cmbos-",
+            "cer": 6.25,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'a strict Guard' instead of 'a strict guard', 'that no cmbos-' instead of 'that no combustion-'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "a strict guard is kept over them, that no combustion-",
+            "cer": 16.981,
+            "confidence": 98,
+            "justification": "Corrected 'a strict Guard' to 'a strict guard' and 'that no cmbos-' to 'that no combustion-' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-15.png",
+        "ground_truth_label": "zlement is made. If your men can not be",
+        "OCR": {
+            "predicted_label": "Immert is made. If your men can not be",
+            "cer": 10.256,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'Immert' instead of 'Imperial', 'is made' instead of 'is made.', 'If your men can not be' instead of 'If your men cannot be'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Imperial is made. If your men cannot be",
+            "cer": 20.513,
+            "confidence": 98,
+            "justification": "Corrected 'Immert' to 'Imperial', 'is made' to 'is made.', 'If your men can not be' to 'If your men cannot be' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-16.png",
+        "ground_truth_label": "conveniently Quartered on their march up; there",
+        "OCR": {
+            "predicted_label": "concerning Quarterly Quartered on their marching; there",
+            "cer": 25.455,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'concerning Quarterly Quartered' instead of 'concerning Quarterly', 'there' instead of 'thereon', 'their marching;' instead of 'their marching'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "concerning Quarterly on their marching; thereon",
+            "cer": 27.66,
+            "confidence": 98,
+            "justification": "Corrected 'concerning Quarterly Quartered' to 'concerning Quarterly' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-17.png",
+        "ground_truth_label": "will be a number of Tents among the Stores, which",
+        "OCR": {
+            "predicted_label": "will be a number of limits, among the Stores, which",
+            "cer": 9.804,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'will be a number of limits' instead of 'will be a number of limits to', 'among the Stores' instead of 'among the stores', 'which' instead of 'which are'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "will be a number of limits to, among the stores, which are",
+            "cer": 22.414,
+            "confidence": 98,
+            "justification": "Corrected 'will be a number of limits' to 'will be a number of limits to', 'among the Stores' to 'among the stores', and 'which' to 'which are' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-18.png",
+        "ground_truth_label": "must be made use of. - If any of the Soldiers",
+        "OCR": {
+            "predicted_label": "must made of any of the Soldiers",
+            "cer": 28.889,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include'must made' instead of'must be made', 'of any of' instead of 'of any', 'Soldiers' instead of 'Soldiers'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "must be made of any of the Soldiers",
+            "cer": 22.222,
+            "confidence": 98,
+            "justification": "Corrected'must made' to'must be made' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-19.png",
+        "ground_truth_label": "should desert from this place, - it would be proper",
+        "OCR": {
+            "predicted_label": "should from this - it would be proper",
+            "cer": 27.451,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include'should' instead of'should from this', 'it' instead of 'it would be', 'would' instead of 'would be proper'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "should from this - it would be proper",
+            "cer": 27.451,
+            "confidence": 98,
+            "justification": "Corrected'should' to'should from this', 'it' to 'it would be', and 'would' to 'would be proper' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-20.png",
+        "ground_truth_label": "to send a Sergeant, and one or two trusty men",
+        "OCR": {
+            "predicted_label": "to send a Sergeant, and one other twenty men,",
+            "cer": 20.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'to send a Sergeant, and one other twenty men,' instead of 'to send a Sergeant, and one other twenty men.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "to send a Sergeant, and one other twenty men,",
+            "cer": 20.0,
+            "confidence": 98,
+            "justification": "Corrected 'to send a Sergeant, and one other twenty men,' to 'to send a Sergeant, and one other twenty men,' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-21.png",
+        "ground_truth_label": "in pursuit of them.",
+        "OCR": {
+            "predicted_label": "in pursuit of them.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'in pursuit of them.' instead of 'in pursuit of them.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "in pursuit of them.",
+            "cer": 0.0,
+            "confidence": 0,
+            "justification": "An error has occurred."
+        }
+    },
+    {
+        "file_name": "308-22.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "Given at a Alexandria Vc.",
+            "cer": 8.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'Given at a Alexandria Vc.' instead of 'Given at Alexandria, Va.'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Given at Alexandria, Va.",
+            "cer": 8.333,
+            "confidence": 98,
+            "justification": "Corrected 'a Alexandria Vc.' to 'Alexandria, Va.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-23.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "No",
+            "explanation": "The text line 'December 16th. 1755.' is correct and does not contain any OCR errors."
+        },
+        "Prompt correcting": {
+            "predicted_label": "December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "308-25.png",
+        "ground_truth_label": "16th. To Doctor James Craik, of the Virginia",
+        "OCR": {
+            "predicted_label": "to. To Doctor James Craig of the Virginia",
+            "cer": 11.364,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'to.' instead of 'to', 'To' instead of 'To', 'Doctor' instead of 'Dr.', 'James Craig' instead of 'James Craig', 'of the Virginia' instead of 'of Virginia'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "To Doctor James Craig of Virginia",
+            "cer": 27.273,
+            "confidence": 98,
+            "justification": "Corrected 'to.' to 'to', 'To' to 'To', 'Doctor' to 'Dr.', 'James Craig' to 'James Craig', 'of the Virginia' to 'of Virginia' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-26.png",
+        "ground_truth_label": "Regiment.",
+        "OCR": {
+            "predicted_label": "Regiment.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'Regiment.' instead of 'Regiment.'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Regiment.",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'Regiment.' to 'Regiment.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-27.png",
+        "ground_truth_label": "So soon as the Vessel with the",
+        "OCR": {
+            "predicted_label": "To soon as the Vessel with the",
+            "cer": 3.333,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'To soon' instead of 'Too soon', 'the Vessel' instead of 'the vessel', 'with the' instead of 'with it'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Too soon as the vessel with it",
+            "cer": 20.0,
+            "confidence": 98,
+            "justification": "Corrected 'To soon' to 'Too soon', 'the Vessel' to 'the vessel', and 'with the' to 'with it' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-28.png",
+        "ground_truth_label": "Stores and medicines arrives, you are to embrace",
+        "OCR": {
+            "predicted_label": "Stores and medicines arrives arrives, you are to enhance",
+            "cer": 21.429,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'Stores and medicines arrives' instead of 'Stores and medicines arrive', 'arrives' instead of 'arrives', 'you are to enhance' instead of 'you are to enlarge'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Stores and medicines arrive, you are to enlarge",
+            "cer": 12.5,
+            "confidence": 98,
+            "justification": "Corrected 'Stores and medicines arrives' to 'Stores and medicines arrive' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-29.png",
+        "ground_truth_label": "the first opportunity that offers, of conveying up",
+        "OCR": {
+            "predicted_label": "the first opportunity that offers, of conveying up",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'the first opportunity that offers,' instead of 'the first opportunity that offers', 'of conveying up' instead of 'of conveying you'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "the first opportunity that offers, of conveying you",
+            "cer": 5.882,
+            "confidence": 98,
+            "justification": "Corrected 'the first opportunity that offers,' to 'the first opportunity that offers' and 'of conveying up' to 'of conveying you' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-30.png",
+        "ground_truth_label": "your Chest, and proceeding, yourself, to Winches-",
+        "OCR": {
+            "predicted_label": "your, and preaching, to Winches-",
+            "cer": 42.857,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'your, and' instead of 'your and', 'preaching,' instead of 'preaching to', 'Winches-' instead of 'Wincest'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "your and preaching to Wincest",
+            "cer": 51.02,
+            "confidence": 98,
+            "justification": "Corrected 'your, and' to 'your and', 'preaching,' to 'preaching to', 'Winches-' to 'Wincest' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-31.png",
+        "ground_truth_label": "ter. You are to provide yourself here, with",
+        "OCR": {
+            "predicted_label": "ter. You are to provide yourself here with",
+            "cer": 2.326,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'ter.' instead of 'there.', 'You are to provide yourself here with' instead of 'You are to provide yourself here with'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "there. You are to provide yourself here with",
+            "cer": 6.818,
+            "confidence": 98,
+            "justification": "Corrected 'ter.' to 'there.' and 'You are to provide yourself here with' to 'You are to provide yourself here with' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-32.png",
+        "ground_truth_label": "what you think will be wanting for the Hos-",
+        "OCR": {
+            "predicted_label": "what you think will be wanting for the Non-",
+            "cer": 4.651,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'what you think will be wanting for the Non-' instead of 'what you think will be wanting for the Non-Subscribers'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "what you think will be wanting for the Non-Subscribers",
+            "cer": 24.074,
+            "confidence": 98,
+            "justification": "Corrected 'Non-' to 'Non-Subscribers' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-33.png",
+        "ground_truth_label": "pital, and bring them up with you; taking",
+        "OCR": {
+            "predicted_label": "pital, and hiring them them up with you; taking taking",
+            "cer": 25.926,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'pital, and hiring them them up with you; taking taking' instead of 'pity, and hiring them up with you; taking'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "pity, and hiring them up with you; taking",
+            "cer": 9.756,
+            "confidence": 98,
+            "justification": "Corrected 'pital' to 'pity' and 'them them' to 'them' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-34.png",
+        "ground_truth_label": "care to purchase no more than is absolutely",
+        "OCR": {
+            "predicted_label": "care to purchase no more more than is absolutely",
+            "cer": 10.417,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'care to purchase no more more' instead of 'care to purchase no more', 'than is absolutely' instead of 'than is absolutely necessary'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "care to purchase no more than is absolutely necessary",
+            "cer": 18.868,
+            "confidence": 98,
+            "justification": "Corrected 'care to purchase no more more' to 'care to purchase no more' and 'than is absolutely' to 'than is absolutely necessary' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-35.png",
+        "ground_truth_label": "necessary, for the support and relief of the Regiment",
+        "OCR": {
+            "predicted_label": "necessary for the support and and relief of the Regional",
+            "cer": 16.071,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'necessary for the support and and relief of the Regional' instead of 'necessary for the support and relief of the region'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "necessary for the support and relief of the region",
+            "cer": 9.434,
+            "confidence": 98,
+            "justification": "Corrected 'and and' to 'and' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-01.png",
+        "ground_truth_label": "p.309.",
+        "OCR": {
+            "predicted_label": "G.S.co.",
+            "cer": 71.429,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'G.S.co.' instead of 'G.S. co.', 'co.' instead of 'co.'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "G.S.co.",
+            "cer": 71.429,
+            "confidence": 0,
+            "justification": "An error has occurred."
+        }
+    },
+    {
+        "file_name": "309-02.png",
+        "ground_truth_label": "Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "Letters Orders and Instructions December 1755.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'Letters' instead of 'Letters,', 'Orders' instead of 'Orders and', 'Instructions' instead of 'Instructions,', 'December' instead of 'December 1755.'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Letters, Orders and Instructions, December 1755",
+            "cer": 6.383,
+            "confidence": 98,
+            "justification": "Corrected 'Letters' to 'Letters,', 'Orders' to 'Orders and', 'Instructions' to 'Instructions,', 'December' to 'December 1755.'."
+        }
+    },
+    {
+        "file_name": "309-04.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "Given at. Alexandria Vc.",
+            "cer": 4.167,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'Given at.' instead of 'Given at Alexandria,', 'Vc.' instead of 'Va.'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Given at Alexandria, Va.",
+            "cer": 8.333,
+            "confidence": 98,
+            "justification": "Corrected 'Given at.' to 'Given at Alexandria,', 'Vc.' to 'Va.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-05.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "December 5th.",
+            "cer": 40.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'December 5th.' instead of 'December 5.'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "December 5th.",
+            "cer": 40.0,
+            "confidence": 0,
+            "justification": "An error has occurred."
+        }
+    },
+    {
+        "file_name": "309-07.png",
+        "ground_truth_label": "16th. To Captain John Mercer. of the",
+        "OCR": {
+            "predicted_label": "Vc. To. To Captain John John Mercer. of the",
+            "cer": 25.581,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'Vc.' instead of 'Vice', 'To. To' instead of 'To', 'Captain John John' instead of 'Captain John', 'Mercer.' instead of 'Mercer'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Vice. To Captain John Mercer. of the",
+            "cer": 11.111,
+            "confidence": 98,
+            "justification": "Corrected 'Vc.' to 'Vice', 'To. To' to 'To', 'Captain John John' to 'Captain John', 'Mercer.' to 'Mercer' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-08.png",
+        "ground_truth_label": "Virginia Regiment.",
+        "OCR": {
+            "predicted_label": "Virginia Regiment.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'Virginia Regiment.' instead of 'Virginia Regiment.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "Virginia Regiment.",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'Virginia Regiment.' to 'Virginia Regiment.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-09.png",
+        "ground_truth_label": "You are immediately, upon receipt",
+        "OCR": {
+            "predicted_label": "You are immediately, upon receipt",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'You are immediately' instead of 'You are immediately upon receipt', 'upon receipt' instead of 'upon receipt of this'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "You are immediately upon receipt of this",
+            "cer": 22.5,
+            "confidence": 98,
+            "justification": "Corrected 'You are immediately' to 'You are immediately upon receipt' and 'upon receipt' to 'upon receipt of this' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-10.png",
+        "ground_truth_label": "hereof, to repair to Winchester, where you will meet",
+        "OCR": {
+            "predicted_label": "hereof, to repair to Winchester, where you will meet",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'hereof, to repair to Winchester, where you will meet' instead of 'hereof, to repair to Winchester, where you will meet'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "hereof, to repair to Winchester, where you will meet",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'hereof, to repair to Winchester, where you will meet' to 'hereof, to repair to Winchester, where you will meet' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-11.png",
+        "ground_truth_label": "with Colonel Washington, and receive further orders.",
+        "OCR": {
+            "predicted_label": "with Colonel Washington, and receive further orders.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'with Colonel Washington' instead of 'with Colonel Washington,', 'and' instead of 'and receive', 'further orders.' instead of 'further orders.'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "with Colonel Washington, and receive further orders.",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'with Colonel Washington' to 'with Colonel Washington,', 'and' to 'and receive', 'further orders.' to 'further orders.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-12.png",
+        "ground_truth_label": "I am Vc.",
+        "OCR": {
+            "predicted_label": "I am Vc.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'I am Vc.' instead of 'I am, Sir.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "I am, Sir.",
+            "cer": 40.0,
+            "confidence": 95,
+            "justification": "Corrected 'Vc.' to 'Sir.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-13.png",
+        "ground_truth_label": "G.W. aid de camp.",
+        "OCR": {
+            "predicted_label": "G.Mo. Aidd decomp.",
+            "cer": 33.333,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'G.Mo.' instead of 'G. Moore', 'Aidd' instead of 'Add', 'decomp.' instead of 'decomposition.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "G. Moore Add decomp.",
+            "cer": 50.0,
+            "confidence": 95,
+            "justification": "Corrected 'G.Mo.' to 'G. Moore', 'Aidd' to 'Add', and 'decomp.' to 'decomposition.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-14.png",
+        "ground_truth_label": "Alexandria: December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "Alexandria: December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "No",
+            "explanation": "The text line 'Alexandria: December 16th. 1755.' is correct and does not contain any OCR errors."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Alexandria: December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "309-15.png",
+        "ground_truth_label": "N:B. A Copy left at Alexandria, and another",
+        "OCR": {
+            "predicted_label": "N.B. - A Copy left at Alexandria, and another",
+            "cer": 6.667,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'N.B. - A Copy left at Alexandria, and another' instead of 'N.B. - A Copy left at Alexandria, and another Copy'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "N.B. - A Copy left at Alexandria, and another Copy",
+            "cer": 16.0,
+            "confidence": 98,
+            "justification": "Corrected 'another' to 'another Copy' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-16.png",
+        "ground_truth_label": "sent to Stafford, to him there.",
+        "OCR": {
+            "predicted_label": "sent, to him.",
+            "cer": 58.065,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include'sent, to him.' instead of'sent to him.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "sent, to him.",
+            "cer": 58.065,
+            "confidence": 0,
+            "justification": "An error has occurred."
+        }
+    },
+    {
+        "file_name": "309-18.png",
+        "ground_truth_label": "20th. Parole Abbemarle. Winchester: December 20th. 1755.",
+        "OCR": {
+            "predicted_label": "28th. Parole Alternate Winchester December 17th. 1755.",
+            "cer": 19.643,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include '28th.' instead of '28th.', 'Parole' instead of 'Parole', 'Alternate' instead of 'Alternate', 'Winchester' instead of 'Winchester', 'December' instead of 'December', '17th.' instead of '17th.', '1755.' instead of '1755.'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "28th. Parole Alternate Winchester December 17th. 1755.",
+            "cer": 19.643,
+            "confidence": 98,
+            "justification": "Corrected '28th.' to '28th.', 'Parole' to 'Parole', 'Alternate' to 'Alternate', 'Winchester' to 'Winchester', 'December' to 'December', '17th.' to '17th.', '1755.' to '1755.'."
+        }
+    },
+    {
+        "file_name": "309-19.png",
+        "ground_truth_label": "A Return to be given in immedi-",
+        "OCR": {
+            "predicted_label": "I Return to be given in in immedi-",
+            "cer": 11.765,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'I Return' instead of 'I return', 'to be given' instead of 'to be given in', 'in immedi-' instead of 'immediately'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "I return to be given in immediately",
+            "cer": 20.0,
+            "confidence": 98,
+            "justification": "Corrected 'I Return' to 'I return', 'to be given' to 'to be given in', and 'in immedi-' to 'immediately' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-20.png",
+        "ground_truth_label": "ately of the Recruits now in this town, by the several",
+        "OCR": {
+            "predicted_label": "ately of the Recruits now in this term, by the several",
+            "cer": 5.556,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'ately' instead of 'at the', 'of the Recruits' instead of 'of the recruits', 'now in this term' instead of 'now in this term', 'by the several' instead of 'by the several'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "at the of the recruits now in this term, by the several",
+            "cer": 14.545,
+            "confidence": 98,
+            "justification": "Corrected 'ately' to 'at the', 'of the Recruits' to 'of the recruits', 'now in this term' to 'now in this term', 'by the several' to 'by the several' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-21.png",
+        "ground_truth_label": "Officers who enlisted them; mentioning their height,",
+        "OCR": {
+            "predicted_label": "Officers who enlisted them; mentioning their height,",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'Officers who enlisted them;' instead of 'Officers who enlisted them;','mentioning' instead of'mentioning', 'their height,' instead of 'their height,'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Officers who enlisted them; mentioning their height,",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'Officers who enlisted them;' to 'Officers who enlisted them;','mentioning' to'mentioning', 'their height,' to 'their height,' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-22.png",
+        "ground_truth_label": "age, trade, Vc. The officers to see that the Serge-",
+        "OCR": {
+            "predicted_label": "age, trade, Vc. The officers to see that the Serge-",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'age, trade, Vc' instead of 'age, trade, and', 'The officers' instead of 'the officers', 'to see' instead of 'to see that', 'the Serge-' instead of 'the sergeants'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "age, trade, and the officers to see that the sergeants",
+            "cer": 16.667,
+            "confidence": 98,
+            "justification": "Corrected 'age, trade, Vc' to 'age, trade, and', 'The officers' to 'the officers', 'to see' to 'to see that', 'the Serge-' to 'the sergeants' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-23.png",
+        "ground_truth_label": "ants who understand the manual Exercise, do",
+        "OCR": {
+            "predicted_label": "arts who understand the manual manualizzi Cassie, do",
+            "cer": 28.846,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'arts' instead of 'arts', 'who understand' instead of 'who understand', 'the manual manualizzi' instead of 'the manual', 'Cassie, do' instead of 'Cassie, do'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "arts who understand the manual Cassie, do",
+            "cer": 16.279,
+            "confidence": 98,
+            "justification": "Corrected 'arts' to 'arts', 'who understand' to 'who understand', 'the manual manualizzi' to 'the manual', 'Cassie, do' to 'Cassie, do' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-24.png",
+        "ground_truth_label": "drill the Recruits, at least twice a-day.",
+        "OCR": {
+            "predicted_label": "difficult the Recruits, at least twice a day.",
+            "cer": 15.556,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'difficult' instead of 'difficulty', 'the Recruits' instead of 'the recruits', 'at least twice' instead of 'at least twice a day'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "difficulty the recruits, at least twice a day.",
+            "cer": 19.565,
+            "confidence": 95,
+            "justification": "Corrected 'difficult' to 'difficulty', 'the Recruits' to 'the recruits', and 'at least twice' to 'at least twice a day' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-26.png",
+        "ground_truth_label": "22nd. Parole Boston- Winchester: December 22nd. 1755.",
+        "OCR": {
+            "predicted_label": "28th. Taral Boston - Winchester: December 22th. 1755.",
+            "cer": 16.981,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include '28th. Taral' instead of '28th. April', 'Boston - Winchester' instead of 'Boston,', 'December 22th.' instead of 'December 22nd.'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "28th. April Boston,: December 22nd. 1755.",
+            "cer": 35.849,
+            "confidence": 98,
+            "justification": "Corrected '28th. Taral' to '28th. April', 'Boston - Winchester' to 'Boston,', 'December 22th.' to 'December 22nd.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-27.png",
+        "ground_truth_label": "A Return is to be made every mor-",
+        "OCR": {
+            "predicted_label": "I Return is to be made, every every no.",
+            "cer": 25.641,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'I Return' instead of 'I return', 'is' instead of 'is to be made', 'every every' instead of 'every', 'no.' instead of 'no'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "I return is to be made, every no.",
+            "cer": 18.182,
+            "confidence": 95,
+            "justification": "Corrected 'I Return' to 'I return', 'is' to 'is to be made', 'every every' to 'every', 'no.' to 'no'."
+        }
+    },
+    {
+        "file_name": "309-28.png",
+        "ground_truth_label": "ning to Colonel Washington of the number of",
+        "OCR": {
+            "predicted_label": "ning to Colonel of the number of",
+            "cer": 25.581,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'ning' instead of 'in', 'to Colonel' instead of 'to Colonel', 'of the number' instead of 'of the number', 'of' instead of 'of'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "in to Colonel of the number of",
+            "cer": 30.233,
+            "confidence": 98,
+            "justification": "Corrected 'ning' to 'in', 'to Colonel' to 'to Colonel', 'of the number' to 'of the number', 'of' to 'of'."
+        }
+    },
+    {
+        "file_name": "309-29.png",
+        "ground_truth_label": "men in this town - and all contingences.",
+        "OCR": {
+            "predicted_label": "men in this town and all continues.",
+            "cer": 15.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include'men in this town' instead of'men in this town and', 'all continues.' instead of 'all continues'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "men in this town and all continues.",
+            "cer": 15.0,
+            "confidence": 0,
+            "justification": "An error has occurred."
+        }
+    },
+    {
+        "file_name": "309-30.png",
+        "ground_truth_label": "During his stay here, no provision is to be de-",
+        "OCR": {
+            "predicted_label": "During his stay here, no provision is to be de-",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'During his stay here,' instead of 'During his stay here,', 'no provision' instead of 'no provision for', 'is to be de-' instead of 'is to be made'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "During his stay here, no provision is to be made",
+            "cer": 6.25,
+            "confidence": 98,
+            "justification": "Corrected 'During his stay here,' to 'During his stay here,', 'no provision' to 'no provision for', 'is to be de-' to 'is to be made' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-31.png",
+        "ground_truth_label": "livered out, but by a written order from him or",
+        "OCR": {
+            "predicted_label": "liver, but a written from",
+            "cer": 46.809,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'liver, but a written' instead of 'liver, but a written', 'from' instead of 'from'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "liver, but a written from",
+            "cer": 46.809,
+            "confidence": 98,
+            "justification": "Corrected 'liver, but a written' to 'liver, but a written' and 'from' to 'from' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-32.png",
+        "ground_truth_label": "the aid de camp. The Commissary is to send",
+        "OCR": {
+            "predicted_label": "the aid de camp. The Commissary is to send",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'the aid de camp' instead of 'the aid of camp', 'The Commissary' instead of 'The Commissary General', 'is to send' instead of 'is to send'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "the aid of camp. The Commissary General is to send",
+            "cer": 20.0,
+            "confidence": 98,
+            "justification": "Corrected 'the aid de camp' to 'the aid of camp', 'The Commissary' to 'The Commissary General', and 'is to send' to 'is to send' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-33.png",
+        "ground_truth_label": "up the Cask of Tools by the first waggon that",
+        "OCR": {
+            "predicted_label": "up the Boxs thet waggon that",
+            "cer": 42.222,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'up the Boxs' instead of 'up the Boxes', 'thet waggon' instead of 'that waggon', 'that' instead of 'which'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "up the Boxes that waggon which",
+            "cer": 53.333,
+            "confidence": 98,
+            "justification": "Corrected 'Boxs' to 'Boxes', 'thet' to 'that', 'waggon' to 'waggon', and 'that' to 'which' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-34.png",
+        "ground_truth_label": "goes to the Fort. The following men being judg-",
+        "OCR": {
+            "predicted_label": "gous to the Fort. The following men being subg-",
+            "cer": 6.383,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'gous' instead of 'goes', 'to the Fort.' instead of 'to the Fort', 'The following men being subg-' instead of 'The following men being sub-'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "goes to the Fort. The following men being sub-",
+            "cer": 6.383,
+            "confidence": 98,
+            "justification": "Corrected 'gous' to 'goes', 'to the Fort.' to 'to the Fort', and 'The following men being subg-' to 'The following men being sub-' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-35.png",
+        "ground_truth_label": "ed unfit for Duty, on Review; are ordered to be",
+        "OCR": {
+            "predicted_label": "at up until for Duty, on Review; are ordered to be",
+            "cer": 14.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'at up until' instead of 'at once', 'for Duty' instead of 'for duty', 'on Review' instead of 'on review', 'are ordered' instead of 'are ordered to be'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "at once for duty, on review; are ordered to be",
+            "cer": 17.021,
+            "confidence": 98,
+            "justification": "Corrected 'at up until' to 'at once', 'for Duty' to 'for duty', 'on Review' to 'on review', 'are ordered' to 'are ordered to be' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-36.png",
+        "ground_truth_label": "discharged: viz.",
+        "OCR": {
+            "predicted_label": "dis changed: Vitod:",
+            "cer": 36.842,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The OCR errors include 'dis changed:' instead of 'this changed:', 'Vitod:' instead of 'Vitod:'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "this changed: Vitod:",
+            "cer": 45.0,
+            "confidence": 98,
+            "justification": "Corrected 'dis changed:' to 'this changed:' and 'Vitod:' to 'Vitod:' based on the explanation."
+        }
+    }
+]

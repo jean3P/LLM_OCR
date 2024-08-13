@@ -10,6 +10,7 @@ from confidence_calculator import calculate_confidence
 from customOCRDataset import DatasetConfig
 from data_frame_handler import DataFrameHandler
 from handle_dataset_washington import save_to_json, load_from_json
+from src import evaluation
 from utils.constants import results_test_trocr, outputs_path_test
 
 #
@@ -102,24 +103,19 @@ def create_and_save_subset_from_for_train(training_data_path, last_position, out
     print(f"New training set saved to {output_file_name}")
 
 
-def evaluate_test_data(processor, model, test_name, name_file_tested):
-    """
-    Evaluate the model on the entire test dataset and save results in a JSON file.
-
-    Args:
-        df (pd.DataFrame): The DataFrame containing test data.
-        processor (TrOCRProcessor): The processor for the TrOCR model.
-        model (VisionEncoderDecoderModel): The trained TrOCR model.
-    """
-    device = torch.device('cuda:0' if torch.cuda.is_available else 'cpu')
-    model = VisionEncoderDecoderModel.from_pretrained(model)
+def evaluate_test_data(processor_save_dir, model_save_dir, test_data_path, output_path):
+    # Load the processor and model
+    processor = TrOCRProcessor.from_pretrained(processor_save_dir)
+    model = VisionEncoderDecoderModel.from_pretrained(model_save_dir)
+    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     model.to(device)
-    cer_metric = evaluate.load('cer')
+
+    # Load test data and perform evaluation
     handler = DataFrameHandler()
-    processor = TrOCRProcessor.from_pretrained(processor)
-    test = load_from_json(test_name)
+    test = load_from_json(test_data_path)
     test_df = handler.dict_to_dataframe(test)
     results = []
+
     for i, row in test_df.iterrows():
         image_path = os.path.join(DatasetConfig.DATA_ROOT, row['file_name'])
         image = Image.open(image_path).convert('RGB')
@@ -129,9 +125,7 @@ def evaluate_test_data(processor, model, test_name, name_file_tested):
         print(f"PREDICTED: {predicted_text} -- REAL: {row['text']}")
         if row['text'] == "":
             row['text'] = "#"
-        cer = cer_metric.compute(predictions=[predicted_text], references=[row['text']])
-
-        # Calculate confidence scores
+        cer = evaluation.cer_only([predicted_text], [row['text']])
         confidence_score = calculate_confidence(row['text'], predicted_text)
 
         results.append({
@@ -142,8 +136,10 @@ def evaluate_test_data(processor, model, test_name, name_file_tested):
             'cer': cer
         })
 
-    path_file = os.path.join(results_test_trocr, name_file_tested)
+    path_file = os.path.join(results_test_trocr, output_path)
     save_to_json(results, path_file)
+    print(f"Evaluation results saved to {path_file}")
+
 
 # # Example usage
 # evaluate_test_data(test_df, processor, model)

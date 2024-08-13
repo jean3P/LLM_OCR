@@ -1,0 +1,1497 @@
+[
+    {
+        "file_name": "308-01.png",
+        "ground_truth_label": "308. Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "20%. Letters, Orders and Instructions, December 1755.",
+            "cer": 0.0784313725490196,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'Orders' appears twice and should only appear once. In addition, 'december' should be capitalized as 'December.' Finally, the comma at the end should be a period."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Letters' is misspelled as 'Letters,' which is likely due to the OCR software mistaking the letter 'r' for an 'l.' Secondly, the word 'Orders' is misspelled as 'Orders,' which is likely due to the OCR software mistaking the letter 'd' for an 'r.' Thirdly, the word 'December' is misspelled as 'December,' which is likely due to the OCR software mistaking the letter 'b' for an 'r.' Finally, the word '1755' is misspelled as '1755,' which is likely due to the OCR software mistaking the letter '5' for an's.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "20%. Letters, Orders and Instructions, December 1755.",
+            "cer": 0.0784313725490196,
+            "confidence": 98,
+            "justification": "Corrected 'Letters,' to 'Letters,' based on the explanation. Corrected 'Orders,' to 'Orders,' based on the explanation. Corrected 'December,' to 'December,' based on the explanation. Corrected '1755,' to '1755,' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-03.png",
+        "ground_truth_label": "remain here until the arrival of the vessel with",
+        "OCR": {
+            "predicted_label": "remain until the animal of the first with.",
+            "cer": 0.2916666666666667,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "Yes",
+            "explanation": "The sentence is grammatically correct because it adheres to the rules of English grammar."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "There is not need to correct the sentence."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "remain until the animal of the first with.",
+            "cer": 0.2916666666666667,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "308-04.png",
+        "ground_truth_label": "the Stores, Vc. and to be under the same directions",
+        "OCR": {
+            "predicted_label": "the Flours, Mr. Vc. and to be under the same same directions.",
+            "cer": 0.27450980392156865,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'Flours' should be 'Flours.' Secondly, 'Mr. Vc.' should be 'Mr. V.' Thirdly, 'to be under the same same directions' should be 'to be under the same directions.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Flours' is misspelled as 'Flours,' likely due to OCR difficulties with the letter 'u.' Secondly, the word 'Mr. Vc.' is incorrectly written, likely due to OCR difficulties with the letter 'c.' Thirdly, the word'same' is repeated twice, likely due to OCR difficulties with the letter 'a.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "the Flours, Mr. Vc. and to be under the same directions.",
+            "cer": 0.17647058823529413,
+            "confidence": 95,
+            "justification": "Corrected 'Flours' to 'Flours,' corrected 'Mr. Vc.' to 'Mr. Vc.', and removed the repeated'same' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-05.png",
+        "ground_truth_label": "as before ordered. So soon as the Stores arrive, you",
+        "OCR": {
+            "predicted_label": "as before ordered. To soon as the Stores arrive, you.",
+            "cer": 0.038461538461538464,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'as before ordered' is not a complete sentence. 'To soon' should be 'Too soon.' 'Stores' should be 'Store.' 'you' should be 'you're.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'ordered' is misspelled as 'ordere'. Secondly, the word 'Stores' is misspelled as 'Stores'. Thirdly, the word 'you' is misspelled as 'you'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "as before ordered. To soon as the Stores arrive, you.",
+            "cer": 0.038461538461538464,
+            "confidence": 98,
+            "justification": "Corrected 'ordere' to 'ordered', 'Stores' to 'Stores', and 'you' to 'you' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-06.png",
+        "ground_truth_label": "are, with all possible dispath, to procure a suf-",
+        "OCR": {
+            "predicted_label": "are, with all all possible dispatch directed, to provide a self-",
+            "cer": 0.3877551020408163,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because of the following errors:"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'all' is repeated twice, likely due to OCR difficulties with recognizing the word correctly. Secondly, the word 'possible' is misspelled as 'possible,' which is likely due to OCR difficulties with recognizing the word correctly. Thirdly, the word'self' is misspelled as'self,' which is likely due to OCR difficulties with recognizing the word correctly."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "are, with all possible dispatch directed, to provide a self-",
+            "cer": 0.30612244897959184,
+            "confidence": 98,
+            "justification": "Corrected 'all' to 'all' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-07.png",
+        "ground_truth_label": "ficient number of waggons to carry them to Win-",
+        "OCR": {
+            "predicted_label": "fcient numbers to carry them to Win-.",
+            "cer": 0.2553191489361702,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "Yes",
+            "explanation": "The sentence is gramm"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "There is not need to correct the sentence."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "fcient numbers to carry them to Win-.",
+            "cer": 0.2553191489361702,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "308-08.png",
+        "ground_truth_label": "chester; whither they are to be sent, under the",
+        "OCR": {
+            "predicted_label": "chester; whether they are to be sent, whether this.",
+            "cer": 0.19148936170212766,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'chester' should be 'Chester.' Secondly, 'whether' should be 'if.' Thirdly, 'they' should be 'them.' Fourthly, 'to be sent' should be 'to be sent.' Fifthly, 'whether' should be 'if.' Sixthly, 'this' should be 'these.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'chester' is misspelled as 'chester'. Secondly, the word 'whether' is misspelled as 'whether'. Thirdly, the word 'they' is misspelled as 'they'. Fourthly, the word 'to' is misspelled as 'to'. Fifthly, the word'sent' is misspelled as'sent'. Sixthly, the word 'this' is misspelled as 'this'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "chester; whether they are to be sent, whether this.",
+            "cer": 0.19148936170212766,
+            "confidence": 98,
+            "justification": "Corrected all OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-09.png",
+        "ground_truth_label": "escort of the Soldiers now here: except the Suits",
+        "OCR": {
+            "predicted_label": "erontet of the Soldiers now here: except the hints",
+            "cer": 0.16326530612244897,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'erontet' should be 'erroneous.' Secondly, 'here' should be 'here.' Thirdly, 'except' should be 'except.' Finally, 'hints' should be 'hints.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'erontet' is misspelled, likely due to OCR difficulties with recognizing the letter 'e' in the word 'entire'. Secondly, the word 'Soldiers' is misspelled, likely due to OCR difficulties with recognizing the letter 'l' in the word'soldiers'. Thirdly, the word 'hints' is misspelled, likely due to OCR difficulties with recognizing the letter 't' in the word 'hints'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "entire of the Soldiers now here: except the hints",
+            "cer": 0.14285714285714285,
+            "confidence": 98,
+            "justification": "Corrected 'erontet' to 'entire' based on the explanation. Corrected 'Soldiers' to 'Soldiers' based on the explanation. Corrected 'hints' to 'hints' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-10.png",
+        "ground_truth_label": "of Clothes; Shoes, Stocking, Shirts, Vc. proportiona-",
+        "OCR": {
+            "predicted_label": "of October, Shoes, Stations, Shirts, Visit, to. Preparationa-",
+            "cer": 0.4528301886792453,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because of several errors. Firstly, 'of October' should be 'in October.' Secondly, 'Shoes, Stations, Shirts, Visit, to' should be 'Shoes, Stations, Shirts, Visit, and To.' Thirdly, 'Preparationa-' should be 'Preparation.' Finally, the comma at the end should be a period."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'October' is misspelled as 'Octobers'. Secondly, the word 'Shoes' is misspelled as 'Shoes'. Thirdly, the word 'Stations' is misspelled as 'Stations'. Fourthly, the word 'Visit' is misspelled as 'Visit'. Fifthly, the word 'Preparationa' is misspelled as 'Preparationa'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "of October, Shoes, Stations, Shirts, Visit, to. Preparationa-",
+            "cer": 0.4528301886792453,
+            "confidence": 98,
+            "justification": "Corrected all the OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-11.png",
+        "ground_truth_label": "bly which are to be left with Colonel Carlyle.",
+        "OCR": {
+            "predicted_label": "by, which are to be left with with botini-",
+            "cer": 0.3695652173913043,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "Yes",
+            "explanation": "The sentence is grammatically correct because it ad"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "There is not need to correct the sentence."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "by, which are to be left with with botini-",
+            "cer": 0.3695652173913043,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "308-12.png",
+        "ground_truth_label": "You are to be very careful of all the",
+        "OCR": {
+            "predicted_label": "You are to be very careful of all the.",
+            "cer": 0.02702702702702703,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "Yes",
+            "explanation": "The sentence is grammatically correct because it is a complete sentence with a subject and a verb."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "There is not need to correct the sentence."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "You are to be very careful of all the.",
+            "cer": 0.02702702702702703,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "308-13.png",
+        "ground_truth_label": "Things delivered into the waggons, and see that",
+        "OCR": {
+            "predicted_label": "Krispy delivered, and, and she was not.",
+            "cer": 0.574468085106383,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'Krispy delivered' is a fragment and should be a complete sentence. Additionally, 'and, and' should be 'and' and'she was not' should be'she wasn't.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Krispy' is misspelled as 'Krispy' instead of 'Krispy'. Secondly, the word 'delivered' is misspelled as 'delivered' instead of 'delivered'. Thirdly, the word 'and' is repeated twice in the sentence, which is likely due to OCR errors. Finally, the word'she' is misspelled as'she' instead of'she'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Krispy delivered, and she was not.",
+            "cer": 0.5319148936170213,
+            "confidence": 98,
+            "justification": "Corrected 'Krispy' to 'Krispy', 'delivered' to 'delivered', and 'and' to 'and' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-14.png",
+        "ground_truth_label": "a strict Guard is kept over them, that no embez-",
+        "OCR": {
+            "predicted_label": "ar Shirt Board is kept over them, that no under-.",
+            "cer": 0.25,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'ar' should be 'are' and 'them' should be 'them.' In addition, 'that' should be 'that' and 'under-' should be 'under.' Finally, the comma at the end should be a period."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Shirt' is misspelled as 'Shirt'. Secondly, the word 'Board' is misspelled as 'Board'. Thirdly, the word 'under' is misspelled as 'under'. Fourthly, the word 'them' is misspelled as 'them'. Fifthly, the word 'that' is misspelled as 'that'. Sixthly, the word 'no' is misspelled as 'no'. Seventhly, the word 'under' is misspelled as 'under'. Eighthly, the word 'them' is misspelled as 'them'. Ninthly, the word 'that' is misspelled as 'that'. Tenthly, the word 'no' is misspelled as 'no'. Eleventhly, the word 'under' is misspelled as 'under'. Twelfthly, the word 'them' is misspelled as 'them'. Thirteenthly, the word 'that' is misspelled as 'that'. Fourteenthly, the word 'no' is misspelled as 'no'. Fifteenthly, the word 'under' is misspelled as 'under'. Sixteenthly, the word 'them' is misspelled as 'them'. Seventeenthly, the word 'that' is misspelled as 'that'. Eighteenthly, the word 'no' is misspelled as 'no'. Nineteenthly, the word 'under' is misspelled as 'under'. Twentiethly, the word 'them' is misspelled as 'them'. Twenty-firstly, the word 'that' is misspelled as 'that'. Twenty-secondly, the word 'no' is misspelled as 'no'. Twenty-thirdly, the word 'under' is misspelled as 'under'. Twenty-fourthly, the word 'them' is misspelled as 'them'. Twenty-fifthly, the word 'that' is misspelled as 'that'. Twenty-sixthly, the word 'no' is misspelled as 'no'. Twenty-seventhly, the word 'under' is misspelled as 'under'. Twenty-eighthly, the word '"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "The shirt board is kept over them, that no under-",
+            "cer": 0.25,
+            "confidence": 98,
+            "justification": "Corrected all the OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-15.png",
+        "ground_truth_label": "zlement is made. If your men can not be",
+        "OCR": {
+            "predicted_label": "percent is made. If your men none not be",
+            "cer": 0.1794871794871795,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'percent' should be 'percentage.' Secondly, 'is made' should be 'is made up.' Thirdly, 'If your men none not be' should be 'If your men are not.' Finally, 'none' should be 'none of.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'percent' is misspelled as 'percent'. Secondly, the word'made' is misspelled as'made'. Thirdly, the word 'none' is misspelled as 'none'. Fourthly, the word 'not' is misspelled as 'not'. Finally, the word 'be' is misspelled as 'be'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "percent is made. If your men none not be",
+            "cer": 0.1794871794871795,
+            "confidence": 98,
+            "justification": "Corrected 'percent' to 'percent','made' to'made', 'none' to 'none', 'not' to 'not', and 'be' to 'be' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-16.png",
+        "ground_truth_label": "conveniently Quartered on their march up; there",
+        "OCR": {
+            "predicted_label": "consistently Quarterly guaranteed on their march up; up.",
+            "cer": 0.425531914893617,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'consistently' should be 'consistently.' Secondly, 'Quarterly' should be 'Quarterly.' Thirdly, 'guaranteed' should be 'guaranteed.' Fourthly, 'on' should be 'on.' Fifthly, 'their' should be 'their.' Sixthly,'march' should be'march.' Seventhly, 'up' should be 'up.' Eighthly, '.' should be '.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Quarterly' is misspelled as 'Quarterly,' which is likely due to the OCR software mistaking the letter 'l' for the letter 'i.' Secondly, the word 'guaranteed' is misspelled as 'guaranteed,' which is likely due to the OCR software mistaking the letter 'e' for the letter 'a.' Thirdly, the word 'up' is misspelled as 'up,' which is likely due to the OCR software mistaking the letter 'p' for the letter 'b.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "consistently Quarterly guaranteed on their march up; up",
+            "cer": 0.425531914893617,
+            "confidence": 98,
+            "justification": "Corrected 'Quarterly' to 'Quarterly,' 'guaranteed' to 'guaranteed,' and 'up' to 'up' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-17.png",
+        "ground_truth_label": "will be a number of Tents among the Stores, which",
+        "OCR": {
+            "predicted_label": "will be a number of cents, the Stores, which.",
+            "cer": 0.16326530612244897,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "Yes",
+            "explanation": ""
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "There is not need to correct the sentence."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "will be a number of cents, the Stores, which.",
+            "cer": 0.16326530612244897,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "308-18.png",
+        "ground_truth_label": "must be made use of. - If any of the Soldiers",
+        "OCR": {
+            "predicted_label": "must be made we of. If any of the Soldiers.",
+            "cer": 0.1111111111111111,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because'must be made we of' is incorrect. 'We' should be 'we' and 'of' should be 'of.' Additionally, 'If any of the Soldiers' is incorrect. 'If any of the Soldiers' should be 'If any of the Soldiers.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word'must' is misspelled as'must be'. Secondly, the word 'we' is misspelled as 'we of'. Thirdly, the word 'If' is misspelled as 'If any'. Finally, the word 'Soldiers' is misspelled as 'Soldiers'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "must be made we of. If any of the Soldiers.",
+            "cer": 0.1111111111111111,
+            "confidence": 98,
+            "justification": "Corrected'must be' to'must', 'we of' to 'we', 'If' to 'If', and 'Soldiers' to 'Soldiers' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-19.png",
+        "ground_truth_label": "should desert from this place, - it would be proper",
+        "OCR": {
+            "predicted_label": "should deliver from this place, if would be gross.",
+            "cer": 0.21568627450980393,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because '"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'would' is misspelled as 'would' due to OCR difficulties with the letter 'd'. Secondly, the word 'gross' is misspelled as 'gross' due to OCR difficulties with the letter's'. Thirdly, the word 'place' is misspelled as 'place' due to OCR difficulties with the letter 'e'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "should deliver from this place, if would be gross.",
+            "cer": 0.21568627450980393,
+            "confidence": 98,
+            "justification": "Corrected 'would' to 'would' based on the explanation. Corrected 'gross' to 'gross' based on the explanation. Corrected 'place' to 'place' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-20.png",
+        "ground_truth_label": "to send a Sergeant, and one or two trusty men",
+        "OCR": {
+            "predicted_label": "to send a Taggart, and one other twenty men.",
+            "cer": 0.3111111111111111,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'Taggart' should be capitalized as 'Taggart.' In addition, 'one other' should be 'one other' or 'one other.' Finally, the comma at the end should be a period."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Taggart' is misspelled as 'Taggart.' Secondly, the word 'one' is incorrectly written as 'one.' Thirdly, the word 'other' is misspelled as 'other.' Finally, the word 'twenty' is incorrectly written as 'twenty.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "to send a Taggart, and one other twenty men.",
+            "cer": 0.3111111111111111,
+            "confidence": 98,
+            "justification": "Corrected 'Taggart' to 'Taggart.' Corrected 'one' to 'one.' Corrected 'other' to 'other.' Corrected 'twenty' to 'twenty.'"
+        }
+    },
+    {
+        "file_name": "308-21.png",
+        "ground_truth_label": "in pursuit of them.",
+        "OCR": {
+            "predicted_label": "in pursuit of them.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'their' should be 'there' and 'is' should be 'are.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'them' is misspelled as 'them.' Secondly, the word 'pursuit' is misspelled as 'pursuit.' Thirdly, the word 'them' is misspelled as 'them.' Finally, the word 'them' is misspelled as 'them.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "in pursuit of them.",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'them.' to 'them.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-22.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "Given at Alexandria, Vc.",
+            "cer": 0.043478260869565216,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "Yes",
+            "explanation": "The sentence is grammatically correct because it adheres to the rules of English grammar."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "There is not need to correct the sentence."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Given at Alexandria, Vc.",
+            "cer": 0.043478260869565216,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "308-23.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "Yes",
+            "explanation": "The sentence is grammatically correct because it adheres to the rules of English grammar."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "There is not need to correct the sentence."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "308-25.png",
+        "ground_truth_label": "16th. To Doctor James Craik, of the Virginia",
+        "OCR": {
+            "predicted_label": "for Mr. To Doctor James Craig Craig of the Virginia",
+            "cer": 0.29545454545454547,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "Yes",
+            "explanation": "The sentence is grammatically correct because it adheres to the rules of English grammar. It is a complete sentence with a subject ('The 1990s') and a verb ('were'). Additionally, the sentence is well-structured and easy to understand."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "There is not need to correct the sentence."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "for Mr. To Doctor James Craig Craig of the Virginia",
+            "cer": 0.29545454545454547,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "308-26.png",
+        "ground_truth_label": "Regiment.",
+        "OCR": {
+            "predicted_label": "Regiment.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'Regiment' should be capitalized as 'Regiment.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains OCR errors. The word 'Regiment' is misspelled as 'Regiment.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Regiment.",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'Regiment.' to 'Regiment' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-27.png",
+        "ground_truth_label": "So soon as the Vessel with the",
+        "OCR": {
+            "predicted_label": "To soon as the Cafe with with the.",
+            "cer": 0.3333333333333333,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "Yes",
+            "explanation": "The sentence is grammatically correct because it adheres to the rules of English grammar."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "There is not need to correct the sentence."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "To soon as the Cafe with with the.",
+            "cer": 0.3333333333333333,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "308-28.png",
+        "ground_truth_label": "Stores and medicines arrives, you are to embrace",
+        "OCR": {
+            "predicted_label": "Stores and medicines arrive, you are to enhance.",
+            "cer": 0.125,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'Stores' should be 'Store' and'medicines' should be'medicine.' In addition, 'arrive' should be 'arrived.' Furthermore, 'you are to enhance' should be 'you are to enhance.' Finally, the comma at the end should be a period."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Stores' is misspelled as 'Stores,' which is likely due to the OCR software mistaking the letter 'e' for an 'a.' Secondly, the word'medicines' is misspelled as'medicines,' which is likely due to the OCR software mistaking the letter 'i' for an 'e.' Thirdly, the word 'you' is misspelled as 'you,' which is likely due to the OCR software mistaking the letter 'u' for an 'o.' Finally, the word 'enhance' is misspelled as 'enhance,' which is likely due to the OCR software mistaking the letter 'e' for an 'a.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Stores and medicines arrive, you are to enhance.",
+            "cer": 0.125,
+            "confidence": 98,
+            "justification": "Corrected all OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-29.png",
+        "ground_truth_label": "the first opportunity that offers, of conveying up",
+        "OCR": {
+            "predicted_label": "the first opportunity that offers, of carrying up.",
+            "cer": 0.1,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'the first opportunity that offers' is not a complete sentence. It should be 'The first opportunity that offers is to carry up.' Additionally,"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'opportunity' is misspelled as 'opportunity.' Secondly, the word 'offers' is misspelled as 'offers.' Thirdly, the word 'carrying' is misspelled as 'carrying.' Finally, the word 'up' is misspelled as 'up.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "the first opportunity that offers, of carrying up.",
+            "cer": 0.1,
+            "confidence": 98,
+            "justification": "Corrected 'opportunity' to 'opportunity', 'offers' to 'offers', 'carrying' to 'carrying', and 'up' to 'up' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-30.png",
+        "ground_truth_label": "your Chest, and proceeding, yourself, to Winches-",
+        "OCR": {
+            "predicted_label": "your, and proceeding, yourself, with-.",
+            "cer": 0.30612244897959184,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because there are several errors. Firstly, 'your' should be 'you're.' Secondly, 'and proceeding' should be 'and proceed.' Thirdly, 'with-' should be 'with.' Finally, there is a missing period at the end of the sentence."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors, including:"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "your, and proceeding, yourself, with-",
+            "cer": 0.2857142857142857,
+            "confidence": 98,
+            "justification": "The sentence contains several OCR errors, including:"
+        }
+    },
+    {
+        "file_name": "308-31.png",
+        "ground_truth_label": "ter. You are to provide yourself here, with",
+        "OCR": {
+            "predicted_label": "ter. You are to provide yourself here.",
+            "cer": 0.13953488372093023,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'ter' should be 'there.' In addition, 'You are to provide yourself here' is not grammatically correct because 'yourself' should be 'your.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'ter' is misspelled as 'ter' instead of 'their.' Secondly, the word 'you' is misspelled as 'you' instead of 'your.' Thirdly, the word 'here' is misspelled as 'here' instead of 'here.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "They are to provide themselves here.",
+            "cer": 0.4883720930232558,
+            "confidence": 95,
+            "justification": "Corrected 'ter' to 'they' based on the explanation. Corrected 'you' to 'your' based on the explanation. Corrected 'here' to 'here' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-32.png",
+        "ground_truth_label": "what you think will be wanting for the Hos-",
+        "OCR": {
+            "predicted_label": "what you think will be wanting for the Non-.",
+            "cer": 0.06976744186046512,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "Yes",
+            "explanation": ""
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "There is not need to correct the sentence."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "what you think will be wanting for the Non-.",
+            "cer": 0.06976744186046512,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "308-33.png",
+        "ground_truth_label": "pital, and bring them up with you; taking",
+        "OCR": {
+            "predicted_label": "patch, and bring them them up with your parking taking.",
+            "cer": 0.43902439024390244,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'patch' should be 'patching.' Secondly, 'and bring them them' should be 'and bring them.' Thirdly, 'up' should be 'up with.' Finally, 'parking taking' should be 'parking ticket.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'patch' is misspelled as 'patch,' which is likely due to OCR difficulties with recognizing the letter 'h.' Secondly, the word 'them' is repeated twice, likely due to OCR difficulties with recognizing the correct number of occurrences of the word. Thirdly, the word 'parking' is misspelled as 'parking,' likely due to OCR difficulties with recognizing the correct spelling of the word. Finally, the word 'taking' is misspelled as 'taking,' likely due to OCR difficulties with recognizing the correct spelling of the word."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "patch, and bring them up with your parking taking.",
+            "cer": 0.3170731707317073,
+            "confidence": 98,
+            "justification": "Corrected 'patch' to 'patch,' 'them' to 'them,' 'parking' to 'parking,' and 'taking' to 'taking' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-34.png",
+        "ground_truth_label": "care to purchase no more than is absolutely",
+        "OCR": {
+            "predicted_label": "can to purchase no more than is absolutely.",
+            "cer": 0.06976744186046512,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'their' should be 'there.' Additionally"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'can' is misspelled as 'can' with an extra 't'. Secondly, the word'more' is misspelled as 'no'. Thirdly, the word 'than' is misspelled as 'is'. Finally, the word 'absolutely' is misspelled as 'absolutely'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "can to purchase no more than is absolutely",
+            "cer": 0.046511627906976744,
+            "confidence": 98,
+            "justification": "Corrected 'can' to 'can', 'no' to'more', 'is' to 'than', and 'absolutely' to 'absolutely' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-35.png",
+        "ground_truth_label": "necessary, for the support and relief of the Regiment",
+        "OCR": {
+            "predicted_label": "menswear, for the Support and self of the Seim-",
+            "cer": 0.2830188679245283,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because'menswear' should be'men's wear.' In addition, 'for the Support and self of the Seim-' is not a complete sentence and should be 'for the support and self of the Seim-.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word'menswear' is misspelled as'menswear,' likely due to OCR difficulties with the 'e' and 'a' characters. Secondly, the word 'Seim' is misspelled as 'Seim,' likely due to OCR difficulties with the 'e' and 'i' characters. Thirdly, the word'self' is misspelled as'self,' likely due to OCR difficulties with the 'e' and 'l' characters."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "menswear, for the support and self of the Seim-",
+            "cer": 0.2641509433962264,
+            "confidence": 98,
+            "justification": "Corrected'menswear' to'menswear,' 'Seim' to 'Seim,' and'self' to'self' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-01.png",
+        "ground_truth_label": "p.309.",
+        "OCR": {
+            "predicted_label": "f. Sog.",
+            "cer": 0.8333333333333334,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'Sog.' is not a complete sentence. It is missing a subject and a verb. Additionally, the period at the end should be a question mark since it is a question."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Sog.' is misspelled, likely due to OCR difficulties with recognizing the letter 'g'. Secondly, the word 'f' is not a valid word and is likely a typo caused by OCR errors."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "f. Sog.",
+            "cer": 0.8333333333333334,
+            "confidence": 98,
+            "justification": "Corrected 'Sog.' to 'Sog.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-02.png",
+        "ground_truth_label": "Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "Letters, Orders, and Instructions, December 1755.",
+            "cer": 0.06521739130434782,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "Yes",
+            "explanation": "The sentence is grammatically correct because it adheres to the rules of English grammar."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "There is not need to correct the sentence."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Letters, Orders, and Instructions, December 1755.",
+            "cer": 0.06521739130434782,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "309-04.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "Given it. Melanie, Melanie, he.",
+            "cer": 0.782608695652174,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'Given' should be 'Given that' or 'Since.' Secondly, 'Melanie' appears twice and should only appear once. Thirdly, 'he' should be 'he is.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Given' is misspelled as 'Given'. Secondly, the word 'Melanie' is repeated twice, likely due to OCR difficulties with duplicate words. Thirdly, the word 'he' is misspelled as 'he'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Given it. Melanie, Melanie, he.",
+            "cer": 0.782608695652174,
+            "confidence": 98,
+            "justification": "Corrected 'Given' to 'Given', 'Melanie' to 'Melanie', and 'he' to 'he' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-05.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "December $6. 1755.",
+            "cer": 0.15,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'The' should be capitalized as 'The.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'December' is misspelled as 'Decembers.' Secondly, the dollar sign ($) is incorrectly placed after the word 'December.' Thirdly, the year '1755' is missing a digit, likely due to OCR difficulties with recognizing the number '5.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "December 6. 1755.",
+            "cer": 0.15,
+            "confidence": 95,
+            "justification": "Corrected 'Decembers' to 'December', moved the dollar sign ($) before the word 'December', and added the missing digit '5' in the year '1755' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-07.png",
+        "ground_truth_label": "16th. To Captain John Mercer. of the",
+        "OCR": {
+            "predicted_label": "No. To Captain John Mercer. of the",
+            "cer": 0.1111111111111111,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'No.' should be capitalized as 'No.'. Additionally, 'To Captain John Mercer' should be 'To Captain John Mercer.'. Finally, 'of the' should be 'of the'."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'No' is missing a period at the end. Secondly, the word 'Captain' is misspelled as 'Captain.' Thirdly, the word 'John' is misspelled as 'John.' Fourthly, the word 'Mercer' is misspelled as 'Mercer.' Fifthly, the word 'of' is misspelled as 'of.' Sixthly, the word 'the' is misspelled as 'the.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "No. To Captain John Mercer. of the",
+            "cer": 0.1111111111111111,
+            "confidence": 98,
+            "justification": "Corrected all OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-08.png",
+        "ground_truth_label": "Virginia Regiment.",
+        "OCR": {
+            "predicted_label": "Virginia Regiment.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "",
+            "explanation": ""
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "There is not need to correct the sentence."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Virginia Regiment.",
+            "cer": 0.0,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "309-09.png",
+        "ground_truth_label": "You are immediately, upon receipt",
+        "OCR": {
+            "predicted_label": "You are immediately.",
+            "cer": 0.42424242424242425,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "",
+            "explanation": ""
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "There is not need to correct the sentence."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "You are immediately.",
+            "cer": 0.42424242424242425,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "309-10.png",
+        "ground_truth_label": "hereof, to repair to Winchester, where you will meet",
+        "OCR": {
+            "predicted_label": "hereof, to replace to Winchester, where you will meet",
+            "cer": 0.057692307692307696,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'hereof' should be 'hereof' and 'to replace' should be 'to replace.' In addition, 'Winchester' should be capitalized as 'Winchester.' Finally, 'you will meet' should be 'you will meet.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'hereof' is misspelled as 'hereof,' which is likely due to the OCR software mistaking the letter 'e' for an 'o.' Secondly, the word 'to' is repeated twice, likely due to the OCR software mistaking the first 'to' for a comma. Thirdly, the word 'Winchester' is misspelled as 'Winchester,' likely due to the OCR software mistaking the letter 'e' for an 'a.' Finally, the word 'you' is misspelled as 'you,' likely due to the OCR software mistaking the letter 'u' for an 'o.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "hereof, to replace to Winchester, where you will meet",
+            "cer": 0.057692307692307696,
+            "confidence": 98,
+            "justification": "Corrected 'hereof' to 'hereof,' 'to' to 'to,' 'Winchester' to 'Winchester,' and 'you' to 'you' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-11.png",
+        "ground_truth_label": "with Colonel Washington, and receive further orders.",
+        "OCR": {
+            "predicted_label": "with Colonel, and receive Orders.",
+            "cer": 0.38461538461538464,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'with Colonel' should be 'with Colonel.' In addition, 'and' should be 'and.' Finally, 'Orders' should be capitalized as 'Orders.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Colonel' is misspelled as 'Colonel,' which is likely due to the OCR software's inability to correctly recognize the letter 'l.' Secondly, the word 'Orders' is misspelled as 'Orders,' which is likely due to the OCR software's inability to correctly recognize the letter 'd.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "with Colonel, and receive Orders.",
+            "cer": 0.38461538461538464,
+            "confidence": 98,
+            "justification": "Corrected 'Colonel' to 'Colonel' and 'Orders' to 'Orders' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-12.png",
+        "ground_truth_label": "I am Vc.",
+        "OCR": {
+            "predicted_label": "I am Mr.",
+            "cer": 0.25,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "Yes",
+            "explanation": "The sentence is grammatically correct because 'Mr.' is followed by a name and the period at the end of the sentence is correct."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "There is not need to correct the sentence."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "I am Mr.",
+            "cer": 0.25,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "309-13.png",
+        "ground_truth_label": "G.W. aid de camp.",
+        "OCR": {
+            "predicted_label": "Ima. ads. at dr. at drugs.",
+            "cer": 1.0588235294117647,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'Ima' should be 'I am.' 'ads' should be 'ads.' 'at dr' should be '"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Ima' is incorrectly spelled as 'Ima' instead of 'Ima'. Secondly, the word 'ads' is misspelled as 'ads' instead of 'ads'. Thirdly, the word 'dr' is misspelled as 'dr' instead of 'dr'. Finally, the word 'drugs' is misspelled as 'drugs' instead of 'drugs'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Ima. ads. at dr. at drugs.",
+            "cer": 1.0588235294117647,
+            "confidence": 98,
+            "justification": "Corrected 'Ima' to 'Ima', 'ads' to 'ads', 'dr' to 'dr', and 'drugs' to 'drugs' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-14.png",
+        "ground_truth_label": "Alexandria: December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "Alexandria; December 1755.",
+            "cer": 0.21875,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'Alexandria' should be capitalized as 'Alexandria.' Secondly, 'December' should be capitalized as 'December.' Thirdly, the comma at the end should be a period."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains OCR errors. The word 'Alexandria' is misspelled as 'Alexandria', and the word 'December' is misspelled as 'December'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Alexandria; December 1755.",
+            "cer": 0.21875,
+            "confidence": 98,
+            "justification": "Corrected 'Alexandria' to 'Alexandria' and 'December' to 'December' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-15.png",
+        "ground_truth_label": "N:B. A Copy left at Alexandria, and another",
+        "OCR": {
+            "predicted_label": "Mr. t.Copy Off at Melancha, and another.",
+            "cer": 0.3488372093023256,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'Mr. t.Copy Off at Melancha' is not a complete sentence. Additionally, 'another' should be capitalized as 'Another.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Mr.' is incorrectly capitalized, likely due to OCR difficulties with capitalization. Secondly, the word 't.' is not a valid word and is likely a typo caused by OCR errors. Thirdly, the word 'Copy' is misspelled as 't.Copy,' likely due to OCR difficulties with spelling. Finally, the word 'Melancha' is misspelled as 'Melancha,' likely due to OCR difficulties with spelling."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Mr. Copy Off at Melancha, and another.",
+            "cer": 0.3488372093023256,
+            "confidence": 95,
+            "justification": "Corrected 'Mr.' to 'Mr.', 't.' to 'Copy', 't.Copy' to 'Copy', and 'Melancha' to 'Melancha' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-16.png",
+        "ground_truth_label": "sent to Stafford, to him there.",
+        "OCR": {
+            "predicted_label": "sent to Stuffed, to him there.",
+            "cer": 0.0967741935483871,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because'sent to Stuffed' is not a complete sentence. 'to him' is not a complete sentence. 'there' is not a complete sentence."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Stuffed' is misspelled as 'Stuffed.' Secondly, the word 'him' is missing a comma after it. Thirdly, the word 'there' is misspelled as 'there.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "sent to Stuffed, to him, there.",
+            "cer": 0.12903225806451613,
+            "confidence": 95,
+            "justification": "Corrected 'Stuffed' to 'Stuffed.', added a comma after 'him', and corrected 'there' to 'there.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-18.png",
+        "ground_truth_label": "20th. Parole Abbemarle. Winchester: December 20th. 1755.",
+        "OCR": {
+            "predicted_label": "28th. I had Milwaukee, @ Winchester, December 1755.",
+            "cer": 0.44642857142857145,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'Milwaukee' should be 'Milwaukee' and 'Winchester' should be 'Winchester.' In addition, 'December' should be capitalized as 'December.' Finally, the comma at the end should be a period."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Milwaukee' is misspelled as 'Milwaukee.' Secondly, the word 'Winchester' is misspelled as 'Winchester.' Thirdly, the word 'December' is misspelled as 'December.' Fourthly, the word '1755' is misspelled as '1755.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "28th. I had Milwaukee, @ Winchester, December 1755.",
+            "cer": 0.44642857142857145,
+            "confidence": 98,
+            "justification": "Corrected all OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-19.png",
+        "ground_truth_label": "A Return to be given in immedi-",
+        "OCR": {
+            "predicted_label": "I Return to be given in immedi-",
+            "cer": 0.03225806451612903,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'I Return' should be 'I'm Returning.' Secondly, 'be given' should be 'given.' Thirdly, 'immedi-' should be 'immediately.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Return' is misspelled as 'Return.' Secondly, the word 'immedi' is misspelled as 'immedi.' Thirdly, the word 'given' is misspelled as 'given.' Finally, the word 'in' is misspelled as 'in.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "I Return to be given in immediately",
+            "cer": 0.1935483870967742,
+            "confidence": 98,
+            "justification": "Corrected 'Return' to 'Return', 'immedi' to 'immediately', 'given' to 'given', and 'in' to 'in' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-20.png",
+        "ground_truth_label": "ately of the Recruits now in this town, by the several",
+        "OCR": {
+            "predicted_label": "ately of the Biscuits now now in this room, by the sun.",
+            "cer": 0.3148148148148148,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'ately' should be 'at last.' Secondly, 'now' appears twice and should only appear once. Thirdly, 'in this room' should be 'in this room.' Fourthly, 'by the sun' should be 'by the sun.' Finally, the comma at the end should be a period."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'ately' is misspelled as 'ately,' which is likely due to the OCR software mistaking the letter 'e' for an 'a.' Secondly, the word 'now' is repeated twice, likely due to the OCR software mistaking the first 'now' for a different word. Thirdly, the word 'Biscuits' is misspelled as 'Biscuits,' likely due to the OCR software mistaking the letter 'i' for an 'l.' Finally, the word 'room' is misspelled as 'room,' likely due to the OCR software mistaking the letter 'o' for an 'a.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "ately of the Biscuits now in this room, by the sun.",
+            "cer": 0.24074074074074073,
+            "confidence": 95,
+            "justification": "Corrected 'ately' to 'ately,' 'now' to 'now,' 'Biscuits' to 'Biscuits,' and 'room' to 'room' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-21.png",
+        "ground_truth_label": "Officers who enlisted them; mentioning their height,",
+        "OCR": {
+            "predicted_label": "Officer, who enlisted them, mentioning this field,.",
+            "cer": 0.19230769230769232,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'Officer' should be capitalized as 'Officer.' Secondly, 'who' should be 'that.' Thirdly, 'enlisted' should be 'enlisted.' Fourthly, 'them' should be 'them.' Fifthly,'mentioning' should be'mentioning.' Sixthly, 'this' should be 'this.' Seventhly, 'field' should be 'field.' Eighthly, '.' should be '.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Officer' is misspelled as 'Officer,' with an extra 'r' at the end. Secondly, the word 'them' is incorrectly written as 'them,' with an extra'm' at the end. Thirdly, the word'mentioning' is misspelled as'mentioning,' with an extra 'g' at the end. Finally, the word 'field' is misspelled as 'field,' with an extra 'd' at the end."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Officer, who enlisted them, mentioning this field,.'",
+            "cer": 0.21153846153846154,
+            "confidence": 98,
+            "justification": "Corrected 'Officer,' to 'Officer', corrected 'them,' to 'them', corrected'mentioning' to'mentioning', and corrected 'field,' to 'field'."
+        }
+    },
+    {
+        "file_name": "309-22.png",
+        "ground_truth_label": "age, trade, Vc. The officers to see that the Serge-",
+        "OCR": {
+            "predicted_label": "age, trade. The Office, to see that the Surge-.",
+            "cer": 0.17647058823529413,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'age' and 'trade' are not capitalized. Additionally, 'The Office' should be 'The Office.' Finally, 'to see' should be 'to see that.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'age' is misspelled as 'age,' which is likely due to the OCR software mistaking the letter 'e' for an 'a.' Secondly, the word 'trade' is misspelled as 'trade,' which is likely due to the OCR software mistaking the letter 'd' for an 'a.' Thirdly, the word 'Office' is misspelled as 'Office,' which is likely due to the OCR software mistaking the letter 'e' for an 'a.' Finally, the word 'Surge-' is misspelled as 'Surge-,' which is likely due to the OCR software mistaking the letter 'e' for an 'a.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "age, trade. The Office, to see that the Surgeon-.'",
+            "cer": 0.23529411764705882,
+            "confidence": 95,
+            "justification": "Corrected 'age,' to 'age,' 'trade,' to 'trade,' 'Office,' to 'Office,' and 'Surge-' to 'Surgeon-' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-23.png",
+        "ground_truth_label": "ants who understand the manual Exercise, do",
+        "OCR": {
+            "predicted_label": "only who understand the manual Special Repair, do.",
+            "cer": 0.3488372093023256,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'only' should be 'only who' and 'do' should be 'does.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'who' is missing a space after it, which is likely due to OCR difficulties with recognizing spaces. Secondly, the word 'understand' is misspelled as 'understand,' likely due to OCR difficulties with recognizing the letter 'a.' Thirdly, the word'manual' is misspelled as'manual,' likely due to OCR difficulties with recognizing the letter 'l.' Finally, the word 'do' is misspelled as 'do,' likely due to OCR difficulties with recognizing the letter 'o.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Only those who understand the manual Special Repair, do.",
+            "cer": 0.4418604651162791,
+            "confidence": 98,
+            "justification": "Corrected 'who' to 'who' based on the explanation. Corrected 'understand' to 'understand' based on the explanation. Corrected'manual' to'manual' based on the explanation. Corrected 'do' to 'do' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-24.png",
+        "ground_truth_label": "drill the Recruits, at least twice a-day.",
+        "OCR": {
+            "predicted_label": "Grill the Biscuits, at least twice ac-a-",
+            "cer": 0.21951219512195122,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "Yes",
+            "explanation": "The sentence is grammatically correct because it adheres to the rules of English grammar."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "There is not need to correct the sentence."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Grill the Biscuits, at least twice ac-a-",
+            "cer": 0.21951219512195122,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "309-26.png",
+        "ground_truth_label": "22nd. Parole Boston- Winchester: December 22nd. 1755.",
+        "OCR": {
+            "predicted_label": "27th. Rack Bottom - Winchester. December. Ic. 17. 17.75.",
+            "cer": 0.39622641509433965,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'Rack Bottom' should be capitalized as 'Rack Bottom.' Secondly, 'Winchester' should be capitalized as 'Winchester.' Thirdly, 'December' should be capitalized as 'December.' Fourthly, 'Ic' should be 'IC.' Fifthly, '17' should be '17.' Sixthly, '17' should be '17.' Seventhly, '75' should be '75.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Rack' is misspelled as 'Rack' instead of 'Rack'. Secondly, the word 'Bottom' is misspelled as 'Bottom' instead of 'Bottom'. Thirdly, the word 'Winchester' is misspelled as 'Winchester' instead of 'Winchester'. Fourthly, the word 'December' is misspelled as 'December' instead of 'December'. Fifthly, the word 'Ic' is misspelled as 'Ic' instead of 'Ic'. Sixthly, the word '17' is misspelled as '17' instead of '17'. Seventhly, the word '75' is misspelled as '75' instead of '75'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "27th. Rack Bottom - Winchester. December. Ic. 17. 17.75.",
+            "cer": 0.39622641509433965,
+            "confidence": 98,
+            "justification": "Corrected all OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-27.png",
+        "ground_truth_label": "A Return is to be made every mor-",
+        "OCR": {
+            "predicted_label": "t Return is to be made every mor.",
+            "cer": 0.06060606060606061,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 't' should be 'to' and'mor' should be'more.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Return' is misspelled as 'Return.' Secondly, the word'mor' is misspelled as'mor.' Thirdly, the word 'is' is misspelled as 'is.' Finally, the word 'to' is misspelled as 'to.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "To be made every morning.",
+            "cer": 0.5454545454545454,
+            "confidence": 95,
+            "justification": "Corrected 'Return' to 'To','mor.' to'morning', 'is' to 'is', and 'to' to 'to'."
+        }
+    },
+    {
+        "file_name": "309-28.png",
+        "ground_truth_label": "ning to Colonel Washington of the number of",
+        "OCR": {
+            "predicted_label": "ning to Colonel of the number of.",
+            "cer": 0.27906976744186046,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'to' should be 'too.' In addition, 'Colonel' should be capitalized as 'Colonel.' Finally, 'number' should be 'numbers.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'to' is missing a space before it, which is likely due to OCR difficulties with recognizing spaces. Secondly, the word 'Colonel' is misspelled as 'Colonel,' which is likely due to OCR difficulties with recognizing capitalization. Thirdly, the word 'number' is misspelled as 'number,' which is likely due to OCR difficulties with recognizing the letter 'u.' Finally, the word 'of' is misspelled as 'of,' which is likely due to OCR difficulties with recognizing the letter 'f.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "ning to Colonel of the number of.",
+            "cer": 0.27906976744186046,
+            "confidence": 98,
+            "justification": "Corrected 'to' to 'to', 'Colonel' to 'Colonel', 'number' to 'number', and 'of' to 'of' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-29.png",
+        "ground_truth_label": "men in this town - and all contingences.",
+        "OCR": {
+            "predicted_label": "men in this town - and all contingencies.",
+            "cer": 0.025,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'their' should be"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word'men' is misspelled as'men' with an extra 'n'. Secondly, the word 'contingencies' is misspelled as 'contingencies' with an extra 'n'. Thirdly, the word 'contingencies' is misspelled as 'contingencies' with an extra 'n'. Fourthly, the word 'contingencies' is misspelled as 'contingencies' with an extra 'n'. Fifthly, the word 'contingencies' is misspelled as 'contingencies' with an extra 'n'. Sixthly, the word 'contingencies' is misspelled as 'contingencies' with an extra 'n'. Seventhly, the word 'contingencies' is misspelled as 'contingencies' with an extra 'n'. Eighthly, the word 'contingencies' is misspelled as 'contingencies' with an extra 'n'. Ninthly, the word 'contingencies' is misspelled as 'contingencies' with an extra 'n'. Tenthly, the word 'contingencies' is misspelled as 'contingencies' with an extra 'n'. Eleventhly, the word 'contingencies' is misspelled as 'contingencies' with an extra 'n'. Twelfthly, the word 'contingencies' is misspelled as 'contingencies' with an extra 'n'. Thirteenthly, the word 'contingencies' is misspelled as 'contingencies' with an extra 'n'. Fourteenthly, the word 'contingencies' is misspelled as 'contingencies' with an extra 'n'. Fifteenthly, the word 'contingencies' is misspelled as 'contingencies' with an extra 'n'. Sixteenthly, the word 'contingencies' is misspelled as 'contingencies' with an extra 'n'. Seventeenthly, the word 'contingencies' is misspelled as 'contingencies' with an extra 'n'. Eighteenthly, the word 'contingencies' is misspelled as 'contingencies' with an extra 'n'. Nineteenthly, the word 'contingencies' is"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "men in this town - and all contingencies.",
+            "cer": 0.025,
+            "confidence": 98,
+            "justification": "Corrected all OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-30.png",
+        "ground_truth_label": "During his stay here, no provision is to be de-",
+        "OCR": {
+            "predicted_label": "Bring his stay here, no provision is to be de-",
+            "cer": 0.0425531914893617,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "Yes",
+            "explanation": "The sentence is grammatically correct because it adheres to the rules of English grammar."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "There is not need to correct the sentence."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Bring his stay here, no provision is to be de-",
+            "cer": 0.0425531914893617,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "309-31.png",
+        "ground_truth_label": "livered out, but by a written order from him or",
+        "OCR": {
+            "predicted_label": "licensed out out, but, but by a written Order Order from from him.",
+            "cer": 0.5531914893617021,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'licensed out out' should be 'licensed out.' 'but, but' should be 'but and.' 'by a written Order Order' should be 'by a written Order.' 'from from' should be 'from.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'licensed' is misspelled as 'licensed' due to the OCR software's inability to correctly recognize the letter 'c'. Secondly, the word 'out' is repeated twice, likely due to the OCR software's inability to correctly recognize the end of the word. Thirdly, the word 'Order' is misspelled as 'Order' due to the OCR software's inability to correctly recognize the letter 'd'. Finally, the word 'from' is misspelled as 'from' due to the OCR software's inability to correctly recognize the letter'm'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "licensed out, but by a written Order from him.",
+            "cer": 0.14893617021276595,
+            "confidence": 95,
+            "justification": "Corrected 'licensed' to 'licensed', 'out' to 'out', 'Order' to 'Order', and 'from' to 'from' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-32.png",
+        "ground_truth_label": "the aid de camp. The Commissary is to send",
+        "OCR": {
+            "predicted_label": "the Aid Aid de camp. The Chemistry is sent",
+            "cer": 0.30952380952380953,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'the Aid Aid' should be 'the Aid' and 'de camp' should be 'de Camp.' In addition, 'The Chemistry' should be 'The Chemist' and 'is sent' should be 'is sent.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'Aid' is misspelled as 'Aid' instead of 'Aide'. Secondly, the word 'de' is missing a space between it and the word 'camp'. Thirdly, the word 'Chemistry' is misspelled as 'Chemistry' instead of 'Chemist'. Finally, the word'sent' is misspelled as'sent' instead of'sent'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "the Aide de camp. The Chemist is sent",
+            "cer": 0.2857142857142857,
+            "confidence": 95,
+            "justification": "Corrected 'Aid' to 'Aide', added a space between 'de' and 'camp', corrected 'Chemistry' to 'Chemist', and corrected'sent' to'sent'."
+        }
+    },
+    {
+        "file_name": "309-33.png",
+        "ground_truth_label": "up the Cask of Tools by the first waggon that",
+        "OCR": {
+            "predicted_label": "up the back of each of.",
+            "cer": 0.6444444444444445,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'their' should be 'there' and 'is' should be 'are.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'up' is missing a space before it, which is likely due to OCR difficulties with recognizing spaces. Secondly, the word 'back' is misspelled as 'back,' which is likely due to OCR difficulties with recognizing the letter 'a.' Thirdly, the word 'each' is misspelled as 'each,' which is likely due to OCR difficulties with recognizing the letter 'e.' Finally, the word 'of' is misspelled as 'of,' which is likely due to OCR difficulties with recognizing the letter 'o.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "up the back of each of",
+            "cer": 0.6444444444444445,
+            "confidence": 98,
+            "justification": "Corrected OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-34.png",
+        "ground_truth_label": "goes to the Fort. The following men being judg-",
+        "OCR": {
+            "predicted_label": "goes to be to the Fort. The following men being being being judged.",
+            "cer": 0.44680851063829785,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'being being being' should be 'being.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'goes' is repeated twice, likely due to OCR difficulties with duplicate words. Secondly, the word 'to' is repeated twice, likely due to OCR difficulties with duplicate words. Thirdly, the word 'being' is repeated three times, likely due to OCR difficulties with duplicate words. Fourthly, the word 'judged' is misspelled as 'judged,' likely due to OCR difficulties with spelling."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "goes to the Fort. The following men were judged.",
+            "cer": 0.14893617021276595,
+            "confidence": 95,
+            "justification": "Corrected 'goes' to 'go' based on the explanation. Corrected 'to' to 'to' based on the explanation. Corrected 'being' to 'were' based on the explanation. Corrected 'judged' to 'judged' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-35.png",
+        "ground_truth_label": "ed unfit for Duty, on Review; are ordered to be",
+        "OCR": {
+            "predicted_label": "at until for Duty, on Reis, are ordered to be.",
+            "cer": 0.19148936170212766,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'at' should be 'at' and 'until' should be 'until.' In addition, 'for' should be 'for' and 'Duty' should be 'Duty.' Furthermore, 'on' should be 'on' and 'Reis' should be 'Reis.' Finally, 'are' should be 'are' and 'ordered' should be 'ordered.'"
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'at' is missing a space before it, which is likely due to OCR difficulties with recognizing spaces. Secondly, the word 'until' is misspelled as 'until,' which is likely due to OCR difficulties with recognizing the letter 'l.' Thirdly, the word 'for' is misspelled as 'for,' which is likely due to OCR difficulties with recognizing the letter 'o.' Fourthly, the word 'Duty' is misspelled as 'Duty,' which is likely due to OCR difficulties with recognizing the letter 'u.' Fifthly, the word 'Reis' is misspelled as 'Reis,' which is likely due to OCR difficulties with recognizing the letter 'i.' Finally, the word 'ordered' is misspelled as 'ordered,' which is likely due to OCR difficulties with recognizing the letter 'd.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "at until for Duty, on Reis, are ordered to be.",
+            "cer": 0.19148936170212766,
+            "confidence": 98,
+            "justification": "Corrected all OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-36.png",
+        "ground_truth_label": "discharged: viz.",
+        "OCR": {
+            "predicted_label": "dii, changed: V.V.C.O.",
+            "cer": 0.6875,
+            "confidence": 0
+        },
+        "Prompt checkin: Grammar checking": {
+            "response": "No",
+            "explanation": "The sentence is not grammatically correct because 'dii' should be 'Dii' and 'changed' should be 'changed.' In addition, 'V.V.C.O.' seems incorrect and could be 'V.V.C.O.' Finally, the comma at the end should be a period."
+        },
+        "Prompt checking: OCR checking": {
+            "response": "Yes",
+            "explanation": "The sentence contains several OCR errors. Firstly, the word 'dii' is misspelled as 'di' due to OCR difficulties with recognizing the letter 'i' in the word 'di'. Secondly, the word 'changed' is misspelled as 'changed' due to OCR difficulties with recognizing the letter 'e' in the word 'changed'. Thirdly, the word 'V.V.C.O.' is misspelled as 'V.V.C.O.' due to OCR difficulties with recognizing the letter 'O' in the word 'V.V.C.O.'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "dii, changed: V.V.C.O.",
+            "cer": 0.6875,
+            "confidence": 98,
+            "justification": "Corrected 'dii' to 'dii' based on the explanation."
+        }
+    }
+]
