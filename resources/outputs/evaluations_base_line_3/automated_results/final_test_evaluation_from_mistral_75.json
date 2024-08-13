@@ -1,0 +1,1237 @@
+[
+    {
+        "file_name": "308-01.png",
+        "ground_truth_label": "308. Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "30th. Letters Orders and Instructions December 1755.",
+            "cer": 3.846,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "Yes",
+            "explanation": "The text line is grammatically correct because it adheres to"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "30th. Letters Orders and Instructions December 1755.",
+            "cer": 3.846,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "308-03.png",
+        "ground_truth_label": "remain here until the arrival of the vessel with",
+        "OCR": {
+            "predicted_label": "remain here until the animal of the usual with,",
+            "cer": 16.667,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because'remain' should be'remains' and 'here' should be 'here.' In addition, 'until' should be 'until' and 'the animal' should be 'the animal.' Finally, 'of the usual' should be 'of the usual.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "remains here until the animal of the usual with,",
+            "cer": 18.75,
+            "confidence": 98,
+            "justification": "Corrected'remain' to'remains' and 'here' to 'here.' Also, corrected 'until' to 'until' and 'the animal' to 'the animal.' Finally, corrected 'of the usual' to 'of the usual.'"
+        }
+    },
+    {
+        "file_name": "308-04.png",
+        "ground_truth_label": "the Stores, Vc. and to be under the same directions",
+        "OCR": {
+            "predicted_label": "the Yours, Vc. and to be under the same directions",
+            "cer": 7.843,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'Yours' should be capitalized as 'Yours.' In addition, 'and' should be 'and.' Finally, 'to be under the same directions' should be 'to be under the same direction.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "The Yours, Vc. and to be under the same direction",
+            "cer": 11.765,
+            "confidence": 98,
+            "justification": "Corrected 'Yours' to 'Yours', 'and' to 'and', and 'to be under the same directions' to 'to be under the same direction' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-05.png",
+        "ground_truth_label": "as before ordered. So soon as the Stores arrive, you",
+        "OCR": {
+            "predicted_label": "as before ordered. To soon as the Stores arrive, you",
+            "cer": 1.923,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'as before' should be 'as before ordered.' In addition, 'To soon' should be 'Too soon.' Finally, 'you' should be 'you're.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "as before ordered. Too soon as the Stores arrive, you're",
+            "cer": 8.929,
+            "confidence": 98,
+            "justification": "Corrected 'as before' to 'as before ordered.', 'To soon' to 'Too soon', and 'you' to 'you're' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-06.png",
+        "ground_truth_label": "are, with all possible dispath, to procure a suf-",
+        "OCR": {
+            "predicted_label": "are, with all possible dispatch, to provide to provide a sub-",
+            "cer": 24.59,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'are' should be 'are' and 'with' should be 'with.' In addition, 'to provide' should be 'to provide.' Finally, 'a sub-' should be 'a sub.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "are, with all possible dispatch, to provide a sub",
+            "cer": 12.245,
+            "confidence": 98,
+            "justification": "Corrected 'are' to 'are', 'with' to 'with', 'to provide' to 'to provide', and 'a sub-' to 'a sub' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-07.png",
+        "ground_truth_label": "ficient number of waggons to carry them to Win-",
+        "OCR": {
+            "predicted_label": "ficialent number of Waggons to carry to carry them to Non-",
+            "cer": 24.138,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'Orders' appears twice and should only appear once. In addiction, 'december' should be capitalized as 'December.' Thirdly, 'Yuemler' seems incorrect and could be 'Yours.' Finally, the comma at the end should be a period."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "ficialent number of Waggons to carry them to Non-",
+            "cer": 10.204,
+            "confidence": 98,
+            "justification": "Corrected 'Orders' to 'Order' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-08.png",
+        "ground_truth_label": "chester; whither they are to be sent, under the",
+        "OCR": {
+            "predicted_label": "chester; whether they are to be sent, number the",
+            "cer": 8.333,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'chester' should be 'Chester.' Secondly, 'whether' should be 'whether they are to be sent.' Thirdly, 'number' should be 'numbered.' Finally, the comma at the end should be a period."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Chester; whether they are to be sent, numbered.",
+            "cer": 19.149,
+            "confidence": 98,
+            "justification": "Corrected 'chester' to 'Chester', 'whether' to 'whether they are to be sent', 'number' to 'numbered', and added a period at the end."
+        }
+    },
+    {
+        "file_name": "308-09.png",
+        "ground_truth_label": "escort of the Soldiers now here: except the Suits",
+        "OCR": {
+            "predicted_label": "escorit of the Soldiers now now here: except the Suits Suits",
+            "cer": 18.333,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'escorit' should be 'escort' and 'now' should be 'now.' In addition, 'Soldiers' should be capitalized as 'Soldiers.' Finally, 'Suits' should be 'Suits.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "escort of the Soldiers now here: except the Suits Suits",
+            "cer": 10.909,
+            "confidence": 98,
+            "justification": "Corrected 'escorit' to 'escort' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-10.png",
+        "ground_truth_label": "of Clothes; Shoes, Stocking, Shirts, Vc. proportiona-",
+        "OCR": {
+            "predicted_label": "of Octobers, Ibids, Vrpationa-",
+            "cer": 62.264,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'Octobers' should be 'October.' Secondly, 'Ibids' should be 'Ibid.' Thirdly, 'Vrpationa-' seems incorrect and could be 'Vr"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "of October, Ibids, Vr",
+            "cer": 75.472,
+            "confidence": 95,
+            "justification": "Corrected 'Octobers' to 'October' based on the explanation. Secondly, corrected 'Ibids' to 'Ibid' based on the explanation. Thirdly, corrected 'Vrpationa-' to 'Vr' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-11.png",
+        "ground_truth_label": "bly which are to be left with Colonel Carlyle.",
+        "OCR": {
+            "predicted_label": "bly, which are to be left with Colonial Carlyle:",
+            "cer": 8.333,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'bly' should be 'by.' In addition, 'which' should be 'that.' Finally, 'Colonial Carlyle' should be 'Colonel Carlyle.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "by, which are to be left with Colonel Carlyle:",
+            "cer": 6.522,
+            "confidence": 98,
+            "justification": "Corrected 'bly' to 'by', 'which' to 'that', and 'Colonial Carlyle' to 'Colonel Carlyle' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-12.png",
+        "ground_truth_label": "You are to be very careful of all the",
+        "OCR": {
+            "predicted_label": "You are to be very careful of all the",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'You are to be very careful of all the' is not a complete sentence. Additionally, 'all the' should be 'all'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "You are to be very careful of all",
+            "cer": 10.811,
+            "confidence": 98,
+            "justification": "Corrected 'all the' to 'all' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-13.png",
+        "ground_truth_label": "Things delivered into the waggons, and see that",
+        "OCR": {
+            "predicted_label": "things delivered into the waggons, and the that",
+            "cer": 6.383,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'things' should be 'thing' and 'that' should be 'which.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "thing delivered into the waggons, and which",
+            "cer": 19.149,
+            "confidence": 98,
+            "justification": "Corrected 'things' to 'thing' and 'that' to 'which' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-14.png",
+        "ground_truth_label": "a strict Guard is kept over them, that no embez-",
+        "OCR": {
+            "predicted_label": "a joint is kept them, and es-",
+            "cer": 50.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'Orders' appears twice and should only appear once. In addition, 'december' should be capitalized as 'December.' Thirdly, 'Yuemler' seems incorrect and could be 'Yours.' Finally, the comma at the end should be a period."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "a joint is kept them, and es-",
+            "cer": 50.0,
+            "confidence": 98,
+            "justification": "Corrected 'Orders' to 'Order' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-15.png",
+        "ground_truth_label": "zlement is made. If your men can not be",
+        "OCR": {
+            "predicted_label": "ferment is made. If your your view can can not be",
+            "cer": 28.571,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'ferment' should be 'fermentation,' and 'your' should be 'you.' Additionally, 'can' should be 'can't.' Finally, 'view' should be 'views.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "fermentation is made. If your views can't be",
+            "cer": 34.091,
+            "confidence": 95,
+            "justification": "Corrected 'ferment' to 'fermentation,' 'your' to 'your,' 'can' to 'can't,' and 'view' to 'views' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-16.png",
+        "ground_truth_label": "conveniently Quartered on their march up; there",
+        "OCR": {
+            "predicted_label": "nonmeminently chartered on their march up; up; - here",
+            "cer": 22.642,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'nonmeminently' is not a word and should be 'nonmeminently.' Additionally, 'chartered' should be 'chartered.' Finally, 'up;' should be 'up.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "nonmeminently chartered on their march up; up; - here",
+            "cer": 22.642,
+            "confidence": 98,
+            "justification": "Corrected 'nonmeminently' to 'nonmeminently.' Corrected 'chartered' to 'chartered.' Corrected 'up;' to 'up.'"
+        }
+    },
+    {
+        "file_name": "308-17.png",
+        "ground_truth_label": "will be a number of Tents among the Stores, which",
+        "OCR": {
+            "predicted_label": "will be number of limits, which",
+            "cer": 42.857,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'will be' should be 'will be' and 'limits' should be 'limit.' In addition, 'which' should be 'that.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "will be number of limits, that",
+            "cer": 51.02,
+            "confidence": 98,
+            "justification": "Corrected 'will be' to 'will be', 'limits' to 'limit', and 'which' to 'that' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-18.png",
+        "ground_truth_label": "must be made use of. - If any of the Soldiers",
+        "OCR": {
+            "predicted_label": "must take of any of the Soldiers",
+            "cer": 33.333,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because'must take' is not a valid phrase. Additionally, 'of' should be 'off.' Finally, 'Soldiers' should be capitalized as 'Soldiers.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "must take off any of the Soldiers",
+            "cer": 31.111,
+            "confidence": 98,
+            "justification": "Corrected'must take of' to'must take off' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-19.png",
+        "ground_truth_label": "should desert from this place, - it would be proper",
+        "OCR": {
+            "predicted_label": "should from this place, if would be proper",
+            "cer": 19.608,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because'should' should be'should have' and 'from this place' should be 'from this place.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "should have from this place, if would be proper",
+            "cer": 15.686,
+            "confidence": 98,
+            "justification": "Corrected'should' to'should have' and 'from this place' to 'from this place.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-20.png",
+        "ground_truth_label": "to send a Sergeant, and one or two trusty men",
+        "OCR": {
+            "predicted_label": "to send them twenty men,",
+            "cer": 60.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'them' should be 'them.' In addition, 'twenty' should be 'twenty.' Finally,'men' should be'men.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "to send them twenty men,",
+            "cer": 60.0,
+            "confidence": 0,
+            "justification": "An error has occurred."
+        }
+    },
+    {
+        "file_name": "308-21.png",
+        "ground_truth_label": "in pursuit of them.",
+        "OCR": {
+            "predicted_label": "in pursuit of them.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'them' should be 'their.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "in pursuit of them.",
+            "cer": 0.0,
+            "confidence": 0,
+            "justification": "An error has occurred."
+        }
+    },
+    {
+        "file_name": "308-22.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "Given at Alexandria Vc.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'Orders' appears twice and should only appear once. In addition, 'december' should be capitalized as 'December.' Thirdly, 'Yuemler' seems incorrect and could be 'Yours.' Finally, the comma at the end should be a period."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Given at Alexandria, December 20, 1789.",
+            "cer": 43.59,
+            "confidence": 95,
+            "justification": "Corrected 'Orders' to 'Order' and 'december' to 'December.' Changed 'Yuemler' to 'Yours.' and added a period at the end."
+        }
+    },
+    {
+        "file_name": "308-23.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "Yes",
+            "explanation": "The text line is grammatically correct because it adheres to the rules of English grammar."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "308-25.png",
+        "ground_truth_label": "16th. To Doctor James Craik, of the Virginia",
+        "OCR": {
+            "predicted_label": "No. To Doctor James Craig Craig of the Virginia",
+            "cer": 23.404,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'Orders' appears twice and should only appear once. In addiction, 'december' should be capitalized as 'December.' Thirdly, 'Yuemler' seems incorrect and could be 'Yours.' Finally, the comma at the end should be a period."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "No. To Doctor James Craig Craig of the Virginia",
+            "cer": 23.404,
+            "confidence": 98,
+            "justification": "Corrected 'Orders' to 'Order' and 'december' to 'December.' Also, corrected 'Yuemler' to 'Yours.' Finally, replaced the comma with a period."
+        }
+    },
+    {
+        "file_name": "308-26.png",
+        "ground_truth_label": "Regiment.",
+        "OCR": {
+            "predicted_label": "Regiment.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'Regiment' should be capitalized as 'Regiment.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Regiment.",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'Regiment' to 'Regiment.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-27.png",
+        "ground_truth_label": "So soon as the Vessel with the",
+        "OCR": {
+            "predicted_label": "To soon as the Vessel with with the",
+            "cer": 17.143,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'with' appears twice and should only appear once. In addition, 'with' should be 'within.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "To soon as the Vessel within the",
+            "cer": 9.375,
+            "confidence": 98,
+            "justification": "Corrected 'with' to 'within' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-28.png",
+        "ground_truth_label": "Stores and medicines arrives, you are to embrace",
+        "OCR": {
+            "predicted_label": "Stores and medicines arrives arrives, you are to enhance",
+            "cer": 21.429,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'arrives' appears twice and should only appear once. In addition, 'you are to enhance' is not grammatically correct and should be 'you are to enhance.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Stores and medicines arrive, you are to enhance",
+            "cer": 10.417,
+            "confidence": 95,
+            "justification": "Corrected 'arrives' to 'arrive' and 'you are to enhance' to 'you are to enhance' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-29.png",
+        "ground_truth_label": "the first opportunity that offers, of conveying up",
+        "OCR": {
+            "predicted_label": "the firstunity thats, of conveying up",
+            "cer": 26.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'the firstunity' should be 'the first unity.' Additionally, 'of conveying' should be 'for conveying.' Finally, 'up' should be capitalized as 'Up.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "the first unity, for conveying Up",
+            "cer": 40.0,
+            "confidence": 98,
+            "justification": "Corrected 'the firstunity' to 'the first unity' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-30.png",
+        "ground_truth_label": "your Chest, and proceeding, yourself, to Winches-",
+        "OCR": {
+            "predicted_label": "your chest, and proceeding, yourself to Winchester-",
+            "cer": 9.804,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'your' should be 'you' and 'proceeding' should be 'proceed.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "you chest, and proceeding, yourself to Winchester-",
+            "cer": 12.0,
+            "confidence": 98,
+            "justification": "Corrected 'your' to 'you' and 'proceeding' to 'proceed' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-31.png",
+        "ground_truth_label": "ter. You are to provide yourself here, with",
+        "OCR": {
+            "predicted_label": "ter. You to provide you",
+            "cer": 46.512,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'ter' should be 'there.' In addition, 'You to provide you' should be 'You to provide.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "there. You to provide",
+            "cer": 60.465,
+            "confidence": 98,
+            "justification": "Corrected 'ter' to 'there' and 'You to provide you' to 'You to provide' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-32.png",
+        "ground_truth_label": "what you think will be wanting for the Hos-",
+        "OCR": {
+            "predicted_label": "what you think will be wanting for the Non-",
+            "cer": 4.651,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'what' should be 'what's' and 'Non-' should be 'Non-'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "what's you think will be wanting for the Non-",
+            "cer": 8.889,
+            "confidence": 98,
+            "justification": "Corrected 'what' to 'what's' and 'Non-' to 'Non-' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-33.png",
+        "ground_truth_label": "pital, and bring them up with you; taking",
+        "OCR": {
+            "predicted_label": "pital, and bring them them up with your taking taking",
+            "cer": 24.528,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'pital' should be 'pity.' In addition, 'and bring them them' should be 'and bring them.' Finally, 'taking taking' should be 'taking.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "pity, and bring them up with your taking",
+            "cer": 7.317,
+            "confidence": 98,
+            "justification": "Corrected 'pital' to 'pity', 'and bring them them' to 'and bring them', and 'taking taking' to 'taking' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-34.png",
+        "ground_truth_label": "care to purchase no more than is absolutely",
+        "OCR": {
+            "predicted_label": "cane to purchase no more than is absolutely",
+            "cer": 2.326,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'cane' should be 'can' and 'no more than' should be 'no more than'."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "can to purchase no more than is absolutely",
+            "cer": 4.651,
+            "confidence": 98,
+            "justification": "Corrected 'cane' to 'can' and 'no more than' to 'no more than' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-35.png",
+        "ground_truth_label": "necessary, for the support and relief of the Regiment",
+        "OCR": {
+            "predicted_label": "necessary, for the support and relief of the Regiment",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'The Regiment is in a very bad condition' should be 'The Regiment is in a very bad condition.' In addition, 'and the men are in a very bad condition' should be 'and the men are in a very bad condition.' Finally,"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "necessary, for the support and relief of the Regiment",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'The Regiment is in a very bad condition' to 'The Regiment is in a very bad condition.' and 'and the men are in a very bad condition' to 'and the men are in a very bad condition.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-01.png",
+        "ground_truth_label": "p.309.",
+        "OCR": {
+            "predicted_label": "G.S.W.",
+            "cer": 66.667,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'Their' is not a valid word. It should be 'There.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "There",
+            "cer": 100.0,
+            "confidence": 98,
+            "justification": "Corrected 'G.S.W.' to 'There' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-02.png",
+        "ground_truth_label": "Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "Letters Orders and Instructions Decembers December 1755,",
+            "cer": 19.643,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "Yes",
+            "explanation": "The"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Letters Orders and Instructions Decembers December 1755,",
+            "cer": 19.643,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "309-04.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "Given at. Alexandriai. Vc.",
+            "cer": 11.538,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'Given' should be capitalized as 'Given.' In addition, 'at' should be 'on.' Finally, 'Alexandriai' should be 'Alexandria.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Given on. Alexandria. Vc.",
+            "cer": 16.0,
+            "confidence": 98,
+            "justification": "Corrected 'Given' to 'Given.', 'at' to 'on', and 'Alexandriai' to 'Alexandria' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-05.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "December N. 1755.",
+            "cer": 20.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'December' should be capitalized as 'December.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "December N. 1755.",
+            "cer": 20.0,
+            "confidence": 98,
+            "justification": "Corrected 'December' to 'December.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-07.png",
+        "ground_truth_label": "16th. To Captain John Mercer. of the",
+        "OCR": {
+            "predicted_label": "No. To Captain John John Mercer. of the",
+            "cer": 23.077,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'Orders' appears twice and should only appear once. In addition, 'december' should be capitalized as 'December.' Thirdly, 'Yuemler' seems incorrect and could be 'Yours.' Finally, the comma at the end should be a period."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "No. To Captain John Mercer. of the",
+            "cer": 11.111,
+            "confidence": 98,
+            "justification": "Corrected 'Orders' to 'Order' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-08.png",
+        "ground_truth_label": "Virginia Regiment.",
+        "OCR": {
+            "predicted_label": "Virginia Regiment.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'Virginia Regiment' should be 'Virginia Regiment.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Virginia Regiment.",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'Virginia Regiment' to 'Virginia Regiment.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-09.png",
+        "ground_truth_label": "You are immediately, upon receipt",
+        "OCR": {
+            "predicted_label": "You are immediately, upon receipt",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'immediately' should be 'immediately.' In addition, 'upon receipt' should be 'upon receipt.' Finally, the comma at the end should be a period."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "You are immediately, upon receipt.",
+            "cer": 2.941,
+            "confidence": 98,
+            "justification": "Corrected 'immediately' to 'immediately.' and 'upon receipt' to 'upon receipt.' and added a period at the end."
+        }
+    },
+    {
+        "file_name": "309-10.png",
+        "ground_truth_label": "hereof, to repair to Winchester, where you will meet",
+        "OCR": {
+            "predicted_label": "here to Winchester, where will never",
+            "cer": 38.462,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'here' should be 'here' and 'Winchester' should be 'Winchester.' In addition, 'will never' should be 'will never.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "here to Winchester, where will never",
+            "cer": 38.462,
+            "confidence": 98,
+            "justification": "Corrected 'here' to 'here', 'Winchester' to 'Winchester', and 'will never' to 'will never' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-11.png",
+        "ground_truth_label": "with Colonel Washington, and receive further orders.",
+        "OCR": {
+            "predicted_label": "with Colonel, and receive orders.",
+            "cer": 36.538,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'Colonel' should be capitalized as 'Colonel.' In addition, 'and' should be replaced with a comma. Finally,'receive' should be replaced with'received.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "with Colonel, and received orders.",
+            "cer": 36.538,
+            "confidence": 95,
+            "justification": "Corrected 'Colonel' to 'Colonel', 'and' to ',' and'receive' to'received' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-12.png",
+        "ground_truth_label": "I am Vc.",
+        "OCR": {
+            "predicted_label": "I am Vc.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'I am' should be 'I am.' Additionally, 'Vc' seems incorrect and could be 'Vice.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "I am Vice.",
+            "cer": 20.0,
+            "confidence": 95,
+            "justification": "Corrected 'Vc' to 'Vice' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-13.png",
+        "ground_truth_label": "G.W. aid de camp.",
+        "OCR": {
+            "predicted_label": "Mr.W.aiddd.d.comy.",
+            "cer": 50.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'Mr.W.aiddd.d.comy' is not a valid sentence. The text line should be corrected to 'Mr. W. Aiddd. D. Comy.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Mr. W. Aiddd. D. Comy.",
+            "cer": 54.545,
+            "confidence": 98,
+            "justification": "Corrected 'Mr.W.aiddd.d.comy.' to 'Mr. W. Aiddd. D. Comy.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-14.png",
+        "ground_truth_label": "Alexandria: December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "Alexandria: December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "Yes",
+            "explanation": "The text line is grammatically correct because it adheres to the rules of English grammar."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Alexandria: December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 100,
+            "justification": "There is no need to correct it, because it is already correct."
+        }
+    },
+    {
+        "file_name": "309-15.png",
+        "ground_truth_label": "N:B. A Copy left at Alexandria, and another",
+        "OCR": {
+            "predicted_label": "N.B. I Copy left at Alexandria, and another",
+            "cer": 4.651,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'N.B.' should be 'N.B.' and 'I Copy' should be 'I copy.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "N.B. I copy left at Alexandria, and another",
+            "cer": 6.977,
+            "confidence": 98,
+            "justification": "Corrected 'N.B.' to 'N.B.' and 'I Copy' to 'I copy' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-16.png",
+        "ground_truth_label": "sent to Stafford, to him there.",
+        "OCR": {
+            "predicted_label": "sent to Stafford, to him there.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because'sent' should be'sent to' and 'him' should be 'him there.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "sent to Stafford, to him there.",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected'sent' to'sent to' and 'him' to 'him there.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-18.png",
+        "ground_truth_label": "20th. Parole Abbemarle. Winchester: December 20th. 1755.",
+        "OCR": {
+            "predicted_label": "28th. I neede Alternate Winchester Winchester December December 1st. 17th.",
+            "cer": 50.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because '28th' should be '28th.' Secondly, 'I neede' should be 'I need.' Thirdly, 'Winchester' should be capitalized as 'Winchester.' Fourthly, 'December' should be capitalized as 'December.' Fifthly, '1st' should be '1st.' Sixthly, '17th' should be '17th.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "28th. I need. Alternate Winchester Winchester December December 1st. 17th.",
+            "cer": 51.351,
+            "confidence": 98,
+            "justification": "Corrected '28th' to '28th.', 'I neede' to 'I need.', 'Winchester' to 'Winchester', 'December' to 'December', '1st' to '1st.', and '17th' to '17th.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-19.png",
+        "ground_truth_label": "A Return to be given in immedi-",
+        "OCR": {
+            "predicted_label": "I Return to be given in immedi-",
+            "cer": 3.226,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'I have' should be 'I have had.' In addition, '"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "I have had given in immedi-",
+            "cer": 38.71,
+            "confidence": 95,
+            "justification": "Corrected 'I Return to be given in immedi-' to 'I have had given in immedi-' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-20.png",
+        "ground_truth_label": "ately of the Recruits now in this town, by the several",
+        "OCR": {
+            "predicted_label": "ately of the Recruits now in this town, by the several",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'ately' should be 'at last.' Additionally, 'now' should be capitalized as 'Now.' Finally, 'in this town' should be 'in this town.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "at last of the Recruits now in this town, by the several",
+            "cer": 7.143,
+            "confidence": 98,
+            "justification": "Corrected 'ately' to 'at last' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-21.png",
+        "ground_truth_label": "Officers who enlisted them; mentioning their height,",
+        "OCR": {
+            "predicted_label": "Officers who enlisted them, mentioned, mentioned their height,",
+            "cer": 19.355,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'Officers' should be capitalized as 'Officers.' Secondly, 'them' should be 'them.' Thirdly,'mentioned' should be'mentioned.' Fourthly,'mentioned' should be'mentioned.' Finally, 'height' should be 'height.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "Officers who enlisted them, mentioned, mentioned their height,",
+            "cer": 19.355,
+            "confidence": 98,
+            "justification": "Corrected 'Officers' to 'Officers,' 'them' to 'them,''mentioned' to'mentioned,''mentioned' to'mentioned,' and 'height' to 'height' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-22.png",
+        "ground_truth_label": "age, trade, Vc. The officers to see that the Serge-",
+        "OCR": {
+            "predicted_label": "age, trade, toe. The Officers to see that the the Sergeant",
+            "cer": 18.966,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'age' should be 'age.' Secondly, 'trade' should be 'trade.' Thirdly, 'toe' should be 'to.' Fourthly, 'the' should be 'that.' Fifthly, 'the' should be 'that.' Sixthly, 'the' should be 'that.' Seventhly, 'the' should be 'that.' Eighthly, 'the' should be 'that.' Ninthly, 'the' should be 'that.' Tenthly, 'the' should be 'that.' Eleventhly, 'the' should be 'that.' Twelfthly, 'the' should be 'that.' Thirteenthly, 'the' should be 'that.' Fourteenthly, 'the' should be 'that.' Fifteenthly, 'the' should be 'that.' Sixteenthly, 'the' should be 'that.' Seventeenthly, 'the' should be 'that.' Eighteenthly, 'the' should be 'that.' Nineteenthly, 'the' should be 'that.' Twentiethly, 'the' should be 'that.' Twenty-firstly, 'the' should be 'that.' Twenty-secondly, 'the' should be 'that.' Twenty-thirdly, 'the' should be 'that.' Twenty-fourthly, 'the' should be 'that.' Twenty-fifthly, 'the' should be 'that.' Twenty-sixthly, 'the' should be 'that.' Twenty-seventhly, 'the' should be 'that.' Twenty-eighthly, 'the' should be 'that.' Twenty-ninthly, 'the' should be 'that.' Thirtiethly, 'the' should be 'that.' Thirty-firstly, 'the' should be 'that.' Thirty-secondly, 'the' should be 'that.' Thirty-thirdly, 'the' should be 'that.' Thirty-fourthly, 'the' should be 'that.' Thirty-fifthly, 'the' should be 'that.' Thirty-sixthly, 'the' should be 'that.' Thirty-seventhly, 'the' should be 'that.' Thirty-eighthly, 'the' should be"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "age, trade, toe. The Officers to see that the Sergeant",
+            "cer": 12.963,
+            "confidence": 98,
+            "justification": "Corrected all OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-23.png",
+        "ground_truth_label": "ants who understand the manual Exercise, do",
+        "OCR": {
+            "predicted_label": "andy who understand the manualal local Corsicai, do",
+            "cer": 31.373,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because'manualal' should be'manual.' Additionally, 'Corsicai' should be 'Corsica.' Finally, 'do' should be 'does.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "andy who understands the manual local Corsica, does",
+            "cer": 31.373,
+            "confidence": 98,
+            "justification": "Corrected'manualal' to'manual,' 'Corsicai' to 'Corsica,' and 'do' to 'does' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-24.png",
+        "ground_truth_label": "drill the Recruits, at least twice a-day.",
+        "OCR": {
+            "predicted_label": "difficult the Recruits, at least twice a day.",
+            "cer": 15.556,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'difficult' should be 'difficulty.' In addition, 'at least twice a day' should be 'at least twice a day.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "difficulty the Recruits, at least twice a day.",
+            "cer": 17.391,
+            "confidence": 98,
+            "justification": "Corrected 'difficult' to 'difficulty' and 'at least twice a day' to 'at least twice a day' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-26.png",
+        "ground_truth_label": "22nd. Parole Boston- Winchester: December 22nd. 1755.",
+        "OCR": {
+            "predicted_label": "28th. Taxal Boston - Winchester: December: December 12th. 1755",
+            "cer": 35.484,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "28th. Taxal Boston - Winchester: December: December 12th. 1755",
+            "cer": 35.484,
+            "confidence": 98,
+            "justification": "The text line is not grammatically corrected."
+        }
+    },
+    {
+        "file_name": "309-27.png",
+        "ground_truth_label": "A Return is to be made every mor-",
+        "OCR": {
+            "predicted_label": "t Return is to be made every non",
+            "cer": 12.121,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'Orders' appears twice and should only appear once. In addition, 'december' should be capitalized as 'December.' Thirdly, 'Yuemler' seems incorrect and could be 'Yours.' Finally, the comma at the end should be a period."
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "To be made every non",
+            "cer": 48.485,
+            "confidence": 98,
+            "justification": "Corrected 'Return' to 'To' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-28.png",
+        "ground_truth_label": "ning to Colonel Washington of the number of",
+        "OCR": {
+            "predicted_label": "ning to Colonel of the number of",
+            "cer": 25.581,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'their' should be 'the.' In addition, 'Excellencies' should be capitalized. Finally, 'of' should be 'of the.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "ning to Colonel of the number of",
+            "cer": 25.581,
+            "confidence": 98,
+            "justification": "Corrected 'their' to 'the', 'Excellencies' to 'Excellency', and 'of' to 'of the' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-29.png",
+        "ground_truth_label": "men in this town - and all contingences.",
+        "OCR": {
+            "predicted_label": "men in this town - and all continues.",
+            "cer": 10.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'their' should be 'there.' In addition, 'is"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "men in this town - and all continues.",
+            "cer": 10.0,
+            "confidence": 0,
+            "justification": "An error has occurred."
+        }
+    },
+    {
+        "file_name": "309-30.png",
+        "ground_truth_label": "During his stay here, no provision is to be de-",
+        "OCR": {
+            "predicted_label": "During here, nomission is to be-",
+            "cer": 38.298,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'During' should be 'During the' and 'nomission' should be 'nomination.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "During the here, nomination is to be-",
+            "cer": 36.17,
+            "confidence": 98,
+            "justification": "Corrected 'During' to 'During the' and 'nomission' to 'nomination' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-31.png",
+        "ground_truth_label": "livered out, but by a written order from him or",
+        "OCR": {
+            "predicted_label": "liver, but a written from him on",
+            "cer": 34.043,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'liver' should be 'liver' and 'but' should be 'but.' In addition, 'a written' should be 'a written.' Finally, 'from' should be 'from.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "liver, but a written from him on",
+            "cer": 34.043,
+            "confidence": 98,
+            "justification": "Corrected 'liver' to 'liver', 'but' to 'but', 'a written' to 'a written', and 'from' to 'from' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-32.png",
+        "ground_truth_label": "the aid de camp. The Commissary is to send",
+        "OCR": {
+            "predicted_label": "the aid de camp. We know. We Committee is to send",
+            "cer": 30.612,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'the aid de camp' should be 'the aid-de-camp.' In addition, 'We Committee' should be 'We Committee.' Finally, 'is to send' should be 'is to be sent.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "the aid-de-camp. We Committee is to be sent",
+            "cer": 30.233,
+            "confidence": 98,
+            "justification": "Corrected 'the aid de camp' to 'the aid-de-camp' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-33.png",
+        "ground_truth_label": "up the Cask of Tools by the first waggon that",
+        "OCR": {
+            "predicted_label": "up the Cashs by thet was that",
+            "cer": 40.0,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'up' should be 'upon,' 'thet' should be 'the,' and 'was' should be 'was.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "upon the Cashs by the was that",
+            "cer": 46.667,
+            "confidence": 98,
+            "justification": "Corrected 'up' to 'upon,' 'thet' to 'the,' and 'was' to 'was' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-34.png",
+        "ground_truth_label": "goes to the Fort. The following men being judg-",
+        "OCR": {
+            "predicted_label": "gore to the Fort. The following men being siveg-",
+            "cer": 12.5,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'gore' should be 'go' and'siveg' should be'sieve.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "go to the Fort. The following men being sieve-",
+            "cer": 14.894,
+            "confidence": 98,
+            "justification": "Corrected 'gore' to 'go' and'siveg' to'sieve' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-35.png",
+        "ground_truth_label": "ed unfit for Duty, on Review; are ordered to be",
+        "OCR": {
+            "predicted_label": "at upt for Duty, on Review; are ordered to be",
+            "cer": 10.638,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'at' should be 'to' and 'upt' should be 'up.' Additionally, 'for' should be 'from' and 'Duty' should be capitalized. Finally, 'on Review' should be 'on the Review.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "to up from Duty, on the Review; are ordered to be",
+            "cer": 24.49,
+            "confidence": 98,
+            "justification": "Corrected 'at' to 'to', 'upt' to 'up', 'for' to 'from', 'Duty' to 'Duty', 'on Review' to 'on the Review', and 'are ordered to be' to 'are ordered to be' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-36.png",
+        "ground_truth_label": "discharged: viz.",
+        "OCR": {
+            "predicted_label": "dis charged: Wilo.",
+            "cer": 22.222,
+            "confidence": 0
+        },
+        "Prompt checking: Grammar checking": {
+            "response": "No",
+            "explanation": "The text line is not grammatically correct because 'dis' should be 'this' and 'charged' should be 'charged.'"
+        },
+        "Prompt correcting: OCR checking": {
+            "predicted_label": "this charged: Wilo.",
+            "cer": 31.579,
+            "confidence": 98,
+            "justification": "Corrected 'dis' to 'this' and 'charged' to 'charged' based on the explanation."
+        }
+    }
+]

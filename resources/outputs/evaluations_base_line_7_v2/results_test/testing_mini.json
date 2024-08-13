@@ -1,0 +1,44 @@
+[
+    {
+        "file_name": "308-01.png",
+        "ground_truth_label": "308. Letters Orders and Instructions December 1755.",
+        "predicted_label": "20%. Letters, Orders and Instructions, December 1755.",
+        "confidence": 0.9245283018867925,
+        "cer": 0.0784313725490196
+    },
+    {
+        "file_name": "308-03.png",
+        "ground_truth_label": "remain here until the arrival of the vessel with",
+        "predicted_label": "remain until the animal of the first with.",
+        "confidence": 0.7083333333333333,
+        "cer": 0.2916666666666667
+    },
+    {
+        "file_name": "308-04.png",
+        "ground_truth_label": "the Stores, Vc. and to be under the same directions",
+        "predicted_label": "the Flours, Mr. Vc. and to be under the same same directions.",
+        "confidence": 0.7704918032786885,
+        "cer": 0.27450980392156865
+    },
+    {
+        "file_name": "308-05.png",
+        "ground_truth_label": "as before ordered. So soon as the Stores arrive, you",
+        "predicted_label": "as before ordered. To soon as the Stores arrive, you.",
+        "confidence": 0.9622641509433962,
+        "cer": 0.038461538461538464
+    },
+    {
+        "file_name": "308-06.png",
+        "ground_truth_label": "are, with all possible dispath, to procure a suf-",
+        "predicted_label": "are, with all all possible dispatch directed, to provide a self-",
+        "confidence": 0.703125,
+        "cer": 0.3877551020408163
+    },
+    {
+        "file_name": "308-07.png",
+        "ground_truth_label": "ficient number of waggons to carry them to Win-",
+        "predicted_label": "fcient numbers to carry them to Win-.",
+        "confidence": 0.7446808510638299,
+        "cer": 0.2553191489361702
+    }
+]

@@ -1,0 +1,1237 @@
+[
+    {
+        "file_name": "308-01.png",
+        "ground_truth_label": "308. Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "30th. Letters Orders and Instructions December 1755.",
+            "cer": 3.846,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'Letters' is incorrectly written as 'Letters,' which is likely due to OCR difficulties with capitalization. Secondly, the word 'Decembers' is incorrectly written in plural form, likely due to OCR difficulties with pluralization. Thirdly, the word '1755' is incorrectly written as '1755,' which is likely due to OCR difficulties with numbers."
+        },
+        "Prompt correcting": {
+            "predicted_label": "30th. Letters Orders and Instructions December 1755.",
+            "cer": 3.846,
+            "confidence": 98,
+            "justification": "Corrected 'Letters,' 'Decembers,' and '1755' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-03.png",
+        "ground_truth_label": "remain here until the arrival of the vessel with",
+        "OCR": {
+            "predicted_label": "remain here until the animal of the usual with,",
+            "cer": 16.667,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'animal' is misspelled as 'animal.' Secondly, the word 'usual' is misspelled as 'usual.' Thirdly, the word 'with' is misspelled as 'with.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "remain here until the animal of the usual with,",
+            "cer": 16.667,
+            "confidence": 98,
+            "justification": "Corrected 'animal' to 'animal,' 'usual' to 'usual,' and 'with' to 'with' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-04.png",
+        "ground_truth_label": "the Stores, Vc. and to be under the same directions",
+        "OCR": {
+            "predicted_label": "the Yours, Vc. and to be under the same directions",
+            "cer": 7.843,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'Yours' is misspelled as 'Yours,' which is likely due to OCR difficulties with the letter's.' Secondly, the word 'and' is incorrectly written as 'and,' which is likely due to OCR difficulties with the letter 't.' Thirdly, the word 'to' is incorrectly written as 'to,' which is likely due to OCR difficulties with the letter 'o.' Finally, the word 'under' is incorrectly written as 'under,' which is likely due to OCR difficulties with the letter 'e.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "the Yours, VC. and to be under the same directions",
+            "cer": 9.804,
+            "confidence": 98,
+            "justification": "Corrected 'Yours,' to 'Yours', 'and,' to 'and', 'to,' to 'to', and 'under,' to 'under' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-05.png",
+        "ground_truth_label": "as before ordered. So soon as the Stores arrive, you",
+        "OCR": {
+            "predicted_label": "as before ordered. To soon as the Stores arrive, you",
+            "cer": 1.923,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'before' is misspelled as 'before.' Secondly, the word 'Stores' is misspelled as 'Stores.' Thirdly, the word 'arrive' is misspelled as 'arrive.' Fourthly, the word 'you' is misspelled as 'you.' Finally, the word'soon' is misspelled as'soon.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "as before ordered. To soon as the Stores arrive, you",
+            "cer": 1.923,
+            "confidence": 98,
+            "justification": "Corrected 'before' to 'before', 'Stores' to 'Stores', 'arrive' to 'arrive', 'you' to 'you', and'soon' to'soon' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-06.png",
+        "ground_truth_label": "are, with all possible dispath, to procure a suf-",
+        "OCR": {
+            "predicted_label": "are, with all possible dispatch, to provide to provide a sub-",
+            "cer": 24.59,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'are' is repeated twice, likely due to OCR difficulties with duplicate words. Secondly, the word 'with' is incorrectly written as 'with all possible dispatch,' which is likely a result of OCR difficulties with punctuation. Finally, the word 'to' is incorrectly written as 'to provide,' which is likely a result of OCR difficulties with spelling."
+        },
+        "Prompt correcting": {
+            "predicted_label": "are, with all possible dispatch, to provide a sub-",
+            "cer": 10.0,
+            "confidence": 98,
+            "justification": "Corrected 'are' to 'are' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-07.png",
+        "ground_truth_label": "ficient number of waggons to carry them to Win-",
+        "OCR": {
+            "predicted_label": "ficialent number of Waggons to carry to carry them to Non-",
+            "cer": 24.138,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'officialent' is misspelled, likely due to OCR difficulties with the 'f' and 'i' characters. Secondly, the word 'carry' is repeated twice, likely due to OCR difficulties with the 'r' character. Thirdly, the word 'them' is misspelled, likely due to OCR difficulties with the 'h' character."
+        },
+        "Prompt correcting": {
+            "predicted_label": "official number of Waggons to carry them to Non-",
+            "cer": 16.667,
+            "confidence": 98,
+            "justification": "Corrected 'officialent' to 'official', 'carry' to 'carry', and 'them' to 'them' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-08.png",
+        "ground_truth_label": "chester; whither they are to be sent, under the",
+        "OCR": {
+            "predicted_label": "chester; whether they are to be sent, number the",
+            "cer": 8.333,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'chester' is misspelled as 'chester'. Secondly, the word 'whether' is misspelled as 'whether'. Thirdly, the word 'they' is misspelled as 'they'. Fourthly, the word 'number' is misspelled as 'number'. Fifthly, the word 'the' is misspelled as 'the'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "chester; whether they are to be sent, number the",
+            "cer": 8.333,
+            "confidence": 98,
+            "justification": "Corrected 'chester' to 'chester', 'whether' to 'whether', 'they' to 'they', 'number' to 'number', and 'the' to 'the' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-09.png",
+        "ground_truth_label": "escort of the Soldiers now here: except the Suits",
+        "OCR": {
+            "predicted_label": "escorit of the Soldiers now now here: except the Suits Suits",
+            "cer": 18.333,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'Soldiers' is misspelled as 'Soldiers.' Secondly, the word 'now' is repeated twice, likely due to OCR difficulties with duplicate words. Thirdly, the word 'Suits' is misspelled as 'Suits.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "escorit of the Soldiers here: except the Suits",
+            "cer": 10.204,
+            "confidence": 95,
+            "justification": "Corrected 'Soldiers now now' to 'Soldiers here' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-10.png",
+        "ground_truth_label": "of Clothes; Shoes, Stocking, Shirts, Vc. proportiona-",
+        "OCR": {
+            "predicted_label": "of Octobers, Ibids, Vrpationa-",
+            "cer": 62.264,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'Octobers' is incorrectly written in plural form, likely due to OCR difficulties with pluralization. Secondly, the word 'Ibids' is misspelled, likely due to OCR difficulties with recognizing the word 'ibid.' Thirdly, the word 'Vrpationa-' is likely a misspelling of 'Vrationa-,' which is a common OCR error."
+        },
+        "Prompt correcting": {
+            "predicted_label": "of October, Ibids, Vrationa-",
+            "cer": 64.151,
+            "confidence": 95,
+            "justification": "Corrected 'Octobers' to 'October' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-11.png",
+        "ground_truth_label": "bly which are to be left with Colonel Carlyle.",
+        "OCR": {
+            "predicted_label": "bly, which are to be left with Colonial Carlyle:",
+            "cer": 8.333,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'bly' is misspelled as 'bly,' which is likely due to OCR difficulties with the letter 'y.' Secondly, the word 'Colonial' is misspelled as 'Colonial,' which is likely due to OCR difficulties with the letter 'l.' Thirdly, the word 'Carlyle' is misspelled as 'Carlyle,' which is likely due to OCR difficulties with the letter 'e.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "bly, which are to be left with Colonial Carlyle:",
+            "cer": 8.333,
+            "confidence": 98,
+            "justification": "Corrected 'bly' to 'bly,' 'Colonial' to 'Colonial,' and 'Carlyle' to 'Carlyle' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-12.png",
+        "ground_truth_label": "You are to be very careful of all the",
+        "OCR": {
+            "predicted_label": "You are to be very careful of all the",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'You' is incorrectly written as 'You are,' which is a common error caused by OCR software mistaking a space for a letter. Secondly, the word 'to' is incorrectly written as 'to be,' which is another common error caused by OCR software mistaking a space for a letter. Thirdly, the word 'careful' is incorrectly written as 'careful of all the,' which is a common error caused by OCR software mistaking a space for a letter. Finally, the word 'all' is incorrectly written as 'all the,' which is a common error caused by OCR software mistaking a space for a letter."
+        },
+        "Prompt correcting": {
+            "predicted_label": "You are to be very careful of all the",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-13.png",
+        "ground_truth_label": "Things delivered into the waggons, and see that",
+        "OCR": {
+            "predicted_label": "things delivered into the waggons, and the that",
+            "cer": 6.383,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'things' is misspelled as 'things'. Secondly, the word 'delivered' is misspelled as 'delivered'. Thirdly, the word 'waggons' is misspelled as 'waggons'. Fourthly, the word 'that' is misspelled as 'that'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "things delivered into the waggons, and the that",
+            "cer": 6.383,
+            "confidence": 98,
+            "justification": "Corrected 'things' to 'things', 'delivered' to 'delivered', 'waggons' to 'waggons', and 'that' to 'that' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-14.png",
+        "ground_truth_label": "a strict Guard is kept over them, that no embez-",
+        "OCR": {
+            "predicted_label": "a joint is kept them, and es-",
+            "cer": 50.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'joint' is misspelled as 'jont.' Secondly, the word 'them' is misspelled as 'them.' Thirdly, the word 'es' is misspelled as 'es.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "a joint is kept them, and es-",
+            "cer": 50.0,
+            "confidence": 98,
+            "justification": "Corrected 'jont' to 'joint', 'them' to 'them', and 'es' to 'es' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-15.png",
+        "ground_truth_label": "zlement is made. If your men can not be",
+        "OCR": {
+            "predicted_label": "ferment is made. If your your view can can not be",
+            "cer": 28.571,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'ferment' is misspelled as 'ferment' due to OCR difficulties with the letter'm'. Secondly, the word 'your' is repeated twice, likely due to OCR difficulties with the letter 'r'. Thirdly, the word 'view' is misspelled as 'view' due to OCR difficulties with the letter 'v'. Finally, the word 'can' is repeated twice, likely due to OCR difficulties with the letter 'n'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "ferment is made. If your view can not be",
+            "cer": 15.0,
+            "confidence": 95,
+            "justification": "Corrected 'ferment' to 'ferment', 'your' to 'your', 'view' to 'view', and 'can' to 'can' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-16.png",
+        "ground_truth_label": "conveniently Quartered on their march up; there",
+        "OCR": {
+            "predicted_label": "nonmeminently chartered on their march up; up; - here",
+            "cer": 22.642,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'nonmeminently' is misspelled, likely due to OCR difficulties with the unusual spelling. Secondly, the word 'chartered' is misspelled, likely due to OCR difficulties with the unusual spelling. Thirdly, the word'march' is misspelled, likely due to OCR difficulties with the unusual spelling. Fourthly, the word 'up' is repeated twice, likely due to OCR difficulties with the unusual spelling. Fifthly, the word 'here' is misspelled, likely due to OCR difficulties with the unusual spelling."
+        },
+        "Prompt correcting": {
+            "predicted_label": "nonmeminently chartered on their march up; up; - here",
+            "cer": 22.642,
+            "confidence": 98,
+            "justification": "Corrected OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-17.png",
+        "ground_truth_label": "will be a number of Tents among the Stores, which",
+        "OCR": {
+            "predicted_label": "will be number of limits, which",
+            "cer": 42.857,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'limits' is misspelled as 'limit' and should be corrected to 'limits.' Secondly, the word 'which' is missing a space after it, which should be corrected to 'which '.' Thirdly, the word 'number' is misspelled as 'numbe' and should be corrected to 'number.' Finally, the word 'of' is missing a space after it, which should be corrected to 'of '.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "will be numbers of limits, which",
+            "cer": 44.898,
+            "confidence": 98,
+            "justification": "Corrected 'limits' to 'limits', 'limit' to 'limits', 'which' to 'which ', 'number' to 'number', and 'of' to 'of '."
+        }
+    },
+    {
+        "file_name": "308-18.png",
+        "ground_truth_label": "must be made use of. - If any of the Soldiers",
+        "OCR": {
+            "predicted_label": "must take of any of the Soldiers",
+            "cer": 33.333,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word'must' is incorrectly spelled as'must take,' which is likely due to OCR difficulties with the letter 't.' Secondly, the word 'Soldiers' is incorrectly written in plural form, likely due to OCR difficulties with pluralization. Thirdly, the word 'of' is incorrectly written as 'of any,' likely due to OCR difficulties with the letter 'f.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "must take of the Soldiers",
+            "cer": 48.889,
+            "confidence": 95,
+            "justification": "Corrected'must take of any' to'must take of' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-19.png",
+        "ground_truth_label": "should desert from this place, - it would be proper",
+        "OCR": {
+            "predicted_label": "should from this place, if would be proper",
+            "cer": 19.608,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'this' is incorrectly written as 'thi' due to OCR difficulties with the letter's.' Secondly, the word 'place' is incorrectly written as 'pla' due to OCR difficulties with the letter 'c.' Thirdly, the word 'would' is incorrectly written as 'would' due to OCR difficulties with the letter 'd.' Finally, the word 'proper' is incorrectly written as 'proper' due to OCR difficulties with the letter 'r.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "should from this place, if would be proper",
+            "cer": 19.608,
+            "confidence": 98,
+            "justification": "Corrected OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-20.png",
+        "ground_truth_label": "to send a Sergeant, and one or two trusty men",
+        "OCR": {
+            "predicted_label": "to send them twenty men,",
+            "cer": 60.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'them' is incorrectly written as 'them,' which is likely due to OCR difficulties with the letter'm.' Secondly, the word 'twenty' is incorrectly written as 'twenty,' which is likely due to OCR difficulties with the letter 'y.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "to send them twenty men,",
+            "cer": 60.0,
+            "confidence": 98,
+            "justification": "Corrected 'them,' to 'them' and 'twenty,' to 'twenty' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-21.png",
+        "ground_truth_label": "in pursuit of them.",
+        "OCR": {
+            "predicted_label": "in pursuit of them.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The word 'them' is used incorrectly in the text line. It should be 'them' instead of 'them'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "in pursuit of them.",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'them' to 'them' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-22.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "Given at Alexandria Vc.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'Given' is misspelled as 'Given' with an extra 'n'. Secondly, the word 'Alexandria' is misspelled as 'Alexandria' with an extra 'v'. Thirdly, the word 'Vc' is misspelled as 'Vc' with an extra 'c'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Given at Alexandria Vc.",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'Given' to 'Given' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-23.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains OCR errors. The word 'December' is spelled incorrectly as 'Decembers'. Additionally, the date '16th' is written as '16th' instead of '16th'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'Decembers' to 'December' and '16th' to '16th' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-25.png",
+        "ground_truth_label": "16th. To Doctor James Craik, of the Virginia",
+        "OCR": {
+            "predicted_label": "No. To Doctor James Craig Craig of the Virginia",
+            "cer": 23.404,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'Doctor' is repeated twice, likely due to OCR difficulties with duplicate words. Secondly, the word 'Virginia' is misspelled as 'Virginia,' which is likely due to OCR difficulties with spelling. Thirdly, the word 'Craig' is repeated twice, likely due to OCR difficulties with duplicate words."
+        },
+        "Prompt correcting": {
+            "predicted_label": "No. To Doctor James Craig of the Virginia",
+            "cer": 13.636,
+            "confidence": 95,
+            "justification": "Corrected 'Doctor' to 'Doctor' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-26.png",
+        "ground_truth_label": "Regiment.",
+        "OCR": {
+            "predicted_label": "Regiment.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The word 'Regiment' is spelled incorrectly. It should be 'Regiment.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "Regiment.",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'Regiment' to 'Regiment.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-27.png",
+        "ground_truth_label": "So soon as the Vessel with the",
+        "OCR": {
+            "predicted_label": "To soon as the Vessel with with the",
+            "cer": 17.143,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors, including repeated words, incorrect word usage, and spelling mistakes."
+        },
+        "Prompt correcting": {
+            "predicted_label": "To soon as the Vessel with with the",
+            "cer": 17.143,
+            "confidence": 0,
+            "justification": "An error has occurred."
+        }
+    },
+    {
+        "file_name": "308-28.png",
+        "ground_truth_label": "Stores and medicines arrives, you are to embrace",
+        "OCR": {
+            "predicted_label": "Stores and medicines arrives arrives, you are to enhance",
+            "cer": 21.429,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'Stores' is misspelled as 'Stores,' which is likely due to OCR difficulties with the letter 'r.' Secondly, the word 'arrives' is used twice in the text line, likely due to OCR difficulties with duplicate words. Thirdly, the word 'you' is misspelled as 'you,' which is likely due to OCR difficulties with the letter 'u.' Finally, the word 'enhance' is misspelled as 'enhance,' which is likely due to OCR difficulties with the letter 'e.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "Stores and medicines arrive, you are to enhance",
+            "cer": 10.417,
+            "confidence": 95,
+            "justification": "Corrected 'Stores' to 'Stores,' 'arrives' to 'arrive,' 'you' to 'you,' and 'enhance' to 'enhance' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-29.png",
+        "ground_truth_label": "the first opportunity that offers, of conveying up",
+        "OCR": {
+            "predicted_label": "the firstunity thats, of conveying up",
+            "cer": 26.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'unity' is misspelled as 'unithy.' Secondly, the word 'conveying' is misspelled as 'conveying.' Thirdly, the word 'up' is misspelled as 'thats.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "the first unity, of conveying up",
+            "cer": 36.0,
+            "confidence": 98,
+            "justification": "Corrected 'unity' to 'unity', 'conveying' to 'conveying', and 'thats' to 'up' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-30.png",
+        "ground_truth_label": "your Chest, and proceeding, yourself, to Winches-",
+        "OCR": {
+            "predicted_label": "your chest, and proceeding, yourself to Winchester-",
+            "cer": 9.804,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'your' is incorrectly spelled as 'your' with a missing 'e'. Secondly, the word 'chest' is misspelled as 'chest' with a missing 'e'. Thirdly, the word 'proceeding' is misspelled as 'proceeding' with a missing 'e'. Finally, the word 'Winchester' is misspelled as 'Winchester' with a missing 'e'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "your chest, and proceeding, yourself to Winchester-",
+            "cer": 9.804,
+            "confidence": 98,
+            "justification": "Corrected 'your' to 'your', 'chest' to 'chest', 'proceeding' to 'proceeding', and 'Winchester' to 'Winchester' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-31.png",
+        "ground_truth_label": "ter. You are to provide yourself here, with",
+        "OCR": {
+            "predicted_label": "ter. You to provide you",
+            "cer": 46.512,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'ter' is misspelled as 'ter.' Secondly, the word 'you' is misspelled as 'you.' Thirdly, the word 'provide' is misspelled as 'provide.' Fourthly, the word 'you' is misspelled as 'you.' Fifthly, the word 'provide' is misspelled as 'provide.' Sixthly, the word 'you' is misspelled as 'you.' Seventhly, the word 'provide' is misspelled as 'provide.' Eighthly, the word 'you' is misspelled as 'you.' Ninthly, the word 'provide' is misspelled as 'provide.' Tenthly, the word 'you' is misspelled as 'you.' Eleventhly, the word 'provide' is misspelled as 'provide.' Twelfthly, the word 'you' is misspelled as 'you.' Thirteenthly, the word 'provide' is misspelled as 'provide.' Fourteenthly, the word 'you' is misspelled as 'you.' Fifteenthly, the word 'provide' is misspelled as 'provide.' Sixteenthly, the word 'you' is misspelled as 'you.' Seventeenthly, the word 'provide' is misspelled as 'provide.' Eighteenthly, the word 'you' is misspelled as 'you.' Nineteenthly, the word 'provide' is misspelled as 'provide.' Twentiethly, the word 'you' is misspelled as 'you.' Twenty-firstly, the word 'provide' is misspelled as 'provide.' Twenty-secondly, the word 'you' is misspelled as 'you.' Twenty-thirdly, the word 'provide' is misspelled as 'provide.' Twenty-fourthly, the word 'you' is misspelled as 'you.' Twenty-fifthly, the word 'provide' is misspelled as 'provide.' Twenty-sixthly, the word 'you' is misspelled as 'you.' Twenty-seventhly, the word 'provide' is misspelled as '"
+        },
+        "Prompt correcting": {
+            "predicted_label": "ter. You to provide you.",
+            "cer": 46.512,
+            "confidence": 98,
+            "justification": "Corrected all OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-32.png",
+        "ground_truth_label": "what you think will be wanting for the Hos-",
+        "OCR": {
+            "predicted_label": "what you think will be wanting for the Non-",
+            "cer": 4.651,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'Non-' is incorrectly written, likely due to OCR difficulties with hyphenation. Secondly, the word 'wanting' is misspelled, likely due to OCR difficulties with the 'g' and 'n' letters. Thirdly, the word 'for' is incorrectly written, likely due to OCR difficulties with the 'f' and 'o' letters."
+        },
+        "Prompt correcting": {
+            "predicted_label": "what you think will be wanting for the Non-",
+            "cer": 4.651,
+            "confidence": 98,
+            "justification": "Corrected the OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-33.png",
+        "ground_truth_label": "pital, and bring them up with you; taking",
+        "OCR": {
+            "predicted_label": "pital, and bring them them up with your taking taking",
+            "cer": 24.528,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'pital' is misspelled as 'pital,' likely due to OCR difficulties with the letter 'i.' Secondly, the word 'them' is repeated twice, likely due to OCR difficulties with the letter'm.' Thirdly, the word 'taking' is repeated twice, likely due to OCR difficulties with the letter 'k.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "pital, and bring them up with your taking",
+            "cer": 2.439,
+            "confidence": 95,
+            "justification": "Corrected 'pital' to 'pital,' 'them' to 'them,' and 'taking' to 'taking' based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-34.png",
+        "ground_truth_label": "care to purchase no more than is absolutely",
+        "OCR": {
+            "predicted_label": "cane to purchase no more than is absolutely",
+            "cer": 2.326,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'cane' is misspelled as 'cane,' which is likely due to OCR difficulties with the letter 'a.' Secondly, the word 'purchase' is misspelled as 'purchase,' which is likely due to OCR difficulties with the letter 'u.' Thirdly, the word 'no' is misspelled as 'no,' which is likely due to OCR difficulties with the letter 'o.' Finally, the word 'absolutely' is misspelled as 'absolutely,' which is likely due to OCR difficulties with the letter 'u.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "cane to purchase no more than is absolutely",
+            "cer": 2.326,
+            "confidence": 98,
+            "justification": "Corrected OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "308-35.png",
+        "ground_truth_label": "necessary, for the support and relief of the Regiment",
+        "OCR": {
+            "predicted_label": "necessary, for the support and relief of the Regiment",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'necessary' is misspelled as 'neccesary.' Secondly, the word 'for' is missing a space between it and the word 'the.' Thirdly, the word 'Regiment' is misspelled as 'Regiment.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "necessary, for the support and relief of the Regiment",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'neccesary' to 'necessary', added a space between 'for' and 'the', and corrected 'Regiment' to 'Regiment'."
+        }
+    },
+    {
+        "file_name": "309-01.png",
+        "ground_truth_label": "p.309.",
+        "OCR": {
+            "predicted_label": "G.S.W.",
+            "cer": 66.667,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains OCR errors. The word 'G.S.W.' is likely an abbreviation for 'Government Service Warrant' or 'Government Service Warrant Officer,' which is not a valid word in the English language. Additionally, the word 'Warrant' is misspelled as 'Warrant.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "Government Service Warrant",
+            "cer": 100.0,
+            "confidence": 95,
+            "justification": "Corrected 'G.S.W.' to 'Government Service Warrant' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-02.png",
+        "ground_truth_label": "Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "Letters Orders and Instructions Decembers December 1755,",
+            "cer": 19.643,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'Orders' is repeated, likely due to OCR difficulties with duplicate words. Secondly, the word 'Decembers' is incorrectly written in plural form, likely due to OCR difficulties with pluralization. Thirdly, the word 'December' is misspelled as 'Decembers,' likely due to OCR difficulties with spelling."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Letters Orders and Instructions December 1755",
+            "cer": 2.174,
+            "confidence": 95,
+            "justification": "Corrected 'Orders' to 'Order' based on the explanation. Corrected 'Decembers' to 'December' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-04.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "Given at. Alexandriai. Vc.",
+            "cer": 11.538,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'Given' is misspelled as 'Given' with an extra 'n'. Secondly, the word 'Alexandriai' is misspelled as 'Alexandriai' with an extra 'i'. Thirdly, the word 'Ve' is misspelled as 'Ve' with an extra 'e'. Finally, the word 'Given' is misspelled as 'Given' with an extra 'n'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Given at. Alexandria. V.",
+            "cer": 12.5,
+            "confidence": 95,
+            "justification": "Corrected 'Given' to 'Given', 'Alexandriai' to 'Alexandria', 'Ve' to 'V', and 'Given' to 'Given' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-05.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "December N. 1755.",
+            "cer": 20.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains OCR errors. The word 'December' is misspelled as 'Decembers' and the number '1755' is incorrectly written as '175'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "December N. 1755.",
+            "cer": 20.0,
+            "confidence": 99,
+            "justification": "Corrected 'Decembers' to 'December' and '175' to '1755' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-07.png",
+        "ground_truth_label": "16th. To Captain John Mercer. of the",
+        "OCR": {
+            "predicted_label": "No. To Captain John John Mercer. of the",
+            "cer": 23.077,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the phrase 'No. To Captain John John Mercer' is a clear example of a repeated word error, likely caused by the OCR software mistakenly duplicating the word 'John.' Secondly, the word 'of' is incorrectly written in plural form, likely due to OCR difficulties with pluralization."
+        },
+        "Prompt correcting": {
+            "predicted_label": "No. To Captain John Mercer. of the",
+            "cer": 11.111,
+            "confidence": 95,
+            "justification": "Corrected 'John John' to 'John' and 'of the' to 'of the' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-08.png",
+        "ground_truth_label": "Virginia Regiment.",
+        "OCR": {
+            "predicted_label": "Virginia Regiment.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains OCR errors. The word 'Virginia' is misspelled as 'Virginia' and the word 'Regiment' is misspelled as 'Regiment'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Virginia Regiment.",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'Virginia' to 'Virginia' and 'Regiment' to 'Regiment' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-09.png",
+        "ground_truth_label": "You are immediately, upon receipt",
+        "OCR": {
+            "predicted_label": "You are immediately, upon receipt",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'immediately' is misspelled as 'immediately,' which is likely due to OCR difficulties with the 'y' and 'i' characters. Secondly, the word'receipt' is misspelled as'receipt,' which is likely due to OCR difficulties with the 'c' and 'i' characters. Thirdly, the word 'upon' is misspelled as 'upon,' which is likely due to OCR difficulties with the 'u' and 'n' characters."
+        },
+        "Prompt correcting": {
+            "predicted_label": "You are immediately, upon receipt",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'immediately,' to 'immediately,''receipt' to'receipt,' and 'upon' to 'upon' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-10.png",
+        "ground_truth_label": "hereof, to repair to Winchester, where you will meet",
+        "OCR": {
+            "predicted_label": "here to Winchester, where will never",
+            "cer": 38.462,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'here' is incorrectly written as 'her,' which is likely due to OCR difficulties with the letter 'r.' Secondly, the word 'Winchester' is misspelled as 'Winchester,' which is likely due to OCR difficulties with the letter 'c.' Thirdly, the word 'never' is misspelled as 'never,' which is likely due to OCR difficulties with the letter 'e.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "here to Winchester, where will never",
+            "cer": 38.462,
+            "confidence": 98,
+            "justification": "Corrected 'her' to 'here,' 'Winchester' to 'Winchester,' and 'never' to 'never' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-11.png",
+        "ground_truth_label": "with Colonel Washington, and receive further orders.",
+        "OCR": {
+            "predicted_label": "with Colonel, and receive orders.",
+            "cer": 36.538,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'Colonel' is misspelled as 'Colonol,' which is likely due to OCR difficulties with recognizing the letter 'l' in the word. Secondly, the word'receive' is misspelled as'receiv,' which is likely due to OCR difficulties with recognizing the letter 'e' in the word. Thirdly, the word 'orders' is misspelled as 'ordeers,' which is likely due to OCR difficulties with recognizing the letter 'r' in the word."
+        },
+        "Prompt correcting": {
+            "predicted_label": "with Colonel, and receive orders.",
+            "cer": 36.538,
+            "confidence": 98,
+            "justification": "The text line contains several OCR errors. Firstly, the word 'Colonel' is misspelled as 'Colonol,' which is likely due to OCR difficulties with recognizing the letter 'l' in the word. Secondly, the word'receive' is misspelled as'receiv,' which is likely due to OCR difficulties with recognizing the letter 'e' in the word. Thirdly, the word 'orders' is misspelled as 'ordeers,' which is likely due to OCR difficulties"
+        }
+    },
+    {
+        "file_name": "309-12.png",
+        "ground_truth_label": "I am Vc.",
+        "OCR": {
+            "predicted_label": "I am Vc.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'Vc' is incorrectly written, likely due to OCR difficulties with the letter 'C.' Secondly, the word 'am' is missing a space between the two words, likely due to OCR difficulties with spacing."
+        },
+        "Prompt correcting": {
+            "predicted_label": "I am V. C.",
+            "cer": 30.0,
+            "confidence": 95,
+            "justification": "Corrected 'Vc' to 'V. C.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-13.png",
+        "ground_truth_label": "G.W. aid de camp.",
+        "OCR": {
+            "predicted_label": "Mr.W.aiddd.d.comy.",
+            "cer": 50.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'Mr.' is incorrectly written as 'Mr.W.aiddd.d.comy.' This error is likely caused by the OCR software mistaking the 'W' for an 'M' and the '.' for a 'W.' Secondly, the word 'comy' is incorrectly written as 'comy.' This error is likely caused by the OCR software mistaking the 'o' for an 'e' and the'm' for an 'o.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "Mr.W.aiddd.d.comy.",
+            "cer": 50.0,
+            "confidence": 98,
+            "justification": "Corrected 'Mr.W.aiddd.d.comy.' to 'Mr.W.aiddd.d.comy.' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-14.png",
+        "ground_truth_label": "Alexandria: December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "Alexandria: December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains OCR errors. The word 'Alexandria' is misspelled as 'Alexandria', and the date 'December 16th' is incorrectly written as 'December 16th'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "Alexandria: December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'Alexandria' to 'Alexandria' and 'December 16th' to 'December 16th' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-15.png",
+        "ground_truth_label": "N:B. A Copy left at Alexandria, and another",
+        "OCR": {
+            "predicted_label": "N.B. I Copy left at Alexandria, and another",
+            "cer": 4.651,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'N.B.' is incorrectly written as 'N.B. I Copy left at Alexandria,' which is likely due to OCR difficulties with punctuation. Secondly, the word 'another' is incorrectly written as 'another,' which is likely due to OCR difficulties with spelling."
+        },
+        "Prompt correcting": {
+            "predicted_label": "N.B. I Copy left at Alexandria, and another",
+            "cer": 4.651,
+            "confidence": 95,
+            "justification": "Corrected 'N.B. I Copy left at Alexandria, and another' to 'N.B. I Copy left at Alexandria, and another' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-16.png",
+        "ground_truth_label": "sent to Stafford, to him there.",
+        "OCR": {
+            "predicted_label": "sent to Stafford, to him there.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word'sent' is misspelled as'sent' due to OCR difficulties with the letter 't'. Secondly, the word 'to' is repeated twice, likely due to OCR difficulties with duplicate words. Thirdly, the word 'him' is misspelled as 'him' due to OCR difficulties with the letter 'r'. Finally, the word 'there' is misspelled as 'there' due to OCR difficulties with the letter 'e'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "sent to Stafford, to him there.",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-18.png",
+        "ground_truth_label": "20th. Parole Abbemarle. Winchester: December 20th. 1755.",
+        "OCR": {
+            "predicted_label": "28th. I neede Alternate Winchester Winchester December December 1st. 17th.",
+            "cer": 50.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'needed' is misspelled as 'neede.' Secondly, the word 'Winchester' is repeated twice, likely due to OCR difficulties with duplicate words. Thirdly, the word 'December' is used twice, likely due to OCR difficulties with pluralization."
+        },
+        "Prompt correcting": {
+            "predicted_label": "28th. I needed Alternate Winchester Winchester December 1st. 17th.",
+            "cer": 45.455,
+            "confidence": 95,
+            "justification": "Corrected 'neede' to 'needed' based on the explanation. Removed the duplicate word 'Winchester' and the duplicate word 'December' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-19.png",
+        "ground_truth_label": "A Return to be given in immedi-",
+        "OCR": {
+            "predicted_label": "I Return to be given in immedi-",
+            "cer": 3.226,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'Return' is misspelled as 'Return,' which is likely due to OCR difficulties with the letter 'R.' Secondly, the word 'immediately' is misspelled as 'immedi-,' which is likely due to OCR difficulties with the letter 'L.' Thirdly, the word 'given' is misspelled as 'given,' which is likely due to OCR difficulties with the letter 'I.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "I Return to be given in immediately",
+            "cer": 17.143,
+            "confidence": 98,
+            "justification": "Corrected 'Return' to 'Return,' 'immedi-' to 'immediately,' and 'given' to 'given' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-20.png",
+        "ground_truth_label": "ately of the Recruits now in this town, by the several",
+        "OCR": {
+            "predicted_label": "ately of the Recruits now in this town, by the several",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'ately' is misspelled as 'ately,' which is likely due to OCR difficulties with the letter 'e.' Secondly, the word 'Recruits' is misspelled as 'Recruits,' which is likely due to OCR difficulties with the letter 'u.' Thirdly, the word 'now' is misspelled as 'now,' which is likely due to OCR difficulties with the letter 'o.' Finally, the word 'this' is misspelled as 'this,' which is likely due to OCR difficulties with the letter 'i.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "ately of the Recruits now in this town, by the several",
+            "cer": 0.0,
+            "confidence": 98,
+            "justification": "Corrected 'ately' to 'ately,' 'Recruits' to 'Recruits,' 'now' to 'now,' and 'this' to 'this' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-21.png",
+        "ground_truth_label": "Officers who enlisted them; mentioning their height,",
+        "OCR": {
+            "predicted_label": "Officers who enlisted them, mentioned, mentioned their height,",
+            "cer": 19.355,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'them' is incorrectly written as 'them,' which is likely due to OCR difficulties with the letter'm.' Secondly, the word'mentioned' is incorrectly written as'mentioned,' which is likely due to OCR difficulties with the letter 'n.' Thirdly, the word 'their' is incorrectly written as 'their,' which is likely due to OCR difficulties with the letter 'r.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "Officers who enlisted them, mentioned, mentioned their height,",
+            "cer": 19.355,
+            "confidence": 98,
+            "justification": "Corrected 'them,' to 'them' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-22.png",
+        "ground_truth_label": "age, trade, Vc. The officers to see that the Serge-",
+        "OCR": {
+            "predicted_label": "age, trade, toe. The Officers to see that the the Sergeant",
+            "cer": 18.966,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'age' is misspelled as 'age,' which is likely due to OCR difficulties with the letter 'e.' Secondly, the word 'trade' is misspelled as 'trade,' which is likely due to OCR difficulties with the letter 'd.' Thirdly, the word 'toe' is misspelled as 'toe,' which is likely due to OCR difficulties with the letter 'o.' Fourthly, the word 'Officers' is misspelled as 'Officers,' which is likely due to OCR difficulties with the letter's.' Fifthly, the word 'the' is misspelled as 'the,' which is likely due to OCR difficulties with the letter 'e.' Sixthly, the word 'Sergeant' is misspelled as 'Sergeant,' which is likely due to OCR difficulties with the letter 'a.' Seventhly, the word 'the' is misspelled as 'the,' which is likely due to OCR difficulties with the letter 'e.' Eighthly, the word 'the' is misspelled as 'the,' which is likely due to OCR difficulties with the letter 'e.' Ninthly, the word 'the' is misspelled as 'the,' which is likely due to OCR difficulties with the letter 'e.' Tenthly, the word 'the' is misspelled as 'the,' which is likely due to OCR difficulties with the letter 'e.' Eleventhly, the word 'the' is misspelled as 'the,' which is likely due to OCR difficulties with the letter 'e.' Twelfthly, the word 'the' is misspelled as 'the,' which is likely due to OCR difficulties with the letter 'e.' Thirteenthly, the word 'the' is misspelled as 'the,' which is likely due to OCR difficulties with the letter 'e.' Fourteenthly, the word 'the' is misspelled as 'the,' which is likely due to OCR difficulties with the letter 'e.' Fifteenthly, the word 'the' is misspelled as 'the,' which is likely due to OCR difficulties with the letter 'e.' Sixteenthly, the word 'the' is misspelled as 'the,' which is"
+        },
+        "Prompt correcting": {
+            "predicted_label": "age, trade, toe. The Officers to see that the Sergeant.",
+            "cer": 14.545,
+            "confidence": 98,
+            "justification": "Corrected all OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-23.png",
+        "ground_truth_label": "ants who understand the manual Exercise, do",
+        "OCR": {
+            "predicted_label": "andy who understand the manualal local Corsicai, do",
+            "cer": 31.373,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word'manualal' is incorrectly spelled, likely due to OCR difficulties with the word'manual.' Secondly, the word 'Corsicai' is incorrectly spelled, likely due to OCR difficulties with the word 'Corsica.' Thirdly, the word 'do' is incorrectly spelled, likely due to OCR difficulties with the word 'do.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "andy who understands the manual local Corsica, do",
+            "cer": 28.571,
+            "confidence": 98,
+            "justification": "Corrected'manualal' to'manual', 'Corsicai' to 'Corsica', and 'do' to 'do' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-24.png",
+        "ground_truth_label": "drill the Recruits, at least twice a-day.",
+        "OCR": {
+            "predicted_label": "difficult the Recruits, at least twice a day.",
+            "cer": 15.556,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The word 'Recruits' is misspelled as 'Recruits,' and the phrase 'at least twice a day' is incorrectly written as 'at least twice a day.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "difficult the Recruits, at least twice a day.",
+            "cer": 15.556,
+            "confidence": 98,
+            "justification": "Corrected 'Recruits' to 'Recruits' and 'at least twice a day' to 'at least twice a day' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-26.png",
+        "ground_truth_label": "22nd. Parole Boston- Winchester: December 22nd. 1755.",
+        "OCR": {
+            "predicted_label": "28th. Taxal Boston - Winchester: December: December 12th. 1755",
+            "cer": 35.484,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'Taxal' is misspelled, likely due to OCR difficulties with the unusual spelling. Secondly, the phrase 'December: December' is a clear example of a repeated word error, likely caused by the OCR software mistakenly duplicating the word 'December.' Thirdly, the word '12th' is incorrectly written in plural form, likely due to OCR difficulties with pluralization."
+        },
+        "Prompt correcting": {
+            "predicted_label": "28th. Taxal Boston - Winchester: December 12, 1755",
+            "cer": 24.528,
+            "confidence": 95,
+            "justification": "Corrected 'Taxal' to 'Taxah' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-27.png",
+        "ground_truth_label": "A Return is to be made every mor-",
+        "OCR": {
+            "predicted_label": "t Return is to be made every non",
+            "cer": 12.121,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'Return' is misspelled as 'Return' with a missing 'i' character. Secondly, the word 'every' is misspelled as 'non' with a missing 'e' character. Thirdly, the word 'to' is misspelled as 'is' with a missing 't' character. Finally, the word 'be' is misspelled as 'by' with a missing 'e' character."
+        },
+        "Prompt correcting": {
+            "predicted_label": "The return is to be made every non",
+            "cer": 20.588,
+            "confidence": 98,
+            "justification": "Corrected 'Return' to 'The', 'non' to 'every', 'is' to 'to', and 'by' to 'be' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-28.png",
+        "ground_truth_label": "ning to Colonel Washington of the number of",
+        "OCR": {
+            "predicted_label": "ning to Colonel of the number of",
+            "cer": 25.581,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'to' is missing a space between it and the word 'Colonel.' Secondly, the word 'number' is incorrectly spelled as 'number.' Thirdly, the word 'of' is missing a space between it and the word 'the.' Finally, the word 'Colonel' is incorrectly spelled as 'Colonel.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "ning to Colonel of the number of",
+            "cer": 25.581,
+            "confidence": 98,
+            "justification": "Corrected OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-29.png",
+        "ground_truth_label": "men in this town - and all contingences.",
+        "OCR": {
+            "predicted_label": "men in this town - and all continues.",
+            "cer": 10.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word'men' is incorrectly spelled as'men' instead of'men.' Secondly, the word 'in' is missing a space between 'in' and 'this.' Thirdly, the word 'this' is incorrectly spelled as 'this' instead of 'this.' Fourthly, the word 'town' is incorrectly spelled as 'town' instead of 'town.' Fifthly, the word 'and' is missing a space between 'and' and 'all.' Sixthly, the word 'all' is incorrectly spelled as 'all' instead of 'all.' Seventhly, the word 'continues' is incorrectly spelled as 'continues' instead of 'continues.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "men in this town - and all continues.",
+            "cer": 10.0,
+            "confidence": 98,
+            "justification": "Corrected OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-30.png",
+        "ground_truth_label": "During his stay here, no provision is to be de-",
+        "OCR": {
+            "predicted_label": "During here, nomission is to be-",
+            "cer": 38.298,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'During' is misspelled as 'During.' Secondly, the word 'here' is misspelled as 'here.' Thirdly, the word 'nomission' is misspelled as 'nomission.' Fourthly, the word 'to' is misspelled as 'to.' Fifthly, the word 'be' is misspelled as 'be.' Sixthly, the word 'is' is misspelled as 'is.' Seventhly, the word 'to' is misspelled as 'to.' Eighthly, the word 'be' is misspelled as 'be.' Ninthly, the word 'is' is misspelled as 'is.' Tenthly, the word 'to' is misspelled as 'to.' Eleventhly, the word 'be' is misspelled as 'be.' Twelfthly, the word 'is' is misspelled as 'is.' Thirteenthly, the word 'to' is misspelled as 'to.' Fourteenthly, the word 'be' is misspelled as 'be.' Fifteenthly, the word 'is' is misspelled as 'is.' Sixteenthly, the word 'to' is misspelled as 'to.' Seventeenthly, the word 'be' is misspelled as 'be.' Eighteenthly, the word 'is' is misspelled as 'is.' Nineteenthly, the word 'to' is misspelled as 'to.' Twentiethly, the word 'be' is misspelled as 'be.' Twenty-firstly, the word 'is' is misspelled as 'is.' Twenty-secondly, the word 'to' is misspelled as 'to.' Twenty-thirdly, the word 'be' is misspelled as 'be.' Twenty-fourthly, the word 'is' is misspelled as 'is.' Twenty-fifthly, the word 'to' is misspelled as 'to.' Twenty-sixthly, the word 'be' is misspelled as 'be.' Twenty-seventhly, the word 'is' is misspelled as 'is.' Twenty-eighthly, the word 'to' is misspelled as 'to.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "During here, nomission is to be.",
+            "cer": 40.426,
+            "confidence": 98,
+            "justification": "Corrected all OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-31.png",
+        "ground_truth_label": "livered out, but by a written order from him or",
+        "OCR": {
+            "predicted_label": "liver, but a written from him on",
+            "cer": 34.043,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'liver' is misspelled as 'liver,' which is likely due to OCR difficulties with the letter 'i.' Secondly, the word 'but' is missing a space before it, which is likely due to OCR difficulties with punctuation. Thirdly, the word 'a' is misspelled as 'an,' which is likely due to OCR difficulties with the letter 'a.' Finally, the word 'written' is misspelled as 'writtem,' which is likely due to OCR difficulties with the letter 'n.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "liver, but a written from him on",
+            "cer": 34.043,
+            "confidence": 98,
+            "justification": "Corrected OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-32.png",
+        "ground_truth_label": "the aid de camp. The Commissary is to send",
+        "OCR": {
+            "predicted_label": "the aid de camp. We know. We Committee is to send",
+            "cer": 30.612,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'aid' is misspelled as 'aid' instead of 'aid'. Secondly, the word 'de' is missing in the phrase 'de camp', which should be 'de camp'. Thirdly, the word 'We' is misspelled as 'We' instead of 'We'. Fourthly, the word 'Committee' is misspelled as 'Committee' instead of 'Committee'. Finally, the word'send' is misspelled as'send' instead of'send'."
+        },
+        "Prompt correcting": {
+            "predicted_label": "the aid de camp. We know. We Committee is to send",
+            "cer": 30.612,
+            "confidence": 98,
+            "justification": "Corrected OCR errors based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-33.png",
+        "ground_truth_label": "up the Cask of Tools by the first waggon that",
+        "OCR": {
+            "predicted_label": "up the Cashs by thet was that",
+            "cer": 40.0,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'Cashs' is misspelled, likely due to OCR difficulties with the letter 'S' in the word 'Cash.' Secondly, the word 'thet' is incorrectly written, likely due to OCR difficulties with the letter 'T' in the word 'that.' Thirdly, the word 'was' is misspelled, likely due to OCR difficulties with the letter 'S' in the word 'was.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "up the Cash by that was",
+            "cer": 55.556,
+            "confidence": 95,
+            "justification": "Corrected 'Cashs' to 'Cash', 'thet' to 'that', and 'was' to 'was' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-34.png",
+        "ground_truth_label": "goes to the Fort. The following men being judg-",
+        "OCR": {
+            "predicted_label": "gore to the Fort. The following men being siveg-",
+            "cer": 12.5,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'gore' is misspelled as 'gore,' which is likely due to OCR difficulties with the letter 'e.' Secondly, the word'siveg' is misspelled as'siveg,' which is likely due to OCR difficulties with the letter 'g.' Thirdly, the word 'Fort' is misspelled as 'Fort,' which is likely due to OCR difficulties with the letter 't.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "gore to the Fort. The following men being siveg-",
+            "cer": 12.5,
+            "confidence": 98,
+            "justification": "Corrected 'gore' to 'gore,''siveg' to'sieveg,' and 'Fort' to 'Fort' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-35.png",
+        "ground_truth_label": "ed unfit for Duty, on Review; are ordered to be",
+        "OCR": {
+            "predicted_label": "at upt for Duty, on Review; are ordered to be",
+            "cer": 10.638,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'upt' is misspelled, likely due to OCR difficulties with the letter 'u' in the word 'up.' Secondly, the word 'Review' is misspelled, likely due to OCR difficulties with the letter 'e' in the word'review.' Thirdly, the word 'ordered' is misspelled, likely due to OCR difficulties with the letter 'o' in the word 'ordered.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "at up for Duty, on Review; are ordered to be",
+            "cer": 12.766,
+            "confidence": 95,
+            "justification": "Corrected 'upt' to 'up', 'Review' to'review', and 'ordered' to 'ordered' based on the explanation."
+        }
+    },
+    {
+        "file_name": "309-36.png",
+        "ground_truth_label": "discharged: viz.",
+        "OCR": {
+            "predicted_label": "dis charged: Wilo.",
+            "cer": 22.222,
+            "confidence": 0
+        },
+        "Prompt checking": {
+            "response": "Yes",
+            "explanation": "The text line contains several OCR errors. Firstly, the word 'dis' is incorrectly spelled as 'dis' instead of 'this.' Secondly, the word 'charged' is misspelled as 'dis charged.' Thirdly, the word 'Wilo' is misspelled as 'Wilo.'"
+        },
+        "Prompt correcting": {
+            "predicted_label": "this charged: Wilo.",
+            "cer": 31.579,
+            "confidence": 95,
+            "justification": "Corrected 'dis' to 'this', 'charged' to 'charged', and 'Wilo' to 'Wilo' based on the explanation."
+        }
+    }
+]

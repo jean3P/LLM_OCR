@@ -1,0 +1,977 @@
+[
+    {
+        "file_name": "308-01.png",
+        "ground_truth_label": "308. Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "30th. Letters Orders and Instructions December 1755.",
+            "cer": 3.846,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "30th. Letters, Orders and Instructions, December 1755.",
+            "cer": 7.407,
+            "confidence": 95,
+            "justification": "Corrected \"Letters Orders\" to \"Letters, Orders\", \"Instructions\" to \"Instructions\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-03.png",
+        "ground_truth_label": "remain here until the arrival of the vessel with",
+        "OCR": {
+            "predicted_label": "remain here until the arrival of the vessel with",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "remain here until the arrival of the vessel with",
+            "cer": 0.0,
+            "confidence": 95,
+            "justification": "Corrected \"here\" to \"here\", \"arrival\" to \"arrival\", \"the\" to \"the\", \"vessel with\" to \"vessel with\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-04.png",
+        "ground_truth_label": "the Stores, Vc. and to be under the same directions",
+        "OCR": {
+            "predicted_label": "the Stores, Vc. and to be under the same directions",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "the Stores, Vc., and to be under the same directions",
+            "cer": 1.923,
+            "confidence": 90,
+            "justification": "Corrected \"Vc.\" to \"Vice\", ensuring the text is grammatically correct and accurate."
+        }
+    },
+    {
+        "file_name": "308-05.png",
+        "ground_truth_label": "as before ordered. So soon as the Stores arrive, you",
+        "OCR": {
+            "predicted_label": "as before ordered. To soon as the Stores arrive, you",
+            "cer": 1.923,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "as before ordered. To soon as the Stores arrive, you",
+            "cer": 1.923,
+            "confidence": 90,
+            "justification": "Corrected \"before\" to \"before\", \"ordered\" to \"ordered\", \"soon\" to \"soon\", \"arrive\" to \"arrive\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-06.png",
+        "ground_truth_label": "are, with all possible dispath, to procure a suf-",
+        "OCR": {
+            "predicted_label": "are, with all possible dispatch dispatch, to procure a sub-",
+            "cer": 18.644,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "are, with all possible dispatch, to procure a sub-",
+            "cer": 4.0,
+            "confidence": 90,
+            "justification": "Corrected \"dispatch dispatch\" to \"dispatch\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-07.png",
+        "ground_truth_label": "ficient number of waggons to carry them to Win-",
+        "OCR": {
+            "predicted_label": "ficialent number of Waggons to carry to carry them to Non-",
+            "cer": 24.138,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "'ficialent number of Waggons to carry them to Non-",
+            "cer": 12.0,
+            "confidence": 90,
+            "justification": "Corrected \"Waggons\" to \"Wagons\", \"carry to carry\" to \"carry them\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-08.png",
+        "ground_truth_label": "chester; whither they are to be sent, under the",
+        "OCR": {
+            "predicted_label": "chester; whether they they are to be sent, under the",
+            "cer": 11.538,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "chester; whether they are to be sent, under the",
+            "cer": 2.128,
+            "confidence": 90,
+            "justification": "Corrected \"they they\" to \"they are\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-09.png",
+        "ground_truth_label": "escort of the Soldiers now here: except the Suits",
+        "OCR": {
+            "predicted_label": "excont of the Soldiers now now here: except the Suits",
+            "cer": 11.321,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "except the Soldiers now now here: except the Suits",
+            "cer": 20.0,
+            "confidence": 90,
+            "justification": "Corrected \"excont\" to \"except\", \"now now\" to \"now\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-10.png",
+        "ground_truth_label": "of Clothes; Shoes, Stocking, Shirts, Vc. proportiona-",
+        "OCR": {
+            "predicted_label": "of Clothes, Starting, Vc. propori-",
+            "cer": 41.509,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "of Clothes, Starting, Vc. propori-",
+            "cer": 41.509,
+            "confidence": 90,
+            "justification": "No OCR errors were found in the provided text line."
+        }
+    },
+    {
+        "file_name": "308-11.png",
+        "ground_truth_label": "bly which are to be left with Colonel Carlyle.",
+        "OCR": {
+            "predicted_label": "bly, which are to be left with Colonial Carlyle.",
+            "cer": 6.25,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "by, which are to be left with Colonial Carlyle.",
+            "cer": 8.511,
+            "confidence": 90,
+            "justification": "Corrected \"bly\" to \"by\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-12.png",
+        "ground_truth_label": "You are to be very careful of all the",
+        "OCR": {
+            "predicted_label": "You are to be very careful of all the",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "You are to be very careful of all the",
+            "cer": 0.0,
+            "confidence": 95,
+            "justification": "Corrected \"to be\" to \"to be\", \"very\" to \"very\", \"of all\" to \"of all\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-13.png",
+        "ground_truth_label": "Things delivered into the waggons, and see that",
+        "OCR": {
+            "predicted_label": "Trilogys delivered into the the Waggons, and we are that",
+            "cer": 23.214,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "Trilogies delivered into the Waggons, and we are that",
+            "cer": 18.868,
+            "confidence": 90,
+            "justification": "Corrected \"Trilogys\" to \"Trilogies\", \"the the\" to \"the\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-14.png",
+        "ground_truth_label": "a strict Guard is kept over them, that no embez-",
+        "OCR": {
+            "predicted_label": "a strict Guard is kept over them, that no cmbos-",
+            "cer": 6.25,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "a strict Guard is kept over them, that no combs-",
+            "cer": 8.333,
+            "confidence": 90,
+            "justification": "Corrected \"cmbos-\" to \"combs-\", ensuring the sentence is grammatically correct and clear.[/INST]"
+        }
+    },
+    {
+        "file_name": "308-15.png",
+        "ground_truth_label": "zlement is made. If your men can not be",
+        "OCR": {
+            "predicted_label": "Immert is made. If your men can not be",
+            "cer": 10.256,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "Immert is made. If your men cannot be",
+            "cer": 12.821,
+            "confidence": 90,
+            "justification": "Corrected \"Immert\" to \"Imperial\", \"can not\" to \"cannot\", ensuring the text is grammatically correct and accurate to the historical context.[/INST]"
+        }
+    },
+    {
+        "file_name": "308-16.png",
+        "ground_truth_label": "conveniently Quartered on their march up; there",
+        "OCR": {
+            "predicted_label": "concerning Quarterly Quartered on their marching; there",
+            "cer": 25.455,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "concerning Quarterly Quartered on their marching; there",
+            "cer": 25.455,
+            "confidence": 95,
+            "justification": "Corrected \"concerning\" to \"concerning\", \"Quartered\" to \"Quarterly Quartered\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-17.png",
+        "ground_truth_label": "will be a number of Tents among the Stores, which",
+        "OCR": {
+            "predicted_label": "will be a number of limits, among the Stores, which",
+            "cer": 9.804,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "will be a number of limits, among the Stores, which",
+            "cer": 9.804,
+            "confidence": 90,
+            "justification": "Corrected \"limits\" to \"limits\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-18.png",
+        "ground_truth_label": "must be made use of. - If any of the Soldiers",
+        "OCR": {
+            "predicted_label": "must made of any of the Soldiers",
+            "cer": 28.889,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "must be made of any of the Soldiers",
+            "cer": 22.222,
+            "confidence": 90,
+            "justification": "Corrected \"must made\" to \"must be\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-19.png",
+        "ground_truth_label": "should desert from this place, - it would be proper",
+        "OCR": {
+            "predicted_label": "should from this - it would be proper",
+            "cer": 27.451,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "should from this - it would be proper",
+            "cer": 27.451,
+            "confidence": 95,
+            "justification": "Corrected \"-\" to \"- it\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-20.png",
+        "ground_truth_label": "to send a Sergeant, and one or two trusty men",
+        "OCR": {
+            "predicted_label": "to send a Sergeant, and one other twenty men,",
+            "cer": 20.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "to send a Sergeant, and one other twenty men,",
+            "cer": 20.0,
+            "confidence": 95,
+            "justification": "Corrected \"Sergeant\" to \"Sergeant\", \"one other\" to \"one other\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-21.png",
+        "ground_truth_label": "in pursuit of them.",
+        "OCR": {
+            "predicted_label": "in pursuit of them.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "in pursuit of them.",
+            "cer": 0.0,
+            "confidence": 100,
+            "justification": "No OCR errors were found in the text line."
+        }
+    },
+    {
+        "file_name": "308-22.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "Given at a Alexandria Vc.",
+            "cer": 8.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "Given at Alexandria Va.",
+            "cer": 4.348,
+            "confidence": 90,
+            "justification": "Corrected \"a\" to \"at\", \"Alexandria Vc.\" to \"Alexandria Va.\", ensuring the text line is grammatically correct and reflects the intended location.[/INST]"
+        }
+    },
+    {
+        "file_name": "308-23.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "December 16th, 1755.",
+            "cer": 5.0,
+            "confidence": 95,
+            "justification": "Corrected \"December 16th.\" to \"December 16th,\", ensuring the date is correctly formatted and readable."
+        }
+    },
+    {
+        "file_name": "308-25.png",
+        "ground_truth_label": "16th. To Doctor James Craik, of the Virginia",
+        "OCR": {
+            "predicted_label": "to. To Doctor James Craig of the Virginia",
+            "cer": 11.364,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "to Doctor James Craig of the Virginia",
+            "cer": 18.182,
+            "confidence": 95,
+            "justification": "Corrected \"to.\" to \"to\", \"Doctor\" to \"Doctor\", \"James Craig\" to \"James Craig\", \"the Virginia\" to \"the Virginia\", ensuring the sentence is grammatically correct and accurate."
+        }
+    },
+    {
+        "file_name": "308-26.png",
+        "ground_truth_label": "Regiment.",
+        "OCR": {
+            "predicted_label": "Regiment.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "Regiment.",
+            "cer": 0.0,
+            "confidence": 99,
+            "justification": "No OCR errors were found in the text line."
+        }
+    },
+    {
+        "file_name": "308-27.png",
+        "ground_truth_label": "So soon as the Vessel with the",
+        "OCR": {
+            "predicted_label": "To soon as the Vessel with the",
+            "cer": 3.333,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "To soon as the Vessel with the",
+            "cer": 3.333,
+            "confidence": 90,
+            "justification": "Corrected \"soon\" to \"soon\", \"Vessel\" to \"Vessel\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-28.png",
+        "ground_truth_label": "Stores and medicines arrives, you are to embrace",
+        "OCR": {
+            "predicted_label": "Stores and medicines arrives arrives, you are to enhance",
+            "cer": 21.429,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "Stores and medicines arrive, you are to enhance",
+            "cer": 10.417,
+            "confidence": 90,
+            "justification": "Corrected \"arrives arrives\" to \"arrive\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-29.png",
+        "ground_truth_label": "the first opportunity that offers, of conveying up",
+        "OCR": {
+            "predicted_label": "the first opportunity that offers, of conveying up",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "the first opportunity that offers, of conveying up",
+            "cer": 0.0,
+            "confidence": 95,
+            "justification": "Corrected \"that offers\" to \"that offers\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-30.png",
+        "ground_truth_label": "your Chest, and proceeding, yourself, to Winches-",
+        "OCR": {
+            "predicted_label": "your, and preaching, to Winches-",
+            "cer": 42.857,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "your, and preaching, to Winches-",
+            "cer": 42.857,
+            "confidence": 90,
+            "justification": "No OCR errors were found in the text line."
+        }
+    },
+    {
+        "file_name": "308-31.png",
+        "ground_truth_label": "ter. You are to provide yourself here, with",
+        "OCR": {
+            "predicted_label": "ter. You are to provide yourself here with",
+            "cer": 2.326,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "there. You are to provide yourself here with",
+            "cer": 6.818,
+            "confidence": 90,
+            "justification": "Corrected \"ter\" to \"there\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-32.png",
+        "ground_truth_label": "what you think will be wanting for the Hos-",
+        "OCR": {
+            "predicted_label": "what you think will be wanting for the Non-",
+            "cer": 4.651,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "what you think will be wanting for the Non-",
+            "cer": 4.651,
+            "confidence": 90,
+            "justification": "No OCR errors were found in the provided text line.[/INST]"
+        }
+    },
+    {
+        "file_name": "308-33.png",
+        "ground_truth_label": "pital, and bring them up with you; taking",
+        "OCR": {
+            "predicted_label": "pital, and hiring them them up with you; taking taking",
+            "cer": 25.926,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "hospital, and hiring them up with you; taking",
+            "cer": 11.111,
+            "confidence": 90,
+            "justification": "Corrected \"pital\" to \"hospital\", \"them them\" to \"them\", \"taking taking\" to \"taking\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-34.png",
+        "ground_truth_label": "care to purchase no more than is absolutely",
+        "OCR": {
+            "predicted_label": "care to purchase no more more than is absolutely",
+            "cer": 10.417,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "care to purchase no more than is absolutely",
+            "cer": 0.0,
+            "confidence": 95,
+            "justification": "Corrected \"no more more\" to \"no more\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "308-35.png",
+        "ground_truth_label": "necessary, for the support and relief of the Regiment",
+        "OCR": {
+            "predicted_label": "necessary for the support and and relief of the Regional",
+            "cer": 16.071,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "necessary for the support and relief of the Regional",
+            "cer": 9.434,
+            "confidence": 90,
+            "justification": "Corrected \"and and\" to \"and\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "309-01.png",
+        "ground_truth_label": "p.309.",
+        "OCR": {
+            "predicted_label": "G.S.co.",
+            "cer": 71.429,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "G.S.co.",
+            "cer": 71.429,
+            "confidence": 99,
+            "justification": "No OCR errors were found in the text line."
+        }
+    },
+    {
+        "file_name": "309-02.png",
+        "ground_truth_label": "Letters Orders and Instructions December 1755.",
+        "OCR": {
+            "predicted_label": "Letters Orders and Instructions December 1755.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "Letters, Orders, and Instructions, December 1755.",
+            "cer": 6.122,
+            "confidence": 95,
+            "justification": "Corrected \"Letters Orders and Instructions\" to \"Letters, Orders, and Instructions\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "309-04.png",
+        "ground_truth_label": "Given at Alexandria Vc.",
+        "OCR": {
+            "predicted_label": "Given at. Alexandria Vc.",
+            "cer": 4.167,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "Given at Alexandria Va.",
+            "cer": 4.348,
+            "confidence": 90,
+            "justification": "Corrected \"Given at.\" to \"Given at Alexandria Va.\", ensuring the text line is grammatically correct and accurate."
+        }
+    },
+    {
+        "file_name": "309-05.png",
+        "ground_truth_label": "December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "December 5th.",
+            "cer": 40.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "December 5th.",
+            "cer": 40.0,
+            "confidence": 100,
+            "justification": "No OCR errors were found in the text line.[/INST]"
+        }
+    },
+    {
+        "file_name": "309-07.png",
+        "ground_truth_label": "16th. To Captain John Mercer. of the",
+        "OCR": {
+            "predicted_label": "Vc. To. To Captain John John Mercer. of the",
+            "cer": 25.581,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "Vc. To. To Captain John Mercer. of the",
+            "cer": 15.789,
+            "confidence": 90,
+            "justification": "Corrected \"Vc.\" to \"Vice\", \"To. To\" to \"To\", \"Captain John John Mercer.\" to \"Captain John Mercer.\", ensuring the text line is grammatically correct and accurately reflects the"
+        }
+    },
+    {
+        "file_name": "309-08.png",
+        "ground_truth_label": "Virginia Regiment.",
+        "OCR": {
+            "predicted_label": "Virginia Regiment.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "'Virginia Regiment.'",
+            "cer": 10.0,
+            "confidence": 99,
+            "justification": "No OCR errors were found in the text line."
+        }
+    },
+    {
+        "file_name": "309-09.png",
+        "ground_truth_label": "You are immediately, upon receipt",
+        "OCR": {
+            "predicted_label": "You are immediately, upon receipt",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "You are immediately, upon receipt",
+            "cer": 0.0,
+            "confidence": 95,
+            "justification": "No OCR errors were found in the text line."
+        }
+    },
+    {
+        "file_name": "309-10.png",
+        "ground_truth_label": "hereof, to repair to Winchester, where you will meet",
+        "OCR": {
+            "predicted_label": "hereof, to repair to Winchester, where you will meet",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "hereof, to repair to Winchester, where you will meet",
+            "cer": 0.0,
+            "confidence": 95,
+            "justification": "Corrected \"hereof\" to \"hereof\", \"to repair to Winchester\" to \"to repair to Winchester\", \"where you will meet\" to \"where you will meet\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "309-11.png",
+        "ground_truth_label": "with Colonel Washington, and receive further orders.",
+        "OCR": {
+            "predicted_label": "with Colonel Washington, and receive further orders.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "with Colonel Washington, and receive further orders.",
+            "cer": 0.0,
+            "confidence": 99,
+            "justification": "No OCR errors were found in the text line."
+        }
+    },
+    {
+        "file_name": "309-12.png",
+        "ground_truth_label": "I am Vc.",
+        "OCR": {
+            "predicted_label": "I am Vc.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "I am Vc.",
+            "cer": 0.0,
+            "confidence": 99,
+            "justification": "No OCR errors were found in the text line."
+        }
+    },
+    {
+        "file_name": "309-13.png",
+        "ground_truth_label": "G.W. aid de camp.",
+        "OCR": {
+            "predicted_label": "G.Mo. Aidd decomp.",
+            "cer": 33.333,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "G.Mo. Aid decomp.",
+            "cer": 29.412,
+            "confidence": 90,
+            "justification": "Corrected \"Aidd\" to \"Aid\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "309-14.png",
+        "ground_truth_label": "Alexandria: December 16th. 1755.",
+        "OCR": {
+            "predicted_label": "Alexandria: December 16th. 1755.",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "Alexandria: December 16th, 1755.",
+            "cer": 3.125,
+            "confidence": 95,
+            "justification": "Corrected \"16th.\" to \"16th,\", ensuring the date is correctly formatted and readable."
+        }
+    },
+    {
+        "file_name": "309-15.png",
+        "ground_truth_label": "N:B. A Copy left at Alexandria, and another",
+        "OCR": {
+            "predicted_label": "N.B. - A Copy left at Alexandria, and another",
+            "cer": 6.667,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "N.B. - A Copy left at Alexandria, and another",
+            "cer": 6.667,
+            "confidence": 95,
+            "justification": "No OCR errors were found in the text line."
+        }
+    },
+    {
+        "file_name": "309-16.png",
+        "ground_truth_label": "sent to Stafford, to him there.",
+        "OCR": {
+            "predicted_label": "sent, to him.",
+            "cer": 58.065,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "sent to him.",
+            "cer": 61.29,
+            "confidence": 95,
+            "justification": "Corrected \"sent, to\" to \"sent to\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "309-18.png",
+        "ground_truth_label": "20th. Parole Abbemarle. Winchester: December 20th. 1755.",
+        "OCR": {
+            "predicted_label": "28th. Parole Alternate Winchester December 17th. 1755.",
+            "cer": 19.643,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "28th. Parole Alternate Winchester December 17th. 1755.",
+            "cer": 19.643,
+            "confidence": 99,
+            "justification": "No OCR errors were found in the text line."
+        }
+    },
+    {
+        "file_name": "309-19.png",
+        "ground_truth_label": "A Return to be given in immedi-",
+        "OCR": {
+            "predicted_label": "I Return to be given in in immedi-",
+            "cer": 11.765,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "I Return to be given in immediately",
+            "cer": 17.143,
+            "confidence": 90,
+            "justification": "Corrected \"in in\" to \"in immediately\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "309-20.png",
+        "ground_truth_label": "ately of the Recruits now in this town, by the several",
+        "OCR": {
+            "predicted_label": "ately of the Recruits now in this term, by the several",
+            "cer": 5.556,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "lately of the Recruits now in this term, by the several",
+            "cer": 7.273,
+            "confidence": 90,
+            "justification": "Corrected \"ately\" to \"lately\", \"now in this term\" to \"now in this term\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "309-21.png",
+        "ground_truth_label": "Officers who enlisted them; mentioning their height,",
+        "OCR": {
+            "predicted_label": "Officers who enlisted them; mentioning their height,",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "Officers who enlisted them; mentioning their height,",
+            "cer": 0.0,
+            "confidence": 90,
+            "justification": "Corrected \"Officers who enlisted them\" to \"Officers who enlisted them\", \"mentioning\" to \"mentioning\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "309-22.png",
+        "ground_truth_label": "age, trade, Vc. The officers to see that the Serge-",
+        "OCR": {
+            "predicted_label": "age, trade, Vc. The officers to see that the Serge-",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "age, trade, V.C. The officers to see that the Sergeant-",
+            "cer": 9.091,
+            "confidence": 90,
+            "justification": "Corrected \"age\" to \"age\", \"trade\" to \"trade\", \"Vc\" to \"V.C.\", \"Serge-\" to \"Sergeant-\", ensuring the text line is"
+        }
+    },
+    {
+        "file_name": "309-23.png",
+        "ground_truth_label": "ants who understand the manual Exercise, do",
+        "OCR": {
+            "predicted_label": "arts who understand the manual manualizzi Cassie, do",
+            "cer": 28.846,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "arts who understand the manual manualizzi Cassie, do",
+            "cer": 28.846,
+            "confidence": 90,
+            "justification": "Corrected \"manualizzi\" to \"manualizzi\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "309-24.png",
+        "ground_truth_label": "drill the Recruits, at least twice a-day.",
+        "OCR": {
+            "predicted_label": "difficult the Recruits, at least twice a day.",
+            "cer": 15.556,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "difficult the Recruits, at least twice a day.",
+            "cer": 15.556,
+            "confidence": 99,
+            "justification": "No OCR errors were found in the provided text line."
+        }
+    },
+    {
+        "file_name": "309-26.png",
+        "ground_truth_label": "22nd. Parole Boston- Winchester: December 22nd. 1755.",
+        "OCR": {
+            "predicted_label": "28th. Taral Boston - Winchester: December 22th. 1755.",
+            "cer": 16.981,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "28th. Tarlal Boston - Winchester: December 22nd. 1755.",
+            "cer": 14.815,
+            "confidence": 90,
+            "justification": "Corrected \"Taral\" to \"Tarlal\", \"22th\" to \"22nd\", ensuring the text"
+        }
+    },
+    {
+        "file_name": "309-27.png",
+        "ground_truth_label": "A Return is to be made every mor-",
+        "OCR": {
+            "predicted_label": "I Return is to be made, every every no.",
+            "cer": 25.641,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "I Return is to be made, every every no.",
+            "cer": 25.641,
+            "confidence": 99,
+            "justification": "No OCR errors were found in the text line."
+        }
+    },
+    {
+        "file_name": "309-28.png",
+        "ground_truth_label": "ning to Colonel Washington of the number of",
+        "OCR": {
+            "predicted_label": "ning to Colonel of the number of",
+            "cer": 25.581,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "ing to Colonel of the number of",
+            "cer": 27.907,
+            "confidence": 90,
+            "justification": "Corrected \"ning\" to \"ing\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "309-29.png",
+        "ground_truth_label": "men in this town - and all contingences.",
+        "OCR": {
+            "predicted_label": "men in this town and all continues.",
+            "cer": 15.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "men in this town and all continue.",
+            "cer": 17.5,
+            "confidence": 90,
+            "justification": "Corrected \"men in this town and all continues.\" to \"men in this town and all continue.\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "309-30.png",
+        "ground_truth_label": "During his stay here, no provision is to be de-",
+        "OCR": {
+            "predicted_label": "During his stay here, no provision is to be de-",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "During his stay here, no provision is to be de-",
+            "cer": 0.0,
+            "confidence": 90,
+            "justification": "Corrected \"During\" to \"During\", \"here\" to \"here\", \"no provision\" to \"no provision\", \"is to be de-\" to \"is to be de-\", ensuring the sentence is grammatically correct and clear"
+        }
+    },
+    {
+        "file_name": "309-31.png",
+        "ground_truth_label": "livered out, but by a written order from him or",
+        "OCR": {
+            "predicted_label": "liver, but a written from",
+            "cer": 46.809,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "liver, but a written from",
+            "cer": 46.809,
+            "confidence": 95,
+            "justification": "Corrected \"but a\" to \"but a\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "309-32.png",
+        "ground_truth_label": "the aid de camp. The Commissary is to send",
+        "OCR": {
+            "predicted_label": "the aid de camp. The Commissary is to send",
+            "cer": 0.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "the aid-de-camp. The Commissary is to send",
+            "cer": 4.762,
+            "confidence": 90,
+            "justification": "Corrected \"de\" to \"de-\", ensuring the text line is grammatically correct and historically accurate."
+        }
+    },
+    {
+        "file_name": "309-33.png",
+        "ground_truth_label": "up the Cask of Tools by the first waggon that",
+        "OCR": {
+            "predicted_label": "up the Boxs thet waggon that",
+            "cer": 42.222,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "up the Boxes that waggon",
+            "cer": 55.556,
+            "confidence": 90,
+            "justification": "Corrected \"Boxs\" to \"Boxes\", \"thet\" to \"that\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "309-34.png",
+        "ground_truth_label": "goes to the Fort. The following men being judg-",
+        "OCR": {
+            "predicted_label": "gous to the Fort. The following men being subg-",
+            "cer": 6.383,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "going to the Fort. The following men being sub-",
+            "cer": 12.766,
+            "confidence": 85,
+            "justification": "Corrected \"gous\" to \"going\", \"subg-\" to \"sub-\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "309-35.png",
+        "ground_truth_label": "ed unfit for Duty, on Review; are ordered to be",
+        "OCR": {
+            "predicted_label": "at up until for Duty, on Review; are ordered to be",
+            "cer": 14.0,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "at up until for Duty, on Review; are ordered to be",
+            "cer": 14.0,
+            "confidence": 90,
+            "justification": "Corrected \"at up\" to \"at\", \"until\" to \"until\", \"for Duty\" to \"for Duty\", ensuring the sentence is grammatically correct and clear."
+        }
+    },
+    {
+        "file_name": "309-36.png",
+        "ground_truth_label": "discharged: viz.",
+        "OCR": {
+            "predicted_label": "dis changed: Vitod:",
+            "cer": 36.842,
+            "confidence": 0
+        },
+        "Prompt correcting": {
+            "predicted_label": "this changed: Vitod:",
+            "cer": 45.0,
+            "confidence": 90,
+            "justification": "Corrected \"dis\" to \"this\", ensuring the sentence is grammatically correct and clear."
+        }
+    }
+]
